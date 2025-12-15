@@ -109,7 +109,7 @@ const Home = () => {
 
       </Background>
 
-         <div className={` ${styles.paddingX} ${styles.flexStart}  mt-10`}>
+         <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />

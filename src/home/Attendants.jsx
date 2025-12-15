@@ -9,6 +9,7 @@ import Goal from './Goal'
 import Inspire from './Inspire'
 import Life from './Life'
 import Innov from './Innov'
+import HeadAttend from './HeadAttend'
 
 const Attendants = () => {
 
@@ -16,12 +17,9 @@ const Attendants = () => {
     <section className=" text-white max-w-5xl md:mx-auto mt-10 ">
   
       <div className="flex flex-col items-start mb-20">
-          <h1 
-           
-            className="editors-bold text-5xl tracking-widest text-white text-left"
-          >
-           Who Should Attend
-          </h1>
+        
+          <HeadAttend />
+      
           </div>
       
   <div className={`${styles.flexCenter} mt-5 mb-5 `}>
