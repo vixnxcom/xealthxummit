@@ -55,7 +55,7 @@ const Home = () => {
 </div>
 
 <div>
-   <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-cover '/>
+   <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-contain '/>
 </div>
 
     <div className=' max-w-5xl mx-auto w-full mt-15 '>
