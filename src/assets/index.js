@@ -15,7 +15,7 @@ import time from './time.png'
 import doc from './doc.jpeg'
 import ahmed from './ahmed.jpg'
 import pitch from './pitch.png'
-import award from './awards.jpg'
+import award from './awards.png'
 
 import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
