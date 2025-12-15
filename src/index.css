@@ -1240,3 +1240,22 @@ text-shadow: 0px 4px 4px #00000040;
   50% { opacity: 0.7; }
   100% { opacity: 1; }
 }
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure animations run smoothly */
+.animate-on-scroll {
+  will-change: transform, opacity;
+}
+
+/* Optional: Add a subtle glow effect when animated */
+.text-blue-200 {
+  transition: text-shadow 0.3s ease;
+}
+
+.text-blue-200.animated {
+  text-shadow: 0 0 20px rgba(96, 165, 250, 0.4);
+}

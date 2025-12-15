@@ -1,14 +1,18 @@
 import React from 'react'
+import HeadAwards from './HeadAwards'
+import TypewriterText from './TypeWriterText'
 
 const FullAwards = () => {
   return (
        <div  className='mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto'>
+      
           <div className="flex flex-col items-start mb-2 w-full">
             <span  className='text-[20px] editors-thin py-4 text-white '>01</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-          HOSPITALS & HEALTH INSTITUTIONS
-            </p>
+         <TypewriterText
+           text="HOSPITALS & HEALTH INSTITUTIONS"
+           className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+          />
+
           </div>
 
           <div>
@@ -21,10 +25,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>02</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-         B. PHARMACIES & PHARMACEUTICAL INNOVATION
-            </p>
+                 <TypewriterText
+                 text="B. PHARMACIES & PHARMACEUTICAL INNOVATION"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+        
           </div>
 
           <div>
@@ -37,10 +42,11 @@ const FullAwards = () => {
         
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>03</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      HEALTH INSURANCE & MANAGED CARE
-            </p>
+              <TypewriterText
+                 text="HEALTH INSURANCE & MANAGED CARE"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+         
           </div>
 
           <div>
@@ -53,10 +59,11 @@ const FullAwards = () => {
         
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>04</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      GOVERNMENT & PUBLIC HEALTH
-            </p>
+               <TypewriterText
+                 text="GOVERNMENT & PUBLIC HEALTH"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+          
           </div>
 
           <div>
@@ -69,10 +76,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>05</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      TECHNOLOGY PROVIDERS
-            </p>
+              <TypewriterText
+                 text="TECHNOLOGY PROVIDERS"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+        
           </div>
 
           <div>
@@ -85,10 +93,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>06</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      ACADEMIA & RESEARCH
-            </p>
+               <TypewriterText
+                 text="ACADEMIA & RESEARCH"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+          
           </div>
 
           <div>
@@ -101,10 +110,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>07</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      NGOS & SOCIAL IMPACT
-            </p>
+                <TypewriterText
+                 text=" NGOS & SOCIAL IMPACT"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+         
           </div>
 
           <div>
@@ -117,10 +127,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>08</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      CLINICIANS & FRONTLINE INNOVATORS
-            </p>
+                 <TypewriterText
+                 text="CLINICIANS & FRONTLINE INNOVATORS"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+         
           </div>
 
           <div>
@@ -133,10 +144,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>09</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-      STARTUP'S & INNOVATORS
-            </p>
+                 <TypewriterText
+                 text="STARTUP'S & INNOVATORS"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+          
           </div>
 
           <div>
@@ -150,10 +162,11 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-5">
             <span  className='text-[20px] editors-thin py-4 text-white '>10</span>
-            <p  className='text-[28px] md:text-[40px] text-blue-200 flex flex-col mt-2 editors-reg 
-          '>
-     SPECIAL RECOGNITION
-            </p>
+                  <TypewriterText
+                 text="SPECIAL RECOGNITION"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+            />
+         
           </div>
 
           <div>

@@ -21,6 +21,7 @@ import Benefits from './Benefits'
 import SponsorBg from './SponsorBg'
 import ImageBg from './ImageBg'
 import Faq from './Faq'
+import EventHead from './EventHead'
 
 
 const Home = () => {
@@ -94,7 +95,7 @@ const Home = () => {
 
  <div className={`${styles.flexCenter}  mt-10 `}>
  <div className={`${styles.boxWidth}  `}>
-
+   <EventHead />
    <TicketButton />
 
     

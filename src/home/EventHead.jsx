@@ -8,7 +8,7 @@ import styles from '../style'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const HeadAwards = () => {
+const EventHead = () => {
   const headingRef1 = useRef(null)
   const paragraphRef1 = useRef(null)
   const headingRef2 = useRef(null)
@@ -134,7 +134,7 @@ const HeadAwards = () => {
             ref={headingRef1} 
             className="editors-bold text-5xl tracking-widest text-white text-left"
           >
-          Awards Categories
+    Events
           </h1>
           {/* <p 
             ref={paragraphRef1} 
@@ -153,4 +153,4 @@ const HeadAwards = () => {
   )
 }
 
-export default HeadAwards
+export default EventHead
