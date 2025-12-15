@@ -13,7 +13,7 @@ import Countdown from './Timer'
 import TicketButton from './TicketButton'
 import Quote from '../services/Quote'
 import { Background, Parallax } from 'react-parallax'
-import { crowd, dna, doc,   man, sponsor, steth, vr } from '../assets'
+import { crowd, dna, doc,   health,   man, sponsor, steth, vr } from '../assets'
 import BookParallaxFloatImage from '../about/IntroImage'
 import Organisers from './Organisers'
 import Attendants from './Attendants'
@@ -54,7 +54,11 @@ const Home = () => {
 </div>
 </div>
 
-    <div className=' max-w-5xl mx-auto w-full mt-10 '>
+<div>
+   <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-cover '/>
+</div>
+
+    <div className=' max-w-5xl mx-auto w-full mt-15 '>
       <h1 
         
    className="editors-bold px-4 text-5xl tracking-widest text-white text-left"
@@ -141,7 +145,7 @@ const Home = () => {
       </Background>
 
        
- <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}>
+ <div className={` ${styles.paddingX} ${styles.flexStart} mt-20 `}>
         <div className={`${styles.boxWidth}  `}>
          
          
