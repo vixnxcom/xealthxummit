@@ -46,35 +46,36 @@ useEffect(() => {
       }
     )
   })
-  
- // Animate images with 3D perspective scaling
+
+  // Animate images with different triggers based on position
 imagesRef.current.forEach((image, index) => {
   if (!image) return
 
+  // Calculate start position based on index
+  // Earlier images (top) animate sooner, later images (bottom) animate later
+  const startPosition = Math.max(50, 85 - (index * 5)); // Adjust formula as needed
+  
   gsap.fromTo(
     image,
     {
       opacity: 0,
-      scale: 0.2,
-      scaleX: 0.5, // Start wider than tall for interesting effect
-      scaleY: 0.2,
-      y: 60,
-      rotationY: 15,
-      transformPerspective: 800,
+      scale: 0.3,
+      y: 80,
+      rotateX: 15,
+      transformPerspective: 1000,
       transformOrigin: "center center"
     },
     {
       opacity: 1,
       scale: 1,
-      scaleX: 1,
-      scaleY: 1,
       y: 0,
-      rotationY: 0,
-      duration: 1.3,
-      ease: "power3.out",
+      rotateX: 0,
+      duration: 1.4,
+      delay: index * 0.3,
+      ease: "back.out(1.5)",
       scrollTrigger: {
         trigger: image,
-        start: "top 85%",
+        start: `top ${startPosition}%`, // Dynamic start position
         toggleActions: "play none none none",
         once: true
       }
