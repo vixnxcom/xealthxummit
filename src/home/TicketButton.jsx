@@ -25,13 +25,13 @@ useEffect(() => {
       section,
       {
         opacity: 0,
-        y: 150,
-        scale: 0.9,
+        x: -150,
+        scale: 0.5,
         rotationX: 15
       },
       {
         opacity: 1,
-        y: 0,
+        x: 0,
         scale: 1,
         rotationX: 0,
         duration: 1.2,
@@ -47,7 +47,7 @@ useEffect(() => {
     )
   })
   
- // Animate images - starting small and scaling up
+ // Animate images with 3D perspective scaling
 imagesRef.current.forEach((image, index) => {
   if (!image) return
 
@@ -55,20 +55,23 @@ imagesRef.current.forEach((image, index) => {
     image,
     {
       opacity: 0,
-      y: 80, // Increased Y for more dramatic entrance
-      scale: 0.3, // Start at 30% size (really small!)
-      rotateX: 20, // Slightly more rotation
-      transformPerspective: 1000,
-      transformOrigin: "center center" // Changed to center for better scaling
+      scale: 0.2,
+      scaleX: 0.5, // Start wider than tall for interesting effect
+      scaleY: 0.2,
+      y: 60,
+      rotationY: 15,
+      transformPerspective: 800,
+      transformOrigin: "center center"
     },
     {
       opacity: 1,
+      scale: 1,
+      scaleX: 1,
+      scaleY: 1,
       y: 0,
-      scale: 1, // Animate to full size (100%)
-      rotateX: 0,
-      duration: 1.5, // Slightly longer duration for scale animation
-      delay: index * 0.1, // Small delay between images
-      ease: "back.out(1.5)", // Nice elastic bounce effect
+      rotationY: 0,
+      duration: 1.3,
+      ease: "power3.out",
       scrollTrigger: {
         trigger: image,
         start: "top 85%",
