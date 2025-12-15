@@ -70,8 +70,8 @@ imagesRef.current.forEach((image, index) => {
       scale: 1,
       y: 0,
       rotateX: 0,
-      duration: 1.4,
-      delay: index * 0.3,
+      duration: 1.5,
+      delay: index * 0.5,
       ease: "back.out(1.5)",
       scrollTrigger: {
         trigger: image,
