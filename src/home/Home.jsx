@@ -22,6 +22,8 @@ import SponsorBg from './SponsorBg'
 import ImageBg from './ImageBg'
 import Faq from './Faq'
 import EventHead from './EventHead'
+import ImageText from './ImageText'
+import MovingText from './ImageText'
 
 
 const Home = () => {
@@ -139,11 +141,17 @@ const Home = () => {
       </Background>
 
        
-
-    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+ <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}>
         <div className={`${styles.boxWidth}  `}>
          
          
+          <MovingText />
+        </div>
+        </div>
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+         
+      
   <ImageBg />
         </div>
         </div>
@@ -151,13 +159,9 @@ const Home = () => {
 
      </Parallax>
 
-      <div className={` ${styles.paddingX} ${styles.flexStart} bg-blue h-[100vh] `}>
-        <div className={`${styles.boxWidth}  `}>
-         
-         
-  <Faq />
-        </div>
-        </div>
+  
+
+     
 
 
 
