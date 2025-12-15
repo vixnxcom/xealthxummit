@@ -5,7 +5,7 @@ import Awards from './Awards'
 
 const Faq = () => {
   return (
-     <div className=' w-full  bg-blue'>
+     <div className=' w-full  bg-blue overflow-hidden '>
 
  <div className={`${styles.flexCenter} `}>
  <div className={`${styles.boxWidth}`}>
