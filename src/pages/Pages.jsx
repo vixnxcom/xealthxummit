@@ -6,6 +6,7 @@ import MenuNutton from '../MenuNutton';
 import HamburgerNav from '../HamburgerNav';
 import Services from '../services/Services';
 import About from '../about/About';
+import Faq from '../faq/Faq';
 
 const Pages = () => {
   return (
@@ -18,7 +19,7 @@ const Pages = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/service" element={<Services />} />
        
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/about" element={<Faq />} />
       </Routes>
 
 
