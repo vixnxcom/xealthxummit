@@ -16,122 +16,94 @@ const TicketButton = () => {
   const numbersRef = useRef([])
   const sectionContainerRef = useRef(null)
 
-useEffect(() => {
-  // Animate each section container
-  sectionsRef.current.forEach((section, index) => {
-    if (!section) return
+   useEffect(() => {
+  const sections = sectionsRef.current.filter(Boolean)
 
-    gsap.fromTo(
-      section,
-      {
-        opacity: 0,
-        y: -150,
-        scale: 0.5,
-        rotationX: 15
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        rotationX: 0,
-        duration: 1.2,
-        delay: index * 0.3,
-        ease: "back.out(1.7)",
-        scrollTrigger: {
-          trigger: section,
-          start: "top 85%",
-          end: "top 30%",
-           toggleActions: "play none none none", 
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return
+
+        const section = entry.target
+        obs.unobserve(section) // ✅ run once
+
+        const number = section.querySelector("span")
+        const image = section.querySelector("img")
+        const button = section.querySelector("button")
+
+        const tl = gsap.timeline({
+          defaults: {
+            ease: "power3.out",
+          },
+        })
+
+        // Section container
+        tl.fromTo(
+          section,
+          { opacity: 0, y: 120, scale: 0.95 },
+          { opacity: 1, y: 0, scale: 1, duration: 0.8 }
+        )
+
+        // Number
+        if (number) {
+          tl.fromTo(
+            number,
+            { opacity: 0, scale: 0, rotation: -180 },
+            {
+              opacity: 1,
+              scale: 1,
+              rotation: 0,
+              duration: 0.6,
+              ease: "elastic.out(1, 0.5)",
+            },
+            "-=0.4"
+          )
         }
-      }
-    )
-  })
 
-  // Animate images with different triggers based on position
-imagesRef.current.forEach((image, index) => {
-  if (!image) return
+        // Image
+        if (image) {
+          tl.fromTo(
+            image,
+            {
+              opacity: 0,
+              y: 80,
+              scale: 0.85,
+              rotateX: 12,
+              transformPerspective: 1000,
+            },
+            {
+              opacity: 1,
+              y: 0,
+              scale: 1,
+              rotateX: 0,
+              duration: 1,
+              ease: "back.out(1.4)",
+            },
+            "-=0.3"
+          )
+        }
 
-  // Calculate start position based on index
-  // Earlier images (top) animate sooner, later images (bottom) animate later
-  const startPosition = Math.max(50, 85 - (index * 5)); // Adjust formula as needed
-  
-  gsap.fromTo(
-    image,
-    {
-      opacity: 0,
-      scale: 0.3,
-      y: 80,
-      rotateX: 15,
-      transformPerspective: 1000,
-      transformOrigin: "center center"
+        // Button (if exists)
+        if (button) {
+          tl.fromTo(
+            button,
+            { opacity: 0, y: 30 },
+            { opacity: 1, y: 0, duration: 0.5 },
+            "-=0.3"
+          )
+        }
+      })
     },
     {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      rotateX: 0,
-      duration: 1.5,
-      delay: index * 0.4,
-      ease: "back.out(1.5)",
-      
-     scrollTrigger: {
-  trigger: image,
-  start: "top 50%",   // When top of image is 75% down the viewport
-  end: "top 5%",     // When top of image is 25% down the viewport
-  toggleActions: "play none none none",
-  once: true,
-  // This ensures the animation plays when element is roughly centered
-}
-    }
-  )
-})
-  // Animate numbers
-  numbersRef.current.forEach((number, index) => {
-    if (!number) return
-
-    gsap.fromTo(
-      number,
-      {
-        opacity: 0,
-        scale: 0,
-        rotation: -180
-      },
-      {
-        opacity: 1,
-        scale: 1,
-        rotation: 0,
-        duration: 0.8,
-        delay: index * 0.2,
-        ease: "elastic.out(1, 0.5)",
-        scrollTrigger: {
-          trigger: number,
-          start: "top 90%",
-          toggleActions: "play none none none", 
-        }
-      }
-    )
-  })
-
-  // Parallax container
-  gsap.fromTo(
-    sectionContainerRef.current,
-    { y: 50 },
-    {
-      y: 0,
-      ease: "none",
-      scrollTrigger: {
-        trigger: sectionContainerRef.current,
-        start: "top bottom",
-        end: "bottom top",
-        scrub: 1
-      }
+      threshold: 0.9, // 🔥 almost fully visible (mobile-safe)
     }
   )
 
-  return () => {
-    ScrollTrigger.getAll().forEach((t) => t.kill())
-  }
+  sections.forEach(section => observer.observe(section))
+
+  return () => observer.disconnect()
 }, [])
+
   const addToRefs = (el, refArray) => {
     if (el && !refArray.current.includes(el)) {
       refArray.current.push(el)
