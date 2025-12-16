@@ -42,7 +42,7 @@ const MovingText = () => {
   return (
     <div className="text-white editors-bold">
       {/* LINE 1 */}
-      <div className="flex items-center text-blue-200 text-5xl leading-none">
+      <div className="flex flex-col  text-blue-200 text-5xl leading-none">
         <span>Let’s&nbsp;</span>
 
         <span
@@ -52,7 +52,7 @@ const MovingText = () => {
             display: "inline-block",
           }}
         >
-        <span ref={wordRef} className="inline-block text-cyan letter-shade" />
+        <span ref={wordRef} className="inline-block mt-3 text-cyan letter-shade" />
         </span>
       </div>
 
