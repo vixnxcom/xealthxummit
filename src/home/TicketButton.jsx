@@ -73,12 +73,15 @@ imagesRef.current.forEach((image, index) => {
       duration: 1.5,
       delay: index * 0.4,
       ease: "back.out(1.5)",
-      scrollTrigger: {
-        trigger: image,
-        start: `top ${startPosition}%`, // Dynamic start position
-        toggleActions: "play none none none",
-        once: true
-      }
+      
+     scrollTrigger: {
+  trigger: image,
+  start: "top 50%",   // When top of image is 75% down the viewport
+  end: "top 5%",     // When top of image is 25% down the viewport
+  toggleActions: "play none none none",
+  once: true,
+  // This ensures the animation plays when element is roughly centered
+}
     }
   )
 })

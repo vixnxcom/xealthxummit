@@ -72,7 +72,7 @@ const Sponsor = () => {
       opacity: 1,
       x: 0,
       stagger: 0.03, // Faster stagger since we're animating characters
-      duration: 0.3,
+      duration: 0.5,
       ease: "power2.out",
       scrollTrigger: {
         trigger: headingEl,

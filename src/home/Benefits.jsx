@@ -8,46 +8,43 @@ gsap.registerPlugin(ScrollTrigger)
 const Benefits = () => {
   const headingRef = useRef(null)
 
-  useEffect(() => {
-    const container = headingRef.current
-    if (!container) return
+useEffect(() => {
+  const container = headingRef.current
+  if (!container) return
 
-    const headings = container.querySelectorAll("h1")
+  const headings = container.querySelectorAll("h1")
 
-    headings.forEach((h1, index) => {
-      const original = h1.textContent
-      h1.innerHTML = ""
+  headings.forEach((h1, index) => {
+    const original = h1.textContent
+    h1.innerHTML = ""
 
-      // Create character spans
-      const chars = original.split("").map((char) => {
-        const span = document.createElement("span")
-        span.style.display = "inline-block"
-        span.style.opacity = "0"
-        span.style.transform = "translateY(20px)"
-        span.textContent = char
-        h1.appendChild(span)
-        return span
-      })
-
-      // Animate each h1 one-by-one
-      gsap.to(chars, {
-        opacity: 1,
-        y: 0,
-        stagger: 0.03,
-        delay: index * 0.4, // <-- each h1 animates later than the previous
-        duration: 0.35,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: container,
-          start: "top 85%",
-        },
-      })
+    const chars = original.split("").map((char) => {
+      const span = document.createElement("span")
+      span.style.display = "inline-block"
+      span.style.opacity = "0"
+      span.style.transform = "translateY(20px)"
+      span.textContent = char
+      h1.appendChild(span)
+      return span
     })
 
-    return () => {
-      ScrollTrigger.getAll().forEach(t => t.kill())
-    }
-  }, [])
+    gsap.to(chars, {
+      opacity: 1,
+      y: 0,
+      stagger: 0.05,
+      duration: 0.8,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: h1,               // 🔥 trigger EACH h1
+        start: "bottom bottom",    // ✅ fully in viewport
+        once: true,                // ✅ play once only
+      },
+    })
+  })
+
+  return () => ScrollTrigger.getAll().forEach(t => t.kill())
+}, [])
+
 
   return (
     <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[500px]`}>
