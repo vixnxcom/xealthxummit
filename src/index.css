@@ -1131,7 +1131,7 @@ text-shadow: 0px 4px 4px #00000040;
   color: #fff;
   padding: 40px 10px;
   max-width: 470px;
-  border: 1px solid #747474;
+  border: 1px solid #2a2b2c;
   font-family: Arial, sans-serif;
 }
 
@@ -1143,8 +1143,8 @@ text-shadow: 0px 4px 4px #00000040;
   left: -12px;
   width: 35px;
   height: 35px;
-  border-top: 2px solid #fff;
-  border-left: 2px solid #fff;
+  border-top: 2px solid #cbcbcf;
+  border-left: 2px solid #cbcbcf;
 }
 
 /* Bottom-right */
@@ -1155,8 +1155,8 @@ text-shadow: 0px 4px 4px #00000040;
   right: -12px;
   width: 35px;
   height: 35px;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-bottom: 2px solid #cbcbcf;
+  border-right: 2px solid #cbcbcf;
 }
 
 /* Extra pseudo-elements for top-right & bottom-left */
@@ -1172,16 +1172,16 @@ text-shadow: 0px 4px 4px #00000040;
 .corner-card .corners::before {
   top: -12px;
   right: -12px;
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-top: 2px solid #cbcbcf;
+  border-right: 2px solid #cbcbcf;
 }
 
 /* Bottom-left */
 .corner-card .corners::after {
   bottom: -12px;
   left: -12px;
-  border-bottom: 2px solid #fff;
-  border-left: 2px solid #fff;
+  border-bottom: 2px solid #cbcbcf;
+  border-left: 2px solid #cbcbcf;
 }
  
 /* components/VideoBackground.css */
