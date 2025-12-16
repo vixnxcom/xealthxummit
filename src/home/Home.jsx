@@ -99,7 +99,7 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter}  mt-10 `}>
+ <div className={`${styles.flexCenter}  mt-20 `}>
  <div className={`${styles.boxWidth}  `}>
    <EventHead />
    <TicketButton />
@@ -127,7 +127,7 @@ const Home = () => {
 
      
       
-        <div >        
+        <div className='mt-20'>        
            < SponsorBg />         
         </div>
         
@@ -145,13 +145,7 @@ const Home = () => {
       </Background>
 
        
- <div className={` ${styles.paddingX} ${styles.flexStart} mt-20 `}>
-        <div className={`${styles.boxWidth}  `}>
-         
-         
-          <MovingText />
-        </div>
-        </div>
+ 
     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}  `}>
          
@@ -160,7 +154,20 @@ const Home = () => {
         </div>
         </div>
      
+<div className={` ${styles.paddingX} ${styles.flexStart} mt-20 `}>
+        <div className={`${styles.boxWidth}  `}>
+         
+         
+          <MovingText />
+        </div>
+        </div>
 
+        <div className={`${styles.boxWidth} mt-20 mb-20`}>
+
+   <SponsorButton />
+
+    
+</div>
      </Parallax>
 
   
@@ -168,7 +175,9 @@ const Home = () => {
      
 
 
+<div className='h-screen bg-blue'>
 
+</div>
 
 
 

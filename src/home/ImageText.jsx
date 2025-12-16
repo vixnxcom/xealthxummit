@@ -2,48 +2,64 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
 const MovingText = () => {
-  const textRef = useRef(null);
-  const words = ["innovate", "create", "build", "grow"];
+  const wordRef = useRef(null);
+  const words = ["INNOVATE", "CREATE", "BUILD", "GROW"];
 
   useEffect(() => {
     let index = 0;
-    const span = textRef.current;
+    const wordEl = wordRef.current;
 
-    span.innerText = `Let's  ${words[index]} together`;
+    wordEl.innerText = words[index];
 
     const changeWord = () => {
       const nextIndex = (index + 1) % words.length;
-      const tl = gsap.timeline();
 
-      // Animate current text up and fade out
-      tl.to(span, { y: "-100%", opacity: 0, duration: 0.5, ease: "power2.inOut" })
-        .set(span, { y: "100%", opacity: 0 }) // Move below for next word
-        .call(() => {
-          span.innerText = `Let's ${words[nextIndex]} together`;
+      gsap.timeline()
+        .to(wordEl, {
+          y: "-100%",
+          opacity: 0,
+          duration: 0.45,
+          ease: "power2.inOut",
         })
-        .to(span, { y: "0%", opacity: 1, duration: 0.5, ease: "power2.inOut" });
+        .set(wordEl, { y: "100%" })
+        .call(() => {
+          wordEl.innerText = words[nextIndex];
+        })
+        .to(wordEl, {
+          y: "0%",
+          opacity: 1,
+          duration: 0.45,
+          ease: "power2.inOut",
+        });
 
       index = nextIndex;
     };
 
     const interval = setInterval(changeWord, 2000);
-
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div
-      style={{
-        overflow: "hidden",
-        height: "9.5rem",
-        display: "inline-block",
-        fontSize: "2rem",
-        fontWeight: "bold",
-        color: "#fff",
-       
-      }}
-    >
-      <span className="text-5xl editors-bold" ref={textRef}></span>
+    <div className="text-white editors-bold">
+      {/* LINE 1 */}
+      <div className="flex items-center text-blue-200 text-5xl leading-none">
+        <span>Let’s&nbsp;</span>
+
+        <span
+          style={{
+            height: "3.4rem",
+            overflow: "hidden",
+            display: "inline-block",
+          }}
+        >
+        <span ref={wordRef} className="inline-block text-cyan letter-shade" />
+        </span>
+      </div>
+
+      {/* LINE 2 */}
+      <div className="text-5xl mt-3 text-blue-200 leading-none">
+        together
+      </div>
     </div>
   );
 };

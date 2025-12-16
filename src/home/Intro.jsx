@@ -154,7 +154,7 @@ const Intro = () => {
           </h1>
           <p 
             ref={paragraphRef2} 
-            className="editors-thin text-blue-200 py-4 text-[28px] max-w-[500px] text-left"
+            className="editors-thin text-blue-200 py-4 mb-5 text-[28px] max-w-[500px] text-left"
           >
             Lagos - Nigeria
           </p>

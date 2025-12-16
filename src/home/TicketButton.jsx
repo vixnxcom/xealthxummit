@@ -25,13 +25,13 @@ useEffect(() => {
       section,
       {
         opacity: 0,
-        x: -150,
+        y: -150,
         scale: 0.5,
         rotationX: 15
       },
       {
         opacity: 1,
-        x: 0,
+        y: 0,
         scale: 1,
         rotationX: 0,
         duration: 1.2,
