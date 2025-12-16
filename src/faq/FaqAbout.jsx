@@ -41,12 +41,13 @@ const FaqAbout = () => {
       <div className="relative w-screen h-screen overflow-hidden bg-blue">
         
         {/* ✅ LEFT-SIDED TEXT (this is the key) */}
-        <div className="absolute top-1/2 left-12 -translate-y-1/2 z-20 text-left">
-          <h1 className="text-blue-200 tracking-widest text-5xl editors-bold">
-            AWARD NOMINATIONS
-          </h1>
-          <h1 className="text-white tracking-widest mt-2 editors-reg text-4xl">
-            The Event
+        <div className="absolute top-1/2 left-8 -translate-y-1/2 z-20 text-left">
+        <h1 className='text-5xl editors-bold text-cyan letter-shade '>
+     Award Nominations
+    </h1>
+         
+          <h1 className="text-cyan tracking-widest mt-2 editors-itallic text-4xl">
+            2026 Event
           </h1>
         </div>
 

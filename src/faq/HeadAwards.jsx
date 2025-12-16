@@ -126,7 +126,7 @@ const HeadAwards = () => {
   }, [])
 
   return (
-    <section className="w-full   mt-5">
+    <section className="w-full  mt-5">
       <div className="max-w-5xl mx-auto px-4">
         {/* DATE Section - Left Aligned */}
         <div className="flex flex-col items-start mb-10">
