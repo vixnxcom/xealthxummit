@@ -29,10 +29,11 @@ import sp from './sp.jpg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
 import health from './health.mp4'
+import brain from './brain.mp4'
 
 
 
-export { dna,steth, redd, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health,
+export { dna,steth, redd, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, brain,
      innovative, spbg,
      ahmed, ticket, pitch, sponsor, vr, man, award,
      arrow, session, lead, mind, bulb, life, time, image };
