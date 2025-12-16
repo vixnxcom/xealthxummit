@@ -42,7 +42,7 @@ const TypewriterText = ({
         scrollTrigger: {
           trigger: el,
           start,
-          toggleActions: "play none play none"
+          toggleActions: "play reverse play reverse"
         }
       }
     )

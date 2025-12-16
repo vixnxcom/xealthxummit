@@ -139,7 +139,7 @@ const Home = () => {
 
 
      <Parallax strength={900}  height={600}>
-        <Background  style={{width:'100vw'}} className='celll bg-black mt-20'  >
+        <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
          <img src={dna} alt="" className='w-[100vw] h-full object-contain' />
   
         
@@ -156,20 +156,21 @@ const Home = () => {
         </div>
         </div>
      
-<div className={` ${styles.paddingX} ${styles.flexStart} mt-20 `}>
-        <div className={`${styles.boxWidth}  `}>
+<div className={` ${styles.paddingX} ${styles.flexStart} mt-20 bg-blue `}>
+        <div className={`${styles.boxWidth} mt-10 `}>
          
          
           <MovingText />
-        </div>
-        </div>
-
+          
         <div className={`${styles.boxWidth} mt-20 mb-20`}>
 
    <SponsorButton />
 
     
 </div>
+        </div>
+        </div>
+
      </Parallax>
 
   
