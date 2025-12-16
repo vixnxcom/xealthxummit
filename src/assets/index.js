@@ -27,7 +27,7 @@ import govt from './govt.png'
 import invest from './invest.png'
 import sp from './sp.jpg'
 import spbg from './spbg.mp4'
-import ar from './ar.jpg'
+import ar from './ar.png'
 import health from './health.mp4'
 
 

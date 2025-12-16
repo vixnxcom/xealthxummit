@@ -7,6 +7,7 @@ import HamburgerNav from '../HamburgerNav';
 import Services from '../services/Services';
 import About from '../about/About';
 import Faq from '../faq/Faq';
+import Sponsorship from '../sponsorship/Sponsorship';
 
 const Pages = () => {
   return (
@@ -20,6 +21,7 @@ const Pages = () => {
         <Route exact path="/service" element={<Services />} />
        
         <Route exact path="/about" element={<Faq />} />
+        <Route exact path="/sponsor" element={<Sponsorship />} />
       </Routes>
 
 
