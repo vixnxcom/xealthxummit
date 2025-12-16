@@ -24,6 +24,7 @@ import Faq from './Faq'
 import EventHead from './EventHead'
 import ImageText from './ImageText'
 import MovingText from './ImageText'
+import Video from './Video'
 
 
 const Home = () => {
@@ -55,7 +56,8 @@ const Home = () => {
 </div>
 
 <div>
-   <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-contain '/>
+   {/* <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-contain '/> */}
+   <Video />
 </div>
 
     <div className=' max-w-5xl mx-auto w-full mt-15 '>

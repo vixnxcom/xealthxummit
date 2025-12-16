@@ -12,37 +12,56 @@ useEffect(() => {
   const container = headingRef.current
   if (!container) return
 
-  const headings = container.querySelectorAll("h1")
+  const headings = Array.from(container.querySelectorAll("h1"))
 
-  headings.forEach((h1, index) => {
+  // Prepare text (split into spans)
+  headings.forEach(h1 => {
     const original = h1.textContent
     h1.innerHTML = ""
 
-    const chars = original.split("").map((char) => {
+    original.split("").forEach(char => {
       const span = document.createElement("span")
       span.style.display = "inline-block"
       span.style.opacity = "0"
       span.style.transform = "translateY(20px)"
       span.textContent = char
       h1.appendChild(span)
-      return span
-    })
-
-    gsap.to(chars, {
-      opacity: 1,
-      y: 0,
-      stagger: 0.05,
-      duration: 0.8,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: h1,               // 🔥 trigger EACH h1
-        start: "bottom bottom",    // ✅ fully in viewport
-        once: true,                // ✅ play once only
-      },
     })
   })
 
-  return () => ScrollTrigger.getAll().forEach(t => t.kill())
+  const observer = new IntersectionObserver(
+    ([entry], obs) => {
+      if (!entry.isIntersecting) return
+
+      obs.disconnect() // ✅ run once
+
+      const tl = gsap.timeline({
+        defaults: {
+          duration: 0.5,
+          ease: "power2.out",
+        },
+      })
+
+      headings.forEach((h1, index) => {
+        tl.to(
+          h1.children,
+          {
+            opacity: 1,
+            y: 0,
+            stagger: 0.03,
+          },
+          index === 0 ? 0 : "+=0.2" // spacing between headings
+        )
+      })
+    },
+    {
+      threshold: 1, // 🔥 container fully visible
+    }
+  )
+
+  observer.observe(container)
+
+  return () => observer.disconnect()
 }, [])
 
 
