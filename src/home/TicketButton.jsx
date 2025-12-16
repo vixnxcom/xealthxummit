@@ -161,7 +161,7 @@ const TicketButton = () => {
             02
           </span>
 
-         <TypewriterText play={isVisible}
+          <TypewriterText
             text="National HealthTech Excellence Awards"
             className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
           />
@@ -186,7 +186,7 @@ const TicketButton = () => {
             03
           </span>
 
-          <TypewriterText play={isVisible}
+          <TypewriterText
             text="Startup Pitch Finals"
             className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
           />
@@ -213,7 +213,7 @@ const TicketButton = () => {
             04
           </span>
 
-          <TypewriterText play={isVisible}
+          <TypewriterText
             text="Networking & Innovation     Exhibition"
             className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
           />
