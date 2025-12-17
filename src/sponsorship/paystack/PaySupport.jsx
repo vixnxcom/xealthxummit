@@ -40,12 +40,14 @@ const PaySupport = () => {
   }
 
   return (
-    <div className="flex flex-col items-center bg-blue justify-center p-6">
-         <p className="mt-4 editors-reg text-[28px] mt-40 flex flex-row text-blue-200">
+    <div className="flex flex-col items-center bg-blue justify-center ">
 
-         Pay Sponsorship Fee
-      </p>
-      <div className="h-screen bg-blue justify-center mt-25 items-center p-6">
+        <div className=" h-[40vh] md:-[100vh] bg-space">
+          <h1 className='text-5xl px-6 py-10  mt-40 xs:mt-20 editors-bold text-cyan letter-shade  '>
+    Pay Sponsorship Fee
+    </h1>
+    </div>
+      <div className="h-[60vh]  justify-center  items-center p-6">
       <input
         type="email"
         placeholder="Enter your email"
