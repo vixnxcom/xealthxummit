@@ -39,27 +39,44 @@ const PayPlat = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center p-6">
-      <input
-        type="email"
-        placeholder="Enter your email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        className="w-[60vw] p-4 editors-reg rounded-[8px] text-[20px]"
-      />
-      <button
-        onClick={handlePayment}
-        className="mt-4 font-bold text-[5vw]"
-      >
-        Pay
-      </button>
-
-      {paymentSuccess && (
-        <p className="mt-4 text-green-500">
-          Payment successful 🎉
-        </p>
-      )}
-    </div>
+    <div className="flex flex-col items-center bg-blue justify-center ">
+   
+           <div className=" h-[40vh] md:-[100vh] bg-space">
+             <h1 className='text-5xl px-6 py-10  mt-40 xs:mt-20 editors-bold text-cyan letter-shade  '>
+       Pay Sponsorship Fee
+       </h1>
+       </div>
+         <div className="h-[60vh]  justify-center  items-center p-6">
+         <input
+           type="email"
+           placeholder="Enter your email"
+           value={email}
+           onChange={(e) => setEmail(e.target.value)}
+           className="w-[80vw] border border-white mt-20  p-4 editors-reg  text-[20px] text-white"
+         />
+        
+         <button
+           onClick={handlePayment}
+           className="mt-4 editors-reg text-[28px] border border-white flex flex-row items-center mx-auto  text-blue-200
+           md:w-[24vw]
+               md:h-[4vw] w-[80vw] h-[16vw] "
+           
+         >
+          <p className='editors-reg font-medium text-white mx-auto text-[20px] flex flex-row items-center'>
+                      Pay Now
+                         <span className='bg-cyan w-10 h-10 rounded-full mx-2 flex items-center justify-center'>
+                           <img src={arrow} alt="" className='w-5 h-5'/>
+                         </span>
+                       </p>
+         </button>
+   
+         {paymentSuccess && (
+           <p className="mt-4 text-green-500">
+             Payment successful 🎉
+           </p>
+         )}
+       </div>
+       </div>
   )
 }
 
