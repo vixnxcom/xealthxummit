@@ -1,5 +1,6 @@
 import React from 'react'
 import TypewriterText from '../faq/TypeWriterText'
+import PlatButton from './paystack/PlatButton'
 
 const Platinum = () => {
   return (
@@ -12,9 +13,11 @@ const Platinum = () => {
 
         <TypewriterText
           text="5,000,000 +"
-          className="text-[28px] md:text-[40px] px-2 text-white mt-2 editors-reg"
+          className="text-[28px] md:text-[40px] mb-2 px-2 text-white mt-2 editors-reg"
         />
-
+           <div>
+            <PlatButton />
+           </div>
         <div className="corners"></div>
       </div>
     </div>

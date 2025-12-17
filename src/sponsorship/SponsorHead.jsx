@@ -98,9 +98,10 @@ const SponsorHead = () => {
             {/* <img src={time} alt="" className=' mx-auto'/> */}
           <h1 
           ref={headingRef} 
-           className="editors-bold mt-20   text-[28px] tracking-widest text-white text-start"
+           className='text-5xl editors-bold mt-20 text-cyan letter-shade '
         >
-       SPONSORSHIP TIERS
+
+    Sponsorship <br /> Tier
         </h1>
            {/* <img src={sp} alt="" className='mt-10'/> */}
        

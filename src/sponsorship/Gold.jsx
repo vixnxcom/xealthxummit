@@ -1,5 +1,7 @@
 import React from 'react'
 import TypewriterText from '../faq/TypeWriterText'
+import PayGold from './paystack/PayGold'
+import GoldButton from './paystack/GoldButton'
 
 const Gold = () => {
   return (
@@ -12,9 +14,11 @@ const Gold = () => {
 
         <TypewriterText
           text="2,500,000 – 3,500,000"
-          className="text-[28px] md:text-[40px] px-2 text-white mt-2 editors-reg"
+          className="text-[28px] md:text-[40px] mb-2 px-2 text-white mt-2 editors-reg"
         />
-
+        <div>
+            <GoldButton />
+        </div>
         <div className="corners"></div>
       </div>
     </div>

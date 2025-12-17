@@ -3,7 +3,7 @@ import TypewriterText from '../faq/TypeWriterText'
 
 const Support = () => {
   return (
-    <div className="App mb-20">
+    <div className="App mb-40">
       <div className="relative bg-black text-white mx-auto  corner-card flex flex-col items-center justify-center text-center">
         
         <p className="text-[28px] text-blue-200 editors-reg">
