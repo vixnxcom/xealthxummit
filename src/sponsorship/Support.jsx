@@ -1,5 +1,6 @@
 import React from 'react'
 import TypewriterText from '../faq/TypeWriterText'
+import SupportButton from './paystack/SupportButton'
 
 const Support = () => {
   return (
@@ -12,9 +13,11 @@ const Support = () => {
 
         <TypewriterText
           text="300,000 – 500,000"
-          className="text-[28px] md:text-[40px] px-2 text-white mt-2 editors-reg"
+          className="text-[28px] mb-2 md:text-[40px] px-2 text-white mt-2 editors-reg"
         />
-
+        <div>
+            <SupportButton />
+        </div>
         <div className="corners"></div>
       </div>
     </div>

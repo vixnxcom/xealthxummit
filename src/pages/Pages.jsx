@@ -11,6 +11,7 @@ import Sponsorship from '../sponsorship/Sponsorship';
 import PayGold from '../sponsorship/paystack/PayGold';
 import PayPlat from '../sponsorship/paystack/PayPlat';
 import PaySilver from '../sponsorship/paystack/PaySilver';
+import PaySupport from '../sponsorship/paystack/PaySupport';
 
 const Pages = () => {
   return (
@@ -28,6 +29,7 @@ const Pages = () => {
         <Route exact path="/paygold" element={<PayGold />} />
         <Route exact path="/payplat" element={<PayPlat />} />
         <Route exact path="/paysilver" element={<PaySilver />} />
+        <Route exact path="/paysupport" element={<PaySupport />} />
       </Routes>
 
 
