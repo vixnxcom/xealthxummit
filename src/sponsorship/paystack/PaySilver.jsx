@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { arrow } from "../../assets"
 
 const PaySilver = () => {
   const publicKey = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY
