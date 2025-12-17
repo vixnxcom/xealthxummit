@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import styles from '../style'
-import { brain } from '../assets'
+import { brain, brn, man, time } from '../assets'
 
 
 
@@ -95,10 +95,10 @@ const SponsorHead = () => {
       <div className="flex flex-col items-start  mb-2 w-full mt-25 ">
       <div className='px-4 max-w-5xl'>
         <div className='mb-10 md:max-w-[470px] '>
-         <video src={brain} autoPlay loop muted className='w-full   '/>
+            {/* <img src={time} alt="" className=' mx-auto'/> */}
           <h1 
           ref={headingRef} 
-           className="editors-bold   text-[28px] tracking-widest text-white text-start"
+           className="editors-bold mt-20   text-[28px] tracking-widest text-white text-start"
         >
        SPONSORSHIP TIERS
         </h1>

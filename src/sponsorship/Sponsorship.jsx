@@ -10,7 +10,7 @@ const Sponsorship = () => {
   return (
    <div className='w-full  bg-blue'>
 
- <div className={`${styles.flexCenter} bg-black `}>
+ <div className={`${styles.flexCenter}  h-[45vh] md:-[100vh] bg-space `}>
  <div className={`${styles.boxWidth}`}>
    <SponsorHead />
       </div>
