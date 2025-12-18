@@ -8,6 +8,7 @@ import Quote from '../services/Quote'
 import styles from '../style'
 import { doc, man } from '../assets'
 import PImage from './PImage'
+import BookParallaxFloatImage from '../about/IntroImage'
 
 const Awards = () => {
   return (
@@ -16,26 +17,7 @@ const Awards = () => {
       <FullAwards />
 
 
-       <Parallax strength={900}  height={600}>
-        <Background  style={{width:'100vw'}} className='celll bg-black mt-20'  >
-         <img src={doc} alt="" className='w-[100vw] h-full object-cover' />
-  
-        
-
-      </Background>
-
-       
-
-    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
-        <div className={`${styles.boxWidth}  `}>
-         
-           < PImage />
-          
-        </div>
-        </div>
-     
-
-     </Parallax>
+    <BookParallaxFloatImage />
       <SecondAwards />
       <NominateButton />
     </div>

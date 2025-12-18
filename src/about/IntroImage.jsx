@@ -87,7 +87,7 @@ const BookParallaxFloatImage = ({ src }) => {
       />
       
     </div>
-    <div className="flex flex-col justify-center items-center mx-auto max-w-[370px] mb-10 text-center">
+    {/* <div className="flex flex-col justify-center items-center mx-auto max-w-[370px] mb-10 text-center">
   <h1 className="editors-bold text-4xl tracking-wider text-cyan">
     Dr Ahmed Abdulkareem
   </h1>
@@ -95,7 +95,7 @@ const BookParallaxFloatImage = ({ src }) => {
   <p className="editors-thin mt-2 text-white py-2 text-[32px] max-w-[370px]">
  <span className="editors-itallic"> Founder, </span>  TEDwi
   </p>
-</div>
+</div> */}
 
       </section>
   );
