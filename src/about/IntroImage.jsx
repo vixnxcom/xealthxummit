@@ -39,7 +39,7 @@ const BookParallaxFloatImage = ({ src }) => {
     );
 
     tl.to(img, {
-      scale: 1.08,
+      scale: 1.10,
       duration: 1.1,
       ease: "power2.out"
     });
