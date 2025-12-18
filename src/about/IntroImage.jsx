@@ -79,7 +79,7 @@ const BookParallaxFloatImage = ({ src }) => {
         ref={imgRef}
         src={doc}
         alt="Animated"
-        className="w-[350px] h-auto object-cover"
+        className="w-full h-auto object-cover"
         style={{
           transformStyle: "preserve-3d",
           willChange: "transform"
