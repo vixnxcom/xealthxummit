@@ -14,8 +14,9 @@ const Innov = () => {
       />
   
   
-   <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg '>
-            <span className='text-[20px] editors-thin py-4 text-white'>06.</span>
+   <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
+            <span className='text-[20px] editors-thin  text-white'>06.</span>
+
    Innovators </p>
 
   <div class="corners"></div>

@@ -16,8 +16,9 @@ const Career = () => {
       />
   
   
-   <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg '>
-            <span className='text-[20px] editors-thin py-4 text-white'>02.</span>
+   <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
+            <span className='text-[20px] editors-thin  text-white'>02.</span>
+
     Health professionals </p>
 
   <div class="corners"></div>

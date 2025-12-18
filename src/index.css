@@ -998,6 +998,9 @@ color: #fff !important;
 .text-blue-200{
   color: #cbcbcf;
 }
+.borde-blue-200{
+  color: #cbcbcf;
+}
 
 .border-blue{
  
@@ -1129,9 +1132,10 @@ text-shadow: 0px 4px 4px #00000040;
   position: relative;
   background: #000;
   color: #fff;
-  padding: 40px 10px;
+  padding-left :10px;
+  padding-right :10px;
   max-width: 470px;
-  border: 1px solid #2a2b2c;
+  border: 1px solid #000027;
   font-family: Arial, sans-serif;
 }
 
@@ -1267,3 +1271,63 @@ html {
 .text-blue-200.animated {
   text-shadow: 0 0 20px rgba(96, 165, 250, 0.4);
 }
+
+.corner-cardd {
+  position: relative;
+  background: #000;
+  color: #fff;
+ padding: 40px 10px;
+  max-width: 470px;
+  border: 1px solid #2a2b2c;
+  font-family: Arial, sans-serif;
+}
+
+/* Top-left */
+.corner-cardd::before {
+  content: "";
+  position: absolute;
+  top: -12px;      /* distance from the card (gap) */
+  left: -12px;
+  width: 35px;
+  height: 35px;
+  border-top: 2px solid #cbcbcf;
+  border-left: 2px solid #cbcbcf;
+}
+
+/* Bottom-right */
+.corner-cardd::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 35px;
+  height: 35px;
+  border-bottom: 2px solid #cbcbcf;
+  border-right: 2px solid #cbcbcf;
+}
+
+/* Extra pseudo-elements for top-right & bottom-left */
+.corner-cardd .corners::before,
+.corner-cardd .corners::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+
+/* Top-right */
+.corner-cardd .corners::before {
+  top: -12px;
+  right: -12px;
+  border-top: 2px solid #cbcbcf;
+  border-right: 2px solid #cbcbcf;
+}
+
+/* Bottom-left */
+.corner-cardd .corners::after {
+  bottom: -12px;
+  left: -12px;
+  border-bottom: 2px solid #cbcbcf;
+  border-left: 2px solid #cbcbcf;
+}
+ 
