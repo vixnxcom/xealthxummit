@@ -13,7 +13,7 @@ import Countdown from './Timer'
 import TicketButton from './TicketButton'
 import Quote from '../services/Quote'
 import { Background, Parallax } from 'react-parallax'
-import { crowd, dna, doc,   health,   man, sponsor, steth, vr } from '../assets'
+import { brain, crowd, dna, doc,   health,   man, sponsor, steth, vr } from '../assets'
 import BookParallaxFloatImage from '../about/IntroImage'
 import Organisers from './Organisers'
 import Attendants from './Attendants'
@@ -109,9 +109,9 @@ const Home = () => {
     
 </div>
 </div>
-
+{/* 
   <Parallax strength={900}  height={900}>
-        <Background  style={{width:'100vw'}} className='celll bg-blue '  >
+        <Background  style={{width:'100vw'}} className='celll  '  >
          <div className='w-full h-full object-cover' />
      <img src={crowd} alt="" className='w-full h-full object-cover' />   
 
@@ -125,8 +125,16 @@ const Home = () => {
         </div>
         </div>
    
-     </Parallax>
 
+     </Parallax> */}
+  <div className={` ${styles.paddingX} ${styles.flexStart} bg-grade `}>
+        <div className={`${styles.boxWidth}  `}>
+         
+           < Attendants />
+          
+        </div>
+        </div>
+   
      
       
         <div className='mt-20'>        

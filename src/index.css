@@ -1010,7 +1010,7 @@ color: #fff !important;
 .celll{
  
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 .textl{
   opacity: 0;
@@ -1037,6 +1037,13 @@ background-image: linear-gradient(
 }
 .bg-space{
   background-image: url(assets/robot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-grade{
+  background-image: url(assets/crowd.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
