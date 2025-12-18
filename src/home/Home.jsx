@@ -109,9 +109,11 @@ const Home = () => {
     
 </div>
 </div>
-{/* 
+
   <Parallax strength={900}  height={900}>
-        <Background  style={{width:'100vw'}} className='celll  '  >
+        <Background  style={{width:'100vw'}} className='cellll bg-blue
+        
+        '  >
          <div className='w-full h-full object-cover' />
      <img src={crowd} alt="" className='w-full h-full object-cover' />   
 
@@ -126,14 +128,14 @@ const Home = () => {
         </div>
    
 
-     </Parallax> */}
-  <div className={` ${styles.paddingX} ${styles.flexStart} bg-grade `}>
+     </Parallax> 
+  {/* <div className={` ${styles.paddingX} ${styles.flexStart} bg-grade `}>
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
           
         </div>
-        </div>
+        </div> */}
    
      
       
