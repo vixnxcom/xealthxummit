@@ -72,7 +72,7 @@ const BookParallaxFloatImage = ({ src }) => {
     <section>
     <div
       ref={containerRef}
-      className="w-full flex justify-center py-20"
+      className="w-full flex justify-center py-5"
       style={{ perspective: "1300px" }}
     >
       <img

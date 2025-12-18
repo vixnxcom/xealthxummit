@@ -10,7 +10,7 @@ const SecondAwards = () => {
        
 
 
-          <div className="flex flex-col items-start mb-2 w-full mt-5">
+          <div className="flex flex-col items-start mb-2 w-full ">
             <span  className='text-[20px] editors-thin py-4 text-white '>06</span>
                <TypewriterText
                  text="ACADEMIA & RESEARCH"
