@@ -25,6 +25,7 @@ import EventHead from './EventHead'
 import ImageText from './ImageText'
 import MovingText from './ImageText'
 import Video from './Video'
+import StarsBackground from './BackgroundLines'
 
 
 const Home = () => {
@@ -178,8 +179,10 @@ const Home = () => {
         </div>
      
 <div className={` ${styles.paddingX} ${styles.flexStart} mt-20 bg-blue `}>
+       <StarsBackground />
         <div className={`${styles.boxWidth} mt-10 `}>
-         
+    
+    
          
           <MovingText />
           
