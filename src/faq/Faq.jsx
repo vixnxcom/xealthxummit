@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FaqAbout from './FaqAbout'
 import styles from '../style'
 import Awards from './Awards'
 
 const Faq = () => {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth', // change to 'smooth' if you want animation
+    })
+  }, [])
+
   return (
      <div className=' w-full  bg-blue overflow-hidden '>
 

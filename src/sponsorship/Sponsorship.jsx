@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../style'
 import SponsorHead from './SponsorHead'
 import Platinum from './Platinum'
@@ -7,42 +7,49 @@ import Silver from './Silver'
 import Support from './Support'
 
 const Sponsorship = () => {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth', // change to 'smooth' if you want animation
+    })
+  }, [])
+
   return (
-   <div className='w-full  bg-blue'>
+    <div className='w-full bg-blue'>
 
- <div className={`${styles.flexCenter}  h-[45vh] md:-[100vh] bg-space `}>
- <div className={`${styles.boxWidth}`}>
-   <SponsorHead />
-      </div>
-      </div>
-
-
-<div className=' w-full '>
- <div className={`${styles.flexCenter} mt-10 w-[90vw]  mx-auto`}>
- <div className={`${styles.boxWidth}`}>
-   <Platinum />
-      </div>
-      </div>
- <div className={`${styles.flexCenter} mt-20  w-[90vw] mx-auto`}>
- <div className={`${styles.boxWidth}`}>
-   <Gold />
-      </div>
-      </div>
- <div className={`${styles.flexCenter} mt-20  w-[90vw] mx-auto`}>
- <div className={`${styles.boxWidth}`}>
-   <Silver />
-      </div>
+      <div className={`${styles.flexCenter} h-[45vh] md:-[100vh] bg-space`}>
+        <div className={`${styles.boxWidth}`}>
+          <SponsorHead />
+        </div>
       </div>
 
- <div className={`${styles.flexCenter} mt-20  w-[90vw] mx-auto`}>
- <div className={`${styles.boxWidth}`}>
-   <Support />
+      <div className='w-full'>
+        <div className={`${styles.flexCenter} mt-10 w-[90vw] mx-auto`}>
+          <div className={`${styles.boxWidth}`}>
+            <Platinum />
+          </div>
+        </div>
+
+        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+          <div className={`${styles.boxWidth}`}>
+            <Gold />
+          </div>
+        </div>
+
+        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+          <div className={`${styles.boxWidth}`}>
+            <Silver />
+          </div>
+        </div>
+
+        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+          <div className={`${styles.boxWidth}`}>
+            <Support />
+          </div>
+        </div>
       </div>
-      </div>
- </div>
-
-
-
 
     </div>
   )
