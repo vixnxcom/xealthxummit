@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../style'
 import Hero from './Hero'
 import Intro from './Intro'
@@ -28,6 +28,17 @@ import Video from './Video'
 
 
 const Home = () => {
+
+
+   
+     useEffect(() => {
+       window.scrollTo({
+         top: 0,
+         left: 0,
+         behavior: 'smooth', // change to 'smooth' if you want animation
+       })
+     }, [])
+
   return (
  <div className=' w-full overflow-hidden bg-bg '>
 
