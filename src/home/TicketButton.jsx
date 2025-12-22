@@ -10,9 +10,34 @@ const TicketButton = () => {
   const sectionsRef = useRef([])
   const [revealed, setRevealed] = useState([])
 
+  const isMobile = () => window.innerWidth < 768
+
   useEffect(() => {
     const sections = sectionsRef.current.filter(Boolean)
 
+    /* =========================
+       DESKTOP / LARGE SCREENS
+       ========================= */
+    if (!isMobile()) {
+      sections.forEach(section => {
+        gsap.set(section, { opacity: 1, y: 0, scale: 1 })
+
+        const number = section.querySelector("span")
+        const image = section.querySelector("img")
+        const button = section.querySelector("button")
+
+        if (number) gsap.set(number, { opacity: 1, scale: 1, rotation: 0 })
+        if (image) gsap.set(image, { opacity: 1, y: 0, scale: 1, rotateX: 0 })
+        if (button) gsap.set(button, { opacity: 1, y: 0 })
+      })
+
+      setRevealed([0, 1, 2, 3])
+      return
+    }
+
+    /* =========================
+       MOBILE ONLY ANIMATION
+       ========================= */
     const observer = new IntersectionObserver(
       (entries, obs) => {
         entries.forEach(entry => {
@@ -88,7 +113,7 @@ const TicketButton = () => {
           }
         })
       },
-      { threshold: 0.9 }
+      { threshold: 0.6 }
     )
 
     sections.forEach(section => observer.observe(section))
@@ -96,7 +121,7 @@ const TicketButton = () => {
     return () => observer.disconnect()
   }, [])
 
-  const addToRefs = (el) => {
+  const addToRefs = el => {
     if (el && !sectionsRef.current.includes(el)) {
       sectionsRef.current.push(el)
     }
@@ -109,10 +134,7 @@ const TicketButton = () => {
       <div className="relative max-w-5xl mx-auto z-10 px-4">
 
         {/* SECTION 1 */}
-        <div
-          ref={addToRefs}
-          className="mb-20 flex flex-col items-start opacity-0"
-        >
+        <div ref={addToRefs} className="mb-20 flex flex-col items-start opacity-0">
           <span className="text-[20px] editors-thin py-4 opacity-0">01</span>
 
           {revealed.includes(0) && (
@@ -132,10 +154,7 @@ const TicketButton = () => {
         </div>
 
         {/* SECTION 2 */}
-        <div
-          ref={addToRefs}
-          className="mb-20 flex flex-col items-start opacity-0"
-        >
+        <div ref={addToRefs} className="mb-20 flex flex-col items-start opacity-0">
           <span className="text-[20px] editors-thin py-4 opacity-0">02</span>
 
           {revealed.includes(1) && (
@@ -153,10 +172,7 @@ const TicketButton = () => {
         </div>
 
         {/* SECTION 3 */}
-        <div
-          ref={addToRefs}
-          className="mb-20 flex flex-col items-start opacity-0"
-        >
+        <div ref={addToRefs} className="mb-20 flex flex-col items-start opacity-0">
           <span className="text-[20px] editors-thin py-4 opacity-0">03</span>
 
           {revealed.includes(2) && (
@@ -176,10 +192,7 @@ const TicketButton = () => {
         </div>
 
         {/* SECTION 4 */}
-        <div
-          ref={addToRefs}
-          className="mb-20 flex flex-col items-start opacity-0"
-        >
+        <div ref={addToRefs} className="mb-20 flex flex-col items-start opacity-0">
           <span className="text-[20px] editors-thin py-4 opacity-0">04</span>
 
           {revealed.includes(3) && (
