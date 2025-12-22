@@ -126,8 +126,8 @@ const Home = () => {
         <Background  style={{width:'100vw'}} className='cellll bg-blue
         
         '  >
-         <div className='w-full h-full object-cover' />
-     <img src={crowd} alt="" className='w-full h-full object-cover' />   
+         <div className='w-full h-full object-cover md:object-contain' />
+     <img src={crowd} alt="" className='w-full h-full object-cover md:object-contain' />   
 
       </Background>
 
@@ -179,7 +179,7 @@ const Home = () => {
         </div>
     </Parallax>
 
-          <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-bg `}>
+          <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-blue `}>
        <StarsBackground />
                <div className={`${styles.boxWidth} mt-30 `}>
          
