@@ -72,10 +72,10 @@ const Home = () => {
    <Video />
 </div>
 
-    <div className=' max-w-5xl mx-auto w-full mt-15 '>
+    <div className=' max-w-5xl bg-bg  mx-auto w-full mt-15 md:bg-black'>
       <h1 
         
-   className="editors-bold px-4 text-5xl tracking-widest text-white text-left"
+   className="editors-bold px-4 text-5xl  tracking-widest text-white text-left"
           >
            Organisers
           </h1>

@@ -16,7 +16,7 @@ const Faq = () => {
   return (
      <div className=' w-full  bg-blue overflow-hidden '>
 
- <div className={`${styles.flexCenter} `}>
+ <div className={`${styles.flexCenter} max-w-5xl mx-auto `}>
  <div className={`${styles.boxWidth}`}>
   <FaqAbout />
 </div>

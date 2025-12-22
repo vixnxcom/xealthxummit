@@ -4,7 +4,7 @@ import { image } from '../assets';
 const Organisers = () => {
   return (
     <section className=" mt-5">
-      <div className="flex flex-col items-start px-4 max-w-4xl mb-12">
+      <div className="flex flex-col items-start px-4 mb-12">
        
 
         <div className="w-full overflow-hidden py-4">
