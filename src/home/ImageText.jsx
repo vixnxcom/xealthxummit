@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import StarsBackground from "./BackgroundLines";
 
 const MovingText = () => {
   const wordRef = useRef(null);
@@ -40,7 +41,8 @@ const MovingText = () => {
   }, []);
 
   return (
-    <div className="text-white editors-bold">
+    <div className="text-white editors-bold ">
+   
       {/* LINE 1 */}
       <div className="flex flex-col  text-blue-200 text-5xl leading-none">
         <span>Let’s&nbsp;</span>

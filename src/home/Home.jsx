@@ -174,37 +174,38 @@ const Home = () => {
         <div className={`${styles.boxWidth}  `}>
          
       
-  <ImageBg />
+           <ImageBg />
         </div>
         </div>
-     
-<div className={` ${styles.paddingX} ${styles.flexStart} mt-20 bg-blue `}>
+    </Parallax>
+
+          <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-bg `}>
        <StarsBackground />
-        <div className={`${styles.boxWidth} mt-10 `}>
-    
-    
+               <div className={`${styles.boxWidth} mt-30 `}>
          
           <MovingText />
-          
-        <div className={`${styles.boxWidth} mt-20 mb-20`}>
 
-   <SponsorButton />
+         
+          
+     
+            <div className={`${styles.boxWidth} mt-20 mb-20`}>
+       
+              <SponsorButton />
 
     
-</div>
+              </div>
+              <div className='h-[40px]'></div>
         </div>
         </div>
 
-     </Parallax>
+   
+
+    
 
   
 
      
 
-
-<div className='h-screen bg-blue'>
-
-</div>
 
 
 
