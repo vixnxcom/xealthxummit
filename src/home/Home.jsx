@@ -122,7 +122,7 @@ const Home = () => {
 </div>
 </div>
 
-  <Parallax strength={1200}  >
+  <Parallax strength={1300}  >
         <Background  style={{width:'100vw'}} className='cellll bg-bg
         
         '  >
