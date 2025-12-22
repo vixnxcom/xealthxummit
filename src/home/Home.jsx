@@ -122,7 +122,7 @@ const Home = () => {
 </div>
 </div>
 
-  <Parallax strength={1300}  >
+  <Parallax strength={1000}  >
         <Background  style={{width:'100vw'}} className='cellll bg-bg
         
         '  >
@@ -135,6 +135,7 @@ const Home = () => {
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
+           {/* <div className='h-[40px]'></div> */}
           
         </div>
         </div>
