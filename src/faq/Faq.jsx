@@ -28,7 +28,7 @@ const Faq = () => {
   <Awards />
 </div>
 </div>
-
+<div className='h-[40px]'></div>
 </div>
   )
 }
