@@ -1,95 +1,99 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import styles from '../style'
+import { redd } from '../assets'
 
 const Quote = () => {
   const headingRef = useRef(null)
-  const hasAnimated = useRef(false)
-  const hasScrolled = useRef(false)
 
   useEffect(() => {
     const headingEl = headingRef.current
     if (!headingEl) return
 
-    // Detect real scroll (not page load)
-    const onScroll = () => {
-      hasScrolled.current = true
-      window.removeEventListener('scroll', onScroll)
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-
+    // Store the original text
     const originalText = headingEl.textContent || ''
+    
+    // Clear the heading element
     headingEl.innerHTML = ''
-
+    
+    // Split text into words and create spans
     const words = originalText.split(/(\s+)/)
-    const allCharSpans = []
-
-    words.forEach((word) => {
+    
+    words.forEach((word, wordIndex) => {
       if (word === ' ') {
         headingEl.appendChild(document.createTextNode(' '))
       } else {
         const wordSpan = document.createElement('span')
         wordSpan.style.display = 'inline-block'
         wordSpan.style.whiteSpace = 'nowrap'
-
-        word.split('').forEach((char) => {
+        
+        const chars = word.split('').map(char => {
           const charSpan = document.createElement('span')
           charSpan.style.display = 'inline-block'
           charSpan.style.opacity = '0'
           charSpan.style.transform = 'translateX(-20px)'
           charSpan.textContent = char
-
-          allCharSpans.push(charSpan)
-          wordSpan.appendChild(charSpan)
+          return charSpan
         })
-
+        
+        chars.forEach(charSpan => wordSpan.appendChild(charSpan))
+        wordSpan._chars = chars
         headingEl.appendChild(wordSpan)
+
+        if (wordIndex < words.length - 1 && words[wordIndex + 1] !== ' ') {
+          headingEl.appendChild(document.createTextNode(' '))
+        }
       }
     })
+    
+    // Collect all character spans
+    const allCharSpans = []
+    headingEl.querySelectorAll('span[style*="display: inline-block"]').forEach(wordSpan => {
+      if (wordSpan._chars) allCharSpans.push(...wordSpan._chars)
+    })
 
-    const animate = () => {
-      if (hasAnimated.current || !hasScrolled.current) return
-      hasAnimated.current = true
-
-      gsap.to(allCharSpans, {
-        opacity: 1,
-        x: 0,
-        stagger: 0.03,
-        duration: 0.3,
-        ease: 'power2.out'
-      })
-    }
-
+    // Create Intersection Observer
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          animate()
-        }
+      (entries, observerInstance) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Animate when visible
+            gsap.to(allCharSpans, {
+              opacity: 1,
+              x: 0,
+              stagger: 0.03,
+              duration: 0.3,
+              ease: 'power2.out'
+            })
+            observerInstance.unobserve(entry.target) // Stop observing after animation
+          }
+        })
       },
-      {
-        threshold: 0.35
-      }
+      { threshold: 0.1 } // 10% visible triggers animation
     )
 
-    // Observe AFTER paint
-    requestAnimationFrame(() => observer.observe(headingEl))
+    observer.observe(headingEl)
 
-    return () => {
-      observer.disconnect()
-      window.removeEventListener('scroll', onScroll)
-    }
+    return () => observer.disconnect()
   }, [])
 
   return (
-    <div className={`${styles.flexCenter} items-center justify-center mx-auto text-center min-h-[500px]`}>
+    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[500px]`}>
       <div className='mx-auto max-w-4xl'>
-        <h1
-          ref={headingRef}
+        <div className='px-4 mt-10'></div>
+
+        <h1 
+          ref={headingRef} 
           className='editors-bold mt-32 text-4xl text-left mx-3 text-blue-200 leading-tight'
         >
-          One-Day HealthTech Innovation Summit, Startup Pitch Finals & National HealthTech
-          Excellence Awards
+          One-Day HealthTech Innovation Summit, Startup Pitch Finals & National HealthTech Excellence Awards
         </h1>
+
+        <p className='textl mt-6 max-w-[470px] mx-5'>
+          Provident, recusandae sequi delectus iusto enim corrupti? Ex eveniet odit temporibus eum ad maiores totam tenetur
+          eligendi rem, ipsa hic, ea quod recusandae enim, illo quam ab maxime neque optio? Eligendi ullam possimus debitis.
+          Provident veniam sed magni vitae ducimus.
+        </p>
       </div>
     </div>
   )
