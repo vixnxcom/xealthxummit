@@ -22,7 +22,7 @@ const VideoBackground = ({ videoSrc, children, className = '' }) => {
         if (!hasInteractedRef.current) {
           const overlay = document.createElement('div');
           overlay.className = 'play-overlay';
-          overlay.innerHTML = '▶ Click to play video';
+          overlay.innerHTML = '▶';
           overlay.style.cssText = `
             position: absolute;
             top: 50%;
@@ -100,6 +100,8 @@ const VideoBackground = ({ videoSrc, children, className = '' }) => {
         disablePictureInPicture
         disableRemotePlayback
       >
+        
+           
         <source src={videoSrc} type="video/mp4" />
         {/* Add WebM format for better compatibility */}
         <source src={videoSrc.replace('.mp4', '.webm')} type="video/webm" />
