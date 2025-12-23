@@ -84,12 +84,12 @@ const Quote = () => {
 
         <h1 
           ref={headingRef} 
-          className='editors-bold mt-32 text-4xl text-left mx-3 text-blue-200 leading-tight'
+          className='editors-bold mt-40 text-4xl text-left mx-3 text-blue-200 leading-tight'
         >
           One-Day HealthTech Innovation Summit, Startup Pitch Finals & National HealthTech Excellence Awards
         </h1>
 
-        <p className='textl mt-6 max-w-[400px] mx-5'>
+        <p className='textl mt-6 max-w-[470px] mx-5'>
           Provident, recusandae sequi delectus iusto enim corrupti? Ex eveniet odit temporibus eum ad maiores totam tenetur
           eligendi rem, ipsa hic, ea quod recusandae enim, illo quam ab maxime neque optio? Eligendi ullam possimus debitis.
           Provident veniam sed magni vitae ducimus.
