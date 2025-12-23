@@ -4,7 +4,7 @@ import StarsBackground from "./BackgroundLines";
 
 const MovingText = () => {
   const wordRef = useRef(null);
-  const words = ["INNOVATE", "CREATE", "BUILD", "GROW"];
+  const words = ["INNOVATE", "CREATE", "BUILD", "GROW", "EVOLVE", "TRANSFORM", "LEAD", ];
 
   useEffect(() => {
     let index = 0;

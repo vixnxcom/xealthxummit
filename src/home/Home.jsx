@@ -60,7 +60,7 @@ const Home = () => {
 
 
  <div className={`${styles.flexCenter} bg-bg`}>
- <div className={`${styles.boxWidth} mt-2 `}>
+ <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
    <Intro/>
   
@@ -72,7 +72,7 @@ const Home = () => {
    <Video />
 </div>
 
-    <div className=' max-w-5xl bg-bg  mx-auto w-full mt-15 md:bg-black'>
+    <div className=' max-w-5xl bg-bg  mx-auto w-full mt-20 md:bg-black'>
       <h1 
         
    className="editors-bold px-4 text-5xl  tracking-widest text-white text-left"
