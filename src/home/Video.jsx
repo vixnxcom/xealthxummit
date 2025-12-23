@@ -11,7 +11,7 @@ const Video = () => {
   return (
     <div
       ref={ref}
-      className="w-full overflow-hidden mx-auto relative md:h-[550px] h-[495px]" // half of desired video height
+      className="w-full overflow-hidden mx-auto relative md:h-[550px] h-[520px]" // half of desired video height
     >
       {inView && (
         <video
