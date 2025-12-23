@@ -78,7 +78,7 @@ const Quote = () => {
   }, [])
 
   return (
-    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[500px]`}>
+    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[600px]`}>
       <div className='mx-auto max-w-4xl'>
         <div className='px-4 mt-10'></div>
 
