@@ -23,15 +23,15 @@
 
 @font-face {
   font-family: Editors-reg;
-  src: url(./fonts/editors/Editors-Regular.ttf);
+  src: url(./fonts/micross.ttf);
 }
 @font-face {
   font-family: Editors-thin;
-  src: url(./fonts/editors/Editors-Thin.ttf);
+  src: url(./fonts/interr/Inter_28pt-Light.ttf);
 }
 @font-face {
   font-family: Editors-bold;
-  src: url(./fonts/editors/Editors-Bold.otf);
+  src: url(./fonts/micross.ttf);
 }
 
 @font-face {
