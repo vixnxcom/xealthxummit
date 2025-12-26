@@ -12,10 +12,11 @@ const SecondAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full ">
            
-               <TypewriterText
-                 text="ACADEMIA & RESEARCH"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-10 editors-reg"
-            />
+               <TypewriterText>
+                 <p className="text-[32px] md:text-[40px] text-blue-200 mt-10 editors-reg">
+                   ACADEMIA & RESEARCH
+                 </p>
+               </TypewriterText>
           
           </div>
 
@@ -29,10 +30,12 @@ const SecondAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
           
-                <TypewriterText
-                 text=" NGOS & SOCIAL IMPACT"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+                <TypewriterText>
+                  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                    NGOS & SOCIAL IMPACT
+                  </p>
+                </TypewriterText>
+        
          
           </div>
 
@@ -46,10 +49,11 @@ const SecondAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
         
-                 <TypewriterText
-                 text="CLINICIANS & FRONTLINE INNOVATORS"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+                 <TypewriterText>
+                  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                    CLINICIANS & FRONTLINE INNOVATORS
+                  </p>
+                 </TypewriterText>
          
           </div>
 
@@ -63,10 +67,12 @@ const SecondAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
           
-                 <TypewriterText
-                 text="STARTUP'S & INNOVATORS"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+                 <TypewriterText>
+                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  STARTUPS & INNOVATORS
+                </p>
+                 </TypewriterText>
+            
           
           </div>
 
@@ -81,10 +87,12 @@ const SecondAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
        
-                  <TypewriterText
-                 text="SPECIAL RECOGNITION"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+                  <TypewriterText>
+                    <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                      SPECIAL RECOGNITION
+                    </p>
+                  </TypewriterText>
+          
          
           </div>
 

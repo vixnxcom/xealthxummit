@@ -8,10 +8,11 @@ const FullAwards = () => {
       
           <div className="flex flex-col items-start mb-2 w-full">
            
-         <TypewriterText
-           text="HOSPITALS & HEALTH INSTITUTIONS"
-           className="text-[28px] md:text-[40px] text-blue-200 mt-10 editors-reg"
-          />
+         <TypewriterText>
+            <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+              HOSPITALS & HEALTH INSTITUTIONS </p>
+         </TypewriterText>
+         
 
           </div>
 
@@ -25,10 +26,12 @@ const FullAwards = () => {
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
            
-                 <TypewriterText
-                 text="B. PHARMACIES & PHARMACEUTICAL INNOVATION"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+                 <TypewriterText>
+                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  PHARMACIES & PHARMACEUTICAL INNOVATION
+                </p>
+                 </TypewriterText>
+             
         
           </div>
 
@@ -42,11 +45,11 @@ const FullAwards = () => {
         
           <div className="flex flex-col items-start mb-2 w-full mt-10">
             
-              <TypewriterText
-                 text="HEALTH INSURANCE & MANAGED CARE"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
-         
+              <TypewriterText>
+                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  HEALTH INSURANCE & MANAGED CARE
+                </p>
+              </TypewriterText>
           </div>
 
           <div>
@@ -58,12 +61,12 @@ const FullAwards = () => {
           </div>
         
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-          
-               <TypewriterText
-                 text="GOVERNMENT & PUBLIC HEALTH"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
-          
+
+               <TypewriterText>
+                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  GOVERNMENT & PUBLIC HEALTH
+                </p>
+              </TypewriterText>
           </div>
 
           <div>
@@ -75,11 +78,14 @@ const FullAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-         
-              <TypewriterText
-                 text="TECHNOLOGY PROVIDERS"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+
+              <TypewriterText>
+                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  TECHNOLOGY PROVIDERS
+                </p>
+              </TypewriterText>
+               
+            
         
           </div>
 

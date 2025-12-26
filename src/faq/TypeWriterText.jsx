@@ -1,65 +1,41 @@
-import { useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
-gsap.registerPlugin(ScrollTrigger)
-
-const TypewriterText = ({
-  text,
-  className = "",
-  start = "top 80%",
-  opacityFrom = 0.15,
-  speed = 0.065
-}) => {
-  const textRef = useRef(null)
+const TypeWriterText = ({ children }) => {
+  const ref = useRef(null);
 
   useEffect(() => {
-    const el = textRef.current
-    if (!el) return
+    const el = ref.current;
 
-    // Clear original text
-    el.innerHTML = ""
+    gsap.set(el, {
+      x: 30,
+      opacity: 0,
+    });
 
-    // Split text into spans
-    const chars = text.split("").map((char) => {
-      const span = document.createElement("span")
-      span.textContent = char === " " ? "\u00A0" : char
-      span.style.opacity = opacityFrom
-      span.style.display = "inline-block"
-      el.appendChild(span)
-      return span
-    })
-
-    const tl = gsap.fromTo(
-      chars,
-      { opacity: opacityFrom, y: 8 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.04,
-        stagger: speed,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: el,
-          start,
-          toggleActions: "play none none none"
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          gsap.to(el, {
+            x: 0,
+            opacity: 1,
+            duration: 1.3,
+            ease: "power3.out",
+          });
+          observer.unobserve(el);
         }
-      }
-    )
+      },
+      { threshold: 0.25 }
+    );
 
-    return () => {
-      tl.scrollTrigger?.kill()
-      tl.kill()
-    }
-  }, [text])
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <p
-      ref={textRef}
-      className={className}
-      aria-label={text}
-    />
-  )
-}
+    <div ref={ref} className="will-change-transform">
+      {children}
+    </div>
+  );
+};
 
-export default TypewriterText
+export default TypeWriterText;

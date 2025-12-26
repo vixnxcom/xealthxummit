@@ -20,10 +20,13 @@ const TicketButton = () => {
           <span className="text-[16px] editors-thin py-4 ">01</span>
 
        
-            <TypewriterText
-              text="HealthTech Innovation Summit"
-              className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+            <TypewriterText>
+              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                HealthTech Innovation Summit
+              </p>
+            </TypewriterText>
+              
+           
        
           <img
             src={ticket}
@@ -39,10 +42,12 @@ const TicketButton = () => {
           <span className="text-[16px] editors-thin py-4 ">02</span>
 
        
-            <TypewriterText
-              text="National HealthTech Excellence Awards"
-              className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
+            <TypewriterText> 
+               <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                National HealthTech Excellence Awards
+              </p></TypewriterText>
+            
+          
         
 
           <img
@@ -57,11 +62,12 @@ const TicketButton = () => {
           <span className="text-[16px] editors-thin py-4 ">03</span>
 
         
-            <TypewriterText
-              text="Startup Pitch Finals"
-              className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
-       
+            <TypewriterText>  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                Startup Pitch Finals
+              </p></TypewriterText>
+            
+    
+          
 
           <img
             src={pitch}
@@ -76,13 +82,14 @@ const TicketButton = () => {
         <div  className="mb-20 flex flex-col items-start ">
           <span className="text-[16px] editors-thin py-4 ">04</span>
 
-        
-            <TypewriterText
-              text="Networking & Innovation Exhibition"
-              className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg"
-            />
-   
 
+
+            <TypewriterText>
+              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                Networking & Innovation Exhibition
+              </p>
+            </TypewriterText>
+         
           <img
             src={innovative}
             alt="Innovation Exhibition"
