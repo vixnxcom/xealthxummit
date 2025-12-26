@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 import { gsap } from "gsap"
-import { award, innovative, pitch, ticket } from "../assets"
+import { award, heart, innovative, pitch, ticket } from "../assets"
 import Button from "./Button"
 import PitchButton from "./PitchButton"
 import StarsBackground from "./BackgroundLines"
@@ -91,7 +91,7 @@ const TicketButton = () => {
             </TypewriterText>
          
           <img
-            src={innovative}
+            src={heart}
             alt="Innovation Exhibition"
             className="w-full max-w-4xl mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
           />
