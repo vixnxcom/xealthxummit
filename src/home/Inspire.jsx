@@ -17,7 +17,7 @@ const Inspire = () => {
   
   
   <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
-            <span className='text-[20px] editors-thin  text-white'>04.</span>
+           <span className='text-[16px] mb-2 editors-thin  text-white'>04.</span>
  
     Startups </p>
 

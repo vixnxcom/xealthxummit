@@ -7,7 +7,7 @@ import AnimatedCircleMind from './AnimatedCircleMind';
 const Mind = () => {
   return (
     <div className="App">
-<div class="relative bg-black text-white mb-5   max-w-[470px] corner-card">
+<div class="relative bg-black text-white mb-5  corner-card">
 
       <AnimatedCircleMind
         targetPercentage={100}
@@ -16,7 +16,7 @@ const Mind = () => {
         showResetButton={true}
       />
       <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
-            <span className='text-[20px] editors-thin  text-white'>01.</span>
+            <span className='text-[16px] mb-2 editors-thin  text-white'>01.</span>
  
      General Public </p>
 

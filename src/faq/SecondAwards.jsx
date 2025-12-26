@@ -11,10 +11,10 @@ const SecondAwards = () => {
 
 
           <div className="flex flex-col items-start mb-2 w-full ">
-            <span  className='text-[20px] editors-thin py-4 text-white '>06</span>
+           
                <TypewriterText
                  text="ACADEMIA & RESEARCH"
-              className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
+              className="text-[28px] md:text-[40px] text-blue-200 mt-10 editors-reg"
             />
           
           </div>
@@ -27,8 +27,8 @@ const SecondAwards = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col items-start mb-2 w-full mt-5">
-            <span  className='text-[20px] editors-thin py-4 text-white '>07</span>
+          <div className="flex flex-col items-start mb-2 w-full mt-10">
+          
                 <TypewriterText
                  text=" NGOS & SOCIAL IMPACT"
               className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
@@ -44,8 +44,8 @@ const SecondAwards = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col items-start mb-2 w-full mt-5">
-            <span  className='text-[20px] editors-thin py-4 text-white '>08</span>
+          <div className="flex flex-col items-start mb-2 w-full mt-10">
+        
                  <TypewriterText
                  text="CLINICIANS & FRONTLINE INNOVATORS"
               className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
@@ -61,8 +61,8 @@ const SecondAwards = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col items-start mb-2 w-full mt-5">
-            <span  className='text-[20px] editors-thin py-4 text-white '>09</span>
+          <div className="flex flex-col items-start mb-2 w-full mt-10">
+          
                  <TypewriterText
                  text="STARTUP'S & INNOVATORS"
               className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
@@ -79,8 +79,8 @@ const SecondAwards = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col items-start mb-2 w-full mt-5">
-            <span  className='text-[20px] editors-thin py-4 text-white '>10</span>
+          <div className="flex flex-col items-start mb-2 w-full mt-10">
+       
                   <TypewriterText
                  text="SPECIAL RECOGNITION"
               className="text-[28px] md:text-[40px] text-blue-200 mt-2 editors-reg"
