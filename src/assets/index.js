@@ -13,6 +13,7 @@ import bulb from './bulb.png'
 import life from './life.png'
 import time from './time.png'
 import doc from './doc.jpg'
+import intro from './doc.jpeg'
 import ahmed from './ahmed.jpg'
 import pitch from './pitch.jpg'
 import award from './awards.jpg'
@@ -37,5 +38,5 @@ import brain from './brain.mp4'
 
 export { dna,steth, redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg,
-     ahmed, ticket, pitch, sponsor, vr, man, award,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };

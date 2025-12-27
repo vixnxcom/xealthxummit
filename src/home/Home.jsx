@@ -27,6 +27,7 @@ import MovingText from './ImageText'
 import Video from './Video'
 import StarsBackground from './BackgroundLines'
 import QuoteEvent from './QuoteEvent'
+import FloatImage from '../about/FloatImage'
 
 
 const Home = () => {
@@ -76,10 +77,10 @@ const Home = () => {
 </div>
 </div>
 
-{/* <div>
+ <div>
  
-   <Video />
-</div> */}
+   <FloatImage />
+</div> 
 
 
 
