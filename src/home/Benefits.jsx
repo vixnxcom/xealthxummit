@@ -74,20 +74,20 @@ useEffect(() => {
           ref={headingRef} 
           className=' mt-10 text-left mx-3 text-purple flex flex-col leading-tight'
         >
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
+          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Branding</h1>
+          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Branding</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Recognition</h1>
+          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Recognition</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Partnership</h1>
-          <h1 className='text-4xl editors-bold ml-2'>Opportunities</h1>
+          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Partnership</h1>
+          <h1 className='text-5xl font-bold editors-bold ml-2'>Opportunities</h1>
         </div>
 
         <p className='textl mt-6 max-w-[470px] mx-5'>
           provident, recusandae sequi delectus iusto enim corrupti? Ex eveniet odit temporibus eum ad maiores totam tenetur
-          eligendi rem, ipsa hic, ea quod recusandae enim, illo quam ab maxime neque optio? Eligendi ullam possimus debitis
-          Provident veniam sed magni vitae ducimus 
+         ea quod recusandae enim, illo quam ab maxime neque optio? Eligendi ullam possimus debitis
+        
         </p>
       </div>
     </div>
