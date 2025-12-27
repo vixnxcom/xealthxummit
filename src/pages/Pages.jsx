@@ -25,7 +25,7 @@ const Pages = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/service" element={<Services />} />
        
-        <Route exact path="/about" element={<Faq />} />
+        <Route exact path="/awards" element={<Faq />} />
         <Route exact path="/sponsor" element={<Sponsorship />} />
         <Route exact path="/paygold" element={<PayGold />} />
         <Route exact path="/payplat" element={<PayPlat />} />
