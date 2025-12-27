@@ -1012,6 +1012,8 @@ color: #fff !important;
   width: 100vw;
   height: 100vh;
 }
+
+
 .cellll{
  
   width: 100vw;
@@ -1168,8 +1170,8 @@ text-shadow: 0px 4px 4px #00000040;
   left: -12px;
   width: 35px;
   height: 35px;
-  border-top: 2px solid #cbcbcf;
-  border-left: 2px solid #cbcbcf;
+  border-top: 1.6px solid #cbcbcf;
+  border-left: 1.6px solid #cbcbcf;
 }
 
 /* Bottom-right */
@@ -1180,8 +1182,8 @@ text-shadow: 0px 4px 4px #00000040;
   right: -12px;
   width: 35px;
   height: 35px;
-  border-bottom: 2px solid #cbcbcf;
-  border-right: 2px solid #cbcbcf;
+  border-bottom: 1.6px solid #cbcbcf;
+  border-right: 1.6px solid #cbcbcf;
 }
 
 /* Extra pseudo-elements for top-right & bottom-left */
@@ -1197,18 +1199,29 @@ text-shadow: 0px 4px 4px #00000040;
 .corner-card .corners::before {
   top: -12px;
   right: -12px;
-  border-top: 2px solid #cbcbcf;
-  border-right: 2px solid #cbcbcf;
+  border-top: 1.6px solid #cbcbcf;
+  border-right: 1.6px solid #cbcbcf;
 }
 
 /* Bottom-left */
 .corner-card .corners::after {
   bottom: -12px;
   left: -12px;
-  border-bottom: 2px solid #cbcbcf;
-  border-left: 2px solid #cbcbcf;
+  border-bottom: 1.6px solid #cbcbcf;
+  border-left: 1.6px solid #cbcbcf;
 }
- 
+
+
+
+
+ .bg-letters{
+  background-color: #000016;
+  border: 1px solid #cbcbcf;
+ }
+
+ .bg-awards{
+  background-color: #cbcbcf;
+ }
 /* components/VideoBackground.css */
 .video-bg-container {
   position: relative;
@@ -1351,4 +1364,26 @@ html {
   border-bottom: 2px solid #cbcbcf;
   border-left: 2px solid #cbcbcf;
 }
+
+
+/* 👇 controls darkness */
+.video-dark-overlay {
+  position: absolute;
+  inset: 0;
+  background: #0000008c; /* adjust 0.4 – 0.7 */
+  z-index: 1;
+}
+
+  @media (min-width: 768px) {
+.cellll{
  
+  width: 100vw;
+  height: 20vh;
+}}
+
+.bg-tech{
+background-image: url(assets/tech.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}

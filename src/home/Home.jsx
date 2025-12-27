@@ -26,6 +26,7 @@ import ImageText from './ImageText'
 import MovingText from './ImageText'
 import Video from './Video'
 import StarsBackground from './BackgroundLines'
+import QuoteEvent from './QuoteEvent'
 
 
 const Home = () => {
@@ -59,7 +60,7 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter} bg-bg`}>
+ <div className={`${styles.flexCenter} bg-bg `}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
    <Intro/>
@@ -67,15 +68,37 @@ const Home = () => {
 </div>
 </div>
 
-<div>
-   {/* <video src={health} autoPlay loop muted className='w-full  md:h-[600px] object-contain '/> */}
-   <Video />
+ <div className={`${styles.flexCenter} bg-blacl`}>
+ <div className={`${styles.boxWidth} mt-2 mb-10`}>
+
+   <QuoteEvent/>
+  
+</div>
 </div>
 
-    <div className=' max-w-5xl bg-bg  mx-auto w-full mt-20 md:bg-black'>
+{/* <div>
+ 
+   <Video />
+</div> */}
+
+
+
+
+
+
+ <div className={`${styles.flexCenter}  mt-20 `}>
+ <div className={`${styles.boxWidth}  `}>
+   <EventHead />
+   <TicketButton />
+
+    
+</div>
+</div>
+
+   <div className=' max-w-5xl bg-bg  mx-auto w-full mt-10 md:bg-black'>
       <h1 
         
-   className="editors-bold px-4 text-5xl  tracking-widest text-white text-left"
+   className="editors-bold px-4 text-5xl   tracking-widest text-white text-left"
           >
            Organisers
           </h1>
@@ -112,16 +135,6 @@ const Home = () => {
 
 
 
-
- <div className={`${styles.flexCenter}  mt-20 `}>
- <div className={`${styles.boxWidth}  `}>
-   <EventHead />
-   <TicketButton />
-
-    
-</div>
-</div>
-
   <Parallax strength={1000}  >
         <Background  style={{width:'100vw'}} className='cellll bg-bg
         
@@ -142,13 +155,10 @@ const Home = () => {
    
 
      </Parallax> 
-  {/* <div className={` ${styles.paddingX} ${styles.flexStart} bg-grade `}>
-        <div className={`${styles.boxWidth}  `}>
-         
-           < Attendants />
-          
-        </div>
-        </div> */}
+
+     
+
+
    
      
       

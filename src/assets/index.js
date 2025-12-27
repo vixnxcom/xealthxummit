@@ -31,7 +31,7 @@ import ar from './ar.png'
 import health from './health.mp4'
 import heart from './heart.jpeg'
 import brn from './brain.jpeg'
-import brain from './men.jpeg'
+import brain from './brain.mp4'
 
 
 

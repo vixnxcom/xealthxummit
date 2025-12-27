@@ -9,7 +9,7 @@ const FullAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full">
            
          <TypewriterText>
-            <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+            <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
               HOSPITALS & HEALTH INSTITUTIONS </p>
          </TypewriterText>
          
@@ -27,7 +27,7 @@ const FullAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
            
                  <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   PHARMACIES & PHARMACEUTICAL INNOVATION
                 </p>
                  </TypewriterText>
@@ -46,7 +46,7 @@ const FullAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
             
               <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   HEALTH INSURANCE & MANAGED CARE
                 </p>
               </TypewriterText>
@@ -63,7 +63,7 @@ const FullAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
 
                <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   GOVERNMENT & PUBLIC HEALTH
                 </p>
               </TypewriterText>
@@ -80,7 +80,7 @@ const FullAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
 
               <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   TECHNOLOGY PROVIDERS
                 </p>
               </TypewriterText>

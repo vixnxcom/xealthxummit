@@ -8,51 +8,54 @@ const FaqAbout = () => {
   const imageRef = useRef(null);
 
   useEffect(() => {
-    const tl = gsap.timeline();
+    const tl = gsap.timeline({
+      defaults: { ease: "power4.out" },
+    });
 
     tl.to(leftRef.current, {
       xPercent: -100,
       duration: 1.5,
-      ease: "power4.out",
     })
       .to(
         rightRef.current,
         {
           xPercent: 100,
           duration: 1.5,
-          ease: "power4.out",
         },
         "<"
       )
       .to(
         imageRef.current,
         {
-          scale: 1.2,
+          scale: 1.15,
+          duration: 3,
+          ease: "power3.out",
           transformOrigin: "50% 50%",
-          duration: 1.5,
-          ease: "power2.inOut",
+         
         },
-        "-=0.5"
+        "-=0.6"
       );
+
+    return () => tl.kill();
   }, []);
 
   return (
     <section>
-      <div className="relative w-screen h-screen overflow-hidden bg-blue">
-        
-        {/* ✅ LEFT-SIDED TEXT (this is the key) */}
-        <div className="absolute top-1/2 left-8 -translate-y-1/2 z-20 text-left">
-        <h1 className='text-5xl editors-bold text-cyan letter-shade '>
-     Award Nominations
-    </h1>
-         
-          <h1 className="text-cyan tracking-widest mt-2 editors-itallic text-4xl">
-            2026 Event
+      <div className="relative w-screen h-screen overflow-hidden bg-black">
+
+        {/* LEFT TEXT */}
+        <div className="absolute top-1/2 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
+          <h1 className="text-4xl md:text-5xl editors-bold text-cyan letter-shade">
+            Award Nominations
           </h1>
+
+          <h2 className="text-cyan tracking-widest mt-2 editors-itallic text-3xl md:text-4xl">
+            2026 Event
+          </h2>
         </div>
 
-        {/* CENTERED IMAGE */}
-        <div className="absolute inset-0 z-10">
+        {/* CENTERED VIDEO */}
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
           <video
             ref={imageRef}
             src={brain}
@@ -60,7 +63,12 @@ const FaqAbout = () => {
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
+            className="
+              w-full h-full
+              object-cover
+              md:object-contain
+              will-change-transform
+            "
           />
         </div>
 

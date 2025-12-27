@@ -53,7 +53,7 @@ const Countdown = () => {
   }, []);
 
   return (
-      <div className="w-full h-[200px] flex justify-center gap-5 items-center">
+      <div className="w-full h-[200px] flex justify-center gap-3 items-center">
       
       {/* DAYS */}
       <div className="flex flex-col items-center border border-pink ">

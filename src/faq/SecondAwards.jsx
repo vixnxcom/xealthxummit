@@ -13,7 +13,7 @@ const SecondAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full ">
            
                <TypewriterText>
-                 <p className="text-[32px] md:text-[40px] text-blue-200 mt-10 editors-reg">
+                 <p className="text-[32px] md:text-[40px] text-cyan mt-10 editors-reg">
                    ACADEMIA & RESEARCH
                  </p>
                </TypewriterText>
@@ -31,7 +31,7 @@ const SecondAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
           
                 <TypewriterText>
-                  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                     NGOS & SOCIAL IMPACT
                   </p>
                 </TypewriterText>
@@ -50,7 +50,7 @@ const SecondAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
         
                  <TypewriterText>
-                  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                  <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                     CLINICIANS & FRONTLINE INNOVATORS
                   </p>
                  </TypewriterText>
@@ -68,7 +68,7 @@ const SecondAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
           
                  <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   STARTUPS & INNOVATORS
                 </p>
                  </TypewriterText>
@@ -88,7 +88,7 @@ const SecondAwards = () => {
           <div className="flex flex-col items-start mb-2 w-full mt-10">
        
                   <TypewriterText>
-                    <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                    <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                       SPECIAL RECOGNITION
                     </p>
                   </TypewriterText>

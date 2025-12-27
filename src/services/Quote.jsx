@@ -78,16 +78,16 @@ const Quote = () => {
   }, [])
 
   return (
-    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[600px]`}>
+    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[400px]`}>
       <div className='mx-auto max-w-4xl'>
         <div className='px-4 mt-10'></div>
 
-        <h1 
+        {/* <h1 
           ref={headingRef} 
           className='editors-bold mt-40 text-4xl text-left mx-3 text-blue-200 leading-tight'
         >
           One-Day HealthTech Innovation Summit, Startup Pitch Finals & National HealthTech Excellence Awards
-        </h1>
+        </h1> */}
 
         <p className='textl mt-6 max-w-[470px] mx-5'>
           Provident, recusandae sequi delectus iusto enim corrupti? Ex eveniet odit temporibus eum ad maiores totam tenetur

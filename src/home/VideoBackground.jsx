@@ -88,29 +88,29 @@ const VideoBackground = ({ videoSrc, children, className = '' }) => {
 
   return (
     <div className={`video-bg-container ${className}`}>
-      <video
-        ref={videoRef}
-        className="video-background"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
-        // These attributes help with autoplay
-        disablePictureInPicture
-        disableRemotePlayback
-      >
-        
-           
-        <source src={videoSrc} type="video/mp4" />
-        {/* Add WebM format for better compatibility */}
-        <source src={videoSrc.replace('.mp4', '.webm')} type="video/webm" />
-      </video>
-      
-      <div className="content-overlay">
-        {children}
-      </div>
-    </div>
+  <video
+    ref={videoRef}
+    className="video-background"
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="auto"
+    disablePictureInPicture
+    disableRemotePlayback
+  >
+    <source src={videoSrc} type="video/mp4" />
+    <source src={videoSrc.replace('.mp4', '.webm')} type="video/webm" />
+  </video>
+
+  {/* Dark overlay */}
+  <div className="video-dark-overlay" />
+
+  <div className="content-overlay">
+    {children}
+  </div>
+</div>
+
   );
 };
 

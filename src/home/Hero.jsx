@@ -122,7 +122,7 @@ const Hero = () => {
       zIndex: 10
     }}
   >
-    <h1 className='text-5xl editors-bold text-cyan letter-shade '>
+    <h1 className='text-5xl editors-bold font-bold text-cyan letter-shade '>
      HealthTech Frontiers<span className='editors-itallic'> 2026</span>
     </h1>
     

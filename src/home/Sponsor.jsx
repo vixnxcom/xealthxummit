@@ -98,7 +98,7 @@ const Sponsor = () => {
         <div className="mb-10 mt-20">
           <h1
             ref={headingRef}
-            className="editors-bold text-5xl tracking-widest text-white text-left leading-tight"
+            className="editors-bold text-5xl mt-40 tracking-widest text-white text-left leading-tight"
           >
             For <br /> Sponsorship
           </h1>

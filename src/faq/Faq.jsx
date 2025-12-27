@@ -4,33 +4,29 @@ import styles from '../style'
 import Awards from './Awards'
 
 const Faq = () => {
-
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth', // change to 'smooth' if you want animation
-    })
-  }, [])
+    window.scrollTo({ top: 0, left: 0 });
+  }, []);
 
   return (
-     <div className=' w-full  bg-blue overflow-hidden '>
+    <div className="w-full bg-bg overflow-hidden">
 
- <div className={`${styles.flexCenter} max-w-5xl mx-auto `}>
- <div className={`${styles.boxWidth}`}>
-  <FaqAbout />
-</div>
-</div>
+      {/* FULL WIDTH SECTION — NO CONTAINER */}
+      <FaqAbout />
+
+      {/* BOXED CONTENT BELOW */}
+      <div className={`${styles.flexCenter}  mt-10`}>
+        <div className={`${styles.boxWidth}`}>
+          <Awards />
+        </div>
+      </div>
+
+      <div className="h-[40px]" />
+    </div>
+  );
+};
+
+export default Faq;
 
 
- <div className={`${styles.flexCenter} bg-blue mt-10`}>
- <div className={`${styles.boxWidth}`}>
-  <Awards />
-</div>
-</div>
-<div className='h-[40px]'></div>
-</div>
-  )
-}
 
-export default Faq

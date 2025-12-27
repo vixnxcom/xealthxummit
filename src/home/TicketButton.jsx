@@ -10,14 +10,18 @@ const TicketButton = () => {
   
 
   return (
-    <section className="] bg-bg text-white overflow-hidden">
+    <section className="] bg-bg relative text-white overflow-hidden">
       <StarsBackground />
 
       <div className=" max-w-5xl mx-auto z-10 px-4">
 
         {/* SECTION 1 */}
         <div  className="mb-20 flex flex-col items-start ">
-          <span className="text-[16px] editors-thin py-4 ">01</span>
+
+      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">01</span>
+          </div>
+
 
        
             <TypewriterText>
@@ -33,13 +37,18 @@ const TicketButton = () => {
             alt="Ticket"
             className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
           />
-
-          <Button />
+      
+        <Button />
+   
+         
         </div>
 
         {/* SECTION 2 */}
         <div  className="mb-20 flex flex-col items-start ">
-          <span className="text-[16px] editors-thin py-4 ">02</span>
+         
+      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">02</span>
+          </div>
 
        
             <TypewriterText> 
@@ -59,7 +68,10 @@ const TicketButton = () => {
 
         {/* SECTION 3 */}
         <div  className="mb-20 flex flex-col items-start ">
-          <span className="text-[16px] editors-thin py-4 ">03</span>
+        
+      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">03</span>
+          </div>
 
         
             <TypewriterText>  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
@@ -74,13 +86,19 @@ const TicketButton = () => {
             alt="Pitch Competition"
             className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
           />
-
-          <PitchButton />
+             
+           
+  <PitchButton />
+         
+        
         </div>
 
         {/* SECTION 4 */}
         <div  className="mb-20 flex flex-col items-start ">
-          <span className="text-[16px] editors-thin py-4 ">04</span>
+         
+      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">04</span>
+          </div>
 
 
 
