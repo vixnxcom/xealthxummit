@@ -66,22 +66,22 @@ useEffect(() => {
 
 
   return (
-    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center min-h-[500px]`}>
-      <div className='mx-auto max-w-4xl'>
-        <div className='px-4 mt-10'></div>
+    <div className={`${styles.flexCenter} items-center letter-shade justify-center mx-auto text-center `}>
+      <div className='mx-auto max-w-5xl'>
+        <div className='px-4 '></div>
 
         <div 
           ref={headingRef} 
-          className=' mt-32 text-left mx-3 text-blue-200 flex flex-col leading-tight'
+          className=' mt-10 text-left mx-3 text-purple flex flex-col leading-tight'
         >
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>_. </span> Visibility</h1>
+          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>_. </span> Branding</h1>
+          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Branding</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>_. </span> Recognition</h1>
+          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Recognition</h1>
           <br />
-          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>_. </span> Partnership </h1>
-          <h1 className='text-4xl editors-bold ml-6'>Opportunities</h1>
+          <h1 className='text-4xl editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Partnership</h1>
+          <h1 className='text-4xl editors-bold ml-2'>Opportunities</h1>
         </div>
 
         <p className='textl mt-6 max-w-[470px] mx-5'>

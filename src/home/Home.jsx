@@ -69,7 +69,7 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} bg-blacl`}>
+ <div className={`${styles.flexCenter} bg-white`}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
    <QuoteEvent/>
@@ -77,10 +77,7 @@ const Home = () => {
 </div>
 </div>
 
- <div>
- 
-   <FloatImage />
-</div> 
+
 
 
 
@@ -163,8 +160,11 @@ const Home = () => {
    
      
       
-        <div className='mt-20'>        
+         <div className={` ${styles.paddingX} ${styles.flexStart} bg-white mt-20 `}>
+        <div className={`${styles.boxWidth}  `}>
+               
            < SponsorBg />         
+        </div>
         </div>
         
 

@@ -9,10 +9,10 @@ import Benefits from './Benefits';
 function SponsorBg() {
   return (
     <div>
-      <VideoBackground videoSrc={spbg}>
+    
        <Sponsor />
        <Benefits />
-      </VideoBackground>
+    
       
       {/* Rest of your page content */}
       

@@ -95,15 +95,15 @@ const Sponsor = () => {
   return (
     <div className={`${styles.flexCenter} items-center justify-center mx-auto text-center`}>
       <div className="max-w-5xl">
-        <div className="mb-10 mt-20">
+        <div className=" mt-20">
           <h1
             ref={headingRef}
-            className="editors-bold text-5xl mt-40 tracking-widest text-white text-left leading-tight"
+            className="editors-bold text-5xl font-bold tracking-widest text-blue text-left leading-tight"
           >
             For <br /> Sponsorship
           </h1>
 
-          <p className="text-[28px] text-blue-200 text-start mt-10 editors-reg">
+          <p className="text-[28px] text-blue text-start mt-10 editors-reg">
             Becoming a sponsor of the event is an opportunity that comes with significant benefits.
           </p>
         </div>
