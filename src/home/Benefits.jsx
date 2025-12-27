@@ -72,7 +72,7 @@ useEffect(() => {
 
         <div 
           ref={headingRef} 
-          className=' mt-10 text-left mx-3 text-purple flex flex-col leading-tight'
+          className=' mt-10 text-left  text-blue flex flex-col leading-tight'
         >
           <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
           <br />

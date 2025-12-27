@@ -100,7 +100,7 @@ const Sponsor = () => {
             ref={headingRef}
             className="editors-bold text-5xl font-bold tracking-widest text-blue text-left leading-tight"
           >
-            For <br /> Sponsorship
+            For <br /><span className='text-purple'>Sponsorship</span> 
           </h1>
 
           <p className="text-[28px] text-blue text-start mt-10 editors-reg">
