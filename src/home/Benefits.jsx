@@ -75,16 +75,16 @@ useEffect(() => {
 
         <div 
           ref={headingRef} 
-          className=' mt-10 text-left  text-blue flex flex-col leading-tight'
+          className=' mt-10 text-left  text-white flex flex-col leading-tight'
         >
-          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
+          <h1 className='text-[32px] bg-cyan p-2 editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Visibility</h1>
           <br />
-          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Branding</h1>
+          <h1 className='text-[32px] bg-cyan p-2   editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Branding</h1>
           <br />
-          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Recognition</h1>
+          <h1 className='text-[32px] bg-cyan p-2  editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Recognition</h1>
           <br />
-          <h1 className='text-5xl font-bold editors-bold'><span className='text-[20px] editors-thin py-4 text-white'>. </span> Partnership</h1>
-          <h1 className='text-5xl font-bold editors-bold ml-2'>Opportunities</h1>
+          <h1 className='text-[32px] bg-cyan p-2  editors-bold'><span className='text-[20px] editors-thin mt-4 text-white'>. </span> Partnership</h1>
+          <h1 className='text-[32px] bg-cyan px-2 pb-4  editors-bold '>Opportunities</h1>
         </div>
 
         <p className='textl mt-6 max-w-[470px] mx-5'>
