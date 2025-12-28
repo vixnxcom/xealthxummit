@@ -1394,6 +1394,6 @@ background-size: cover;
 
 
   @media (min-width: 768px) {
-.bg.tech{
- background-image: url(assets/ticket.png);
+.bg-tech{
+ background-image: url(assets/pexels-jibarofoto-2774556.jpg);
 }}
