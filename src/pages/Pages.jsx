@@ -13,12 +13,18 @@ import PayPlat from '../sponsorship/paystack/PayPlat';
 import PaySilver from '../sponsorship/paystack/PaySilver';
 import PaySupport from '../sponsorship/paystack/PaySupport';
 import PayTicket from '../pay/PayTicket';
+import NavTag from '../NavTag';
 
 const Pages = () => {
   return (
     <Router>
-      <div className="w-full top-20">
-        <HamburgerNav />
+      <div className="w-full ">
+  <NavTag />
+       <div className='top-20'>
+ <HamburgerNav />
+       </div>
+       
+       
       </div>
 
       <Routes>

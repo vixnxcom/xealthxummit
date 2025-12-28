@@ -30,11 +30,12 @@ useEffect(() => {
   })
 
   const observer = new IntersectionObserver(
-    ([entry], obs) => {
-      if (!entry.isIntersecting) return
+  ([entry], obs) => {
+    if (!entry.isIntersecting) return
 
-      obs.disconnect() // ✅ run once
+    obs.disconnect() // run once
 
+    gsap.delayedCall(2.5, () => {   // ⏱ delay AFTER entering viewport
       const tl = gsap.timeline({
         defaults: {
           duration: 0.3,
@@ -50,14 +51,16 @@ useEffect(() => {
             y: 0,
             stagger: 0.03,
           },
-          index === 0 ? 0 : "+=0.2" // spacing between headings
+          index === 0 ? 0 : "+=0.2"
         )
       })
-    },
-    {
-      threshold: 1, // 🔥 container fully visible
-    }
-  )
+    })
+  },
+  {
+    threshold: 1,
+  }
+)
+
 
   observer.observe(container)
 

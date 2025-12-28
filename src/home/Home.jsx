@@ -28,6 +28,8 @@ import Video from './Video'
 import StarsBackground from './BackgroundLines'
 import QuoteEvent from './QuoteEvent'
 import FloatImage from '../about/FloatImage'
+import SponsorHead from '../sponsorship/SponsorHead'
+import SponsorsHead from './SponsorsHead'
 
 
 const Home = () => {
@@ -154,7 +156,7 @@ const Home = () => {
       
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
         <div className={`${styles.boxWidth} mt-10 `}>
-               
+               <SponsorsHead />
            < SponsorBg />         
         </div>
         </div>
