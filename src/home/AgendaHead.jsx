@@ -8,7 +8,7 @@ import styles from '../style'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const SponsorsHead = () => {
+const AgendaHead = () => {
   const headingRef1 = useRef(null)
   const paragraphRef1 = useRef(null)
   const headingRef2 = useRef(null)
@@ -54,11 +54,16 @@ const SponsorsHead = () => {
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold  text-5xl tracking-widest text-blue text-left"
+            className="editors-bold text-5xl h-[14vh] tracking-widest text-black text-left"
           >
-        For <br /> <span >Sponsorship</span> 
+ Agenda of the day
           </h1>
-     
+          {/* <p 
+            ref={paragraphRef1} 
+            className="editors-thin text-blue-200 py-4 text-[28px] max-w-[500px] text-left"
+          >
+        
+          </p> */}
         </div>
     
 
@@ -70,4 +75,4 @@ const SponsorsHead = () => {
   )
 }
 
-export default SponsorsHead
+export default AgendaHead

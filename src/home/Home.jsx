@@ -30,6 +30,10 @@ import QuoteEvent from './QuoteEvent'
 import FloatImage from '../about/FloatImage'
 import SponsorHead from '../sponsorship/SponsorHead'
 import SponsorsHead from './SponsorsHead'
+import Agenda from './Agenda'
+import AgendaAwards from './AgendaHead'
+import AgendaAttend from './AgendaHead'
+import AgendaHead from './AgendaHead'
 
 
 const Home = () => {
@@ -136,6 +140,13 @@ const Home = () => {
 
 
 
+      <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
+        <div className={`${styles.boxWidth} mt-10 mb-20`}>
+
+           <AgendaHead />   
+           < Agenda/>         
+        </div>
+        </div>
 
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-tech  `}>
         <div className={`${styles.boxWidth}  `}>
@@ -148,15 +159,15 @@ const Home = () => {
    
 
 
-     
 
 
    
      
-      
+ 
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
         <div className={`${styles.boxWidth} mt-10 `}>
-               <SponsorsHead />
+
+              <SponsorsHead /> 
            < SponsorBg />         
         </div>
         </div>
@@ -185,6 +196,8 @@ const Home = () => {
         </div>
     </Parallax>
 
+      
+
           <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-blue `}>
        <StarsBackground />
                <div className={`${styles.boxWidth} mt-30 `}>
@@ -205,7 +218,8 @@ const Home = () => {
         </div>
 
    
-
+   
+        
     
 
   
