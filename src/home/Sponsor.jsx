@@ -100,7 +100,7 @@ const Sponsor = () => {
            
          
 
-          <p  ref={headingRef} className="text-[28px] text-blue text-start editors-reg">
+          <p  ref={headingRef} className="text-[28px] text-white text-start editors-reg">
             Becoming a sponsor of the event is an opportunity that comes with significant benefits.
           </p>
         </div>

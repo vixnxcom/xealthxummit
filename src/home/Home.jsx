@@ -164,9 +164,9 @@ const Home = () => {
    
      
  
-         <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
-        <div className={`${styles.boxWidth} mt-10 `}>
-
+         <div className={` ${styles.paddingX} ${styles.flexStart}   `}>
+        <div className={`${styles.boxWidth} mt-10 relative`}>
+        <StarsBackground />
               <SponsorsHead /> 
            < SponsorBg />         
         </div>

@@ -57,7 +57,7 @@ const Attendants = () => {
 </div>
 </div> 
 
-  <div className={`${styles.flexCenter}  mt-10 mb-5 `}>
+  <div className={`${styles.flexCenter}  mt-5 `}>
  <div className={`${styles.boxWidth}`}>
 
    <Innov/>

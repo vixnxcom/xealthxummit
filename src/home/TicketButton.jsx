@@ -66,11 +66,35 @@ const TicketButton = () => {
           />
         </div>
 
-        {/* SECTION 3 */}
+      
+
+        {/* SECTION 4 */}
+        <div  className="mb-20 flex flex-col items-start ">
+         
+      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">03</span>
+          </div>
+
+
+
+            <TypewriterText>
+              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+                Networking & Innovation Exhibition
+              </p>
+            </TypewriterText>
+         
+          <img
+            src={heart}
+            alt="Innovation Exhibition"
+            className="w-full max-w-4xl bg-cyan mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
+          />
+        </div>
+
+          {/* SECTION 3 */}
         <div  className="mb-20 flex flex-col items-start ">
         
       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-white">03</span>
+           <span className="text-[16px] editors-thin text-white">04</span>
           </div>
 
         
@@ -91,28 +115,6 @@ const TicketButton = () => {
   <PitchButton />
          
         
-        </div>
-
-        {/* SECTION 4 */}
-        <div  className="mb-20 flex flex-col items-start ">
-         
-      <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-white">04</span>
-          </div>
-
-
-
-            <TypewriterText>
-              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
-                Networking & Innovation Exhibition
-              </p>
-            </TypewriterText>
-         
-          <img
-            src={heart}
-            alt="Innovation Exhibition"
-            className="w-full max-w-4xl bg-cyan mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
-          />
         </div>
 
       </div>

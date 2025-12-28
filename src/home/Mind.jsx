@@ -13,7 +13,7 @@ const Mind = () => {
       <p className='text-[32px] text-blue flex flex-col px-3 mt-5  editors-reg mb-5'>
           
  
-     General Public </p>
+     General <br /> Public </p>
 
   <div class="corners"></div>
     </div>
