@@ -35,7 +35,7 @@ useEffect(() => {
 
     obs.disconnect() // run once
 
-    gsap.delayedCall(2.5, () => {   // ⏱ delay AFTER entering viewport
+    gsap.delayedCall(1.5, () => {   // ⏱ delay AFTER entering viewport
       const tl = gsap.timeline({
         defaults: {
           duration: 0.3,

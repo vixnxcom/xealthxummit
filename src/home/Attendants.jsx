@@ -22,7 +22,7 @@ const Attendants = () => {
       
           </div>
 
-          <div className='md:grid md:grid-cols-2 md:gap-12'>
+          <div className='md:grid lg:grid-cols-2 md:gap-12'>
       
   <div className={`${styles.flexCenter} mt-5 mb-5 `}>
  <div className={`${styles.boxWidth}`}>
