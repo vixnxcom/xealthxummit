@@ -137,21 +137,21 @@ const Hero = () => {
     style={{
       position: 'absolute',
       left: '8%',  // Adjust this value to move text
-      top: '65%',
+      top: '60%',
       transform: 'translateY(-50%)',
       margin: 0,
       padding: 0,
       zIndex: 10
     }} >
-     <p  className='editors-itallic text-white'>
-       “Transforming Healthcare Through Innovation & Technology”
+     <p  className='editors-itallic text-white text-[20px] tracking-widest'>
+       “Transforming Healthcare Through <br /> Innovation & Technology”
     </p>
   </div>
   </div>
 </div>
       
       {/* Floating DNA Elements */}
-      <div className="absolute top-20 md:top-30 lg:top-10 left-4 sm:left-10 z-1  floating-dna-1">
+      <div className="absolute top-12 md:top-30 lg:top-10 left-4 sm:left-10 z-1  floating-dna-1">
   <div className="w-90 h-90  backdrop-blur-md rounded 
               border border-blue-200 overflow-hidden flex items-center justify-center">
     <img 
@@ -163,7 +163,7 @@ const Hero = () => {
 </div>
 
       
-      <div className="absolute  top-130   right-5 md:top-180 lg:top-110 sm:right-8 z-1 floating-dna-2">
+      <div className="absolute  top-120   right-5 md:top-180 lg:top-110 sm:right-8 z-1 floating-dna-2">
         <div className="w-50 h-50  backdrop-blur-2xl  
                      border border-blue-200 flex items-center justify-center">
           <span className=""><img src={globe} alt="" /></span>

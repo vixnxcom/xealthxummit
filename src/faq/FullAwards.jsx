@@ -7,9 +7,13 @@ const FullAwards = () => {
        <div  className='mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto'>
       
           <div className="flex flex-col items-start mb-2 w-full">
-           
+           <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">01.</span>
+          </div>
          <TypewriterText>
+
             <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+              
               HOSPITALS & HEALTH INSTITUTIONS </p>
          </TypewriterText>
          
@@ -25,7 +29,9 @@ const FullAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-           
+           <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">02.</span>
+          </div>
                  <TypewriterText>
                 <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   PHARMACIES & PHARMACEUTICAL INNOVATION
@@ -44,7 +50,9 @@ const FullAwards = () => {
           </div>
         
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-            
+            <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">03.</span>
+          </div>
               <TypewriterText>
                 <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   HEALTH INSURANCE & MANAGED CARE
@@ -61,7 +69,9 @@ const FullAwards = () => {
           </div>
         
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-
+<div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">04.</span>
+          </div>
                <TypewriterText>
                 <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   GOVERNMENT & PUBLIC HEALTH
@@ -78,7 +88,9 @@ const FullAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-
+<div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">05.</span>
+          </div>
               <TypewriterText>
                 <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   TECHNOLOGY PROVIDERS

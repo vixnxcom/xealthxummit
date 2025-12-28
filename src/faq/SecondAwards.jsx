@@ -10,10 +10,12 @@ const SecondAwards = () => {
        
 
 
-          <div className="flex flex-col items-start mb-2 w-full ">
-           
+          <div className="flex flex-col items-start mb-2 w-full mt-10">
+           <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">06.</span>
+          </div>
                <TypewriterText>
-                 <p className="text-[32px] md:text-[40px] text-cyan mt-10 editors-reg">
+                 <p className="text-[32px] md:text-[40px] text-cyan  editors-reg">
                    ACADEMIA & RESEARCH
                  </p>
                </TypewriterText>
@@ -29,7 +31,9 @@ const SecondAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-          
+          <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">07.</span>
+          </div>
                 <TypewriterText>
                   <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                     NGOS & SOCIAL IMPACT
@@ -48,7 +52,9 @@ const SecondAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-        
+        <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">08.</span>
+          </div>
                  <TypewriterText>
                   <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                     CLINICIANS & FRONTLINE INNOVATORS
@@ -66,7 +72,9 @@ const SecondAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-          
+          <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">09.</span>
+          </div>
                  <TypewriterText>
                 <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                   STARTUPS & INNOVATORS
@@ -86,7 +94,9 @@ const SecondAwards = () => {
           </div>
 
           <div className="flex flex-col items-start mb-2 w-full mt-10">
-       
+       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="text-[16px] editors-thin text-white">10.</span>
+          </div>
                   <TypewriterText>
                     <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
                       SPECIAL RECOGNITION

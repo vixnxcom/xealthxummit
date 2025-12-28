@@ -8,7 +8,7 @@ const Life = () => {
       <div className="App">
 <div class=" bg-white text-white mb-5 flex flex-row gap-5">
 
-  <h1 className='text-black mt-4 text-[32px] mx-2'>05.</h1>
+  <h1 className='text-black mt-5 text-[32px] mx-2'>05.</h1>
   <p className='text-[32px]  text-blue mt-5 flex flex-col px-3  editors-reg mb-5'>
          
   
