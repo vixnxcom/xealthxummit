@@ -23,7 +23,7 @@ const SwipeUnit = ({ value }) => {
   return (
     <div
       ref={containerRef}
-      className="text-white text-5xl font-bold min-w-[60px] text-center"
+      className="text-black text-5xl font-bold min-w-[60px] text-center"
     ><span className="p-2 letter-shade">{value}</span>
       
     </div>
@@ -56,27 +56,27 @@ const Countdown = () => {
       <div className="w-full h-[200px] flex justify-center gap-3 items-center">
       
       {/* DAYS */}
-      <div className="flex flex-col items-center border border-pink ">
+      <div className="flex flex-col bg-white items-center  ">
         <SwipeUnit value={timeLeft.days} />
-        <p className="text-white editors-reg p-2 text-xs mt-2 uppercase">Days </p>
+        <p className="text-black editors-reg p-2 text-xs mt-2 uppercase">Days </p>
       </div>
 
       {/* HOURS */}
-      <div className="flex flex-col items-center border border-pink ">
+      <div className="flex flex-col items-center bg-white  ">
         <SwipeUnit value={timeLeft.hrs} />
-        <p className="text-white text-xs editors-reg mt-2 p-2 uppercase">Hours</p>
+        <p className="text-black text-xs editors-reg mt-2 p-2 uppercase">Hours</p>
       </div>
 
       {/* MINUTES */}
-     <div className="flex flex-col items-center border border-pink ">
+     <div className="flex flex-col items-center bg-white  ">
         <SwipeUnit value={timeLeft.mins} />
-        <p className="text-white text-xs mt-2 editrors-reg p-2 uppercase">Minutes</p>
+        <p className="text-black text-xs mt-2 editrors-reg p-2 uppercase">Minutes</p>
       </div>
 
       {/* SECONDS */}
-      <div className="flex flex-col items-center border border-pink">
+      <div className="flex flex-col items-center bg-white ">
         <SwipeUnit value={timeLeft.secs} />
-        <p className="text-white text-xs mt-2 editors-reg p-2 uppercase">Seconds</p>
+        <p className="text-black text-xs mt-2 editors-reg p-2 uppercase">Seconds</p>
       </div>
 
     </div>
