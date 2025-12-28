@@ -1382,7 +1382,7 @@ html {
 }}
 
 .bg-tech{
-background-image: url(assets/tech.jpg);
+background-image: url(assets/tech.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -1391,3 +1391,9 @@ background-size: cover;
 .text-purple{
   color: #7702fc;
 }
+
+
+  @media (min-width: 768px) {
+.bg.tech{
+ background-image: url(assets/ticket.png);
+}}
