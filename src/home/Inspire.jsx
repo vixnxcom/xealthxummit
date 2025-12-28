@@ -5,19 +5,11 @@ import AnimatedCircleInspire from './AnimatedCircleInspire';
 
 const Inspire = () => {
   return (
-       <div className="App">
-<div class="relative bg-black text-white max-w-[470px] corner-card">
-      
-      <AnimatedCircleInspire
-        targetPercentage={100}
-        size="lg"
-        label="Completion"
-        showResetButton={true}
-      />
-  
-  
-  <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
-           <span className='text-[16px] mb-2 editors-thin  text-white'>04.</span>
+      <div className="App">
+<div class=" bg-white text-white mb-5 flex flex-row gap-5">
+
+  <h1 className='text-black text-[32px] mx-2'>04.</h1>
+  <p className='text-5xl  text-blue mt-5 flex flex-col px-3  editors-reg mb-5'>
  
     Startups </p>
 

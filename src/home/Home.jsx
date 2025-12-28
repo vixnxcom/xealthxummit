@@ -133,16 +133,9 @@ const Home = () => {
 
 
 
-  <Parallax strength={1000}  >
-        <Background  style={{width:'100vw'}} className='cellll bg-bg
-        
-        '  >
-         <div className='' />
-     <img src={crowd} alt="" className='w-full h-full object-cover md:object-contain' />   
 
-      </Background>
 
-         <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+         <div className={` ${styles.paddingX} ${styles.flexStart} bg-tech  `}>
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
@@ -152,7 +145,6 @@ const Home = () => {
         </div>
    
 
-     </Parallax> 
 
      
 
@@ -160,8 +152,8 @@ const Home = () => {
    
      
       
-         <div className={` ${styles.paddingX} ${styles.flexStart} bg-white mt-20 `}>
-        <div className={`${styles.boxWidth}  `}>
+         <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
+        <div className={`${styles.boxWidth} mt-10 `}>
                
            < SponsorBg />         
         </div>

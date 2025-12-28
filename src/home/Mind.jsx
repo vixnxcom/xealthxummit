@@ -9,9 +9,9 @@ const Mind = () => {
     <div className="">
 <div class=" bg-white text-white mb-5 flex flex-row gap-5">
 
-   <h1 className='text-black text-4xl mx-2'>01</h1>
-      <p className='text-5xl text-blue flex flex-col px-6  editors-reg mb-5'>
-            <span className='text-[16px] mb-2 editors-thin  text-white'>01.</span>
+   <h1 className='text-black text-4xl mx-2'>01.</h1>
+      <p className='text-5xl text-blue flex flex-col px-6 mt-5  editors-reg mb-5'>
+          
  
      General Public </p>
 
