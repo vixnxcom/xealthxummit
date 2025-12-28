@@ -30,7 +30,7 @@ import sp from './sp.jpg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
 import health from './health.mp4'
-import heart from './heart.jpeg'
+import heart from './heart.png'
 import brn from './brain.jpeg'
 import brain from './brain.mp4'
 

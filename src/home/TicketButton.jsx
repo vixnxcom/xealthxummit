@@ -111,7 +111,7 @@ const TicketButton = () => {
           <img
             src={heart}
             alt="Innovation Exhibition"
-            className="w-full max-w-4xl mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl bg-cyan mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
           />
         </div>
 

@@ -67,7 +67,7 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter} bg-bg `}>
+ <div className={`${styles.flexCenter} bg-cyan `}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
    <Intro/>
