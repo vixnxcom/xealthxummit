@@ -6,16 +6,11 @@ import AnimatedCircleMind from './AnimatedCircleMind';
 
 const Mind = () => {
   return (
-    <div className="App">
-<div class="relative bg-black text-white mb-5  corner-card">
+    <div className="">
+<div class=" bg-white text-white mb-5 flex flex-row gap-5">
 
-      <AnimatedCircleMind
-        targetPercentage={100}
-        size="lg"
-        label="Completion"
-        showResetButton={true}
-      />
-      <p className='text-[32px] text-blue-200 flex flex-col px-6  editors-reg mb-5'>
+   <h1 className='text-black text-4xl mx-2'>01</h1>
+      <p className='text-5xl text-blue flex flex-col px-6  editors-reg mb-5'>
             <span className='text-[16px] mb-2 editors-thin  text-white'>01.</span>
  
      General Public </p>

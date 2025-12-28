@@ -100,7 +100,7 @@ const Home = () => {
           >
            Organisers
           </h1>
- <div className={`${styles.flexCenter} bg-blu h-[160px] mt-7`}>
+ <div className={`${styles.flexCenter} bg-white h-[160px] mt-7`}>
  <div className={`${styles.boxWidth}  `}>
     
 
