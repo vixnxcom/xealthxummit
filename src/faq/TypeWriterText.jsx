@@ -8,7 +8,7 @@ const TypeWriterText = ({ children }) => {
     const el = ref.current;
 
     gsap.set(el, {
-      x: 30,
+      y: 80,
       opacity: 0,
     });
 
@@ -16,7 +16,7 @@ const TypeWriterText = ({ children }) => {
       ([entry]) => {
         if (entry.isIntersecting) {
           gsap.to(el, {
-            x: 0,
+            y: 0,
             opacity: 1,
             duration: 1.3,
             ease: "power3.out",
@@ -24,7 +24,7 @@ const TypeWriterText = ({ children }) => {
           observer.unobserve(el);
         }
       },
-      { threshold: 0.25 }
+      { threshold: 0.35 }
     );
 
     observer.observe(el);

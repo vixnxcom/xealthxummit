@@ -58,7 +58,7 @@ const Benefits = () => {
           </h1>
           <TypeWriterText>
          <p className='text-[32px]  editors-bold'>
-      Partnership Oppurtunities
+      Partnership Opportunities
           </p>
           </TypeWriterText>
            

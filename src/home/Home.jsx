@@ -99,7 +99,7 @@ const Home = () => {
 </div>
 </div>
 
-   <div className=' max-w-5xl bg-bg  mx-auto w-full mt-10 md:bg-black'>
+   <div className=' max-w-5xl bg-bg  mx-auto w-full mt-20 md:bg-black'>
       <h1 
         
    className="editors-bold px-4 text-5xl   tracking-widest text-white text-left"
