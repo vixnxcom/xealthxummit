@@ -9,7 +9,7 @@ const StarsBackground = () => {
 
     function createStar() {
       const star = document.createElement("div");
-      star.className = "star bg-cyan rounded-full absolute";
+      star.className = "star bg-cyann rounded-full absolute";
       
       // Random size (1–3px)
       const size = Math.random() * 2 + 1;
