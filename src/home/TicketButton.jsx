@@ -25,7 +25,7 @@ const TicketButton = () => {
 
        
             <TypewriterText>
-              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+              <p className="text-[24px] md:text-[40px] text-blue-200 mt-2 editors-reg">
                 HealthTech Innovation Summit
               </p>
             </TypewriterText>
@@ -52,7 +52,7 @@ const TicketButton = () => {
 
        
             <TypewriterText> 
-               <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+               <p className="text-[24px] md:text-[40px] text-blue-200 mt-2 editors-reg">
                 National HealthTech Excellence Awards
               </p></TypewriterText>
             
@@ -78,7 +78,7 @@ const TicketButton = () => {
 
 
             <TypewriterText>
-              <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+              <p className="text-[24px] md:text-[40px] text-blue-200 mt-2 editors-reg">
                 Networking & Innovation Exhibition
               </p>
             </TypewriterText>
@@ -98,7 +98,7 @@ const TicketButton = () => {
           </div>
 
         
-            <TypewriterText>  <p className="text-[32px] md:text-[40px] text-blue-200 mt-2 editors-reg">
+            <TypewriterText>  <p className="text-[24px] md:text-[40px] text-blue-200 mt-2 editors-reg">
                 Startup Pitch Finals
               </p></TypewriterText>
             

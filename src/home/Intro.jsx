@@ -138,7 +138,7 @@ const Intro = () => {
           </h1>
           <p 
             ref={paragraphRef1} 
-            className="editors-thin text-white py-4 text-[28px] max-w-[500px] text-left"
+            className="editors-thin text-white py-4 text-[24px] max-w-[500px] text-left"
           >
             June 2026
           </p>
@@ -154,7 +154,7 @@ const Intro = () => {
           </h1>
           <p 
             ref={paragraphRef2} 
-            className="editors-thin text-white py-4 mb-5 text-[28px] max-w-[500px] text-left"
+            className="editors-thin text-white py-4 mb-5 text-[24px] max-w-[500px] text-left"
           >
             Lagos - Nigeria
           </p>
