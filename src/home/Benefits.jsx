@@ -19,7 +19,7 @@ const Benefits = () => {
         >
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-2"><img src={check} alt="" /></span>
+           <span className="p-3"><img src={check} alt="" /></span>
           </h1>
           <TypeWriterText>
          <p className='text-[24px]  editors-bold'>
@@ -32,7 +32,7 @@ const Benefits = () => {
           <br />
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-2"><img src={check} alt="" /></span>
+           <span className="p-3"><img src={check} alt="" /></span>
           </h1>
          <TypeWriterText>
          <p className='text-[24px]  editors-bold'>
@@ -44,7 +44,7 @@ const Benefits = () => {
           <br />
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-2"><img src={check} alt="" /></span>
+           <span className="p-3"><img src={check} alt="" /></span>
           </h1>
          <TypeWriterText>
          <p className='text-[24px]  editors-bold'>
@@ -56,7 +56,7 @@ const Benefits = () => {
           <br />
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-2"><img src={check} alt="" /></span>
+           <span className="p-3"><img src={check} alt="" /></span>
           </h1>
           <TypeWriterText>
          <p className='text-[24px] mb-10  editors-bold'>

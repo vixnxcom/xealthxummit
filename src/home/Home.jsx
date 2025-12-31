@@ -34,6 +34,7 @@ import Agenda from './Agenda'
 import AgendaAwards from './AgendaHead'
 import AgendaAttend from './AgendaHead'
 import AgendaHead from './AgendaHead'
+import OrganiseHead from './OrganiseHead'
 
 
 const Home = () => {
@@ -99,13 +100,15 @@ const Home = () => {
 </div>
 </div>
 
-   <div className=' max-w-5xl bg-bg  mx-auto w-full mt-20 md:bg-black'>
-      <h1 
-        
-   className="editors-bold px-4 text-[32px]   tracking-widest text-white text-left"
-          >
-           Organisers
-          </h1>
+   
+ <div className={`${styles.flexCenter}  mt-7`}>
+ <div className={`${styles.boxWidth}  `}>
+    
+
+   <OrganiseHead />
+    
+</div>
+</div>
  <div className={`${styles.flexCenter} bg-white h-[160px] mt-7`}>
  <div className={`${styles.boxWidth}  `}>
     
@@ -114,7 +117,7 @@ const Home = () => {
     
 </div>
 </div>
-</div>
+
 
   <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black mt-40'  >
