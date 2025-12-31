@@ -123,7 +123,7 @@ const Hero = () => {
     }}
   >
     <h1 className='text-4xl editors-bold font-bold text-cyan letter-shade '>
-     HealthTech Frontiers<span className='editors-itallic'> 2026</span>
+     HealthTech <br /> Frontiers<span className='editors-itallic'> 2026</span>
     </h1>
     
     <p  className='editors-itallic text-white'>

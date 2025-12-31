@@ -4,7 +4,7 @@ import PlatButton from './paystack/PlatButton'
 
 const Platinum = () => {
   return (
-    <div className="App ">
+    <div className="App border border-[#3e01cc] p-4">
       <div className="relative bg-black text-white mx-auto  corner-cardd flex flex-col items-center justify-center text-center">
         
         <p className="text-[24px] text-blue-200 editors-reg">

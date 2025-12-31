@@ -35,7 +35,7 @@ const TicketButton = () => {
           <img
             src={ticket}
             alt="Ticket"
-            className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform border border-1 border-white"
           />
       
      
@@ -62,7 +62,7 @@ const TicketButton = () => {
           <img
             src={award}
             alt="Award"
-            className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform border border-1 border-white"
           />
         </div>
 
@@ -86,7 +86,7 @@ const TicketButton = () => {
           <img
             src={heart}
             alt="Innovation Exhibition"
-            className="w-full max-w-4xl bg-cyan mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl bg-cyan mt-5 mb-8 md:mx-auto hover:scale-105 transition-transform border border-1 border-white"
           />
         </div>
 
@@ -108,7 +108,7 @@ const TicketButton = () => {
           <img
             src={pitch}
             alt="Pitch Competition"
-            className="w-full max-w-4xl mb-10 mt-5 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl mb-10 border border-1 border-white mt-5 md:mx-auto hover:scale-105 transition-transform"
           />
              
            
