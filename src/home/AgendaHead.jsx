@@ -54,9 +54,9 @@ const AgendaHead = () => {
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold text-5xl h-[14vh] tracking-widest text-black text-left"
+            className="editors-bold text-[32px] h-[14vh] tracking-widest text-black text-left"
           >
- Agenda of the day
+ Agenda of the <br /> Day
           </h1>
           {/* <p 
             ref={paragraphRef1} 

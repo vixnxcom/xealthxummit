@@ -7,17 +7,16 @@ const Platinum = () => {
     <div className="App ">
       <div className="relative bg-black text-white mx-auto  corner-cardd flex flex-col items-center justify-center text-center">
         
-        <p className="text-[28px] text-blue-200 editors-reg">
+        <p className="text-[24px] text-blue-200 editors-reg">
           PLATINUM PARTNER
         </p>
-
-        <TypewriterText
-          text="5,000,000 +"
-          className="text-[28px] md:text-[40px] mb-2 px-2 text-white mt-2 editors-reg"
-        />
-           <div>
+ <TypewriterText>
+          <p className="text-[24px] md:text-[40px] mb-2 px-2 text-white mt-5
+           editors-reg">5,000,000 +</p>
+        </TypewriterText>
+           {/* <div>
             <PlatButton />
-           </div>
+           </div> */}
         <div className="corners"></div>
       </div>
     </div>

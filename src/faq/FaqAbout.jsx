@@ -27,7 +27,7 @@ const FaqAbout = () => {
       .to(
         imageRef.current,
         {
-          scale: 1.15,
+          scale: 1.30,
           duration: 3,
           ease: "power3.out",
           transformOrigin: "50% 50%",

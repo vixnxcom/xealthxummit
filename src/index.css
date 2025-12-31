@@ -1046,10 +1046,18 @@ background-image: linear-gradient(
 
 }
 .bg-space{
-  background-image: url(assets/robot.png);
+  background-image: url(assets/men.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.bg-trophy{
+  background-image: url(assets/award.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 
 }
 .bg-grade{

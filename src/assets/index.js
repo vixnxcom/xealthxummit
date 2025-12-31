@@ -6,23 +6,27 @@ import med from './medical.png'
 import globe from './globe.png'
 import scope from './scope.png'
 import arrow from './arrow.png'
+import arrw from './arrw.png'
 import session from './session.png'
 import lead from './lead.png'
 import mind from './mind.png'
 import bulb from './bulb.png'
 import life from './life.png'
 import time from './time.png'
+import check from './check.png'
 import doc from './doc.jpg'
 import intro from './doc.jpeg'
 import ahmed from './ahmed.jpg'
-import pitch from './pitch.jpg'
+import pitch from './doc.jpeg'
 import award from './awards.jpg'
 
 import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
 import ticket from './ticket.png'
 import image from './image.png'
+import awards from './award.png'
 import man from './man.png'
+import men from './men.jpg'
 import innovative from './brain.jpeg'
 import govt from './govt.png'
 import invest from './invest.png'
@@ -30,13 +34,13 @@ import sp from './sp.jpg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
 import health from './health.mp4'
-import heart from './heart.png'
+import heart from './hert.jpg'
 import brn from './brain.jpeg'
 import brain from './brain.mp4'
 
 
 
-export { dna,steth, redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg,
+export { dna,steth, awards, redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
+     innovative, spbg, arrw, check, men,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };

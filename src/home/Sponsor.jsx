@@ -93,19 +93,20 @@ const Sponsor = () => {
   }, [])
 
   return (
-    <div className={`${styles.flexCenter} items-center justify-center mx-auto text-center`}>
-      <div className="max-w-5xl">
+   <section className="w-full   mt-5">
+      <div className="max-w-5xl mx-auto ">
         <div className="mb-10 ">
      
            
          
 
-          <p  ref={headingRef} className="text-[28px] text-white text-start editors-reg">
+          <p  ref={headingRef} className="text-[16px] text-white tracking-widest text-start editors-reg">
             Becoming a sponsor of the event is an opportunity that comes with significant benefits.
           </p>
         </div>
       </div>
-    </div>
+    </section>
+ 
   )
 }
 

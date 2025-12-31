@@ -3,24 +3,26 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import styles from '../style'
 import TypeWriterText from '../faq/TypeWriterText'
+import { check } from '../assets'
 
 const Benefits = () => {
 
   return (
-    <div className={`${styles.flexCenter} bg-cyan items-center letter-shade justify-center mx-auto text-center `}>
-      <div className='mx-auto max-w-5xl  px-4 '>
-        <div className='px-4 '></div>
+    // <div className={` bg-cyan w-full letter-shade justify-center  `}>
+    //   <div className=' max-w-5xl p-4'>
+    <div className="w-full bg-cyan  mt-5">
+      <div className="max-w-5xl mx-auto p-4 ">
 
         <div 
          
-          className=' mt-10 text-left  text-white flex flex-col leading-tight'
+          className=' mt-10 text-left  text-white flex flex-col '
         >
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-blue">01.</span>
+           <span className="p-2"><img src={check} alt="" /></span>
           </h1>
           <TypeWriterText>
-         <p className='text-[32px]  editors-bold'>
+         <p className='text-[24px]  editors-bold'>
           Visibility
           </p>
           </TypeWriterText>
@@ -29,11 +31,11 @@ const Benefits = () => {
             </div>
           <br />
           <div >
-             <h1 className="bg-white rounded-full mt-5 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-blue">02.</span>
+             <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
+           <span className="p-2"><img src={check} alt="" /></span>
           </h1>
          <TypeWriterText>
-         <p className='text-[32px]  editors-bold'>
+         <p className='text-[24px]  editors-bold'>
          Branding
           </p>
           </TypeWriterText>
@@ -42,10 +44,10 @@ const Benefits = () => {
           <br />
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-blue">03.</span>
+           <span className="p-2"><img src={check} alt="" /></span>
           </h1>
          <TypeWriterText>
-         <p className='text-[32px]  editors-bold'>
+         <p className='text-[24px]  editors-bold'>
          Recognition
           </p>
           </TypeWriterText>
@@ -54,11 +56,11 @@ const Benefits = () => {
           <br />
           <div >
              <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="text-[16px] editors-thin text-blue">04.</span>
+           <span className="p-2"><img src={check} alt="" /></span>
           </h1>
           <TypeWriterText>
-         <p className='text-[32px] mb-10  editors-bold'>
-      Partnership Opportunities
+         <p className='text-[24px] mb-10  editors-bold'>
+      Partnership <br /> Opportunities
           </p>
           </TypeWriterText>
            

@@ -6,20 +6,25 @@ import SecondAwards from './SecondAwards'
 import { Background, Parallax } from 'react-parallax'
 import Quote from '../services/Quote'
 import styles from '../style'
-import { doc, man } from '../assets'
+import { awards, doc, man } from '../assets'
 import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
 
 const Awards = () => {
   return (
     <div className=' '>
-        <HeadAwards />
+     {/* <div className='w-[30vw]'>
+      <img src={awards} alt="" />
+     </div> */}
+ <HeadAwards />
+     
+       
       <FullAwards />
 
 
     <BookParallaxFloatImage />
       <SecondAwards />
-      <NominateButton />
+      {/* <NominateButton /> */}
     </div>
   )
 }

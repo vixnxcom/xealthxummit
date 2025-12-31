@@ -48,13 +48,13 @@ const SponsorsHead = () => {
   }, [])
 
   return (
-    <section className="w-full   mt-5">
+    <section className="w-full   mt-10">
       <div className="max-w-5xl mx-auto ">
         {/* DATE Section - Left Aligned */}
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold  text-5xl tracking-widest text-white text-left"
+            className="editors-bold  text-[32px] tracking-widest text-white text-left"
           >
         For <br /> <span >Sponsorship</span> 
           </h1>

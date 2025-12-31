@@ -16,7 +16,7 @@ const TicketButton = () => {
       <div className=" max-w-5xl mx-auto z-10 px-4">
 
         {/* SECTION 1 */}
-        <div  className="mb-20 flex flex-col items-start ">
+        <div  className="mb-10 flex flex-col items-start ">
 
       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
            <span className="text-[16px] editors-thin text-white">01</span>
@@ -38,13 +38,13 @@ const TicketButton = () => {
             className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
           />
       
-        <Button />
+     
    
          
         </div>
 
         {/* SECTION 2 */}
-        <div  className="mb-20 flex flex-col items-start ">
+        <div  className="mb-10 flex flex-col items-start ">
          
       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
            <span className="text-[16px] editors-thin text-white">02</span>
@@ -69,7 +69,7 @@ const TicketButton = () => {
       
 
         {/* SECTION 4 */}
-        <div  className="mb-20 flex flex-col items-start ">
+        <div  className="mb-10 flex flex-col items-start ">
          
       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
            <span className="text-[16px] editors-thin text-white">03</span>
@@ -91,7 +91,7 @@ const TicketButton = () => {
         </div>
 
           {/* SECTION 3 */}
-        <div  className="mb-20 flex flex-col items-start ">
+        <div  className="mb-10 flex flex-col items-start ">
         
       <div className="bg-letters rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
            <span className="text-[16px] editors-thin text-white">04</span>
@@ -108,11 +108,12 @@ const TicketButton = () => {
           <img
             src={pitch}
             alt="Pitch Competition"
-            className="w-full max-w-4xl mb-8 mt-5 md:mx-auto hover:scale-105 transition-transform"
+            className="w-full max-w-4xl mb-10 mt-5 md:mx-auto hover:scale-105 transition-transform"
           />
              
            
-  <PitchButton />
+  {/* <PitchButton /> */}
+     <Button />
          
         
         </div>

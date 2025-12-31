@@ -2,8 +2,11 @@ import React from 'react'
 
 const Agenda = () => {
   return (
-    <div className='flex flex-col '>
-        <div className='max-w-5xl'>
+    // <div className='flex flex-col '>
+    //     <div className='max-w-5xl'>
+<div className="w-full flex flex-col  mt-5">
+      <div className="max-w-5xl mx-auto ">
+
 
       <div className='mb-5 bg-cyan p-4 text-white'>
         <h1 className='text-[16px]  editors-reg'>08:00 am – 09:00 am</h1>

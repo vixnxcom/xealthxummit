@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrow, scope } from './assets'
+import { arrow, arrw, scope } from './assets'
 
 const NavTag = () => {
   return (
@@ -21,7 +21,7 @@ const NavTag = () => {
             <li>Buy</li>
             <li>Tickets</li>
         </ul>
-        <img src={arrow} alt="" className='w-7 h-7 mt-2 mr-2'/>
+        <img src={arrw} alt="" className='w-7 h-7 mt-2 mr-2'/>
        </div>
       </div>
       </div>

@@ -41,10 +41,11 @@ const MovingText = () => {
   }, []);
 
   return (
-    <div className="text-white editors-bold ">
-   
+    <div className="text-white w-full editors-bold ">
+
+    
       {/* LINE 1 */}
-      <div className="flex flex-col  text-blue-200 text-5xl leading-none">
+      <div className="flex flex-col max-w-5xl mx-auto text-blue-200 text-[32px] leading-none">
         <span>Let’s&nbsp;</span>
 
         <span
@@ -59,8 +60,8 @@ const MovingText = () => {
       </div>
 
       {/* LINE 2 */}
-      <div className="text-5xl mt-3 text-blue-200 leading-none">
-        together
+      <div className="text-[32px] mt-3 max-w-5xl mx-auto text-blue-200 leading-none">
+        Together
       </div>
     </div>
   );

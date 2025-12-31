@@ -12,7 +12,7 @@ const FullAwards = () => {
           </div>
          <TypewriterText>
 
-            <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+            <p className="text-[24px] text-cyan mt-2 editors-reg">
               
               HOSPITALS & HEALTH INSTITUTIONS </p>
          </TypewriterText>
@@ -33,7 +33,7 @@ const FullAwards = () => {
            <span className="text-[16px] editors-thin text-white">02.</span>
           </div>
                  <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                <p className="text-[24px] text-cyan mt-2 editors-reg">
                   PHARMACIES & PHARMACEUTICAL INNOVATION
                 </p>
                  </TypewriterText>
@@ -54,7 +54,7 @@ const FullAwards = () => {
            <span className="text-[16px] editors-thin text-white">03.</span>
           </div>
               <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                <p className="text-[24px] text-cyan mt-2 editors-reg">
                   HEALTH INSURANCE & MANAGED CARE
                 </p>
               </TypewriterText>
@@ -73,7 +73,7 @@ const FullAwards = () => {
            <span className="text-[16px] editors-thin text-white">04.</span>
           </div>
                <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                <p className="text-[24px] text-cyan mt-2 editors-reg">
                   GOVERNMENT & PUBLIC HEALTH
                 </p>
               </TypewriterText>
@@ -92,7 +92,7 @@ const FullAwards = () => {
            <span className="text-[16px] editors-thin text-white">05.</span>
           </div>
               <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                <p className="text-[24px]  text-cyan mt-2 editors-reg">
                   TECHNOLOGY PROVIDERS
                 </p>
               </TypewriterText>

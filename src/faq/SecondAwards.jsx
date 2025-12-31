@@ -15,7 +15,7 @@ const SecondAwards = () => {
            <span className="text-[16px] editors-thin text-white">06.</span>
           </div>
                <TypewriterText>
-                 <p className="text-[32px] md:text-[40px] text-cyan  editors-reg">
+                 <p className="text-[24px] text-cyan  editors-reg">
                    ACADEMIA & RESEARCH
                  </p>
                </TypewriterText>
@@ -35,7 +35,7 @@ const SecondAwards = () => {
            <span className="text-[16px] editors-thin text-white">07.</span>
           </div>
                 <TypewriterText>
-                  <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                  <p className="text-[24px] text-cyan mt-2 editors-reg">
                     NGOS & SOCIAL IMPACT
                   </p>
                 </TypewriterText>
@@ -56,7 +56,7 @@ const SecondAwards = () => {
            <span className="text-[16px] editors-thin text-white">08.</span>
           </div>
                  <TypewriterText>
-                  <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                  <p className="text-[24px] text-cyan mt-2 editors-reg">
                     CLINICIANS & FRONTLINE INNOVATORS
                   </p>
                  </TypewriterText>
@@ -76,7 +76,7 @@ const SecondAwards = () => {
            <span className="text-[16px] editors-thin text-white">09.</span>
           </div>
                  <TypewriterText>
-                <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                <p className="text-[24px] text-cyan mt-2 editors-reg">
                   STARTUPS & INNOVATORS
                 </p>
                  </TypewriterText>
@@ -98,7 +98,7 @@ const SecondAwards = () => {
            <span className="text-[16px] editors-thin text-white">10.</span>
           </div>
                   <TypewriterText>
-                    <p className="text-[32px] md:text-[40px] text-cyan mt-2 editors-reg">
+                    <p className="text-[24px] text-cyan mt-2 editors-reg">
                       SPECIAL RECOGNITION
                     </p>
                   </TypewriterText>
