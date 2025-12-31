@@ -6,7 +6,7 @@ import SecondAwards from './SecondAwards'
 import { Background, Parallax } from 'react-parallax'
 import Quote from '../services/Quote'
 import styles from '../style'
-import { awards, doc, man } from '../assets'
+import {  doc, man } from '../assets'
 import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
 

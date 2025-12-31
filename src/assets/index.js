@@ -24,7 +24,7 @@ import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
 import ticket from './ticket.png'
 import image from './image.png'
-import awards from './award.png'
+
 import man from './man.png'
 import men from './men.jpg'
 import innovative from './brain.jpeg'
@@ -40,7 +40,7 @@ import brain from './brain.mp4'
 
 
 
-export { dna,steth, awards, redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
+export { dna,steth,  redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };

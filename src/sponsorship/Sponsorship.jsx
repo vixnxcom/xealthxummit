@@ -20,10 +20,15 @@ const Sponsorship = () => {
     <div className='w-full bg-blue'>
 
       <div className={`${styles.flexCenter} h-[50vh] md:h-[100vh] bg-space`}>
-        <div className={`${styles.boxWidth}`}>
+       
+      </div>
+
+
+       <div className={`${styles.flexCenter} mt-10 `}>
+       <div className={`${styles.boxWidth}`}>
           <SponsorHead />
         </div>
-      </div>
+        </div>
 
       <div className='w-full'>
         <div className={`${styles.flexCenter} mt-10 w-[90vw] mx-auto`}>
