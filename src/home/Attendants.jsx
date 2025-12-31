@@ -14,9 +14,9 @@ import HeadAttend from './HeadAttend'
 const Attendants = () => {
 
   return (
-    <section className=" text-white max-w-5xl md:mx-auto mt-10 ">
+    <section className=" text-white max-w-5xl md:mx-auto ">
   
-      <div className="flex flex-col items-start mb-20">
+      <div className="flex flex-col items-start mb-5">
         
           <HeadAttend />
       
