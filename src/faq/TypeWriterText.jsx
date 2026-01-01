@@ -2,38 +2,48 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
 const TypeWriterText = ({ children }) => {
-  const ref = useRef(null);
+  const containerRef = useRef(null);
+  const textRef = useRef(null);
 
   useEffect(() => {
-    const el = ref.current;
+    const text = textRef.current;
+    const container = containerRef.current;
 
-    gsap.set(el, {
-      y: 80,
+    gsap.set(text, {
+      y: 80,        // subtle offset
       opacity: 0,
     });
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          gsap.to(el, {
+          gsap.to(text, {
             y: 0,
             opacity: 1,
-            duration: 1.3,
-            ease: "power3.out",
+            duration: 1,
+            ease: "power2.out",
           });
-          observer.unobserve(el);
+          observer.unobserve(container);
         }
       },
       { threshold: 0.35 }
     );
 
-    observer.observe(el);
+    observer.observe(container);
     return () => observer.disconnect();
   }, []);
 
   return (
-    <div ref={ref} className="will-change-transform">
-      {children}
+    <div
+      ref={containerRef}
+      className="overflow-hidden"
+    >
+      <div
+        ref={textRef}
+        className="will-change-transform"
+      >
+        {children}
+      </div>
     </div>
   );
 };

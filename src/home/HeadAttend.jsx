@@ -8,7 +8,7 @@ import styles from '../style'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const HeadAttend = () => {
+const AttendHead = () => {
   const headingRef1 = useRef(null)
   const paragraphRef1 = useRef(null)
   const headingRef2 = useRef(null)
@@ -48,29 +48,17 @@ const HeadAttend = () => {
   }, [])
 
   return (
-    <section className="w-full   mt-5">
+    <section className="w-full   mt-10">
       <div className="max-w-5xl mx-auto ">
         {/* DATE Section - Left Aligned */}
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold text-[32px] tracking-widest text-white text-left"
+            className="editors-bold  text-[32px] tracking-widest text-white text-left"
           >
- <h1
-  ref={headingRef1}
-  className="editors-bold text-[32px] tracking-widest text-white text-left overflow-hidden"
->
-  <span className="block">Who Should</span>
-  <span className="block">Attend</span>
-</h1>
-
+        Who Should <br /> <span >Attend</span> 
           </h1>
-          {/* <p 
-            ref={paragraphRef1} 
-            className="editors-thin text-blue-200 py-4 text-[28px] max-w-[500px] text-left"
-          >
-        
-          </p> */}
+     
         </div>
     
 
@@ -82,4 +70,4 @@ const HeadAttend = () => {
   )
 }
 
-export default HeadAttend
+export default AttendHead

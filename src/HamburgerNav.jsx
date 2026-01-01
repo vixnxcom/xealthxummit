@@ -44,8 +44,8 @@ const HamburgerNav = () => {
   };
 
   // Primary and secondary menu items
-  const primaryMenu = ['Home', 'Awards', 'Services'];
-  const secondaryMenu = ['Team', 'Events', 'Contact'];
+  const primaryMenu = ['Home', 'Awards', ];
+  const secondaryMenu = ['Team',  'Contact'];
 
   return (
     <div className="relative overflow-hidden" onKeyDown={handleKeyDown}>
@@ -78,7 +78,7 @@ const HamburgerNav = () => {
       >
         {/* Heading */}
         <div className="menu-item w-full text-left pt-10 pb-20">
-          <h1 className="text-5xl editors-bold text-cyan letter-shade">
+          <h1 className="text-4xl editors-bold text-cyan letter-shade">
             HealthTech
             <span className="editors-itallic mt-1 text-3xl">
               <br /> Frontiers 2026
