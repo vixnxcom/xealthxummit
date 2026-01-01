@@ -77,7 +77,7 @@ const Home = () => {
 </div>
 
  <div className={`${styles.flexCenter} bg-white`}>
- <div className={`${styles.boxWidth} mt-2 mb-10`}>
+ <div className={`${styles.boxWidth} mt-2 `}>
 
    <QuoteEvent/>
   
@@ -91,8 +91,9 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter}  mt-20 `}>
- <div className={`${styles.boxWidth}  `}>
+ <div className={`${styles.flexCenter}   bg-blue `}>
+ <div className={`${styles.boxWidth}  relative`}>
+   <StarsBackground />
    <EventHead />
    <TicketButton />
 

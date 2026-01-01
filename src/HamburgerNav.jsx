@@ -45,7 +45,7 @@ const HamburgerNav = () => {
 
   // Primary and secondary menu items
   const primaryMenu = ['Home', 'Awards', ];
-  const secondaryMenu = ['Team',  'Contact'];
+  const secondaryMenu = ['Sponsorship',  'Contact'];
 
   return (
     <div className="relative overflow-hidden" onKeyDown={handleKeyDown}>
@@ -115,7 +115,7 @@ const HamburgerNav = () => {
           </div>
 
           {/* Vertical Border */}
-          <div className="w-[1px] h-2/3 flex items-center border-l border-gray-900 ml-10 mr-12" />
+          <div className="w-[1px] h-2/3 flex items-center border-l border-gray-900 ml-5 mr-12" />
 
           {/* Secondary Menu */}
           <div className="w-1/2 h-2/3 flex flex-col justify-center gap-8">

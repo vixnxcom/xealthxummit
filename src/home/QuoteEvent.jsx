@@ -50,7 +50,7 @@ const QuoteEvent = () => {
 
   return (
     <div className={`${styles.flexCenter} items-center justify-center mx-auto`}>
-      <div className="mx-auto max-w-4xl px-4 mt-10">
+      <div className="mx-auto max-w-4xl px-4 mb-15 mt-10">
         <h1
           ref={headingRef}
           className="editors-bold font-bold text-4xl text-left mx-3 text-blue leading-tight"

@@ -4,7 +4,7 @@ import TypeWriterText from '../faq/TypeWriterText';
 
 const Innov = () => {
    return (
-      <div className="App mb-20">
+      <div className="App mb-10">
         <TypeWriterText >
 <div class=" bg-white text-white mb-5 flex flex-row gap-5">
 
