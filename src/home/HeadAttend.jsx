@@ -54,7 +54,7 @@ const HeadAttend = () => {
         style={{ top: '15vh' }}
       />
 
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto ">
         <div className="flex flex-col items-start mb-10">
           <h1
             ref={headingRef}
