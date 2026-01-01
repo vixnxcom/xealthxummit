@@ -10,76 +10,63 @@ const TicketButton = () => {
   
 
   return (
-    <section className="] text-white overflow-hidden">
+    <section className="mb-20 text-white overflow-hidden">
      
 
       <div className=" max-w-5xl mx-auto mt-5 z-10 px-4">
 
         {/* SECTION 1 */}
 
+  <TypewriterText>
+     <div className="mb-10 flex flex-col md:items-center rounded-[24px] bg-black border border-gray-200 shadow-lg">
+  <div className="flex flex-row gap-5">
+    <TypewriterText>
+      <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
+    One Day Healthtech Summit
+      </p>
+    </TypewriterText>
+  </div>
 
-        <div  className="mb-10 flex flex-col items-start bg-white">
 
-     <div className=" mb-5 flex flex-row gap-5">
-   <div className="mx-1 mt-2 mb-4 h-12 w-12 shrink-0 rounded-full bg-cyan flex items-center justify-center">
-  <span className="text-[16px] editors-thin text-white">01</span>
+    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+      <img
+        src={ticket}
+        alt="Ticket"
+        className="w-full h-full object-cover hover:scale-105 transition-transform"
+      />
+    </div>
+ 
 </div>
-
-
-
-       
-            <TypewriterText>
-              <p className="text-[24px] md:text-[40px] text-blue mt-2 px-1 editors-reg">
-                HealthTech Innovation Summit
-              </p>
-            </TypewriterText>
-          </div>    
-            <TypewriterText>
-       <div className="px-15 ">
-          <img
-            src={ticket}
-            alt="Ticket"
-            className="w-full ml-4  mb-8 mt-5  md:mx-auto hover:scale-105 transition-transform "
-          />
-      </div>
-         </TypewriterText>     
-        </div>
+ </TypewriterText>
 
         {/* SECTION 2 */}
       
                 
           {/* SECTION 1 */}
 
+        {/* SECTION 1 */}
 
-        <div  className="mb-10 flex flex-col items-start bg-white">
+  <TypewriterText>
+     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+  <div className="flex flex-row gap-5">
+    <TypewriterText>
+      <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
+      National HealthTech Excellence Awards
+      </p>
+    </TypewriterText>
+  </div>
 
-     <div className=" mb-5 flex flex-row gap-5">
-   <div className="mx-1 mt-2 mb-4 h-12 w-12 shrink-0 rounded-full bg-cyan flex items-center justify-center">
-  <span className="text-[16px] editors-thin text-white">02</span>
+
+    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+      <img
+        src={award}
+        alt="Ticket"
+        className="w-full h-full object-cover hover:scale-105 transition-transform"
+      />
+    </div>
+ 
 </div>
-
-
-
-       
-            <TypewriterText>
-              <p className="text-[24px] md:text-[40px] text-blue mt-2 px-1 editors-reg">
-               National HealthTech Excellence Awards
-              </p>
-            </TypewriterText>
-          </div>    
-            <TypewriterText>
-       <div className="px-15 ">
-          <img
-            src={award}
-            alt="Ticket"
-            className="w-full ml-4  mb-8 mt-5  md:mx-auto hover:scale-105 transition-transform "
-          />
-      </div>
-         </TypewriterText>     
-        </div>
-
-            
-          
+ </TypewriterText>
         
 
          
@@ -87,77 +74,54 @@ const TicketButton = () => {
 
         {/* SECTION 4 */}
       
-               
-            
-         
-       <div  className="mb-10 flex flex-col items-start bg-white">
+  <TypewriterText>
+     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+  <div className="flex flex-row gap-5">
+    <TypewriterText>
+      <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
+        Networking & Innovative Exhibition
+      </p>
+    </TypewriterText>
+  </div>
 
-     <div className=" mb-5 flex flex-row gap-5">
-   <div className="mx-1 mt-2 mb-4 h-12 w-12 shrink-0 rounded-full bg-cyan flex items-center justify-center">
-  <span className="text-[16px] editors-thin text-white">03</span>
+
+    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+      <img
+        src={heart}
+        alt="Ticket"
+        className="w-full h-full object-cover hover:scale-105 transition-transform"
+      />
+    </div>
+ 
 </div>
-
-
-
-       
-            <TypewriterText>
-              <p className="text-[24px] md:text-[40px] text-blue mt-2 px-1 editors-reg">
-               Networking & Innovation Exhibition
-              </p>
-            </TypewriterText>
-          </div>    
-            <TypewriterText>
-       <div className="px-15 ">
-          <img
-            src={heart}
-            alt="Ticket"
-            className="w-full ml-4  mb-8 mt-5  md:mx-auto hover:scale-105 transition-transform "
-          />
-      </div>
-         </TypewriterText>     
-      
-
-            
-          
-        
-</div>
-          
+ </TypewriterText>
        
         {/* SECTION 4 */}
       
                
             
          
-       <div  className="mb-10 flex flex-col items-start bg-white">
+      <TypewriterText>
+     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+  <div className="flex flex-row gap-5">
+    <TypewriterText>
+      <p className="text-[24px] md:text-[40px] w-[280px] px-4 py-8 text-left text-white editors-reg">
+       StartUp Pitch Finals
+      </p>
+    </TypewriterText>
+  </div>
 
-     <div className=" mb-5 flex flex-row gap-5">
-   <div className="mx-1 mt-2 mb-4 h-12 w-12 shrink-0 rounded-full bg-cyan flex items-center justify-center">
-  <span className="text-[16px] editors-thin text-white">04</span>
+
+    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+      <img
+        src={pitch}
+        alt="Ticket"
+        className="w-full h-full object-cover hover:scale-105 transition-transform"
+      />
+    </div>
+ 
 </div>
-
-
-
-       
-            <TypewriterText>
-              <p className="text-[24px] w-[160px] md:text-[40px] text-blue mt-2 px-1 editors-reg">
-           Start-Up Pitch Finals
-              </p>
-            </TypewriterText>
-          </div>    
-            <TypewriterText>
-       <div className="px-15 ">
-          <img
-            src={pitch}
-            alt="Ticket"
-            className="w-full ml-4  mb-10 mt-5  md:mx-auto hover:scale-105 transition-transform "
-          />
-      </div>
-         </TypewriterText>     
-      
-
-            
-      
-        </div>
+ </TypewriterText>
            
   {/* <PitchButton /> */}
      <Button />

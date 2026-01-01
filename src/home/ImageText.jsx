@@ -55,7 +55,7 @@ const MovingText = () => {
             display: "inline-block",
           }}
         >
-        <span ref={wordRef} className="inline-block mt-3 text-purple font-bold letter-shade" />
+        <span ref={wordRef} className="inline-block mt-3 text-cyan font-bold letter-shade" />
         </span>
       </div>
 

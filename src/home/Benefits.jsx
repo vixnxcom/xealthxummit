@@ -3,70 +3,85 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import styles from '../style'
 import TypeWriterText from '../faq/TypeWriterText'
-import { check } from '../assets'
+import { check, eye, glas, shake, star } from '../assets'
 
 const Benefits = () => {
 
   return (
     // <div className={` bg-cyan w-full letter-shade justify-center  `}>
     //   <div className=' max-w-5xl p-4'>
-    <div className="w-full bg-cyan  mt-5">
-      <div className="max-w-5xl mx-auto p-4 ">
+    <div className="w-full   mt-5">
+      <div className="max-w-5xl mx-auto  ">
 
         <div 
          
-          className=' mt-10 text-left  text-white flex flex-col '
+          className=' mt-10 mb-10 text-left   text-white flex flex-col '
         >
-          <div >
-             <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-3"><img src={check} alt="" /></span>
-          </h1>
-          <TypeWriterText>
-         <p className='text-[24px]  editors-bold'>
-          Visibility
-          </p>
-          </TypeWriterText>
-         
-           
-            </div>
-          <br />
-          <div >
-             <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-3"><img src={check} alt="" /></span>
-          </h1>
-         <TypeWriterText>
-         <p className='text-[24px]  editors-bold'>
-         Branding
-          </p>
-          </TypeWriterText>
-           
-            </div>
-          <br />
-          <div >
-             <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-3"><img src={check} alt="" /></span>
-          </h1>
-         <TypeWriterText>
-         <p className='text-[24px]  editors-bold'>
-         Recognition
-          </p>
-          </TypeWriterText>
-           
-            </div>
-          <br />
-          <div >
-             <h1 className="bg-white rounded-full mt-2 mb-4 h-12 w-12 flex items-center justify-center">
-           <span className="p-3"><img src={check} alt="" /></span>
-          </h1>
-          <TypeWriterText>
-         <p className='text-[24px] mb-10  editors-bold'>
-      Partnership <br /> Opportunities
-          </p>
-          </TypeWriterText>
-           
-            </div>
-       
-        </div>
+   <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-5">
+  <div className="">
+    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
+      <span className="p-3">
+        <img src={eye} alt="" />
+      </span>
+    </div>
+    <TypeWriterText>
+      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
+        Visibility
+      </p>
+    </TypeWriterText>
+  </div>
+</div>
+
+
+
+   
+     <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+  <div className="">
+    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
+      <span className="p-3">
+        <img src={star} alt="" />
+      </span>
+    </div>
+    <TypeWriterText>
+      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
+       Branding
+      </p>
+    </TypeWriterText>
+  </div>
+</div>
+
+    <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+  <div className="">
+    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
+      <span className="p-3">
+        <img src={glas} alt="" />
+      </span>
+    </div>
+    <TypeWriterText>
+      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
+       Recognition
+      </p>
+    </TypeWriterText>
+  </div>
+</div>
+
+
+        <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+  <div className="">
+    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
+      <span className="p-3">
+        <img src={shake} alt="" />
+      </span>
+    </div>
+    <TypeWriterText>
+      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
+      Partnership Opportunities
+      </p>
+    </TypeWriterText>
+  </div>
+</div>
+</div>
+
 
       
       </div>

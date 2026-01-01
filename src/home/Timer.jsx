@@ -23,8 +23,8 @@ const SwipeUnit = ({ value }) => {
   return (
     <div
       ref={containerRef}
-      className="text-blue
-       text-5xl font-bold min-w-[60px] text-center"
+      className="text-white
+       editors-bold  text-4xl min-w-[60px] text-center"
     ><span className="p-2 letter-shade">{value}</span>
       
     </div>
@@ -54,30 +54,30 @@ const Countdown = () => {
   }, []);
 
   return (
-      <div className="w-full h-[200px] flex justify-center gap-3 items-center">
+      <div className="w-full h-[200px] flex justify-center gap-3 items-center border border-b-gray-200">
       
       {/* DAYS */}
-      <div className="flex flex-col bg-white items-center  ">
+      <div className="flex flex-col  items-center  ">
         <SwipeUnit value={timeLeft.days} />
-        <p className="text-blue editors-reg p-2 text-xs mt-2 uppercase">Days </p>
+        <p className="text-white editors-reg p-2 text-xs mt-2 uppercase">Days </p>
       </div>
 
       {/* HOURS */}
-      <div className="flex flex-col items-center bg-white  ">
+      <div className="flex flex-col items-center   ">
         <SwipeUnit value={timeLeft.hrs} />
-        <p className="text-blue text-xs editors-reg mt-2 p-2 uppercase">Hours</p>
+        <p className="text-white text-xs editors-reg mt-2 p-2 uppercase">Hours</p>
       </div>
 
       {/* MINUTES */}
-     <div className="flex flex-col items-center bg-white  ">
+     <div className="flex flex-col items-center   ">
         <SwipeUnit value={timeLeft.mins} />
-        <p className="text-blue text-xs mt-2 editrors-reg p-2 uppercase">Minutes</p>
+        <p className="text-white text-xs mt-2 editrors-reg p-2 uppercase">Minutes</p>
       </div>
 
       {/* SECONDS */}
-      <div className="flex flex-col items-center bg-white ">
+      <div className="flex flex-col items-center  ">
         <SwipeUnit value={timeLeft.secs} />
-        <p className="text-blue text-xs mt-2 editors-reg p-2 uppercase">Seconds</p>
+        <p className="text-white text-xs mt-2 editors-reg p-2 uppercase">Seconds</p>
       </div>
 
     </div>

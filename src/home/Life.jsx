@@ -1,25 +1,26 @@
 import React from 'react';
 
 import AnimatedCircleLife from './AnimatedCircleLife';
-import TypeWriterText from '../faq/TypeWriterText';
 
 
 const Life = () => {
   return (
       <div className="App">
-        <TypeWriterText >
-<div class=" bg-white text-white mb-5 flex flex-row gap-5">
-
-   <h1 className='text-black mt-2 text-[16px] mx-2'>05.</h1>
-  <p className='text-[24px] mt-1  text-blue  flex flex-col px-3  editors-reg mb-5'>
-         
+<div class="relative  text-white mb-5 bg-tech   max-w-[470px] corner-card">
+      
+      <AnimatedCircleLife
+        targetPercentage={100}
+        size="lg"
+        label="Completion"
+        showResetButton={true}
+      />
   
-   Investors </p>
-   </div>
-</TypeWriterText>
-  <div class="corners"></div>
-
-
+ </div>
+  <div class="corners">
+     <p className='text-[20px] text-white  flex flex-col   editors-reg '>
+            <span className='text-[16px] editors-reg py-4 text-white'>05.</span>
+    Investors </p>
+  </div>
 
     </div>
   );

@@ -1,23 +1,27 @@
 import React from 'react';
 
 import AnimatedCircleInspire from './AnimatedCircleInspire';
-import TypeWriterText from '../faq/TypeWriterText';
 
 
 const Inspire = () => {
   return (
-      <div className="App">
-        <TypeWriterText>
-<div class=" bg-white text-white mb-5 flex flex-row gap-5">
-
-   <h1 className='text-black mt-2 text-[16px] mx-2'>04.</h1>
-  <p className='text-[24px] mt-1  text-blue  flex flex-col px-3  editors-reg mb-5'>
-
-    Startups </p>
-</div>
-</TypeWriterText>
-  <div class="corners"></div>
-
+       <div className="App">
+<div class="relative  text-white mb-5 bg-tech   max-w-[470px] corner-card">
+      
+      <AnimatedCircleInspire
+        targetPercentage={100}
+        size="lg"
+        label="Completion"
+        showResetButton={true}
+      />
+  
+  
+  </div>
+  <div class="corners">
+     <p className='text-[20px] text-white  flex flex-col   editors-reg '>
+            <span className='text-[16px] editors-thin py-4 text-white'>04.</span>
+Start-Ups </p>
+  </div>
 
 
     </div>

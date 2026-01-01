@@ -1,26 +1,30 @@
 import React from 'react';
 
 import AnimatedCircleLead from './AnimatedCircleLead';
-import TypeWriterText from '../faq/TypeWriterText';
 
 
 const Career = () => {
   return (
-     <div className="App">
-      <TypeWriterText>
-<div class=" bg-white text-white mb-5 flex flex-row gap-5">
+    <div className="App">
+<div class="relative  text-white mb-5 bg-tech   max-w-[470px] corner-card">
+      
+      <AnimatedCircleLead
+        targetPercentage={100}
+        size="lg"
+        label="Completion"
+        showResetButton={true}
+      />
+  
+  </div>
+   <p className='text-[20px] text-white flex flex-col   editors-reg '>
+            <span className='text-[16px] editors-reg py-4 text-white'>02.</span>
+    Health professionals </p>
 
-    <h1 className='text-black mt-2 text-[16px] mx-2'>02.</h1>
-  <p className='text-[24px] mt-1  text-blue  flex flex-col px-3  editors-reg mb-5'>
-
-    Health <br /> professionals </p>
-</div>
-</TypeWriterText>
   <div class="corners"></div>
+</div>
 
 
-
-    </div>
+    
   );
 }
 

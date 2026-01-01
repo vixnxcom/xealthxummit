@@ -1,23 +1,26 @@
 import React from 'react'
 import AnimatedCircleInov from './AnimatedCircleInov';
-import TypeWriterText from '../faq/TypeWriterText';
 
 const Innov = () => {
    return (
-      <div className="App mb-10">
-        <TypeWriterText >
-<div class=" bg-white text-white mb-5 flex flex-row gap-5">
+        <div className="App">
+<div class="relative  text-white mb-5 bg-tech    max-w-[470px] corner-card">
+      
+      <AnimatedCircleInov
+        targetPercentage={100}
+        size="lg"
+        label="Completion"
+        showResetButton={true}
+      />
+  
+  </div>
+ <div class="corners">
+     <p className='text-[20px] text-white  flex flex-col   editors-reg '>
+            <span className='text-[16px] editors-reg py-4 text-white'>06.</span>
+    Innovators </p>
+  </div>
 
-  <h1 className='text-black mt-2 text-[16px] mx-2'>06.</h1>
-  <p className='text-[24px] mt-1  text-blue  flex flex-col px-3  editors-reg mb-5'>
-
-   Innovators </p>
-</div>
-</TypeWriterText>
-  <div class="corners"></div>
-
-
-
+   
     </div>
   );
 }

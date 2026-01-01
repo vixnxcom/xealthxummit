@@ -129,8 +129,8 @@ const AnimatedCircleInov = ({
               <defs>
                 <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#a3b8ff" />
-                  <stop offset="50%" stopColor="#8b5cf6" />
-                  <stop offset="100%" stopColor="#a3b8ff" />
+                  <stop offset="50%" stopColor="#fff" />
+                  <stop offset="100%" stopColor="#fff" />
                 </linearGradient>
               </defs>
             </svg>

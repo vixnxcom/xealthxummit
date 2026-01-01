@@ -58,7 +58,7 @@ const HeadAttend = () => {
         <div className="flex flex-col items-start mb-10">
           <h1
             ref={headingRef}
-            className="editors-bold text-[32px] tracking-widest w-[200px] text-white text-left"
+            className="editors-bold text-[32px] tracking-widest w-[280px] text-white text-left"
           >
        Who Should Attend
           </h1>

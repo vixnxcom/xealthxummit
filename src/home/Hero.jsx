@@ -122,8 +122,8 @@ const Hero = () => {
       zIndex: 10
     }}
   >
-    <h1 className='text-4xl editors-bold font-bold text-cyan letter-shade '>
-     HealthTech <br /> Frontiers<span className='editors-itallic'> 2026</span>
+    <h1 className='text-4xl editors-bold font-bold text-cyan  letter-shade '>
+     HEALTHTECH <br /> FRONTIERS<span className='editors-itallic'> 2026</span>
     </h1>
     
     <p  className='editors-itallic text-white'>
@@ -143,8 +143,8 @@ const Hero = () => {
       padding: 0,
       zIndex: 10
     }} >
-     <p  className='editors-itallic text-white text-[20px] tracking-widest'>
-       “Transforming Healthcare Through <br /> Innovation & Technology”
+     <p  className='editors-reg text-white letter-shade text-[24px] tracking-widest'>
+       Transforming Healthcare Through Innovation & Technology
     </p>
   </div>
   </div>

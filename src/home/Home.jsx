@@ -50,7 +50,7 @@ const Home = () => {
      }, [])
 
   return (
- <div className=' w-full overflow-hidden bg-bg '>
+ <div className=' w-full overflow-hidden  bg-black '>
 
  <div className={`${styles.flexCenter} bg-gold h-[100vh]`}>
  <div className={`${styles.boxWidth}`}>
@@ -59,12 +59,7 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mx-auto bg-bg`}>
- <div className={`${styles.boxWidth}`}>
 
-   <Countdown/>
-</div>
-</div>
 
 
 
@@ -76,7 +71,14 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} bg-white`}>
+ <div className={`${styles.flexCenter} mx-auto bg-bg`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Countdown/>
+</div>
+</div>
+
+ <div className={`${styles.flexCenter} bg-blue`}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
    <QuoteEvent/>
@@ -91,9 +93,9 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter}   bg-blue `}>
- <div className={`${styles.boxWidth}  relative`}>
-   <StarsBackground />
+ <div className={`${styles.flexCenter}   bg-white `}>
+ <div className={`${styles.boxWidth}  `}>
+  
    <EventHead />
    <TicketButton />
 
@@ -102,15 +104,15 @@ const Home = () => {
 </div>
 
    
- <div className={`${styles.flexCenter}  mt-20`}>
- <div className={`${styles.boxWidth}  `}>
+ <div className={`${styles.flexCenter} bg-white  `}>
+ <div className={`${styles.boxWidth} mt-20 `}>
     
 
    <OrganiseHead />
     
 </div>
 </div>
- <div className={`${styles.flexCenter} bg-white h-[160px] mt-10`}>
+ <div className={`${styles.flexCenter}  h-[160px] mt-10`}>
  <div className={`${styles.boxWidth}  `}>
     
 
@@ -121,7 +123,7 @@ const Home = () => {
 
 
   <Parallax strength={900}  height={600}>
-        <Background  style={{width:'100vw'}} className='celll bg-black mt-40'  >
+        <Background  style={{width:'100vw'}} className='celll bg-black '  >
          <img src={man} alt="" className='w-[95vw] h-full object-contain' />
   
         
@@ -130,13 +132,10 @@ const Home = () => {
 
        
 
-    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
-        <div className={`${styles.boxWidth}  `}>
          
            < Quote />
           
-        </div>
-        </div>
+      
      
 
      </Parallax>
@@ -152,7 +151,7 @@ const Home = () => {
         </div>
         </div>
 
-         <div className={` ${styles.paddingX} ${styles.flexStart} bg-tech  mt-10`}>
+         <div className={` ${styles.paddingX} ${styles.flexStart} bg-attend   mt-10`}>
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
@@ -168,7 +167,7 @@ const Home = () => {
    
      
  
-         <div className={` ${styles.paddingX} ${styles.flexStart}   `}>
+         <div className={` ${styles.paddingX} ${styles.flexStart} mt-10  bg-white`}>
         <div className={`${styles.boxWidth} mt-10 relative`}>
         <StarsBackground />
               <SponsorsHead /> 

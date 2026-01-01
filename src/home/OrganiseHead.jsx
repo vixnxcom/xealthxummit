@@ -46,7 +46,7 @@ const OrganiseHead = () => {
   }, [])
 
   return (
-    <section className="w-full mt-5 relative">
+    <section className="w-full mt-5 mb-10 relative">
       {/* 🔴 85% viewport trigger line */}
       <div
         ref={triggerRef}
@@ -55,10 +55,10 @@ const OrganiseHead = () => {
       />
 
       <div className="max-w-5xl mx-auto px-4">
-        <div className="flex flex-col items-start mb-10">
+        <div className="flex flex-col items-start ">
           <h1
             ref={headingRef}
-            className="editors-bold text-[32px] tracking-widest text-white text-left"
+            className="editors-bold text-[32px] tracking-widest text-blue text-left"
           >
           Organisers
           </h1>

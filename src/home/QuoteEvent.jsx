@@ -53,10 +53,10 @@ const QuoteEvent = () => {
       <div className="mx-auto max-w-4xl px-4 mb-15 mt-10">
         <h1
           ref={headingRef}
-          className="editors-bold font-bold text-4xl text-left mx-3 text-blue leading-tight"
+          className="editors-bold  text-4xl text-left mx-3 text-white leading-tight"
         >
-          OneDay <span className="text-purple">HealthTech</span> 
-          Innovation Summit, Startup Pitch Finals & National <span className="text-purple">HealthTech</span> Excellence Awards.
+          OneDay <span className="text-cyan">HealthTech</span> 
+          Innovation Summit, Startup Pitch Finals & National <span className="text-cyan">HealthTech</span> Excellence Awards.
         </h1>
       </div>
     </div>

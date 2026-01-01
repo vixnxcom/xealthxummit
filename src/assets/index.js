@@ -18,11 +18,11 @@ import doc from './doc.jpg'
 import intro from './doc.jpeg'
 import ahmed from './ahmed.jpg'
 import pitch from './doc.jpeg'
-import award from './awards.jpg'
+import award from './awards.jpeg'
 
 import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
-import ticket from './ticket.png'
+import ticket from './ticket.jpeg'
 import image from './image.png'
 
 import man from './man.png'
@@ -33,14 +33,18 @@ import invest from './invest.png'
 import sp from './sp.jpg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
+import eye from './eye.png'
+import glas from './glas.png'
+import shake from './shake.png'
+import star from './star.png'
 import health from './health.mp4'
-import heart from './hert.jpg'
+import heart from './hert.jpeg'
 import brn from './brain.jpeg'
 import brain from './brain.mp4'
 
 
 
 export { dna,steth,  redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };
