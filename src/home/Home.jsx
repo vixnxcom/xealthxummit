@@ -122,7 +122,7 @@ const Home = () => {
 
   <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black mt-40'  >
-         <img src={man} alt="" className='w-[100vw] h-full object-contain' />
+         <img src={man} alt="" className='w-[95vw] h-full object-contain' />
   
         
 
