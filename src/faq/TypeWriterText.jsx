@@ -20,13 +20,13 @@ const TypeWriterText = ({ children }) => {
           gsap.to(text, {
             y: 0,
             opacity: 1,
-            duration: 1,
+            duration: 1.5,
             ease: "power2.out",
           });
           observer.unobserve(container);
         }
       },
-      { threshold: 0.35 }
+      { threshold: 0.40 }
     );
 
     observer.observe(container);
