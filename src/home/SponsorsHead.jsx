@@ -3,6 +3,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 import styles from '../style'
+import { globe } from '../assets'
 
 
 
@@ -59,6 +60,10 @@ const SponsorsHead = () => {
         For <br /> <span >Sponsorship</span> 
           </h1>
      
+        </div>
+
+        <div>
+          <img src={globe} alt="" />
         </div>
     
 

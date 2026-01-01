@@ -1296,13 +1296,13 @@ html {
 .bg-tech{
 background: #000;
 background-repeat: no-repeat;
-background-position: center;
+background-position: 40%;
 background-size: cover;
 }
 .bg-attend{
 background-image: url(assets/attend.jpeg);
 background-repeat: no-repeat;
-background-position: center;
+background-position: 10%;
 background-size: cover;
 }
 
@@ -1318,4 +1318,21 @@ background-size: cover;
 
 .text-cyan{
   color: #87a3ff;
+}
+
+.bg-lady{
+  background-image: url(assets//lady.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.bg-llady{
+  background-image: url(assets/ppl.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+
+.border-cyan{
+  border: 1px solid #87a3ff;
 }

@@ -14,14 +14,14 @@ const NavTag = () => {
      
        </div> */}
 
-       <div className='  '>
+       <div className=' bg-white rounded-r-full  m-4 '>
         <div className='flex flex-row p-1 '>
       
-        <ul className='text-[18px] editors-reg  tracking-widest mx-2 text-cyan'>
+        <ul className='text-[18px] editors-bold  tracking-widest mx-2 text-blue'>
             <li>Buy</li>
             <li>Tickets</li>
         </ul>
-        <img src={arrw} alt="" className='w-5 h-5 mt-2 mr-2'/>
+        <img src={arrow} alt="" className='w-5 h-5 mt-2 mr-2'/>
        </div>
       </div>
       </div>

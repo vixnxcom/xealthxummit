@@ -13,7 +13,7 @@ import Countdown from './Timer'
 import TicketButton from './TicketButton'
 import Quote from '../services/Quote'
 import { Background, Parallax } from 'react-parallax'
-import { brain, crowd, dna, doc,   health,   man, sponsor, steth, vr } from '../assets'
+import { brain, crowd, dna, doc,   health,   man, sp, sponsor, steth, vr } from '../assets'
 import BookParallaxFloatImage from '../about/IntroImage'
 import Organisers from './Organisers'
 import Attendants from './Attendants'
@@ -35,6 +35,8 @@ import AgendaAwards from './AgendaHead'
 import AgendaAttend from './AgendaHead'
 import AgendaHead from './AgendaHead'
 import OrganiseHead from './OrganiseHead'
+import SecondHero from './SecondHero'
+import SecondIntro from './SecondIntro'
 
 
 const Home = () => {
@@ -50,9 +52,11 @@ const Home = () => {
      }, [])
 
   return (
- <div className=' w-full overflow-hidden  bg-black '>
+ <div className=' w-full overflow-hidden bg-black  '>
 
- <div className={`${styles.flexCenter} bg-gold h-[100vh]`}>
+
+
+ <div className={`${styles.flexCenter} bg-lady h-[100vh]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Hero/>
@@ -60,9 +64,24 @@ const Home = () => {
 </div>
 
 
+ {/* <div className={`${styles.flexCenter} bg-llady `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <SecondHero/>
+</div>
+</div> */}
 
 
 
+
+
+ <div className={`${styles.flexCenter} bg-black mt-20`}>
+ <div className={`${styles.boxWidth} `}>
+
+   <SecondIntro />
+  
+</div>
+</div>
  <div className={`${styles.flexCenter} bg-cyan `}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
@@ -146,7 +165,10 @@ const Home = () => {
       <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
         <div className={`${styles.boxWidth} mt-10 mb-10`}>
 
-           <AgendaHead />   
+           <AgendaHead /> 
+           <div>
+            <img src={sp} alt="" />
+            </div>  
            < Agenda/>         
         </div>
         </div>
@@ -203,7 +225,7 @@ const Home = () => {
 
           <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-blue `}>
        <StarsBackground />
-               <div className={`${styles.boxWidth} mt-30 `}>
+               <div className={`${styles.boxWidth} mt-20 `}>
          
           <MovingText />
 

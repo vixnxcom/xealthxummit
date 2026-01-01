@@ -126,35 +126,35 @@ const Intro = () => {
   }, [])
 
   return (
-    <section className="w-full  mt-5">
+    <section className="w-full   mt-5">
       <div className="max-w-5xl mx-auto px-4">
         {/* DATE Section - Left Aligned */}
-        <div className="flex flex-col items-start mb-10">
+        {/* <div className="flex flex-col items-start mb-10 ">
           <h1 
             ref={headingRef1} 
-            className="editors-bold text-[32px] tracking-widest text-white text-left"
+            className="editors-bold text-[32px] tracking-widest text-blue text-left"
           >
             Date
           </h1>
           <p 
             ref={paragraphRef1} 
-            className="editors-thin text-white py-4 text-[24px] max-w-[500px] text-left"
+            className="editors-thin text-blue py-4 text-[24px] max-w-[500px] text-left"
           >
             June 2026
           </p>
-        </div>
+        </div> */}
         
         {/* LOCATION Section - Left Aligned */}
         <div className="flex flex-col items-start ">
           <h1 
             ref={headingRef2} 
-            className="editors-bold text-[32px] tracking-widest text-white text-left"
+            className="editors-bold text-[32px] tracking-widest text-blue text-left"
           >
             Location
           </h1>
           <p 
             ref={paragraphRef2} 
-            className="editors-thin text-white py-4 mb-5 text-[24px] max-w-[500px] text-left"
+            className="editors-thin text-blue py-4 mb-5 text-[24px] max-w-[500px] text-left"
           >
             Lagos - Nigeria
           </p>

@@ -3,7 +3,7 @@ import steth from './steth.png'
 import redd from './redd.png'
 import crowd from './crowd.png'
 import med from './medical.png'
-import globe from './globe.png'
+import globe from './globe.jpeg'
 import scope from './scope.png'
 import arrow from './arrow.png'
 import arrw from './arrw.png'
@@ -40,11 +40,12 @@ import star from './star.png'
 import health from './health.mp4'
 import heart from './hert.jpeg'
 import brn from './brain.jpeg'
+import dude from './heart.jpeg'
 import brain from './brain.mp4'
 
 
 
 export { dna,steth,  redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };
