@@ -14,6 +14,7 @@ import PaySilver from '../sponsorship/paystack/PaySilver';
 import PaySupport from '../sponsorship/paystack/PaySupport';
 import PayTicket from '../pay/PayTicket';
 import NavTag from '../NavTag';
+import Speaker from '../home/Speaker';
 
 const Pages = () => {
   return (
@@ -39,6 +40,7 @@ const Pages = () => {
         <Route exact path="/paysilver" element={<PaySilver />} />
         <Route exact path="/paysupport" element={<PaySupport />} />
         <Route exact path="/ticket" element={<PayTicket />} />
+        <Route exact path="/speakers" element={<Speaker />} />
       </Routes>
 
 
