@@ -24,13 +24,13 @@ const Gold = () => {
         <ul className="w-full bg-white text-black flex flex-col h-[220px]  text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
             <li className="py-1 tracking-widest flex text-left gap-2 mt-5">
-             <span><img src={right} alt="" className='w-12 h-12' /></span>
+             <span><img src={right} alt="" className='w-10 h-10' /></span>
               Panel participation.
             </li>
           </TypewriterText>
           <TypewriterText>
             <li className="py-1 tracking-widest mt-5 flex text-left gap-2">
-             <span><img src={right} alt="" className='w-12 h-12' /></span>
+             <span><img src={right} alt="" className='w-10 h-10' /></span>
              Exhibition presence.
             </li>
           </TypewriterText>

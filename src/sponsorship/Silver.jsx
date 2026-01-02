@@ -25,7 +25,7 @@ const Silver = () => {
          text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
             <li className="py-1  w-full tracking-widest flex text-left  mt-5 gap-2">
-             <span><img src={right} alt="" className='w-12 h-12' /></span>
+             <span><img src={right} alt="" className='w-10 h-10' /></span>
             Startup Pitch involvement.
             </li>
        
