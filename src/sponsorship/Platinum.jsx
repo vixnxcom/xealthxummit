@@ -11,7 +11,7 @@ const Platinum = () => {
        flex-col items-center justify-center text-center w-full max-w-md">
        
 
-        <p className="text-[24px] text-white editors-bold mt-20">
+        <p className="text-[24px] text-white editors-bold mt-10">
           Platinum Partner
         </p>
 
@@ -21,9 +21,9 @@ const Platinum = () => {
           </p>
         </TypewriterText>
 
-        <ul className="w-full bg-white text-black flex flex-col  text-[20px] editors-reg m-0 p-4 list-none">
+        <ul className="w-full bg-white text-black flex flex-col h-[220px] text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
-            <li className="py-1 tracking-widest flex items-center gap-2">
+            <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
             <span><img src={right} alt="" className='w-12 h-12' /></span>
              Keynote visibility.
             </li>

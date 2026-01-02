@@ -11,19 +11,19 @@ const Support = () => {
        flex-col items-center justify-center text-center w-full max-w-md">
        
 
-        <p className="text-[24px] text-white editors-bold mt-20">
+        <p className="text-[24px] text-white editors-bold mt-10">
         Awards Partner
         </p>
 
         <TypewriterText>
-          <p className="text-[20px] md:text-[30px] mb-5 px-2 text-white mt-5  editors-bold">
+          <p className="text-[20px] md:text-[30px] mb-10 px-2 text-white mt-5  editors-bold">
             300,000 – 500,000
           </p>
         </TypewriterText>
 
-        <ul className="w-full bg-white text-black flex flex-col text-[20px] editors-reg m-0 p-4 list-none">
+        <ul className="w-full bg-white text-black flex flex-col h-[220px] text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
-            <li className="py-1 tracking-widest flex items-center gap-2">
+            <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
              <span><img src={right} alt="" className='w-12 h-12' /></span>
              Category sponsorship
             </li>

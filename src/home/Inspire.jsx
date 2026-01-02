@@ -7,16 +7,16 @@ import TypeWriterText from '../faq/TypeWriterText';
 const Inspire = () => {
   return (
 
-   <div className="App border border-white bg-cyan rounded-[16px] h-[400px] md:h-[600px]">
-<div class="relative  text-white mb-5 bg-tech   max-w-[470px] corner-card">
+      <div className="App border border-blue-400 bg-cyan rounded-[16px] shadow-lg h-[480px] md:h-[600px]">
+<div class="relative  text-white mb-5 bg-innov h-[240px]   max-w-[470px] corner-card">
 
-      <AnimatedCircleInspire
+      {/* <AnimatedCircleInspire
         targetPercentage={100}
         size="lg"
         label="Completion"
         showResetButton={true}
       />
-     
+      */}
  </div>
   <div class="corners">
     <TypeWriterText>

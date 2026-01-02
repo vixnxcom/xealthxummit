@@ -12,7 +12,7 @@ import BookParallaxFloatImage from '../about/IntroImage'
 
 const Awards = () => {
   return (
-    <div className=' '>
+    <div className=' mb-20'>
      {/* <div className='w-[30vw]'>
       <img src={awards} alt="" />
      </div> */}

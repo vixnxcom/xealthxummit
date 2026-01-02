@@ -13,7 +13,10 @@ const Faq = () => {
     <div className="w-full bg-bg overflow-hidden">
 
       {/* FULL WIDTH SECTION — NO CONTAINER */}
-      <FaqAbout />
+     
+ <FaqAbout />
+     
+     
 
       {/* BOXED CONTENT BELOW */}
       <div className={`${styles.flexCenter}  mt-10`}>

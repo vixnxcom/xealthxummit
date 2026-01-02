@@ -4,9 +4,9 @@ import TypewriterText from './TypeWriterText'
 const FullAwards = () => {
   return (
     <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
-
+<div className='md:grid lg:grid-cols-2 md:gap-12'>
       {/* 01 */}
-      <div className="bg-white">
+      <div className="bg-white h-[400px]">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">01.</span>
@@ -36,7 +36,7 @@ const FullAwards = () => {
       </div>
 
       {/* 02 */}
-      <div className="bg-white mt-10">
+      <div className="bg-white h-[400px] mt-10 md:mt-0">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">02.</span>
@@ -66,7 +66,7 @@ const FullAwards = () => {
       </div>
 
       {/* 03 */}
-      <div className="bg-white mt-10">
+     <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">03.</span>
@@ -96,7 +96,7 @@ const FullAwards = () => {
       </div>
 
       {/* 04 */}
-      <div className="bg-white mt-10">
+      <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">04.</span>
@@ -126,7 +126,7 @@ const FullAwards = () => {
       </div>
 
       {/* 05 */}
-      <div className="bg-white mt-10">
+      <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">05.</span>
@@ -154,7 +154,7 @@ const FullAwards = () => {
           </li>
         </ul>
       </div>
-
+</div>
     </div>
   )
 }

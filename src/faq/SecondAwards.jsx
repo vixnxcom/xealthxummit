@@ -4,9 +4,9 @@ import TypewriterText from './TypeWriterText'
 const SecondAwards = () => {
   return (
     <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
-
+<div className='md:grid lg:grid-cols-2 md:gap-12'>
       {/* 06 */}
-      <div className="bg-white mt-10">
+    <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">06.</span>
@@ -36,7 +36,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 07 */}
-      <div className="bg-white mt-10">
+     <div className="bg-white h-[400px] mt-10 m">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">07.</span>
@@ -62,7 +62,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 08 */}
-      <div className="bg-white mt-10">
+      <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">08.</span>
@@ -88,7 +88,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 09 */}
-      <div className="bg-white mt-10">
+   <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">09.</span>
@@ -118,7 +118,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 10 */}
-      <div className="bg-white w-full mt-10">
+   <div className="bg-white h-[400px] w-full mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
           <div className="mt-2 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">10.</span>
@@ -143,6 +143,7 @@ const SecondAwards = () => {
         </ul>
       </div>
 
+    </div>
     </div>
   )
 }

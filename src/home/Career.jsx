@@ -7,7 +7,7 @@ import TypeWriterText from '../faq/TypeWriterText';
 const Career = () => {
   return (
     <div className="App">
-<div class="relative  text-white mb-5 bg-tech   max-w-[470px] corner-card">
+<div class="relative  text-white mb-5 bg-invest   max-w-[470px] corner-card">
       
       <AnimatedCircleLead
         targetPercentage={100}

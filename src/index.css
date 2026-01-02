@@ -1314,7 +1314,29 @@ html {
 }}
 
 .bg-tech{
-background: #000;
+background: url(assets/heart.jpeg);
+background-repeat: no-repeat;
+background-position: 40%;
+background-size: cover;
+border-radius: 16px;
+}
+.bg-ngo{
+background: url(assets/ngo.jpg);
+background-repeat: no-repeat;
+background-position: 40%;
+background-size: cover;
+border-radius: 16px;
+}
+.bg-innov{
+background: url(assets/mirror.jpg);
+background-repeat: no-repeat;
+background-position: 40%;
+background-size: cover;
+border-radius: 16px;
+}
+
+.bg-invest{
+background: url(assets/invest.jpeg);
 background-repeat: no-repeat;
 background-position: 40%;
 background-size: cover;
@@ -1346,6 +1368,12 @@ background-size: cover;
 }
 .bg-llady{
   background-image: url(assets/ppl.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.bg-faq{
+  background-image: url(assets/nghtt.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60%;
