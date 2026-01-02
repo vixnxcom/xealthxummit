@@ -43,7 +43,7 @@ const HeadTier = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[85vh] overflow-hidden bg-tie">
+      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-tie">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
@@ -51,7 +51,7 @@ const HeadTier = () => {
      FOR SPONSORSHIP
       </h1>
 
-          <h2 className="text-white tracking-widest mt-2 editors-reg text-[24px] md:text-4xl">
+          <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[24px] md:text-4xl">
             2026 Event
           </h2>
         </div>
@@ -64,7 +64,7 @@ const HeadTier = () => {
            
             className="
               w-full h-full
-              object-contain
+              object-cover
               md:object-cover
               will-change-transform
             "

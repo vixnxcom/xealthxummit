@@ -43,15 +43,15 @@ const SpeakerHead = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[80vh] overflow-hidden bg-white">
+      <div className="relative w-screen h-[80vh] overflow-hidden bg-um">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
-         <h1 className='text-[3rem]  editors-bold font-bold text-cyan letter-shade  '>
+         <h1 className='text-[3rem]  editors-bold font-bold text-white letter-shade  '>
       SPEAKERS
       </h1>
 
-          <h2 className="text-blue tracking-widest mt-2 editors-reg text-[24px] md:text-4xl">
+          <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[24px] md:text-4xl">
             2026 Event
           </h2>
         </div>
