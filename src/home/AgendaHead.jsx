@@ -65,10 +65,7 @@ const AgendaHead = () => {
           </h1>
         </div>
       </div>
-      <div >
-
-            <img src={sp} alt="" />
-            </div> 
+    
             </div> 
     </section>
   )

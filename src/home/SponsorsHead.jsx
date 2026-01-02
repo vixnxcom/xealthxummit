@@ -62,10 +62,7 @@ const SponsorsHead = () => {
      
         </div>
 
-        <div>
-          <img src={globe} alt="" />
-        </div>
-    
+      
 
     
       </div>

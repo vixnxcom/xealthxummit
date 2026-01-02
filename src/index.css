@@ -1395,3 +1395,22 @@ background-size: cover;
   overflow: hidden;
   width: 100%;
 }
+
+.bg-attende{
+  background-image: url(assets/sp.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-sp{
+  background-image: url(assets/globe.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button{
+
+filter: drop-shadow(-10px 20px 15px #002446);
+
+}

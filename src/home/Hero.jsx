@@ -9,11 +9,11 @@ const Hero = () => {
 
   
   return (
-    <div className=" w-full "> {/* Changed from w-[100vw] to w-full */}
+    <div className=" w-full md:mx-auto"> {/* Changed from w-[100vw] to w-full */}
      
         
 
-  <div className='px-3'>
+  <div className='px-3 absolute top-40 md:px-20'>
     <TypeWriterText>
       <h1 className='text-5xl editors-bold font-bold text-white  letter-shade '>
        HEALTHTECH <br /> FRONTIERS <br /><span className='editors-itallic'> 2026</span>
@@ -22,18 +22,18 @@ const Hero = () => {
     
   </div>
 
-  <div className='px-3'>
+  <div className='px-3 md:px-20'>
   
    <TypeWriterText>
-     <p  className='editors-reg text-white letter-shade text-[20px] mt-24 mb-10 tracking-widest'>
+     <p  className='editors-reg text-white letter-shade text-[20px] mt-24  mb-10 tracking-widest'>
        Transforming Healthcare Through Innovation & Technology
     </p>
     </TypeWriterText>
   </div> 
 
-  <div className='shadow-lg' >
+  <div className='shadow-lg button ' >
     <TypeWriterText>
-  <Button />
+  <Button  />
     </TypeWriterText>
   
   </div>

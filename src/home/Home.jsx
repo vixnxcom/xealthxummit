@@ -165,13 +165,22 @@ const Home = () => {
 
 
       <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
-        <div className={`${styles.boxWidth} mt-10 mb-10`}>
+        <div className={`${styles.boxWidth} mt-10 `}>
 
            <AgendaHead /> 
-            
-           < Agenda/>         
+       
         </div>
         </div>
+<div  className=' bg-attende h-[330px] md:h-[520px]'></div> 
+
+      <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
+        <div className={`${styles.boxWidth}  mb-10`}>
+
+           <Agenda /> 
+       
+        </div>
+        </div>
+     
 
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-attend   mt-10`}>
       
@@ -194,6 +203,16 @@ const Home = () => {
         <div className={`${styles.boxWidth} mt-10 `}>
         
               <SponsorsHead /> 
+     
+        </div>
+        </div>
+
+        <div className='bg-sp h-[330px] md:h-[520px]'></div>
+
+         <div className={` ${styles.paddingX} ${styles.flexStart}   bg-white`}>
+        <div className={`${styles.boxWidth}  `}>
+        
+ 
 
            < SponsorBg />         
         </div>
