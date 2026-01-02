@@ -21,15 +21,14 @@ const Silver = () => {
           </p>
         </TypewriterText>
 
-        <ul className="w-full bg-white text-black flex flex-col w-full h-[220px] text-[20px] editors-reg m-0 p-4 list-none">
+        <ul className="w-full bg-white text-black flex flex-col w-full h-[220px]
+         text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
-            <li className="py-1  w-full tracking-widest flex items-center  mt-5 gap-2">
+            <li className="py-1  w-full tracking-widest flex text-left  mt-5 gap-2">
              <span><img src={right} alt="" className='w-12 h-12' /></span>
-            Startup Pitch
+            Startup Pitch involvement.
             </li>
-            <li className=" px-15  w-full tracking-widest flex items-center ">
-      involvement.
-            </li>
+       
           </TypewriterText>
          
         </ul>

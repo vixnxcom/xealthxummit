@@ -21,19 +21,27 @@ const Support = () => {
           </p>
         </TypewriterText>
 
-        <ul className="w-full bg-white text-black flex flex-col h-[220px] text-[20px] editors-reg m-0 p-4 list-none">
+      
+        <ul className="w-full bg-white text-black flex flex-col w-full h-[220px]
+         text-[20px] editors-reg m-0 p-4 list-none">
+       
           <TypewriterText>
-            <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
+            <li className="py-1 tracking-widest mt-5 flex w-full text-left  gap-2">
              <span><img src={right} alt="" className='w-12 h-12' /></span>
-             Category sponsorship.
+            Category Sponsorship.
             </li>
+            {/* <li className="px-14 tracking-widest mt-5 flex items-center ">
+       
+           Sponsorship.
+            </li> */}
           </TypewriterText>
           <TypewriterText>
-            <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
+            <li className="py-1 tracking-widest mt-5 flex text-left gap-2">
              <span><img src={right} alt="" className='w-12 h-12' /></span>
              Exhibition presence.
             </li>
           </TypewriterText>
+
         </ul>
       </div>
     </div>

@@ -14,7 +14,7 @@ const NavTag = () => {
      
        </div> */}
 
-       <div className=' bg-white rounded-r-full  m-4 '>
+       <div className=' bg-white rounded-r-full   mb-2 mt-2 '>
         <div className='flex flex-row p-1 '>
       
         <ul className='text-[18px] editors-bold  tracking-widest mx-2 text-blue'>

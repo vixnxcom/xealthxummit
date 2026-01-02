@@ -1442,6 +1442,12 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-tie{
+  background-image: url(assets/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .button{
 

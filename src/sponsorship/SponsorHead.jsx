@@ -27,7 +27,7 @@ const SponsorHead = () => {
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         opacity: 1,
         duration: 1.3,
-        delay: 1.5,
+        delay: 1,
         ease: "power2.out",
         scrollTrigger: {
           trigger: headingRef1.current,
