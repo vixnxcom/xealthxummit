@@ -40,6 +40,8 @@ import SecondIntro from './SecondIntro'
 
 import Why from './Why'
 import WhyBody from './WhyBody'
+import PartnerHead from './PartnerHead'
+import Partners from './Partners'
 
 
 const Home = () => {
@@ -161,7 +163,23 @@ const Home = () => {
 
      </Parallax>
 
+<div className={`${styles.flexCenter} bg-white  `}>
+ <div className={`${styles.boxWidth} mt-10 `}>
+    
 
+   <PartnerHead/>
+    
+</div>
+</div>
+ <div className={`${styles.flexCenter}   mt-10`}>
+ <div className={`${styles.boxWidth}  `}>
+    
+
+   <Partners />
+   
+    
+</div>
+</div>
 
 
       <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>

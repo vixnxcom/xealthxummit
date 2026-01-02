@@ -63,9 +63,10 @@ const SpeakerHead = () => {
             src={scope}
            
             className="
-              w-full h-full
-              object-contain
-              md:object-contain
+              w-[80vh] h-full
+              object-cover
+
+              md:object-cover
               will-change-transform
             "
           />
