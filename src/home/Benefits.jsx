@@ -17,71 +17,106 @@ const Benefits = () => {
          
           className=' mt-10 mb-10 text-left   text-white flex flex-col '
         >
-   <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-5">
+   <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-5">
   <div className="">
-    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
-      <span className="p-3">
+    <div className="mt-2 mb-4 flex flex-row items-center ">
+      <span className="p-3 w-20 h-20 ">
         <img src={eye} alt="" />
       </span>
+  
+    
     </div>
-    <TypeWriterText>
-      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
-        Visibility
-      </p>
-    </TypeWriterText>
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] py-2 text-black 
+    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+
+            <TypeWriterText >
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+           Brand visibility to senior healthcare decision-makers
+          </li>
+        
+          </TypeWriterText>
+          </ul>
+   
   </div>
 </div>
 
 
 
    
-     <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+   <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-10">
   <div className="">
-    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
-      <span className="p-3">
+    <div className="mt-2 mb-4 flex flex-row items-center ">
+      <span className="p-3 w-20 h-20 ">
         <img src={star} alt="" />
       </span>
+  
+    
     </div>
-    <TypeWriterText>
-      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
-       Branding
-      </p>
-    </TypeWriterText>
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] py-2 text-black 
+    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+
+            <TypeWriterText >
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+           Direct access to startups and innovators
+          </li>
+        
+          </TypeWriterText>
+          </ul>
+   
   </div>
 </div>
 
-    <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+      <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-10">
   <div className="">
-    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
-      <span className="p-3">
+    <div className="mt-2 mb-4 flex flex-row items-center ">
+      <span className="p-3 w-20 h-20 ">
         <img src={glas} alt="" />
       </span>
+  
+    
     </div>
-    <TypeWriterText>
-      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
-       Recognition
-      </p>
-    </TypeWriterText>
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] py-2 text-black 
+    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+
+            <TypeWriterText >
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+          Thought leadership positioning in AI & digital health
+          </li>
+        
+          </TypeWriterText>
+          </ul>
+   
   </div>
 </div>
 
 
-        <div className="bg-black rounded-[24px] border border-gray-200 shadow-lg mt-10">
+     <div className="bg-black rounded-[16px] mb-10 border border-gray-200 shadow-md mt-10">
   <div className="">
-    <div className="w-20 h-20 mt-2 mb-4 flex items-center justify-center">
-      <span className="p-3">
+    <div className="mt-2 mb-4 flex flex-row items-center ">
+      <span className="p-3 w-20 h-20 ">
         <img src={shake} alt="" />
       </span>
+  
+    
     </div>
-    <TypeWriterText>
-      <p className="w-full bg-cyan text-blue text-[24px] editors-reg px-4 py-3 rounded-b-[24px]">
-      Partnership Opportunities
-      </p>
-    </TypeWriterText>
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] py-2 text-black 
+    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+
+            <TypeWriterText >
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+         Media and post-event content exposure
+          </li>
+        
+          </TypeWriterText>
+          </ul>
+   
   </div>
 </div>
 </div>
-
 
       
       </div>

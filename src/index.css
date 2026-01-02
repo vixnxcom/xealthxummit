@@ -1147,6 +1147,25 @@ text-shadow: 0px 4px 4px #00000040;
 .animate-slide:hover {
   animation-play-state: paused;
 }
+@keyframes slidee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%); /* moves right */
+  }
+}
+
+.animate-slidee {
+  animation: slidee 20s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform; /* smoother animation */
+}
+
+.animate-slidee:hover {
+  animation-play-state: paused;
+}
 
 /* ////////////////////CARD */
 .corner-card {
@@ -1298,11 +1317,12 @@ background: #000;
 background-repeat: no-repeat;
 background-position: 40%;
 background-size: cover;
+border-radius: 16px;
 }
 .bg-attend{
 background-image: url(assets/attend.jpeg);
 background-repeat: no-repeat;
-background-position: 10%;
+background-position: center;
 background-size: cover;
 }
 
@@ -1311,10 +1331,7 @@ background-size: cover;
 }
 
 
-  @media (min-width: 768px) {
-.bg-tech{
- background-image: url(assets/pexels-jibarofoto-2774556.jpg);
-}}
+
 
 .text-cyan{
   color: #87a3ff;
@@ -1335,4 +1352,45 @@ background-size: cover;
 
 .border-cyan{
   border: 1px solid #87a3ff;
+}
+
+/* Right slide */
+@keyframes slidee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Left slide */
+@keyframes slidee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slidee-right {
+  animation: slidee-right 20s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.animate-slidee-left {
+  animation: slidee-left 20s linear infinite;
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
 }

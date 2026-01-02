@@ -55,9 +55,9 @@ const SponsorsHead = () => {
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold  text-[32px] tracking-widest text-blue text-left"
+            className="editors-bold  text-[32px]  tracking-widest text-blue text-left"
           >
-        For <br /> <span >Sponsorship</span> 
+        Why Sponsor HealthTech Frontiers 2026
           </h1>
      
         </div>

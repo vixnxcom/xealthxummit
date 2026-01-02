@@ -1,6 +1,7 @@
 import React from 'react';
 
 import AnimatedCircleLead from './AnimatedCircleLead';
+import TypeWriterText from '../faq/TypeWriterText';
 
 
 const Career = () => {
@@ -16,9 +17,13 @@ const Career = () => {
       />
   
   </div>
-   <p className='text-[20px] text-white flex flex-col   editors-reg '>
-            <span className='text-[16px] editors-reg py-4 text-white'>02.</span>
-    Health professionals </p>
+  
+
+     <TypeWriterText>
+     <p className='text-[20px] text-white mx-1  flex flex-col  editors-reg '>
+          
+   Health professionals </p>
+     </TypeWriterText>
 
   <div class="corners"></div>
 </div>

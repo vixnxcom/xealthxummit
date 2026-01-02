@@ -18,7 +18,7 @@ const TicketButton = () => {
         {/* SECTION 1 */}
 
   <TypewriterText>
-     <div className="mb-10 flex flex-col md:items-center rounded-[24px] bg-black border border-gray-200 shadow-lg">
+     <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
   <div className="flex flex-row gap-5">
     <TypewriterText>
       <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
@@ -28,7 +28,7 @@ const TicketButton = () => {
   </div>
 
 
-    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+    <div className="w-full h-[300px] rounded-b-[16px] md:h-[500px] overflow-hidden">
       <img
         src={ticket}
         alt="Ticket"
@@ -47,7 +47,7 @@ const TicketButton = () => {
         {/* SECTION 1 */}
 
   <TypewriterText>
-     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+     <div className="mb-10 flex flex-col md:items-center  rounded-[16px] bg-black border border-gray-200 shadow-lg">
   <div className="flex flex-row gap-5">
     <TypewriterText>
       <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
@@ -57,7 +57,7 @@ const TicketButton = () => {
   </div>
 
 
-    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+    <div className="w-full h-[300px] rounded-b-[16px] md:h-[500px] overflow-hidden">
       <img
         src={award}
         alt="Ticket"
@@ -75,7 +75,7 @@ const TicketButton = () => {
         {/* SECTION 4 */}
       
   <TypewriterText>
-     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+     <div className="mb-10 flex flex-col md:items-center  rounded-[16px] bg-black border border-gray-200 shadow-lg">
   <div className="flex flex-row gap-5">
     <TypewriterText>
       <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-reg">
@@ -85,7 +85,7 @@ const TicketButton = () => {
   </div>
 
 
-    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+    <div className="w-full h-[300px] rounded-b-[16px] md:h-[500px] overflow-hidden">
       <img
         src={heart}
         alt="Ticket"
@@ -102,7 +102,7 @@ const TicketButton = () => {
             
          
       <TypewriterText>
-     <div className="mb-10 flex flex-col md:items-center  rounded-[24px] bg-black border border-gray-200 shadow-lg">
+     <div className="mb-10 flex flex-col md:items-center  rounded-[16px] bg-black border border-gray-200 shadow-lg">
   <div className="flex flex-row gap-5">
     <TypewriterText>
       <p className="text-[24px] md:text-[40px] w-[280px] px-4 py-8 text-left text-white editors-reg">
@@ -112,7 +112,7 @@ const TicketButton = () => {
   </div>
 
 
-    <div className="w-full h-[300px] rounded-b-[24px] md:h-[500px] overflow-hidden">
+    <div className="w-full h-[300px] rounded-b-[16px] md:h-[500px] overflow-hidden">
       <img
         src={pitch}
         alt="Ticket"

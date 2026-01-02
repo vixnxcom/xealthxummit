@@ -38,6 +38,9 @@ import OrganiseHead from './OrganiseHead'
 import SecondHero from './SecondHero'
 import SecondIntro from './SecondIntro'
 
+import Why from './Why'
+import WhyBody from './WhyBody'
+
 
 const Home = () => {
 
@@ -64,24 +67,21 @@ const Home = () => {
 </div>
 
 
- {/* <div className={`${styles.flexCenter} bg-llady `}>
+  <div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>
 
-   <SecondHero/>
+   <Why/>
+   <div className='bg-llady'>
+<WhyBody/>
+   </div>
+   
 </div>
-</div> */}
+</div> 
 
 
 
 
-
- <div className={`${styles.flexCenter} bg-black mt-20`}>
- <div className={`${styles.boxWidth} `}>
-
-   <SecondIntro />
-  
-</div>
-</div>
+ 
  <div className={`${styles.flexCenter} bg-cyan `}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
@@ -124,21 +124,23 @@ const Home = () => {
 
    
  <div className={`${styles.flexCenter} bg-white  `}>
- <div className={`${styles.boxWidth} mt-20 `}>
+ <div className={`${styles.boxWidth} mt-10 `}>
     
 
    <OrganiseHead />
     
 </div>
 </div>
- <div className={`${styles.flexCenter}  h-[160px] mt-10`}>
+ <div className={`${styles.flexCenter}   mt-10`}>
  <div className={`${styles.boxWidth}  `}>
     
 
    <Organisers />
+   
     
 </div>
 </div>
+
 
 
   <Parallax strength={900}  height={600}>
@@ -166,14 +168,13 @@ const Home = () => {
         <div className={`${styles.boxWidth} mt-10 mb-10`}>
 
            <AgendaHead /> 
-           <div>
-            <img src={sp} alt="" />
-            </div>  
+            
            < Agenda/>         
         </div>
         </div>
 
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-attend   mt-10`}>
+      
         <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
@@ -190,9 +191,10 @@ const Home = () => {
      
  
          <div className={` ${styles.paddingX} ${styles.flexStart} mt-10  bg-white`}>
-        <div className={`${styles.boxWidth} mt-10 relative`}>
-        <StarsBackground />
+        <div className={`${styles.boxWidth} mt-10 `}>
+        
               <SponsorsHead /> 
+
            < SponsorBg />         
         </div>
         </div>
@@ -223,8 +225,8 @@ const Home = () => {
 
       
 
-          <div className={` ${styles.paddingX} ${styles.flexStart} relative bg-blue `}>
-       <StarsBackground />
+          <div className={` ${styles.paddingX} ${styles.flexStart}  bg-blue `}>
+      
                <div className={`${styles.boxWidth} mt-20 `}>
          
           <MovingText />

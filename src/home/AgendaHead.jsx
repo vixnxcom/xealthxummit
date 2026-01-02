@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
+import { sp } from '../assets'
 
 const AgendaHead = () => {
   const headingRef = useRef(null)
@@ -47,7 +48,7 @@ const AgendaHead = () => {
 
   return (
     <section className="w-full mt-5 relative">
-      {/* 🔴 85% viewport trigger line */}
+      <div className="max-w-5xl mx-auto ">
       <div
         ref={triggerRef}
         className="absolute left-0 w-full h-[1px]"
@@ -64,6 +65,11 @@ const AgendaHead = () => {
           </h1>
         </div>
       </div>
+      <div >
+
+            <img src={sp} alt="" />
+            </div> 
+            </div> 
     </section>
   )
 }

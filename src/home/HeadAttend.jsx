@@ -60,7 +60,7 @@ const HeadAttend = () => {
             ref={headingRef}
             className="editors-bold text-[32px] tracking-widest w-[280px] text-white text-left"
           >
-       Who Should Attend
+       Who Will Be in the Room
           </h1>
         </div>
       </div>

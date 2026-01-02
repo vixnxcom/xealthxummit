@@ -23,29 +23,31 @@ import award from './awards.jpeg'
 import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
 import ticket from './ticket.jpeg'
-import image from './image.png'
+import image from './image.jpg'
 
 import man from './man.png'
 import men from './men.jpg'
 import innovative from './brain.jpeg'
 import govt from './govt.png'
 import invest from './invest.png'
-import sp from './sp.jpg'
+import sp from './sp.jpeg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
 import eye from './eye.png'
 import glas from './glas.png'
+import medl from './medl.png'
 import shake from './shake.png'
 import star from './star.png'
 import health from './health.mp4'
 import heart from './hert.jpeg'
 import brn from './brain.jpeg'
 import dude from './heart.jpeg'
+import bg from './bg.jpg'
 import brain from './brain.mp4'
 
 
 
-export { dna,steth,  redd, brn, crowd, med, globe, scope, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude,
+export { dna,steth,  redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, bg,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro,
      arrow, session, lead, mind, bulb, life, time, image };

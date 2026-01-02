@@ -1,5 +1,6 @@
 import React from 'react'
 import AnimatedCircleInov from './AnimatedCircleInov';
+import TypeWriterText from '../faq/TypeWriterText';
 
 const Innov = () => {
    return (
@@ -15,9 +16,12 @@ const Innov = () => {
   
   </div>
  <div class="corners">
-     <p className='text-[20px] text-white  flex flex-col   editors-reg '>
-            <span className='text-[16px] editors-reg py-4 text-white'>06.</span>
+  
+    <TypeWriterText>
+     <p className='text-[20px] text-white mx-1 flex flex-col  editors-reg '>
+          
     Innovators </p>
+     </TypeWriterText>
   </div>
 
    

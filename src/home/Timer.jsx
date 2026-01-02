@@ -54,7 +54,8 @@ const Countdown = () => {
   }, []);
 
   return (
-      <div className="w-full h-[200px] flex justify-center gap-3 items-center border border-b-gray-400">
+    <div>
+      <div className="w-full h-[200px] flex justify-center gap-3 items-center ">
       
       {/* DAYS */}
       <div className="flex flex-col  items-center  ">
@@ -80,6 +81,10 @@ const Countdown = () => {
         <p className="text-white text-xs mt-2 editors-reg p-2 uppercase">Seconds</p>
       </div>
 
+    </div>
+    <div className="border border-b-gray-400 w-[90vw]  mx-auto">
+
+    </div>
     </div>
   );
 };
