@@ -43,7 +43,7 @@ const FaqAbout = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-screen overflow-hidden bg-black">
+      <div className="relative w-screen h-[100vh] overflow-hidden bg-black">
 
         {/* LEFT TEXT */}
         <div className="absolute top-1/2 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
@@ -64,7 +64,7 @@ const FaqAbout = () => {
            
             className="
               w-full h-full
-              object-contain
+              object-cover
               md:object-contain
               will-change-transform
             "
