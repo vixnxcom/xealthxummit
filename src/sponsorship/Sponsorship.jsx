@@ -17,7 +17,7 @@ const Sponsorship = () => {
   }, [])
 
   return (
-    <div className='w-full bg-blue'>
+    <div className='w-full bg-white'>
 
       <div className={`${styles.flexCenter} h-[50vh] md:h-[100vh] bg-space`}>
        

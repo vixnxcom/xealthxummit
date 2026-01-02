@@ -17,7 +17,7 @@ const Benefits = () => {
          
           className=' mt-10 mb-10 text-left   text-white flex flex-col '
         >
-   <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-5">
+   <div className="bg-black rounded-[16px]  shadow-md mt-5">
   <div className="">
     <div className="mt-2 mb-4 flex flex-row items-center ">
       <span className="p-3 w-20 h-20 ">
@@ -44,7 +44,7 @@ const Benefits = () => {
 
 
    
-   <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-10">
+   <div className="bg-black rounded-[16px] border  shadow-md mt-10">
   <div className="">
     <div className="mt-2 mb-4 flex flex-row items-center ">
       <span className="p-3 w-20 h-20 ">
@@ -68,7 +68,7 @@ const Benefits = () => {
   </div>
 </div>
 
-      <div className="bg-black rounded-[16px] border border-gray-200 shadow-md mt-10">
+      <div className="bg-black rounded-[16px] shadow-md mt-10">
   <div className="">
     <div className="mt-2 mb-4 flex flex-row items-center ">
       <span className="p-3 w-20 h-20 ">
@@ -93,7 +93,7 @@ const Benefits = () => {
 </div>
 
 
-     <div className="bg-black rounded-[16px] mb-10 border border-gray-200 shadow-md mt-10">
+     <div className="bg-black rounded-[16px] mb-10  shadow-md mt-10">
   <div className="">
     <div className="mt-2 mb-4 flex flex-row items-center ">
       <span className="p-3 w-20 h-20 ">

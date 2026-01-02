@@ -4,7 +4,7 @@ const Agenda = () => {
   return (
     // <div className='flex flex-col '>
     //     <div className='max-w-5xl'>
-<div className="w-full flex flex-col  mt-10">
+<div className="w-full flex flex-col mb-10  mt-10">
       <div className="max-w-5xl mx-auto ">
 
 

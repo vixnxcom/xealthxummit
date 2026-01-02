@@ -54,7 +54,7 @@ const SponsorHead = () => {
         <div className="flex flex-col items-start mb-10">
        <h1
   ref={headingRef1}
-  className="editors-bold text-[32px] tracking-widest text-white text-left overflow-hidden"
+  className="editors-bold text-[32px] tracking-widest text-blue text-left overflow-hidden"
 >
   <span className="block">Sponsorship</span>
   <span className="block">Tiers</span>
