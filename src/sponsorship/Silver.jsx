@@ -28,7 +28,7 @@ const Silver = () => {
             Startup Pitch
             </li>
             <li className=" px-15  w-full tracking-widest flex items-center ">
-      involvement
+      involvement.
             </li>
           </TypewriterText>
          

@@ -26,11 +26,11 @@ const Benefits = () => {
   
     
     </div>
-    < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] py-2 text-black 
+    < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] h-[160px] py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest mt-10 flex items-center gap-2">
+          <li className="py-1 tracking-widest mt-8 flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
            Brand visibility to senior healthcare decision-makers
           </li>
@@ -53,11 +53,11 @@ const Benefits = () => {
   
     
     </div>
-    < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] py-2 text-black 
+    < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] h-[160px]  py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center mt-10 gap-2">
+          <li className="py-1 tracking-widest flex items-center mt-8 gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
            Direct access to startups and innovators
           </li>
@@ -77,11 +77,11 @@ const Benefits = () => {
   
     
     </div>
-    < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[200px] py-2 text-black 
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[160px]  py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center gap-2 mt-10">
+          <li className="py-1 tracking-widest flex items-center gap-2 mt-8">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
           Thought leadership positioning in AI & digital health
           </li>
@@ -102,11 +102,11 @@ const Benefits = () => {
   
     
     </div>
-    < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[200px] py-2 text-black 
+    < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[160px] py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center mt-10 gap-2">
+          <li className="py-1 tracking-widest flex items-center mt-8 gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
          Media and post-event content exposure
           </li>

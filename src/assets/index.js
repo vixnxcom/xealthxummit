@@ -45,11 +45,12 @@ import brn from './brain.jpeg'
 import dude from './heart.jpeg'
 import big from './bg.jpg'
 import night from './night.jpg'
+import africa from './africa.jpeg'
 import brain from './brain.gif'
 
 
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro, right,
      arrow, session, lead, mind, bulb, life, time, image };
