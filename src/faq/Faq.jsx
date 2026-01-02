@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import FaqAbout from './FaqAbout'
 import styles from '../style'
 import Awards from './Awards'
-import { bg } from '../assets';
+
 
 const Faq = () => {
   useEffect(() => {
@@ -14,9 +14,7 @@ const Faq = () => {
 
       {/* FULL WIDTH SECTION — NO CONTAINER */}
       <FaqAbout />
-<div>
-  <img src={bg} alt="" />
-</div>
+
       {/* BOXED CONTENT BELOW */}
       <div className={`${styles.flexCenter}  mt-10`}>
         <div className={`${styles.boxWidth}`}>

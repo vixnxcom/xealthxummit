@@ -15,14 +15,14 @@ const Hero = () => {
 
   <div className='px-3 absolute top-40 md:px-20'>
     <TypeWriterText>
-      <h1 className='text-5xl editors-bold font-bold text-white  letter-shade '>
+      <h1 className='text-[3rem]  editors-bold font-bold text-white  letter-shade '>
        HEALTHTECH <br /> FRONTIERS <br /><span className='editors-itallic'> 2026</span>
       </h1>
     </TypeWriterText>
     
   </div>
 
-  <div className='px-3 md:px-20'>
+  <div className='px-3 mt-20   md:px-20 max-w-[470px] md:mt-20'>
   
    <TypeWriterText>
      <p  className='editors-reg text-white letter-shade text-[20px] mt-24  mb-10 tracking-widest'>

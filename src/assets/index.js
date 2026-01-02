@@ -38,16 +38,18 @@ import glas from './glas.png'
 import medl from './medl.png'
 import shake from './shake.png'
 import star from './star.png'
+import right from './right.png'
 import health from './health.mp4'
 import heart from './hert.jpeg'
 import brn from './brain.jpeg'
 import dude from './heart.jpeg'
-import bg from './bg.jpg'
-import brain from './brain.mp4'
+import big from './bg.jpg'
+import night from './night.jpg'
+import brain from './brain.gif'
 
 
 
-export { dna,steth,  redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, bg,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro,
+export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right,
      arrow, session, lead, mind, bulb, life, time, image };

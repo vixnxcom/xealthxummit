@@ -5,6 +5,7 @@ import Platinum from './Platinum'
 import Gold from './Gold'
 import Silver from './Silver'
 import Support from './Support'
+import HeadTier from './HeadTier'
 
 const Sponsorship = () => {
 
@@ -17,11 +18,13 @@ const Sponsorship = () => {
   }, [])
 
   return (
-    <div className='w-full bg-white'>
+    <div className='w-full bg-white mb-20'>
 
-      <div className={`${styles.flexCenter} h-[50vh] md:h-[100vh] bg-space`}>
-       
+      <div className={`${styles.flexCenter} `}>
+       <HeadTier />
       </div>
+      
+
 
 
        <div className={`${styles.flexCenter} mt-10 `}>
@@ -29,6 +32,9 @@ const Sponsorship = () => {
           <SponsorHead />
         </div>
         </div>
+
+
+       <div className='bg-tier h-[170px]'></div>
 
       <div className='w-full'>
         <div className={`${styles.flexCenter} mt-10 w-[90vw] mx-auto`}>

@@ -1408,9 +1408,33 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-tier{
+  background-image: url(assets/human.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .button{
 
 filter: drop-shadow(-10px 20px 15px #002446);
 
+}
+
+/* Ultra-small devices (300px and below) */
+@media (max-width: 300px) {
+  .hero-title {
+    font-size: 40px !important;
+    line-height: 1.05;
+  }
+
+  .hero-text {
+    font-size: 0.30rem !important;
+    letter-spacing: 0.04em;
+  }
+
+  .hero-wrap {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
