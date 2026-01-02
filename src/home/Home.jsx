@@ -202,7 +202,7 @@ const Home = () => {
 
          <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
       
-        <div className={`${styles.boxWidth}  mt-10`}>
+        <div className={`${styles.boxWidth}  `}>
          
            < Attendants />
            {/* <div className='h-[40px]'></div> */}
@@ -218,7 +218,7 @@ const Home = () => {
      
  
          <div className={` ${styles.paddingX} ${styles.flexStart}   bg-white`}>
-        <div className={`${styles.boxWidth} mt-20 `}>
+        <div className={`${styles.boxWidth} mt-10 `}>
         
               <SponsorsHead /> 
      
