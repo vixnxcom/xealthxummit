@@ -30,6 +30,7 @@ import men from './men.jpg'
 import innovative from './brain.jpeg'
 import govt from './govt.png'
 import invest from './invest.png'
+import black from './black.png'
 import sp from './sp.jpeg'
 import spbg from './spbg.mp4'
 import ar from './ar.png'
@@ -52,5 +53,5 @@ import brain from './brain.gif'
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black,
      arrow, session, lead, mind, bulb, life, time, image };

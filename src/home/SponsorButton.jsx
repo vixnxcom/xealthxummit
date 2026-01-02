@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { arrow, arrw, sponsor } from '../assets'
+import { arrow, arrw, black, sponsor } from '../assets'
 
 const SponsorButton = () => {
   return (
@@ -12,7 +12,7 @@ const SponsorButton = () => {
            <Link to='/sponsor' className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
           Become a Sponsor
            
-               <img src={arrw} alt="" className='w-5 h-5 ml-2'/>
+               <img src={black} alt="" className='w-5 h-5 ml-2'/>
            
            </Link>
            {/* <Link to='/ticket' className='editors-reg font-medium text-white text-[20px] flex flex-row items-center'>
