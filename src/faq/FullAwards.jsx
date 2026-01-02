@@ -8,7 +8,7 @@ const FullAwards = () => {
       {/* 01 */}
       <div className="bg-white h-[400px]">
         <div className="flex flex-col items-start mb-2 w-full px-3">
-          <div className="mt-2 mb-4 flex items-center justify-center">
+          <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">01.</span>
           </div>
 
@@ -38,7 +38,7 @@ const FullAwards = () => {
       {/* 02 */}
       <div className="bg-white h-[400px] mt-10 md:mt-0">
         <div className="flex flex-col items-start mb-2 w-full px-3">
-          <div className="mt-2 mb-4 flex items-center justify-center">
+          <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">02.</span>
           </div>
 
@@ -68,7 +68,7 @@ const FullAwards = () => {
       {/* 03 */}
      <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
-          <div className="mt-2 mb-4 flex items-center justify-center">
+          <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">03.</span>
           </div>
 
@@ -98,7 +98,7 @@ const FullAwards = () => {
       {/* 04 */}
       <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
-          <div className="mt-2 mb-4 flex items-center justify-center">
+          <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">04.</span>
           </div>
 
@@ -128,7 +128,7 @@ const FullAwards = () => {
       {/* 05 */}
       <div className="bg-white h-[400px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3">
-          <div className="mt-2 mb-4 flex items-center justify-center">
+          <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-black">05.</span>
           </div>
 
