@@ -43,7 +43,7 @@ const HeadTier = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-tie">
+      <div className="relative w-screen h-[78vh] md:h-[90vh] overflow-hidden bg-tie">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
