@@ -7,7 +7,7 @@ const SponsorButton = () => {
      <div className={`] flex   mx-auto`}>
        <div className='mx-auto'>
          <button className='mx-auto mt-5  bg-white  rounded-[8px]  md:w-[35vw]
-               md:h-[12vw] w-[92vw] h-[16vw] flex items-center justify-center'>
+               md:h-[4vw] w-[92vw] h-[16vw] flex items-center justify-center'>
 
            <Link to='/sponsor' className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
           Become a Sponsor

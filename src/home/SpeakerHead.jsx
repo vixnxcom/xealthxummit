@@ -46,8 +46,8 @@ const SpeakerHead = () => {
       <div className="relative w-screen h-[78vh] overflow-hidden bg-um">
 
         {/* LEFT TEXT */}
-        <div className="absolute top-40 left-6 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
-         <h1 className='text-[3rem]  editors-bold font-bold text-white letter-shade  '>
+        <div className="absolute top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
+         <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white letter-shade  '>
       SPEAKERS
       </h1>
 
@@ -66,7 +66,7 @@ const SpeakerHead = () => {
               w-full h-full
               object-cover
 
-              md:object-cover
+              md:object-contain
               will-change-transform
             "
           />

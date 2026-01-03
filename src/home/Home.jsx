@@ -182,7 +182,7 @@ const Home = () => {
 </div>
 <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black '  >
-         <img src={life} alt="" className='w-full ml-5 mx-auto  mt-20 h-full object-contain' />
+         <img src={life} alt="" className='w-[200vw]  justify-left items-left text-left  mt-20 h-full object-cover' />
   
         
 

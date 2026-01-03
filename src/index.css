@@ -1479,3 +1479,8 @@ filter: drop-shadow(-10px 20px 15px #002446);
     padding-right: 0.5rem;
   }
 }
+
+@media (min-width: 768px) {
+  .bg-tier {
+   background-size: contain;
+  }}

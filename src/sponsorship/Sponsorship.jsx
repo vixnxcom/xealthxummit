@@ -34,7 +34,7 @@ const Sponsorship = () => {
         </div>
 
 
-       <div className='bg-tier h-[170px]'></div>
+       <div className='bg-tier h-[170px] md:h-[300px] '></div>
 
       <div className='w-full'>
         <div className={`${styles.flexCenter} mt-10 w-[90vw] mx-auto`}>

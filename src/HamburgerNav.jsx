@@ -45,7 +45,7 @@ const HamburgerNav = () => {
 
   // Primary and secondary menu items
   const primaryMenu = ['Home', 'Awards', ];
-  const secondaryMenu = ['Speakers', 'Sponsorship', 'Contact'];
+  const secondaryMenu = ['Sponsorship','Speakers',  'Contact'];
 
   return (
     <div className="relative overflow-hidden" onKeyDown={handleKeyDown}>
@@ -78,13 +78,13 @@ const HamburgerNav = () => {
       >
         {/* Heading */}
         <div className="menu-item w-full text-left pt-10 pb-20">
-          <h1 className="text-[32px] editors-bold text-cyan letter-shade">
+          <h1 className="text-[8vw]  md:text-[32px] editors-bold text-cyan letter-shade">
             HealthTech Frontiers
             <span className="editors-itallic mt-1 text-3xl">
               <br />  2026
             </span>
           </h1>
-          <p className="editors-reg text-white mt-2 xs:mt-20">
+          <p className="editors-reg text-[4vw]  md:text-[24px] text-white mt-2 xs:mt-20">
             <span className="editors-thin text-white tracking-widest">
               Transforming Healthcare Through Innovation & Technology
             </span>
@@ -98,7 +98,7 @@ const HamburgerNav = () => {
             {primaryMenu.map((item, i) => (
               <div
                 key={i}
-                className="menu-item text-[32px] py-5 text-cyan editors-bold"
+                className="menu-item text-[8vw]  md:text-[32px] py-5 text-cyan editors-bold"
               >
                 <Link
                   to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
@@ -122,7 +122,7 @@ const HamburgerNav = () => {
             {secondaryMenu.map((item, i) => (
               <div
                 key={i}
-                className="menu-item text-[24px] editors-thin text-white letter-shade"
+                className="menu-item text-[4vw]  md:text-[24px] editors-thin text-white letter-shade"
               >
                 <Link
                   to={`/${item.toLowerCase()}`}
