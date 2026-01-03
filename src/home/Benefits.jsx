@@ -30,7 +30,7 @@ const Benefits = () => {
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest mt-8 flex items-center gap-2">
+          <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
            Brand visibility to senior healthcare decision-makers
           </li>
@@ -57,7 +57,7 @@ const Benefits = () => {
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center mt-8 gap-2">
+          <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
            Direct access to startups and innovators
           </li>
@@ -81,7 +81,7 @@ const Benefits = () => {
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center gap-2 mt-8">
+          <li className="py-1 tracking-widest flex items-center gap-2 mt-5">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
           Thought leadership positioning in AI & digital health
           </li>
@@ -106,7 +106,7 @@ const Benefits = () => {
     flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
 
             <TypeWriterText >
-          <li className="py-1 tracking-widest flex items-center mt-8 gap-2">
+          <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
          Media and post-event content exposure
           </li>

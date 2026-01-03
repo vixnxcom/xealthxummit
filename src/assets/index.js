@@ -1,4 +1,4 @@
-import dna from './dna.png'
+import dna from './dna.jpg'
 import steth from './steth.png'
 import redd from './redd.png'
 import crowd from './crowd.png'
