@@ -15,6 +15,7 @@ import life from './life.jpg'
 import time from './time.png'
 import check from './check.png'
 import doc from './doc.jpg'
+import bot from './bot.jpg'
 import intro from './doc.jpeg'
 import ahmed from './ahmed.jpg'
 import pitch from './doc.jpeg'
@@ -53,5 +54,5 @@ import brain from './brain.gif'
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot,
      arrow, session, lead, mind, bulb, life, time, image };
