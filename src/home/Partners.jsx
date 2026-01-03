@@ -33,7 +33,7 @@ const Partners = () => {
                 <p className="editors-reg text-white text-[28px] whitespace-nowrap">
                 African Achievers Awards
                 </p>
-                <img src={africa} alt="" className="w-[220px] h-[120px] flex-shrink-0" />
+                <img src={africa} alt="" className="w-[100px] h-[60px] flex-shrink-0" />
               </div>
             ))}
           </div>
