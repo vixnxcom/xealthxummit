@@ -99,7 +99,7 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} bg-blue`}>
+ <div className={`${styles.flexCenter} bg-blue `}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
    <QuoteEvent/>
@@ -107,24 +107,6 @@ const Home = () => {
 </div>
 </div>
 
-
-       {/* <Parallax strength={900}  height={100}>
-        <Background  style={{width:'80vw'}} className='celly bg-black '  >
-         <img src={bot} alt="" className='w-[80vw] mx-auto   h-[200vh] object-contain' />
-  
-        
-
-      </Background>
-
-       
-
-         
-<Quote />
-          
-      
-     
-o
-     </Parallax> */}
 
 
 

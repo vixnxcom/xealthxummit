@@ -1460,6 +1460,12 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-bot{
+  background-image: url(assets/fbc52203-33f2-45b2-8aa5-5203fd040cbd.jpg);
+  background-size: contain;
+  background-position: 80%;
+  background-repeat: no-repeat;
+}
 
 .button{
 
