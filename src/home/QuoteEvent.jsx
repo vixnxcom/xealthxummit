@@ -62,7 +62,7 @@ const QuoteEvent = () => {
           OneDay <span className="text-cyan">HealthTech</span> 
           Innovation Summit, Startup Pitch Finals & National <span className="text-cyan">HealthTech</span> Excellence Awards.
         </h1>
-         <div className="mt-10"><img src={bot} className="w-80 h-80 mx-auto"/> </div> 
+         {/* <div className="mt-10"><img src={bot} className="w-80 h-80 mx-auto"/> </div>  */}
      
       </div>
      
