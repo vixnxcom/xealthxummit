@@ -31,13 +31,13 @@ const Hero = () => {
     </p>
     </TypeWriterText>
   </div> 
-
+{/* 
   <div className='shadow-lg button ' >
     <TypeWriterText>
   <Button  />
     </TypeWriterText>
   
-  </div>
+  </div> */}
  
       
     

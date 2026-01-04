@@ -9,6 +9,8 @@ import styles from '../style'
 import {  doc, man, men } from '../assets'
 import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
+import Button from '../home/Button'
+import TypeWriterText from './TypeWriterText'
 
 const Awards = () => {
   return (
@@ -45,6 +47,7 @@ const Awards = () => {
         </div>
     </Parallax>
 
+ 
       {/* <NominateButton /> */}
     </div>
   )

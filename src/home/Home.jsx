@@ -42,6 +42,8 @@ import Why from './Why'
 import WhyBody from './WhyBody'
 import PartnerHead from './PartnerHead'
 import Partners from './Partners'
+import Button from './Button'
+import WhiteButton from './WhiteButton'
 
 
 const Home = () => {
@@ -259,33 +261,24 @@ const Home = () => {
     </Parallax>
 
       
-
-          <div className={` ${styles.paddingX} ${styles.flexStart}  bg-blue `}>
-      
-               <div className={`${styles.boxWidth} mt-20 `}>
+  <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
+   <div className={`${styles.boxWidth} mt-20 `}>
          
           <MovingText />
+               
+            
+              </div> 
+              </div> 
 
-         
-          
-     
-            <div className={`${styles.boxWidth} mt-20 mb-20`}>
+<div className='bg-blue'>
+   <div className='h-[80px] bg-blue'></div>
+      <div className={`${styles.boxWidth} mb-10`}>
        
-              <SponsorButton />
-
-    
-              </div>
-              <div className='h-[40px]'></div>
-        </div>
-        </div>
-
-   
-   
-        
-    
-
+              <WhiteButton />            
+              </div> 
+      <div className="h-[40px]" />
   
-
+</div>
      
 
 

@@ -3,6 +3,8 @@ import React, { useEffect } from 'react'
 import styles from '../style'
 import SpeakerHead from './SpeakerHead';
 import SpeakerHtag from './SpeakerHtag';
+import MovingText from './ImageText';
+import WhiteButton from './WhiteButton';
 
 
 
@@ -33,6 +35,18 @@ const Speaker = () => {
         </div>
       </div> */}
 
+  <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
+   <div className={`${styles.boxWidth} mt-20 `}>
+         
+          <MovingText />
+               
+            
+              </div> 
+              </div> 
+               <div className={`${styles.boxWidth} mt-20 mb-10`}>
+       
+              <WhiteButton />            
+              </div> 
       <div className="h-[40px]" />
     </div>
   );

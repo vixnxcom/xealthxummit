@@ -6,6 +6,8 @@ import Gold from './Gold'
 import Silver from './Silver'
 import Support from './Support'
 import HeadTier from './HeadTier'
+import MovingText from '../home/ImageText'
+import WhiteButton from '../home/WhiteButton'
 
 const Sponsorship = () => {
 
@@ -18,7 +20,7 @@ const Sponsorship = () => {
   }, [])
 
   return (
-    <div className='w-full bg-white mb-20'>
+    <div className='w-full bg-white '>
 
       <div className={`${styles.flexCenter} `}>
        <HeadTier />
@@ -55,12 +57,33 @@ const Sponsorship = () => {
           </div>
         </div>
 
-        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+        <div className={`${styles.flexCenter} mt-20 mb-20 w-[90vw] mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Support />
           </div>
         </div>
+
+
       </div>
+
+<div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
+   <div className={`${styles.boxWidth} mt-20 `}>
+         
+          <MovingText />
+               
+            
+              </div> 
+              </div> 
+
+<div className='bg-blue'>
+   <div className='h-[80px] bg-blue'></div>
+      <div className={`${styles.boxWidth} mb-10`}>
+       
+              <WhiteButton />            
+              </div> 
+      <div className="h-[40px]" />
+  
+</div>
 
     </div>
   )
