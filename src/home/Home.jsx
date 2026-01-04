@@ -108,9 +108,9 @@ const Home = () => {
 </div>
 
 
- {/* <Parallax strength={900}  height={200}>
-        <Background  style={{width:'100vw'}} className='celly bg-black '  >
-         <img src={bot} alt="" className='w-[100vw]   h-full object-contain' />
+       {/* <Parallax strength={900}  height={100}>
+        <Background  style={{width:'80vw'}} className='celly bg-black '  >
+         <img src={bot} alt="" className='w-[80vw] mx-auto   h-[200vh] object-contain' />
   
         
 

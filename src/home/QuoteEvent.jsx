@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "../style";
+import { bot } from "../assets";
+import { Background, Parallax } from "react-parallax";
+import Quote from "../services/Quote";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -50,7 +53,8 @@ const QuoteEvent = () => {
 
   return (
     <div className={`${styles.flexCenter} items-center justify-center mx-auto`}>
-      <div className="mx-auto max-w-4xl px-4 mb-15 mt-10">
+      <div className="mx-auto max-w-4xl px-4 mb-16 mt-10">
+        
         <h1
           ref={headingRef}
           className="editors-bold  text-4xl text-left mx-3 text-white leading-tight"
@@ -58,7 +62,10 @@ const QuoteEvent = () => {
           OneDay <span className="text-cyan">HealthTech</span> 
           Innovation Summit, Startup Pitch Finals & National <span className="text-cyan">HealthTech</span> Excellence Awards.
         </h1>
+         <div className="mt-10"><img src={bot} className="w-80 h-80 mx-auto"/> </div> 
+     
       </div>
+     
     </div>
   );
 };
