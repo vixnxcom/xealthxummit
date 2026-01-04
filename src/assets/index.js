@@ -27,7 +27,7 @@ import ticket from './ticket.jpeg'
 import image from './image.jpg'
 
 import man from './man.png'
-import men from './men.jpg'
+import men from './men.png'
 import innovative from './brain.jpeg'
 import govt from './govt.png'
 import invest from './invest.png'

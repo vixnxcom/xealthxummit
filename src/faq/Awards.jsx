@@ -6,7 +6,7 @@ import SecondAwards from './SecondAwards'
 import { Background, Parallax } from 'react-parallax'
 import Quote from '../services/Quote'
 import styles from '../style'
-import {  doc, man } from '../assets'
+import {  doc, man, men } from '../assets'
 import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
 
@@ -24,6 +24,27 @@ const Awards = () => {
 
     <BookParallaxFloatImage />
       <SecondAwards />
+
+
+         <Parallax strength={900}  height={600}>
+        <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
+         <img src={men} alt="" className='w-[100vw] h-full mt-20 object-contain' />
+  
+        
+
+      </Background>
+
+       
+ 
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+         
+      
+          < Quote />
+        </div>
+        </div>
+    </Parallax>
+
       {/* <NominateButton /> */}
     </div>
   )
