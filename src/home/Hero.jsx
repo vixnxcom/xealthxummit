@@ -13,7 +13,7 @@ const Hero = () => {
      
         
 
-  <div className='px-3 absolute top-40 md:px-20'>
+  <div className='px-3 absolute top-45 md:px-20'>
     <TypeWriterText>
       <h1 className='text-[13vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
        HEALTHTECH <br /> FRONTIERS <br /><span className='editors-itallic'> 2026</span>
@@ -25,7 +25,7 @@ const Hero = () => {
   <div className='px-3 mt-20   md:px-20 max-w-[470px] md:max-w-[800px] md:mt-40'>
   
    <TypeWriterText>
-     <p  className='editors-reg text-white letter-shade text-[5vw] mt-24 md:text-[32px] 
+     <p  className='editors-reg text-white letter-shade text-[6vw] mt-24 md:text-[32px] 
       mb-10 tracking-widest'>
        Transforming Healthcare Through Innovation & Technology
     </p>

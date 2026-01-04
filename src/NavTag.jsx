@@ -17,7 +17,7 @@ const NavTag = () => {
        <div className=' bg-white rounded-r-full   mb-2 mt-2 '>
         <div className='flex flex-row p-1 '>
       
-        <ul className='text-[18px] editors-bold text-shade tracking-widest mx-2 mr-4 text-blue'>
+        <ul className='text-[17px] editors-bold text-shade tracking-widest mx-2 mr-4 text-blue'>
             <li >HealthTech</li>
             <li >Frontiers
         <span className='text-cyan text-shade'> 2026 </span>

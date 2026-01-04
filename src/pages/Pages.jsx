@@ -15,6 +15,7 @@ import PaySupport from '../sponsorship/paystack/PaySupport';
 import PayTicket from '../pay/PayTicket';
 import NavTag from '../NavTag';
 import Speaker from '../home/Speaker';
+import MoveToTop from '../home/MoveToTop';
 
 const Pages = () => {
   return (
@@ -43,6 +44,7 @@ const Pages = () => {
         <Route exact path="/speakers" element={<Speaker />} />
       </Routes>
 
+<MoveToTop />
 
     </Router>
   );
