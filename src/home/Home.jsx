@@ -93,7 +93,7 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mx-auto bg-bg`}>
+ <div className={`${styles.flexCenter} mx-auto bg-blue`}>
  <div className={`${styles.boxWidth}`}>
 
    <Countdown/>
