@@ -102,10 +102,16 @@ const Home = () => {
 </div>
 
 <TypeWriterText>
-<div className='bg-black mx-auto text-right'>
-<img src={bot} alt=""  />
-</div>
+  <div className="bg-black mx-auto max-w-5xl flex justify-end">
+    <img
+      src={bot}
+      alt=""
+      className="w-full  object-contain md:w-[400px] lg:w-[500px]"
+    />
+  </div>
 </TypeWriterText>
+
+
 
  <div className={`${styles.flexCenter} bg-blue `}>
  <div className={`${styles.boxWidth} mt-2 `}>
