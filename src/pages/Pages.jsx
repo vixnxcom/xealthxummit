@@ -46,9 +46,9 @@ const Pages = () => {
       </Routes>
 
 <MoveToTop />
-   <div className='bottom-0 bg-black'>
+   {/* <div className='bottom-0 bg-black'>
  <Footer />
-       </div>
+       </div> */}
     </Router>
   );
 };
