@@ -1,25 +1,32 @@
 import React from 'react';
 import { africa, image, medl } from '../assets';
+import TypeWriterText from '../faq/TypeWriterText';
 
 const Organisers = () => {
-  const items = [...Array(4)];
+ 
 
   return (
     <section>
-      <div className="flex flex-col items-start px-2 mb-12 space-y-6">
+      <div className="flex   px-3 mb-12  space-y-6">
 
         {/* Top line: slides right */}
-        <div className="slider-container">
-          <div className="animate-slidee-right flex">
-            {items.map((_, index) => (
-              <div key={index} className="flex items-center gap-4 p-8">
-                <div className="h-[20px] w-[20px] rounded-full flex-shrink-0 bg-white"></div>
-                <p className="editors-reg text-white text-[28px] whitespace-nowrap">
-                  PrimeBridge Health Solutions
-                </p>
-                <img src={image} alt="" className="w-[130px] h-[80px] flex-shrink-0" />
-              </div>
-            ))}
+        <div className="max-w-5xl">
+          <div className=" flex  gap-4">
+          
+                 <div className=" flex text-white flex-row">
+                         <div className="h-[20px] w-[20px] rounded-full flex-shrink-0 bg-white mr-3 mt-2"></div>
+                         <TypeWriterText>
+                         <p  className='editors-reg text-white text-[20px]'>PrimeBridge <br /> Health Solutions</p>
+                           </TypeWriterText>
+                             </div> 
+
+                             <TypeWriterText>
+                             <img src={image} alt="" className="w-[130px] h-[80px] flex-shrink-0 " />
+                            
+                             </TypeWriterText>
+                         
+                             
+          
           </div>
         </div>
 
