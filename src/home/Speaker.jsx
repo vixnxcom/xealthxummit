@@ -5,6 +5,7 @@ import SpeakerHead from './SpeakerHead';
 import SpeakerHtag from './SpeakerHtag';
 import MovingText from './ImageText';
 import WhiteButton from './WhiteButton';
+import { g } from '../assets';
 
 
 
@@ -28,6 +29,7 @@ const Speaker = () => {
         <SpeakerHtag />
         </div>
       </div>
+          {/* <img src={g} alt="" /> */}
 {/* 
       <div className={`${styles.flexCenter} h-[400px] mt-20 bg-bot`}>
         <div className={`${styles.boxWidth} `}>
@@ -48,6 +50,7 @@ const Speaker = () => {
               <WhiteButton />            
               </div> 
       <div className="h-[40px]" />
+  
     </div>
   );
 };

@@ -82,7 +82,7 @@ const Home = () => {
 </div> 
 
 
-<img src={bot} alt="" />
+
 
  
  <div className={`${styles.flexCenter} bg-cyan `}>
@@ -99,7 +99,10 @@ const Home = () => {
    <Countdown/>
 </div>
 </div>
+<div className='bg-black mx-auto text-right'>
+<img src={bot} alt=""  />
 
+</div>
  <div className={`${styles.flexCenter} bg-blue `}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
