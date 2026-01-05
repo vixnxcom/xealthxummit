@@ -44,6 +44,7 @@ import PartnerHead from './PartnerHead'
 import Partners from './Partners'
 import Button from './Button'
 import WhiteButton from './WhiteButton'
+import TypeWriterText from '../faq/TypeWriterText'
 
 
 const Home = () => {
@@ -99,10 +100,13 @@ const Home = () => {
    <Countdown/>
 </div>
 </div>
+
+<TypeWriterText>
 <div className='bg-black mx-auto text-right'>
 <img src={bot} alt=""  />
-
 </div>
+</TypeWriterText>
+
  <div className={`${styles.flexCenter} bg-blue `}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
