@@ -44,7 +44,7 @@ const Partners = () => {
 
                 <TypeWriterText>
                   <p className="editors-reg text-white text-[20px]">
-                    African <br /> Achievers Awards
+                   The African <br /> Achievers Awards
                   </p>
                 </TypeWriterText>
               </div>

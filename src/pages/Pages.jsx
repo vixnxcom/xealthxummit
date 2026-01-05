@@ -16,6 +16,7 @@ import PayTicket from '../pay/PayTicket';
 import NavTag from '../NavTag';
 import Speaker from '../home/Speaker';
 import MoveToTop from '../home/MoveToTop';
+import Footer from '../Footer';
 
 const Pages = () => {
   return (
@@ -45,7 +46,9 @@ const Pages = () => {
       </Routes>
 
 <MoveToTop />
-
+   <div className='bottom-0 bg-black'>
+ <Footer />
+       </div>
     </Router>
   );
 };
