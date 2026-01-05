@@ -10,7 +10,7 @@ const Organisers = () => {
       <div className="flex   px-3 mb-12  space-y-6">
 
         {/* Top line: slides right */}
-        <div className="max-w-5xl">
+           <div className="max-w-5xl w-full mx-auto">
           <div className=" flex  gap-4">
           
                  <div className=" flex text-white flex-row">
