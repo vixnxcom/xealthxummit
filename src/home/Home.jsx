@@ -70,7 +70,6 @@ const Home = () => {
 </div>
 </div>
 
-
   <div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>
 
@@ -83,7 +82,7 @@ const Home = () => {
 </div> 
 
 
-
+<img src={bot} alt="" />
 
  
  <div className={`${styles.flexCenter} bg-cyan `}>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex  flex-col p-3   space-y-6">
 
-<img src={bot} alt="" />
+{/* <img src={bot} alt="" /> */}
         {/* Top line: slides right */}
            <div className="max-w-5xl w-full mx-auto">
         <h1 className='text-[13vw] md:text-[56px] mb-10
