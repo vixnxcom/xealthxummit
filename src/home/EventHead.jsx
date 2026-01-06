@@ -27,7 +27,7 @@ const EventHead = () => {
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         opacity: 1,
         duration: 1.3,
-        delay: 0.3,
+        delay: 0.6,
         ease: "power2.out",
         scrollTrigger: {
           trigger: headingRef1.current,
