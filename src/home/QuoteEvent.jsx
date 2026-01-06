@@ -35,7 +35,7 @@ const QuoteEvent = () => {
 
   const wordSpans = el.querySelectorAll(".word-span");
 
-  gsap.set(wordSpans, { opacity: 0, y: 20 });
+  gsap.set(wordSpans, { opacity: 0, y: 50 });
 
   gsap.to(wordSpans, {
     opacity: 1,
@@ -45,7 +45,7 @@ const QuoteEvent = () => {
     stagger: 0.20,
     scrollTrigger: {
       trigger: el,
-      delay: 0.3,
+      delay: 0.2,
       start: "top 75%",
       once: true,
     },
