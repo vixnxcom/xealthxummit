@@ -42,9 +42,10 @@ const QuoteEvent = () => {
     y: 0,
     duration: 1.2,
     ease: "power2.out",
-    stagger: 0.15,
+    stagger: 0.20,
     scrollTrigger: {
       trigger: el,
+      delay: 0.3,
       start: "top 75%",
       once: true,
     },
