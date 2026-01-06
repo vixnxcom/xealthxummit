@@ -106,7 +106,7 @@ const Home = () => {
     <img
       src={bot}
       alt=""
-      className="w-full  object-contain md:w-[400px] lg:w-[500px]"
+      className="w-90   object-contain md:w-[400px] lg:w-[500px]"
     />
   </div>
 </TypeWriterText>

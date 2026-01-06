@@ -61,6 +61,7 @@ const Quote = () => {
             gsap.to(allCharSpans, {
               opacity: 1,
               x: 0,
+              delay: 0.3,
               stagger: 0.03,
               duration: 0.3,
               ease: 'power2.out'
