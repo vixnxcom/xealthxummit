@@ -45,7 +45,7 @@ const QuoteEvent = () => {
     stagger: 0.20,
     scrollTrigger: {
       trigger: el,
-      delay: 0.2,
+      delay: 0.5,
       start: "top 75%",
       once: true,
     },
