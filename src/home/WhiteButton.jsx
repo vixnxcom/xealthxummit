@@ -11,7 +11,7 @@ const WhiteButton = () => {
                md:h-[4vw] w-[92vw] h-[14vw] flex items-center justify-center'>
 
           <p className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
-           Buy Ticket
+           Register to Attend
             <span className=' mx-2 flex items-center justify-center'>
               <img src={black} alt="" className='w-5 h-5'/>
             </span>

@@ -14,13 +14,13 @@ import TypeWriterText from './TypeWriterText'
 
 const Awards = () => {
   return (
-    <div className=' mb-20'>
+    <div className=' '>
     
  <HeadAwards />
 
 
      {/* <div className='mb-10 w-full mx-auto max-w-5xl '></div> */}
-     <div className='mb-20 bg-lab h-[480px] '>
+     <div className='mb-20  bg-lab h-[300px] '>
      
      </div>
 
@@ -32,7 +32,7 @@ const Awards = () => {
 
     <BookParallaxFloatImage />
       <SecondAwards />
-{/* <div className='bg-evnt h-[480px]'></div> */}
+
 
          <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
@@ -53,7 +53,7 @@ const Awards = () => {
         </div>
     </Parallax>
 
- <div></div>
+ 
    
     </div>
   )
