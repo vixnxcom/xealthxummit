@@ -7,13 +7,13 @@ const SecondAwards = () => {
 <div className='md:grid lg:grid-cols-2 md:gap-12'>
       {/* 06 */}
     <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3">
+         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-black">06.</span>
+            <span className="text-[16px] editors-reg text-white">06.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px] text-cya mt-2 editors-bold ">
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
               Academia & Research
             </p>
           </TypewriterText>
@@ -37,13 +37,13 @@ const SecondAwards = () => {
 
       {/* 07 */}
      <div className="bg-white h-[400px] mt-10 m">
-        <div className="flex flex-col items-start mb-2 w-full px-3">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-black">07.</span>
+            <span className="text-[16px] editors-reg text-white">07.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px] text-cya mt-2 editors-bold ">
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
               NGOs & Social Impact
             </p>
           </TypewriterText>
@@ -63,13 +63,13 @@ const SecondAwards = () => {
 
       {/* 08 */}
       <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-black">08.</span>
+            <span className="text-[16px] editors-reg text-white">08.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px] text-cya mt-2 editors-bold ">
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
               Clinicians & Frontline Innovators
             </p>
           </TypewriterText>
@@ -89,13 +89,13 @@ const SecondAwards = () => {
 
       {/* 09 */}
    <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3">
+       <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-black">09.</span>
+            <span className="text-[16px] editors-reg text-white">09.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px] text-cya mt-2 editors-bold ">
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
               Startups & Innovators
             </p>
           </TypewriterText>
@@ -119,13 +119,13 @@ const SecondAwards = () => {
 
       {/* 10 */}
    <div className="bg-white h-[400px] w-full mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-black">10.</span>
+            <span className="text-[16px] editors-reg text-white">010.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px] text-cya mt-2 editors-bold">
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
               Special Recognition
             </p>
           </TypewriterText>

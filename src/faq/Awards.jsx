@@ -6,7 +6,7 @@ import SecondAwards from './SecondAwards'
 import { Background, Parallax } from 'react-parallax'
 import Quote from '../services/Quote'
 import styles from '../style'
-import {  doc, man, men } from '../assets'
+import {  doc, lab, man, men } from '../assets'
 import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
 import Button from '../home/Button'
@@ -15,11 +15,11 @@ import TypeWriterText from './TypeWriterText'
 const Awards = () => {
   return (
     <div className=' mb-20'>
-     {/* <div className='w-[30vw]'>
-      <img src={awards} alt="" />
-     </div> */}
+    
  <HeadAwards />
-     
+     <div>
+      <img src={lab} alt="" />
+     </div>
        
       <FullAwards />
 

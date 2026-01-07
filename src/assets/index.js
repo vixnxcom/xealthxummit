@@ -25,6 +25,7 @@ import vr from './sponsor.jpeg'
 import sponsor from './sponsor.jpeg'
 import ticket from './ticket.jpeg'
 import image from './image.jpg'
+import lab from './lab.jpg'
 
 import man from './man.png'
 import men from './men.png'
@@ -45,7 +46,7 @@ import health from './health.mp4'
 import heart from './hert.jpeg'
 import brn from './brain.jpeg'
 import dude from './heart.jpeg'
-import big from './bg.jpg'
+import big from './bg.png'
 import night from './night.jpg'
 import g from './g.jpg'
 import africa from './africa.jpeg'
@@ -55,5 +56,5 @@ import brain from './brain.gif'
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab,
      arrow, session, lead, mind, bulb, life, time, image };

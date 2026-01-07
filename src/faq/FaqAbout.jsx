@@ -64,7 +64,7 @@ const FaqAbout = () => {
            
             className="
               w-full h-full
-              object-contain
+              object-cover
               md:object-contain
               will-change-transform
             "
