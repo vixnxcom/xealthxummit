@@ -6,8 +6,8 @@ const SecondAwards = () => {
     <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
 <div className='md:grid lg:grid-cols-2 md:gap-12'>
       {/* 06 */}
-    <div className="bg-white h-[400px] mt-10">
-         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+    <div className="bg-cyan h-[440px] mt-10">
+         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">06.</span>
           </div>
@@ -36,8 +36,8 @@ const SecondAwards = () => {
       </div>
 
       {/* 07 */}
-     <div className="bg-white h-[400px] mt-10 m">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+     <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">07.</span>
           </div>
@@ -62,8 +62,8 @@ const SecondAwards = () => {
       </div>
 
       {/* 08 */}
-      <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+      <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">08.</span>
           </div>
@@ -88,8 +88,8 @@ const SecondAwards = () => {
       </div>
 
       {/* 09 */}
-   <div className="bg-white h-[400px] mt-10">
-       <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+   <div className="bg-cyan h-[440px] mt-10">
+       <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">09.</span>
           </div>
@@ -112,16 +112,16 @@ const SecondAwards = () => {
           </li>
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-            People’s Choice Award
+            People's Choice Award
           </li>
         </ul>
       </div>
 
       {/* 10 */}
-   <div className="bg-white h-[400px] w-full mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+   <div className="bg-cyan h-[410px] w-full mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[160px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-white">010.</span>
+            <span className="text-[16px] editors-reg text-white">10.</span>
           </div>
 
           <TypewriterText>

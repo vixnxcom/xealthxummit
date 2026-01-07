@@ -17,16 +17,22 @@ const Awards = () => {
     <div className=' mb-20'>
     
  <HeadAwards />
-     <div>
-      <img src={lab} alt="" />
+
+
+     {/* <div className='mb-10 w-full mx-auto max-w-5xl '></div> */}
+     <div className='mb-20 bg-lab h-[480px] '>
+     
      </div>
+
+
+
        
       <FullAwards />
 
 
     <BookParallaxFloatImage />
       <SecondAwards />
-
+{/* <div className='bg-evnt h-[480px]'></div> */}
 
          <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
@@ -47,8 +53,8 @@ const Awards = () => {
         </div>
     </Parallax>
 
- 
-      {/* <NominateButton /> */}
+ <div></div>
+   
     </div>
   )
 }

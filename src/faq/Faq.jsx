@@ -13,7 +13,7 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="w-full bg-bg overflow-hidden">
+    <div className="w-full bg-white overflow-hidden">
 
       {/* FULL WIDTH SECTION — NO CONTAINER */}
      
@@ -28,19 +28,24 @@ const Faq = () => {
         </div>
       </div>
 
-  <div className={` ${styles.paddingX} ${styles.flexStart}  bg-blue `}>
-   <div className={`${styles.boxWidth}  `}>
+<div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
+   <div className={`${styles.boxWidth} mt-20 `}>
          
           <MovingText />
                
             
               </div> 
               </div> 
-               <div className={`${styles.boxWidth} mt-20 mb-10`}>
+
+<div className='bg-blue'>
+   <div className='h-[80px] bg-blue'></div>
+      <div className={`${styles.boxWidth} mb-10`}>
        
               <WhiteButton />            
               </div> 
       <div className="h-[40px]" />
+  
+</div>
     </div>
   );
 };

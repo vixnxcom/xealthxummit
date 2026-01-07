@@ -1384,6 +1384,18 @@ background-size: cover;
   background-repeat: no-repeat;
   background-position: 60%;
 }
+.bg-evnt{
+  background-image: url(assets/event.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-lab{
+  background-image: url(assets/lab.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .border-cyan{
   border: 1px solid #87a3ff;

@@ -6,14 +6,14 @@ const FullAwards = () => {
     <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
 <div className='md:grid lg:grid-cols-2 md:gap-12'>
       {/* 01 */}
-      <div className="bg-white h-[400px] mt-20">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+      <div className="bg-cyan h-[440px] ">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">01.</span>
           </div>
 
           <TypewriterText>
-            <p className="text-[24px]   mt-2 editors-bold mb-4">
+            <p className="text-[24px] text-white  mt-2 editors-bold mb-4">
               Hospital and Health Institutions
             </p>
           </TypewriterText>
@@ -36,8 +36,8 @@ const FullAwards = () => {
       </div>
 
       {/* 02 */}
-      <div className="bg-white h-[400px] mt-10 md:mt-0">
-       <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+      <div className="bg-cyan h-[440px] mt-10 md:mt-0">
+       <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">02.</span>
           </div>
@@ -66,8 +66,8 @@ const FullAwards = () => {
       </div>
 
       {/* 03 */}
-     <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+     <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">03.</span>
           </div>
@@ -96,8 +96,8 @@ const FullAwards = () => {
       </div>
 
       {/* 04 */}
-      <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[150px]">
+      <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">04.</span>
           </div>
@@ -126,8 +126,8 @@ const FullAwards = () => {
       </div>
 
       {/* 05 */}
-      <div className="bg-white h-[400px] mt-10">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-120px">
+      <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">05.</span>
           </div>
