@@ -27,7 +27,7 @@ const EventHead = () => {
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         opacity: 1,
         duration: 1.3,
-        delay: 0.6,
+        delay: 1,
         ease: "power2.out",
         scrollTrigger: {
           trigger: headingRef1.current,
@@ -56,7 +56,7 @@ const EventHead = () => {
             ref={headingRef1} 
             className="editors-bold text-[32px] tracking-widest text-blue text-left"
           >
-    Events
+    Events of the Healthtech Frontiers 2026
           </h1>
           {/* <p 
             ref={paragraphRef1} 

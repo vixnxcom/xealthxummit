@@ -28,7 +28,7 @@ import image from './image.jpg'
 import lab from './lab.jpg'
 
 import man from './man.png'
-import men from './men.png'
+import men from './men.jpg'
 import innovative from './brain.jpeg'
 import govt from './govt.png'
 import invest from './invest.png'
@@ -48,6 +48,7 @@ import brn from './brain.jpeg'
 import dude from './heart.jpeg'
 import big from './bg.png'
 import night from './night.jpg'
+import ball from './ball.jpg'
 import g from './g.jpg'
 import africa from './africa.jpeg'
 import brain from './brain.gif'
@@ -56,5 +57,5 @@ import brain from './brain.gif'
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab,
+     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab, ball,
      arrow, session, lead, mind, bulb, life, time, image };

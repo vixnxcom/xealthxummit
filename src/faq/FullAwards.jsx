@@ -1,5 +1,6 @@
 import React from 'react'
 import TypewriterText from './TypeWriterText'
+import FloatImage from './FloatImage'
 
 const FullAwards = () => {
   return (
@@ -95,6 +96,7 @@ const FullAwards = () => {
         </ul>
       </div>
 
+    
       {/* 04 */}
       <div className="bg-cyan h-[440px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
@@ -125,6 +127,9 @@ const FullAwards = () => {
         </ul>
       </div>
 
+      <div className='mt-20'>
+<FloatImage />
+      </div>
       {/* 05 */}
       <div className="bg-cyan h-[440px] mt-10">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
@@ -134,7 +139,7 @@ const FullAwards = () => {
 
           <TypewriterText>
             <p className="text-[24px]   mt-2 editors-bold mb-4">
-              Technology Providers
+              Technology <br /> Providers
             </p>
           </TypewriterText>
         </div>
@@ -151,6 +156,60 @@ const FullAwards = () => {
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
             Remote Monitoring & Wearable Tech Innovation
+          </li>
+        </ul>
+      </div>
+         {/* 06 */}
+    <div className="bg-cyan h-[440px] mt-10">
+         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
+          <div className="mt-4 mb-4 flex items-center justify-center">
+            <span className="text-[16px] editors-reg text-white">06.</span>
+          </div>
+
+          <TypewriterText>
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
+              Academia & <br /> Research
+            </p>
+          </TypewriterText>
+        </div>
+
+        <ul className="editors-thin py-2 text-[20px] text-blue flex flex-col px-3">
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Digital Health Research Excellence
+          </li>
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            AI in Medicine Research Award
+          </li>
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Best Industry–Academia Collaboration
+          </li>
+        </ul>
+      </div>
+ {/* 07 */}
+     <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
+          <div className="mt-4 mb-4 flex items-center justify-center">
+            <span className="text-[16px] editors-reg text-white">07.</span>
+          </div>
+
+          <TypewriterText>
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
+              NGOs & <br /> Social Impact
+            </p>
+          </TypewriterText>
+        </div>
+
+        <ul className="editors-thin py-2 text-[20px] text-blue flex flex-col px-3">
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Community HealthTech Impact
+          </li>
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Maternal & Child Digital Health Innovation
           </li>
         </ul>
       </div>

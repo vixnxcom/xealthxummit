@@ -5,6 +5,7 @@ import Awards from './Awards'
 import MovingText from '../home/ImageText'
 import Button from '../home/Button'
 import WhiteButton from '../home/WhiteButton'
+import { med, steth } from '../assets'
 
 
 const Faq = () => {
@@ -19,7 +20,7 @@ const Faq = () => {
      
  <FaqAbout />
      
-     
+    
 
       {/* BOXED CONTENT BELOW */}
       <div className={`${styles.flexCenter}  mt-10`}>
