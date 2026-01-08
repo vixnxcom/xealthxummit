@@ -39,7 +39,7 @@ const QuoteEvent = () => {
 
     gsap.set(wordSpans, {
       opacity: 0,
-      y: 50,
+      y: 40,
     });
 
     /* --- intersection observer --- */
@@ -50,9 +50,9 @@ const QuoteEvent = () => {
         gsap.to(wordSpans, {
           opacity: 1,
           y: 0,
-          duration: 1.1,
+          duration: 0.9,
           ease: "power2.out",
-          stagger: 0.20,
+          stagger: 0.15,
         });
 
         observerRef.current.disconnect(); // run once
