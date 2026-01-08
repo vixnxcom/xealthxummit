@@ -131,7 +131,7 @@ const FullAwards = () => {
 <FloatImage />
       </div>
       {/* 05 */}
-      <div className="bg-cyan h-[440px] mt-10">
+      <div className="bg-cyan h-[440px] ">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">05.</span>
