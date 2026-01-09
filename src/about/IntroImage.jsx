@@ -51,7 +51,7 @@ const BookParallaxFloatImage = ({ src }) => {
       yoyo: true,
       repeat: -1,
       ease: "sine.inOut",
-      delay: 1.2 // starts after entry animation finishes
+      delay: 1.5 // starts after entry animation finishes
     });
 
     // PARALLAX DEPTH EFFECT (scroll)
