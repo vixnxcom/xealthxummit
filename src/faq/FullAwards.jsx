@@ -5,7 +5,7 @@ import FloatImage from './FloatImage'
 const FullAwards = () => {
   return (
     <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
-<div className='md:grid lg:grid-cols-2 md:gap-12'>
+<div className="grid md:grid-cols-2 md:gap-12">
       {/* 01 */}
       <div className="bg-cyan h-[440px] ">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
@@ -127,7 +127,7 @@ const FullAwards = () => {
         </ul>
       </div>
 
-      <div className='mt-20'>
+      <div className='mt-20 md:mt-0'>
 <FloatImage />
       </div>
       {/* 05 */}

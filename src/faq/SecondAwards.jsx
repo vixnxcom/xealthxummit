@@ -3,9 +3,9 @@ import TypewriterText from './TypeWriterText'
 
 const SecondAwards = () => {
   return (
-    <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
-<div className='md:grid lg:grid-cols-2 md:gap-12'>
-   
+      <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
+<div className="grid md:grid-cols-2 md:gap-12">
+
      
 
       {/* 08 */}
@@ -35,7 +35,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 09 */}
-   <div className="bg-cyan h-[440px] mt-10">
+   <div className="bg-cyan h-[440px] mt-10 md:mt-0">
        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">09.</span>
@@ -65,7 +65,7 @@ const SecondAwards = () => {
       </div>
 
       {/* 10 */}
-   <div className="bg-cyan h-[410px] w-full mt-10">
+   <div className="bg-cyan h-[410px] w-full mt-10 md:mt-0 ">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[160px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">10.</span>
