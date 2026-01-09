@@ -23,7 +23,7 @@ const Awards = () => {
 <div className="grid grid-cols-1 md:grid-cols-2 mb-20">
   <div className="bg-lab h-[240px] md:h-[360px]"></div>
 
-  <div className="bg-cyb h-[300px] bg-gray-50 md:h-[360px]  md:mb-0"></div>
+  <div className="bg-cyb h-[300px]  mt-2 bg-gray-50 md:h-[360px]  md:mb-0"></div>
 </div>
 
  
