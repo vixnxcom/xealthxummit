@@ -13,7 +13,7 @@ const TicketButton = () => {
     <section className="mb-20 text-white overflow-hidden">
      
 
-      <div className=" max-w-5xl mx-auto mt-5 z-10 px-4">
+      <div className=" max-w-5xl mx-auto mt-5 z-10 px-3">
 
         {/* SECTION 1 */}
         <TypewriterText>
@@ -66,7 +66,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-bold">
+                <p className="text-[24px] md:text-[40px] px-3 py-8 text-left text-white editors-bold">
                   National HealthTech Excellence Awards
                 </p>
               </TypewriterText>
@@ -111,7 +111,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px]  px-4 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-3 py-8 text-left text-white editors-bold">
                   Networking and Innovative Exhibition
                 </p>
               </TypewriterText>
@@ -155,7 +155,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px]  px-4 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-3 py-8 text-left text-white editors-bold">
                   Start-Up Pitch Finals
                 </p>
               </TypewriterText>

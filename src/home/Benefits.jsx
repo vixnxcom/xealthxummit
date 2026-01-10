@@ -27,7 +27,7 @@ const Benefits = () => {
     
     </div>
     < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] h-[160px] py-2 text-black 
-    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+    flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
 
             <TypeWriterText >
           <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
@@ -54,7 +54,7 @@ const Benefits = () => {
     
     </div>
     < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] h-[160px]  py-2 text-black 
-    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+    flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
 
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
@@ -78,7 +78,7 @@ const Benefits = () => {
     
     </div>
     < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[160px]  py-2 text-black 
-    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+    flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
 
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center gap-2 mt-5">
@@ -103,7 +103,7 @@ const Benefits = () => {
     
     </div>
     < ul className="w-full bg-white shadow-lg rounded-b-[16px] h-[160px] py-2 text-black 
-    flex flex-col px-3 text-[20px] editors-reg px-4 py-2 ">
+    flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
 
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center mt-5 gap-2">
