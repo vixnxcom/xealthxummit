@@ -6,10 +6,10 @@ const WhyBody = () => {
        
         <div>
 
-      <div className=" mt-5 mb-10 max-w-5xl mx-auto ">
+      <div className=" mt-5 mb-10 max-w-5xl mx-auto px-3">
 
       <TypeWriterText >
-            <p className="text-[24px] text-white p-4 mt-2 editors-bold ">
+            <p className="text-[24px] text-white py-4 px-3 mt-2 editors-bold ">
               Why HealthTech Frontiers 2026?
             </p>
         </TypeWriterText>

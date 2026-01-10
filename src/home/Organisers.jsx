@@ -7,11 +7,11 @@ const Organisers = () => {
 
   return (
     <section>
-      <div className="flex   px-3 mb-12  space-y-6">
+      <div className="flex  mb-12  space-y-6">
 
         {/* Top line: slides right */}
-           <div className="max-w-5xl w-full mx-auto">
-          <div className=" flex  gap-4">
+           <div className="max-w-5xl w-full mx-auto ">
+          <div className=" flex px-3  gap-4">
           
                  <div className=" flex text-white flex-row">
                          <div className="h-[20px] w-[20px] rounded-full flex-shrink-0 bg-white mr-3 mt-2"></div>

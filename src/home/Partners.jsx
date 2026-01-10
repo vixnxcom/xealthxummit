@@ -5,7 +5,7 @@ import TypeWriterText from '../faq/TypeWriterText';
 const Partners = () => {
   return (
     <section>
-      <div className="flex flex-col px-2 mb-12">
+      <div className="flex flex-col px-3 mb-12">
 
         {/* Partner 1 */}
         <div className="max-w-5xl w-full mx-auto">
