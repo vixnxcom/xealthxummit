@@ -20,7 +20,7 @@ const EventHead = () => {
             {
               clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
               opacity: 1,
-              duration: 1.3,
+              duration: 1.5,
               ease: 'power2.out',
               onComplete: () => {
                 isAnimating.current = false
