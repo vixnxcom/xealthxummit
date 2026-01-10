@@ -20,10 +20,10 @@ const Awards = () => {
 
 
      {/* <div className='mb-10 w-full mx-auto max-w-5xl '></div> */}
-<div className="grid grid-cols-1 md:grid-cols-2 mb-20">
-  <div className="bg-lab h-[240px] md:h-[360px]"></div>
+<div className="grid grid-cols-2 bg-blue md:grid-cols-2 mb-20">
+  <div className="bg-lab h-[258px] md:h-[360px]"></div>
 
-  <div className="bg-cyb h-[300px]  mt-2 bg-gray-50 md:h-[360px]  md:mb-0"></div>
+  <div className="bg-cyb h-[250px] mt-2 ml-2 bg-white  md:h-[360px]  md:mb-0"></div>
 </div>
 
  

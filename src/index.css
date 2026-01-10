@@ -1392,7 +1392,7 @@ background-size: cover;
 }
 .bg-lab{
   background-image: url(assets/doct.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1480,9 +1480,10 @@ background-size: cover;
 }
 .bg-cyb{
   background-image: url(assets/robot.png);
-  background-size: cover;
-  background-position: 80%;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
+
 }
 .bg-awd{
   background-image: url(assets/ball.jpg);
