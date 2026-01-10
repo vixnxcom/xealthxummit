@@ -3,7 +3,7 @@ import TypewriterText from './TypeWriterText'
 
 const SecondAwards = () => {
   return (
-      <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
+      <div className="mb-20 flex flex-col  max-w-5xl px-4 md:mx-auto">
 <div className="grid md:grid-cols-2 md:gap-5">
 
      

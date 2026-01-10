@@ -20,7 +20,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="editors-bold text-[24px] md:text-[40px] px-4 py-8 text-left text-white ">
+                <p className="editors-bold text-[24px]  px-4 py-8 text-left text-white ">
                   One Day Healthtech Summit
                 </p>
               </TypewriterText>
@@ -66,7 +66,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px] md:text-[40px] px-3 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-3 py-8 text-left text-white editors-bold">
                   National HealthTech Excellence Awards
                 </p>
               </TypewriterText>
