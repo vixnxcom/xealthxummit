@@ -5,7 +5,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import styles from '../style'
 
 
-
 gsap.registerPlugin(ScrollTrigger)
 
 const HeadAwards = () => {
@@ -26,7 +25,8 @@ const HeadAwards = () => {
       {
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         opacity: 1,
-        duration: 1,
+        duration: 1.3,
+        delay: 0.6,
         ease: "power2.out",
         scrollTrigger: {
           trigger: headingRef1.current,
@@ -36,89 +36,11 @@ const HeadAwards = () => {
       }
     )
 
-    // First paragraph animation
-    gsap.fromTo(
-      paragraphRef1.current,
-      {
-        clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
-        opacity: 0.8
-      },
-      {
-        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-        opacity: 1,
-        duration: 1.5,
-        delay: 0.3,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: paragraphRef1.current,
-          start: "top 80%",
-          toggleActions: "play none none reverse"
-        }
-      }
-    )
+   
+ 
 
-    // Second heading animation
-    gsap.fromTo(
-      headingRef2.current,
-      {
-        clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
-        opacity: 0
-      },
-      {
-        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-        opacity: 1,
-        duration: 1,
-        delay: 0.5,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: headingRef2.current,
-          start: "top 85%",
-          toggleActions: "play none none reverse"
-        }
-      }
-    )
+    
 
-    // Second paragraph animation
-    gsap.fromTo(
-      paragraphRef2.current,
-      {
-        clipPath: 'polygon(0 0, 0 0, 0 100%, 0% 100%)',
-        opacity: 0.8
-      },
-      {
-        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-        opacity: 1,
-        duration: 1.5,
-        delay: 0.8,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: paragraphRef2.current,
-          start: "top 80%",
-          toggleActions: "play none none reverse"
-        }
-      }
-    )
-
-    // Button animation
-    gsap.fromTo(
-      buttonRef.current,
-      {
-        opacity: 0,
-        y: 30
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        delay: 1,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: buttonRef.current,
-          start: "top 65%",
-          toggleActions: "play none none reverse"
-        }
-      }
-    )
 
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill())
