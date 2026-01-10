@@ -4,7 +4,7 @@ import FloatImage from './FloatImage'
 
 const FullAwards = () => {
   return (
-    <div className="mb-20 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
+    <div className="mb-10 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
 <div className="grid md:grid-cols-2 md:gap-5">
       {/* 01 */}
       <div className="bg-cyan h-[440px] ">
@@ -126,10 +126,12 @@ const FullAwards = () => {
           </li>
         </ul>
       </div>
+<div className="mt-20 md:col-span-2 w-full ">
+  <FloatImage />
+</div>
 
-      <div className='mt-20 md:mt-0'>
-<FloatImage />
-      </div>
+
+
       {/* 05 */}
       <div className="bg-cyan h-[440px] ">
         <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
@@ -160,7 +162,7 @@ const FullAwards = () => {
         </ul>
       </div>
          {/* 06 */}
-    <div className="bg-cyan h-[440px] mt-10">
+    <div className="bg-cyan h-[440px] mt-10 md:mt-0">
          <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">06.</span>
@@ -213,6 +215,33 @@ const FullAwards = () => {
           </li>
         </ul>
       </div>
+
+            {/* 08 */}
+      <div className="bg-cyan h-[440px] mt-10">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
+          <div className="mt-4 mb-4 flex items-center justify-center">
+            <span className="text-[16px] editors-reg text-white">08.</span>
+          </div>
+
+          <TypewriterText>
+            <p className="text-[24px]   mt-2 editors-bold mb-4">
+              Clinicians & Frontline Innovators
+            </p>
+          </TypewriterText>
+        </div>
+
+        <ul className="editors-thin py-2 text-[20px] text-blue flex flex-col px-3">
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Tech-Driven Clinical Excellence
+          </li>
+          <li className="py-1 tracking-widest flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Nursing Digital Innovation Award
+          </li>
+        </ul>
+      </div>
+
 </div>
     </div>
   )

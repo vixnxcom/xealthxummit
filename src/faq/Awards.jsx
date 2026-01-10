@@ -34,7 +34,8 @@ const Awards = () => {
       <FullAwards />
 
 
-    <BookParallaxFloatImage />
+  <div className="bg-awd h-[360px]   md:h-[400px]  md:mb-0"></div>
+
       <SecondAwards />
 
 

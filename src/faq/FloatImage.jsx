@@ -77,7 +77,7 @@ const FloatImage = ({ src }) => {
     >
       <img
         ref={imgRef}
-        src={ball}
+        src={doc}
         alt="Animated"
         className="w-full h-auto object-cover"
         style={{

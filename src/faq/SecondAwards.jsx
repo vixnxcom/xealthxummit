@@ -8,34 +8,9 @@ const SecondAwards = () => {
 
      
 
-      {/* 08 */}
-      <div className="bg-cyan h-[440px] ">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
-          <div className="mt-4 mb-4 flex items-center justify-center">
-            <span className="text-[16px] editors-reg text-white">08.</span>
-          </div>
-
-          <TypewriterText>
-            <p className="text-[24px]   mt-2 editors-bold mb-4">
-              Clinicians & Frontline Innovators
-            </p>
-          </TypewriterText>
-        </div>
-
-        <ul className="editors-thin py-2 text-[20px] text-blue flex flex-col px-3">
-          <li className="py-1 tracking-widest flex items-center gap-2">
-            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-            Tech-Driven Clinical Excellence
-          </li>
-          <li className="py-1 tracking-widest flex items-center gap-2">
-            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-            Nursing Digital Innovation Award
-          </li>
-        </ul>
-      </div>
 
       {/* 09 */}
-   <div className="bg-cyan h-[440px] mt-10 md:mt-0">
+   <div className="bg-cyan h-[440px] mt-10">
        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">09.</span>
@@ -65,8 +40,8 @@ const SecondAwards = () => {
       </div>
 
       {/* 10 */}
-   <div className="bg-cyan h-[410px] w-full mt-10 md:mt-0 ">
-        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[160px]">
+   <div className="bg-cyan h-[440px] w-full mt-10  ">
+        <div className="flex flex-col items-start mb-2 w-full px-3 text-white bg-black h-[190px]">
           <div className="mt-4 mb-4 flex items-center justify-center">
             <span className="text-[16px] editors-reg text-white">10.</span>
           </div>
