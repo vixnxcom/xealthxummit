@@ -26,7 +26,7 @@ const HeadAwards = () => {
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         opacity: 1,
         duration: 1.3,
-        delay: 0.6,
+        delay: 0.5,
         ease: "power2.out",
         scrollTrigger: {
           trigger: headingRef1.current,
@@ -58,12 +58,7 @@ const HeadAwards = () => {
           >
           Awards Categories
           </h1>
-          {/* <p 
-            ref={paragraphRef1} 
-            className="editors-thin text-blue-200 py-4 text-[28px] max-w-[500px] text-left"
-          >
-        
-          </p> */}
+       
         </div>
     
 
