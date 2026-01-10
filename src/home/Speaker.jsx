@@ -24,7 +24,7 @@ const Speaker = () => {
      
 
       {/* BOXED CONTENT BELOW */}
-      <div className={`${styles.flexCenter} mt-20 `}>
+     <div className={` ${styles.paddingX} ${styles.flexStart}   mt-20`}>
         <div className={`${styles.boxWidth}`}>
         <SpeakerHtag />
         </div>

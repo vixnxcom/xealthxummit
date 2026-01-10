@@ -47,7 +47,7 @@ const AgendaHead = () => {
   }, [])
 
   return (
-    <section className="w-full mt-5 relative">
+    <section className="w-full mt-10 relative">
       <div className="max-w-5xl mx-auto ">
       <div
         ref={triggerRef}
@@ -59,7 +59,7 @@ const AgendaHead = () => {
         <div className="flex flex-col items-start mb-10">
           <h1
             ref={headingRef}
-            className="editors-bold text-[32px] tracking-widest w-[240px] text-blue text-left"
+            className="editors-bold text-[32px] tracking-widest w-[240px]  text-blue text-left"
           >
    Agenda of the Day
           </h1>

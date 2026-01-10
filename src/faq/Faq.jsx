@@ -23,7 +23,10 @@ const Faq = () => {
     
 
       {/* BOXED CONTENT BELOW */}
-      <div className={`${styles.flexCenter}  mt-10`}>
+     {/* <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}> */}
+    
+     {/* <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}> */}
+     <div className={` ${styles.flexStart} mt-10 `}>
         <div className={`${styles.boxWidth}`}>
           <Awards />
         </div>

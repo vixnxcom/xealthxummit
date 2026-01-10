@@ -46,7 +46,7 @@ const HeadAttend = () => {
   }, [])
 
   return (
-    <section className="w-full mt-5 relative">
+    <section className="w-full mt-10 relative">
       {/* 🔴 85% viewport trigger line */}
       <div
         ref={triggerRef}

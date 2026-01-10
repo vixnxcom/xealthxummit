@@ -71,10 +71,19 @@ const Home = () => {
 </div>
 </div>
 
-  <div className={`${styles.flexCenter} mt-20`}>
+  <div className={` ${styles.paddingX} ${styles.flexStart} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
 
    <Why/>
+  
+   
+</div>
+</div> 
+
+  <div className={`${styles.flexCenter} ]`}>
+ <div className={`${styles.boxWidth}`}>
+
+
    <div className='bg-llady'>
 <WhyBody/>
    </div>
@@ -86,7 +95,7 @@ const Home = () => {
 
 
  
- <div className={`${styles.flexCenter} bg-cyan `}>
+ <div className={` ${styles.paddingX} ${styles.flexStart} bg-cyan `}>
  <div className={`${styles.boxWidth} mt-2 mb-10`}>
 
    <Intro/>
@@ -126,10 +135,19 @@ const Home = () => {
 
 
 
+ <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
+ <div className={`${styles.boxWidth}  `}>
+  
+
+   <EventHead />
+
+    
+</div>
+</div>
  <div className={`${styles.flexCenter}   bg-white `}>
  <div className={`${styles.boxWidth}  `}>
   
-   <EventHead />
+  
    <TicketButton />
 
     
@@ -137,7 +155,7 @@ const Home = () => {
 </div>
 
    
- <div className={`${styles.flexCenter} bg-white  `}>
+ <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
  <div className={`${styles.boxWidth} mt-10 `}>
     
 
@@ -175,7 +193,7 @@ const Home = () => {
 
      </Parallax>
 
-<div className={`${styles.flexCenter} bg-white  `}>
+<div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
  <div className={`${styles.boxWidth} mt-10 `}>
     
 
@@ -194,7 +212,7 @@ const Home = () => {
 </div>
 {/* g */}
 
-      <div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
+   <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
         <div className={`${styles.boxWidth} mt-10 `}>
 
            <AgendaHead /> 

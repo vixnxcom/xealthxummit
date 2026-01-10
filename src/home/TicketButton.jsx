@@ -41,7 +41,7 @@ const TicketButton = () => {
             </TypewriterText>
 
             <TypewriterText>
-              <p className="text-[24px] md:text-[40px] px-3 mt-5 text-left text-white editors-reg">
+              <p className="text-[24px]  px-3 mt-5 text-left text-white editors-reg">
                 The main conference experience
               </p>
             </TypewriterText>
@@ -86,7 +86,7 @@ const TicketButton = () => {
             </TypewriterText>
 
             <TypewriterText>
-              <p className="text-[24px] md:text-[40px] px-3 mt-5 text-left text-white editors-reg">
+              <p className="text-[24px]  px-3 mt-5 text-left text-white editors-reg">
                 Recognising impact, innovation, and leadership
               </p>
             </TypewriterText>
@@ -111,7 +111,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-4 py-8 text-left text-white editors-bold">
                   Networking and Innovative Exhibition
                 </p>
               </TypewriterText>
@@ -131,7 +131,7 @@ const TicketButton = () => {
             </TypewriterText>
 
             <TypewriterText>
-              <p className="text-[24px] md:text-[40px] px-3 mt-5 text-left text-white editors-reg">
+              <p className="text-[24px]  px-3 mt-5 text-left text-white editors-reg">
                 Connecting ideas, people, and partnerships
               </p>
             </TypewriterText>
@@ -155,7 +155,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[24px] md:text-[40px] px-4 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-4 py-8 text-left text-white editors-bold">
                   Start-Up Pitch Finals
                 </p>
               </TypewriterText>
@@ -172,7 +172,7 @@ const TicketButton = () => {
               <img src={lead} alt="" className="p-3 mt-5 w-20 h-20" />
             </div>
             <TypewriterText>
-              <p className="text-[24px] md:text-[40px] px-3 mt-5 text-left text-white editors-reg">
+              <p className="text-[24px]  px-3 mt-5 text-left text-white editors-reg">
                 Showcasing Africa's most promising healthtech startups
               </p>
             </TypewriterText>

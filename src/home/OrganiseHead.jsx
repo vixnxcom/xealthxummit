@@ -54,11 +54,11 @@ const OrganiseHead = () => {
         style={{ top: '15vh' }}
       />
 
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto ">
         <div className="flex flex-col items-start ">
           <h1
             ref={headingRef}
-            className="editors-bold text-[32px] tracking-widest text-blue text-left"
+            className="editors-bold text-[32px] tracking-widest text-blue  text-left"
           >
           Organisers
           </h1>
