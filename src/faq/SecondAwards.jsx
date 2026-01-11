@@ -7,13 +7,14 @@ const SecondAwards = () => {
       <div className="grid md:grid-cols-2 md:gap-5">
         
         {/* 06 */}
-        <div className="bg-cyan h-[560px] mt-10 md:mt-0">
+        <div className="bg-cyan h-[580px] mt-10 md:mt-0">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-awd h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">06.</span>
             </div>
           </div>
-
+         </TypewriterText>
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
               Academia & <br /> Research
@@ -37,12 +38,14 @@ const SecondAwards = () => {
         </div>
 
         {/* 07 */}
-        <div className="bg-cyan h-[560px] mt-10 md:mt-0">
+        <div className="bg-cyan h-[580px] mt-10 md:mt-0">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-social h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">07.</span>
             </div>
           </div>
+         </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -63,12 +66,14 @@ const SecondAwards = () => {
         </div>
 
         {/* 08 */}
-        <div className="bg-cyan h-[560px] mt-10">
+        <div className="bg-cyan h-[580px] mt-10">
+            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-nurse h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">08.</span>
             </div>
           </div>
+          </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -88,12 +93,14 @@ const SecondAwards = () => {
           </ul>
         </div>
         {/* 09 */}
-        <div className="bg-cyan h-[560px] mt-10">
+        <div className="bg-cyan h-[580px] mt-10">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-start h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">09.</span>
             </div>
           </div>
+          </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -118,13 +125,14 @@ const SecondAwards = () => {
         </div>
 
         {/* 10 */}
-        <div className="bg-cyan h-[560px] w-full mt-10">
+        <div className="bg-cyan h-[580px] w-full mt-10">
+          <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-life h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">10.</span>
             </div>
           </div>
-
+           </TypewriterText>
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
               Special <br /> Recognition
@@ -136,9 +144,9 @@ const SecondAwards = () => {
               <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
               <TypewriterText>Lifetime Achievement</TypewriterText>
             </li>
-            <li className="py-1 tracking-widest flex items-center gap-2">
-              <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-              <TypewriterText>HealthTech Leadership Award</TypewriterText>
+            <li className="py-1 tracking-widest flex w-[280px] items-center gap-2">
+              <span className="w-3 h-3 bg-black shrink-0 mx-1 "></span>
+              <TypewriterText>HealthTech Leadership Award </TypewriterText>
             </li>
           </ul>
         </div>

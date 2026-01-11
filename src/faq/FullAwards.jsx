@@ -7,12 +7,14 @@ const FullAwards = () => {
     <div className="mb-10 flex flex-col items-start max-w-5xl px-4 md:mx-auto">
       <div className="grid md:grid-cols-2 md:gap-5">
         {/* 01 */}
-        <div className="bg-cyan h-[560px]">
-          <div className="flex flex-col items-start mb-2 w-full px-3 bg-hosp bg-black h-[200px]">
+        <div className="bg-cyan h-[580px]">
+    <TypewriterText>
+          <div className="flex flex-col items-start mb-2 w-full px-3 bg-hosp  h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">01.</span>
             </div>
           </div>
+ </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -37,12 +39,17 @@ const FullAwards = () => {
         </div>
 
         {/* 02 */}
-        <div className="bg-cyan h-[560px] mt-10 md:mt-0">
+
+        <div className="bg-cyan h-[580px] mt-10 md:mt-0">
+
+
+          <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-pharm h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">02.</span>
             </div>
           </div>
+     </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -67,12 +74,14 @@ const FullAwards = () => {
         </div>
 
         {/* 03 */}
-        <div className="bg-cyan h-[560px] mt-10">
+        <div className="bg-cyan h-[580px] mt-10">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-insur h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">03.</span>
             </div>
           </div>
+          </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -97,12 +106,14 @@ const FullAwards = () => {
         </div>
 
         {/* 04 */}
-        <div className="bg-cyan h-[560px] mt-10">
+        <div className="bg-cyan h-[580px] mt-10">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-public h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">04.</span>
             </div>
           </div>
+           </TypewriterText>
 
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
@@ -129,13 +140,15 @@ const FullAwards = () => {
        
 
         {/* 05 */}
-        <div className="bg-cyan h-[560px] mt-10 ">
+        <div className="bg-cyan h-[580px] mt-10 ">
+           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-cyber h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
               <span className="text-[16px] editors-reg text-white">05.</span>
             </div>
           </div>
-
+       </TypewriterText>
+       
           <TypewriterText>
             <p className="text-[24px] text-blue px-3 mt-2 editors-bold mb-4">
               Technology <br /> Providers
