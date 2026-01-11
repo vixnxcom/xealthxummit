@@ -37,7 +37,7 @@ const Awards = () => {
   <FullAwards />
 </div>
    
- <div className="mt-20 mb-20 w-full">
+ <div className="mt-20 mb-10 w-full">
           <FloatImage />
         </div>
 
