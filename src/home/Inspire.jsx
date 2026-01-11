@@ -8,7 +8,7 @@ const Inspire = () => {
   return (
 
       <div className="App border border-blue-400 bg-cyan rounded-[16px] shadow-lg h-[480px] md:h-[600px]">
-<div class="relative  text-white mb-5 bg-innov h-[240px]   max-w-[470px] corner-card">
+<div class="relative  text-white mb-5 bg-innov h-[240px]  ">
 
       {/* <AnimatedCircleInspire
         targetPercentage={100}

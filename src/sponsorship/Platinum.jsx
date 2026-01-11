@@ -8,7 +8,7 @@ const Platinum = () => {
   return (
     <div className="App ">
       <div className=" bg-black shadow-lg border border-gray-200     text-black mx-auto flex
-       flex-col items-center justify-center text-center w-full max-w-md">
+       flex-col items-center justify-center text-center w-full max-w-lg">
        
 
         <p className="text-[24px] text-white editors-bold mt-10">

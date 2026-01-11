@@ -41,7 +41,7 @@ const TicketButton = () => {
             </TypewriterText>
 
             <TypewriterText>
-              <p className="text-[20px] px-3 w-[370px] md:w-[570px] mt-5 text-left text-white editors-reg">
+              <p className="text-[20px] px-3 w-[370px] md:w-full md:mx-auto mt-5 text-left text-white editors-reg">
                 The main conference experience
               </p>
             </TypewriterText>

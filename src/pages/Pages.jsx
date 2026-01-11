@@ -17,6 +17,7 @@ import NavTag from '../NavTag';
 import Speaker from '../home/Speaker';
 import MoveToTop from '../home/MoveToTop';
 import Footer from '../Footer';
+import Booking from '../booking/Booking';
 
 const Pages = () => {
   return (
@@ -43,6 +44,7 @@ const Pages = () => {
         <Route exact path="/paysupport" element={<PaySupport />} />
         <Route exact path="/ticket" element={<PayTicket />} />
         <Route exact path="/speakers" element={<Speaker />} />
+        <Route exact path="/booking" element={<Booking />} />
       </Routes>
 
 <MoveToTop />

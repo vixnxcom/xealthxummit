@@ -39,25 +39,25 @@ const Sponsorship = () => {
        <div className='bg-tier h-[170px] md:h-[300px] '></div>
 
       <div className='w-full'>
-        <div className={`${styles.flexCenter} mt-10 w-[90vw] mx-auto`}>
+        <div className={`${styles.flexCenter} ${styles.paddingX} mt-10  mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Platinum />
           </div>
         </div>
 
-        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+        <div className={`${styles.flexCenter} ${styles.paddingX} mt-20 mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Gold />
           </div>
         </div>
 
-        <div className={`${styles.flexCenter} mt-20 w-[90vw] mx-auto`}>
+        <div className={`${styles.flexCenter} mt-20 ${styles.paddingX} mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Silver />
           </div>
         </div>
 
-        <div className={`${styles.flexCenter} mt-20 mb-20 w-[90vw] mx-auto`}>
+        <div className={`${styles.flexCenter} mt-20 mb-20 ${styles.paddingX} mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Support />
           </div>

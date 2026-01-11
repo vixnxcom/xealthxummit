@@ -14,7 +14,7 @@ const Sponsor = () => {
            
          
   <TypeWriterText>
-          <p  className="text-[16px] text-blue tracking-widest text-start editors-reg leading-[26px]">
+          <p  className="text-[16px] px-3 text-blue tracking-widest text-start editors-reg leading-[26px]">
             Becoming a sponsor of the event is an opportunity that comes with significant benefits.
           </p>
 </TypeWriterText>

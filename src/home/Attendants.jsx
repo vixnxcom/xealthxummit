@@ -16,13 +16,16 @@ const Attendants = () => {
   return (
     <section className=" text-white max-w-5xl md:mx-auto mb-10">
   
-      <div className="flex flex-col items-start mb-5">
+      {/* <div className="flex flex-col items-start mb-5 "> */}
+        <div className={`${styles.flexCenter} px-4 flex flex-col items-start mb-5 `}>
+ <div className={`${styles.boxWidth}`}>
         
           <HeadAttend />
       
           </div>
+          </div>
 
-          <div className='md:grid lg:grid-cols-2 md:gap-12'>
+          <div className='md:grid lg:grid-cols-2 md:gap-12 px-3'>
       
   <div className={`${styles.flexCenter}  md:mt-0 `}>
  <div className={`${styles.boxWidth}`}>

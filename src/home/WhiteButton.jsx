@@ -10,12 +10,12 @@ const WhiteButton = () => {
          <button className='mx-auto mt-5  bg-white  rounded-[8px]  md:w-[35vw]
                md:h-[4vw] w-[92vw] h-[14vw] flex items-center justify-center'>
 
-          <p className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
+          <Link to='/booking' className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
            Register to Attend
             <span className=' mx-2 flex items-center justify-center'>
               <img src={black} alt="" className='w-5 h-5'/>
             </span>
-          </p>
+          </Link>
           {/* <Link to='/ticket' className='editors-reg font-medium text-white text-[20px] flex flex-row items-center'>
            Buy Ticket
             <span className='bg-cyan w-10 h-10 rounded-full mx-2 flex items-center justify-center'>
