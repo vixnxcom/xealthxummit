@@ -97,7 +97,7 @@ const SecondAwards = () => {
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-start h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-white shadow-md rounded-full h-16 w-16">
-              <span className="text-[16px] editors-reg text-white">09.</span>
+              <span className="text-[16px] editors-reg text-black">09.</span>
             </div>
           </div>
           </TypewriterText>
