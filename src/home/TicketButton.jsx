@@ -46,7 +46,7 @@ const TicketButton = () => {
               </p>
             </TypewriterText>
 
-            <ul className="editors-thin py-2 text-[20px] text-white flex flex-col px-3">
+            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
               <TypewriterText>
                 <li className="py-3 mb-5 mt-5 tracking-widest max-w-[470px] md:max-w-[800px] flex items-start gap-2">
                   <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
@@ -92,9 +92,9 @@ const TicketButton = () => {
             </TypewriterText>
           
            
-            <ul className="editors-thin py-2 text-[20px] text-white flex flex-col px-3">
+            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
               <TypewriterText>
-                <li className="py-3 mb-5 tracking-widest max-w-[470px] md:max-w-[800px] mt-5 flex items-start gap-2">
+                <li className="py-3 mb-5 tracking-widest  md:max-w-[800px] mt-5 flex items-start gap-2">
                   <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
                   The National HealthTech Excellence Awards celebrate organisations, startups, and individuals driving meaningful change
                   in healthcare through innovation and technology. The awards recognise excellence across clinical innovation, digital
@@ -136,12 +136,12 @@ const TicketButton = () => {
               </p>
             </TypewriterText>
             
-            <ul className="editors-thin py-2 text-[20px] text-white flex flex-col px-3">
+            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
               <TypewriterText>
-                <li className="py-3 mb-5 mt-5 tracking-widest max-w-[470px] md:max-w-[800px] flex items-start gap-2">
+                <li className="py-3 mb-5 mt-5 tracking-widest  md:max-w-[800px] flex items-start gap-2">
                   <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
                   The Networking & Innovation Exhibition creates a dedicated space for meaningful engagement between
-                  innovators, healthcare providers, investors, corporates, and policymakers. Attendees can explore
+                  innovators, health- care providers, investors, corporates, and policy- makers. Attendees can explore
                   cutting-edge solutions, connect with potential partners, and initiate collaborations that extend
                   beyond the event.
                 </li>
@@ -177,13 +177,13 @@ const TicketButton = () => {
               </p>
             </TypewriterText>
             
-            <ul className="editors-thin py-2 text-[20px] text-white flex flex-col px-3">
+            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
               <TypewriterText>
                 <li className="py-3 mb-5 mt-5 tracking-widest max-w-[470px] md:max-w-[800px] flex items-start gap-2">
                   <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
                   The Startup Pitch Finals provide a high-profile platform for selected healthtech startups to pitch their
                   solutions to investors, industry leaders, and strategic partners. Finalists are evaluated on innovation, 
-                  clinical relevance, scalability, and impact, with opportunities for funding, partnerships, and ecosystem support.
+                  clinical relevance, scalability, and impact, with opportunities for funding, partnerships, and eco- system support.
                 </li>
               </TypewriterText>
             </ul>
