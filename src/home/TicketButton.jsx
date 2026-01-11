@@ -41,20 +41,22 @@ const TicketButton = () => {
             </TypewriterText>
 
             <TypewriterText>
-              <p className="text-[20px]  px-3 mt-5 text-left text-white editors-reg">
-                The main conference <br /> experience
+              <p className="text-[20px] px-3 mt-5 text-left text-white editors-reg">
+                The main conference experience
               </p>
             </TypewriterText>
 
-            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
-              <TypewriterText>
-                <li className="py-3 mb-5 mt-5 tracking-widest  flex items-start gap-2 leading-[26px]">
-                  <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
+           <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
+  <TypewriterText>
+    <li className="py-3 mb-5 mt-5 flex items-start gap-3 leading-relaxed">
+      <span className="w-3 h-3 bg-cyan shrink-0 mt-2 "></span>
+      <p className="text-justify hyphens-auto mr-3">
                   The HealthTech Innovation Summit brings together senior clinicians, healthcare leaders,
                   policymakers, investors, and technology innovators to explore how technology
                   can transform healthcare delivery across Africa and emerging markets. Through keynote 
                   talks, expert panels, and focused discussions, the summit addresses real-world challenges,
                   practical solutions, and scalable innovations shaping the future of healthcare.
+          </p>
                 </li>
               </TypewriterText>
             </ul>
@@ -90,16 +92,15 @@ const TicketButton = () => {
                 Recognising impact, innovation, and leadership
               </p>
             </TypewriterText>
-          
-           
-            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
-              <TypewriterText>
-                <li className="py-3 mb-5 tracking-widest  mt-5 flex items-start gap-2 leading-[26px]">
-                  <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
+                 <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
+  <TypewriterText>
+    <li className="py-3 mb-5 mt-5 flex items-start gap-3 leading-relaxed">
+      <span className="w-3 h-3 bg-cyan shrink-0 mt-2 "></span>
+      <p className="text-justify hyphens-auto mr-3">
                   The National HealthTech Excellence Awards celebrate organisations, startups, and individuals driving meaningful change
                   in healthcare through innovation and technology. The awards recognise excellence across clinical innovation, digital
                   health, AI, policy, investment, and social impact, 
-                  highlighting leaders shaping the future of healthcare.
+                  highlighting leaders shaping the future of healthcare. </p>
                 </li>
               </TypewriterText>
             </ul>
@@ -136,14 +137,16 @@ const TicketButton = () => {
               </p>
             </TypewriterText>
             
-            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
-              <TypewriterText>
-                <li className="py-3 mb-5 mt-5 tracking-widest flex items-start gap-2 leading-[26px]">
-                  <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
+                    <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
+  <TypewriterText>
+    <li className="py-3 mb-5 mt-5 flex items-start gap-3 leading-relaxed">
+      <span className="w-3 h-3 bg-cyan shrink-0 mt-2 "></span>
+      <p className="text-justify hyphens-auto mr-3">
                   The Networking & Innovation Exhibition creates a dedicated space for meaningful engagement between
                   innovators, health- care providers, investors, corporates, and policy- makers. Attendees can explore
                   cutting-edge solutions, connect with potential partners, and initiate collaborations that extend
                   beyond the event.
+                </p>
                 </li>
               </TypewriterText>
             </ul>
@@ -177,14 +180,15 @@ const TicketButton = () => {
               </p>
             </TypewriterText>
             
-            <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
-              <TypewriterText>
-                <li className="py-3 mb-5 mt-5 tracking-widest flex items-start gap-2 leading-[26px]">
-                  <span className="w-3 h-3 bg-cyan shrink-0 mt-2"></span>
+                    <ul className="editors-thin py-2 text-[16px] text-white flex flex-col px-3">
+  <TypewriterText>
+    <li className="py-3 mb-5 mt-5 flex items-start gap-3 leading-relaxed">
+      <span className="w-3 h-3 bg-cyan shrink-0 mt-2 "></span>
+      <p className="text-justify hyphens-auto mr-3">
                   The Startup Pitch Finals provide a high-profile platform for selected healthtech startups to pitch their
                   solutions to investors, industry leaders, and strategic partners. Finalists are evaluated on innovation, 
                   clinical relevance, scalability, and impact, with opportunities for funding, partnerships, and eco- system support.
-                </li>
+              </p> </li>
               </TypewriterText>
             </ul>
           </div>
