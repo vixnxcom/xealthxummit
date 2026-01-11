@@ -11,6 +11,7 @@ import PImage from './PImage'
 import BookParallaxFloatImage from '../about/IntroImage'
 import Button from '../home/Button'
 import TypeWriterText from './TypeWriterText'
+import FloatImage from './FloatImage'
 
 const Awards = () => {
   return (
@@ -36,9 +37,10 @@ const Awards = () => {
   <FullAwards />
 </div>
    
+ <div className="mt-20   w-full">
+          <FloatImage />
+        </div>
 
-
-  <div className="bg-awd h-[360px]   md:h-[400px]  md:mb-0"></div>
 
 
 <div className='mx-auto'>

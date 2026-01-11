@@ -1524,3 +1524,58 @@ filter: drop-shadow(-10px 20px 15px #002446);
   .text-shade{
   text-shadow: 0px 0.3px 0.3px #2c2c2c;
   }
+
+  .bg-hosp{
+   background-image: url(assets/hosp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  }
+  .bg-pharm{
+   background-image: url(assets/capsule.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  }
+  .bg-insur{
+   background-image: url(assets/insurance.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  }
+  .bg-public{
+   background-image: url(assets/public.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  }
+  .bg-cyber{
+   background-image: url(assets/cyber.jpg);
+  background-size: cover;
+  background-position: 20%;
+  background-repeat: no-repeat; 
+  }
+  .bg-social{
+   background-image: url(assets/social.jpg);
+  background-size: cover;
+  background-position: 20%;
+  background-repeat: no-repeat; 
+  }
+  .bg-nurse{
+   background-image: url(assets/nurse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  }
+  .bg-start{
+   background-image: url(assets/start.jpg);
+  background-size: cover;
+  background-position: 20%;
+  background-repeat: no-repeat; 
+  }
+  .bg-life{
+   background-image: url(assets/lifetime.jpg);
+  background-size: cover;
+  background-position: 20%;
+  background-repeat: no-repeat; 
+  }

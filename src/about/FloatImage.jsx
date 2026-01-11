@@ -79,7 +79,7 @@ const FloatImage = ({ src }) => {
         ref={imgRef}
         src={intro}
         alt="Animated"
-        className="w-full md:h-[400px] h-auto object-cover"
+        className="w-full md:h-[400px] h-auto object-cover md:object-contain"
         style={{
           transformStyle: "preserve-3d",
           willChange: "transform"
@@ -87,15 +87,7 @@ const FloatImage = ({ src }) => {
       />
       
     </div>
-    {/* <div className="flex flex-col justify-center items-center mx-auto max-w-[370px] mb-10 text-center">
-  <h1 className="editors-bold text-4xl tracking-wider text-cyan">
-    Dr Ahmed Abdulkareem
-  </h1>
-
-  <p className="editors-thin mt-2 text-white py-2 text-[32px] max-w-[370px]">
- <span className="editors-itallic"> Founder, </span>  TEDwi
-  </p>
-</div> */}
+ 
 
       </section>
   );

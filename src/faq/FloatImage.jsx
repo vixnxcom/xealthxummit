@@ -79,7 +79,7 @@ const FloatImage = ({ src }) => {
         ref={imgRef}
         src={doc}
         alt="Animated"
-        className="w-full h-auto object-cover"
+        className="w-full h-auto md:h-[520px] object-cover"
         style={{
           transformStyle: "preserve-3d",
           willChange: "transform"
