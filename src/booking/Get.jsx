@@ -2,13 +2,11 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { dna, redd, scope } from '../assets'
-import Button from './Button'
-import SponsorButton from './SponsorButton'
-import PitchButton from './PitchButton'
+
 
 gsap.registerPlugin(ScrollTrigger)
 
-const Intro = () => {
+const Get = () => {
   const headingRef1 = useRef(null)
   const paragraphRef1 = useRef(null)
   const headingRef2 = useRef(null)
@@ -126,54 +124,26 @@ const Intro = () => {
   }, [])
 
   return (
-    <section className="w-full  mt-5">
+    <section className="w-full  mt-10">
       <div className="max-w-5xl mx-auto ">
         {/* DATE Section - Left Aligned */}
-        <div className="flex flex-col items-start mb-10">
-          <h1 
-            ref={headingRef1} 
-            className="editors-bold text-[32px] tracking-widest text-blue text-left"
-          >
-            Date
-          </h1>
-          <p 
-            ref={paragraphRef1} 
-            className="editors-thin text-blue py-4 text-[20px] max-w-[500px] text-left"
-          >
-           8 June 2026
-          </p>
-        </div>
-        
-        {/* LOCATION Section - Left Aligned */}
         <div className="flex flex-col items-start ">
           <h1 
-            ref={headingRef2} 
-            className="editors-bold text-[32px] tracking-widest text-blue text-left"
+            ref={headingRef1} 
+            className="editors-bold text-[24px] tracking-widest text-blue text-left"
           >
-            Location
+            What you Get
+ 
           </h1>
-          <p 
-            ref={paragraphRef2} 
-            className="editors-thin text-blue py-4 mb-5 text-[20px] max-w-[500px] text-left"
-          >
-            Lagos - Nigeria
-          </p>
+         
         </div>
-       
         
        
-        {/* <div ref={buttonRef} className='bg-red h-[240px] mb-5 flex items-start'>
-          <Button />
-        </div>
-        <div ref={buttonRef} className='bg-blu h-[240px] mb-5 flex items-start'>
-          <SponsorButton />
-        </div>
-        <div ref={buttonRef} className='bg-gren h-[240px] mb-5 flex items-start'>
-          <PitchButton />
-        </div> */}
+        
+     
       </div>
     </section>
   )
 }
 
-export default Intro
+export default Get

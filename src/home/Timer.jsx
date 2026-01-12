@@ -32,7 +32,7 @@ const SwipeUnit = ({ value }) => {
 };
 
 const Countdown = () => {
-  const targetDate = new Date("June 1, 2026 00:00:00").getTime();
+  const targetDate = new Date("June 8, 2026 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hrs: 0, mins: 0, secs: 0 });
 
   const calculate = () => {

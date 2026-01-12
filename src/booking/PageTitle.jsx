@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ahmed, big, brain, night } from "../assets";
+import { ahmed, big, brain, cost, night } from "../assets";
 
 const PageTitle = () => {
   const leftRef = useRef(null);
@@ -43,7 +43,7 @@ const PageTitle = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-tie">
+      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-blue">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
@@ -60,7 +60,7 @@ const PageTitle = () => {
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           <img
             ref={imageRef}
-            src={ahmed}
+            src={cost}
            
             className=" 
               object-cover

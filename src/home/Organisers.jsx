@@ -14,9 +14,9 @@ const Organisers = () => {
           <div className=" flex px-3  gap-4">
           
                  <div className=" flex text-white flex-row">
-                         <div className="h-[20px] w-[20px] rounded-full flex-shrink-0 bg-white mr-3 mt-2"></div>
+                         {/* <div className="h-[20px] w-[20px] rounded-full flex-shrink-0 bg-white mr-3 mt-2"></div> */}
                          <TypeWriterText>
-                         <p  className='editors-reg text-white text-[20px]'>PrimeBridge <br /> Health Solutions</p>
+                         <p  className='editors-reg text-white ml-3 text-[20px]'>PrimeBridge <br /> Health Solutions</p>
                            </TypeWriterText>
                              </div> 
 

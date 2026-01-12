@@ -36,10 +36,10 @@ const Sponsorship = () => {
         </div>
 
 
-       <div className='bg-tier h-[170px] md:h-[300px] '></div>
+       <div className='bg-tier h-[170px] md:h-[360px]  '></div>
 
       <div className='w-full'>
-        <div className={`${styles.flexCenter} ${styles.paddingX} mt-10  mx-auto`}>
+        <div className={`${styles.flexCenter} ${styles.paddingX} mt-10 md:mt:20  mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Platinum />
           </div>

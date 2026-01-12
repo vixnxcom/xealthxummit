@@ -130,7 +130,7 @@ const IntroAttend = () => {
         <div className="flex flex-col items-start mb-10">
           <h1 
             ref={headingRef1} 
-            className="editors-bold text-[24px] tracking-widest text-blue text-left"
+            className="editors-bold text-[20px] tracking-widest text-blue text-left"
           >
            HealthTech Frontiers <br /> 2026
  
@@ -142,9 +142,9 @@ const IntroAttend = () => {
         <div className="flex flex-col items-start ">
           <h1 
             ref={headingRef2} 
-            className="editors-bold text-[24px] tracking-widest text-blue text-left"
+            className="editors-bold text-[20px] tracking-widest text-blue text-left"
           >
-          8 June 2026 | Lagos, Nigeria
+          8 June 2026 - Lagos, <br /> Nigeria
           </h1>
        
         </div>

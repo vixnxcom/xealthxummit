@@ -201,7 +201,7 @@ const Home = () => {
     
 </div>
 </div>
- <div className={`${styles.flexCenter}   mt-10`}>
+ <div className={`${styles.flexCenter} bg-white  `}>
  <div className={`${styles.boxWidth}  `}>
     
 
@@ -221,7 +221,7 @@ const Home = () => {
         </div>
 <div  className=' bg-attende h-[330px] md:h-[520px]'></div> 
 
-      <div className={` px-3 ${styles.flexStart} bg-white `}>
+      <div className={` px-3 ${styles.flexStart} px-4 bg-white `}>
         <div className={`${styles.boxWidth}  mb-10`}>
 
            <Agenda /> 
