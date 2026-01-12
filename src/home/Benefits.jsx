@@ -11,13 +11,13 @@ const Benefits = () => {
     // <div className={` bg-cyan w-full letter-shade justify-center  `}>
     //   <div className=' max-w-5xl p-4'>
     <div className="w-full   mt-5">
-      <div className="max-w-5xl mx-auto  ">
+      <div className="max-w-5xl mx-auto  px-3">
 
         <div 
          
           className=' mt-10 mb-10 text-left   text-white flex flex-col '
         >
-   <div className="bg-black rounded-[16px]  shadow-md mt-5">
+   <div className="bg-black rounded-[16px]   shadow-md mt-5">
   <div className="">
     <div className="mt-2 mb-4 flex flex-row items-center ">
       <span className="p-3 w-20 h-20 ">
