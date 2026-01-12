@@ -57,12 +57,12 @@ const Pages = () => {
 
 <MoveToTop />
 
-    <div className={`${styles.flexCenter} bg-black`}>
+    {/* <div className={`${styles.flexCenter} bg-black`}>
  <div className={`${styles.boxWidth}`}>
  <FooterEffect />
  <Footer />
        </div> 
-       </div> 
+       </div>  */}
 
     </Router>
   );
