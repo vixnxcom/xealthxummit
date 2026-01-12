@@ -6,15 +6,15 @@ const WhyBody = () => {
        
         <div>
 
-      <div className=" mt-5 mb-10 max-w-5xl mx-auto px-3">
+      <div className=" mt-5 mb-10 max-w-5xl mx-auto px-4 ">
 
       <TypeWriterText >
-            <p className="text-[24px] text-white py-4 px-3 mt-2 editors-bold ">
+            <p className="text-[24px] text-white py-4  mt-2 editors-bold ">
               Why HealthTech Frontiers 2026?
             </p>
         </TypeWriterText>
 
-        <ul className="editors-thin py-2 text-[20px] text-white flex flex-col px-3">
+        <ul className="editors-thin py-2 text-[20px] text-white flex flex-col ">
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-white shrink-0 mx-1"></span>
