@@ -1478,6 +1478,12 @@ background-size: cover;
   background-position: 80%;
   background-repeat: no-repeat;
 }
+.bg-reg{
+  background-image: url(assets/comp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bg-cyb{
   background-image: url(assets/robot.png);
   background-size: contain;
@@ -1519,6 +1525,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
 @media (min-width: 768px) {
   .bg-tier {
    background-size: contain;
+   background-color: #000011;
   }}
 
   .text-shade{
@@ -1579,3 +1586,72 @@ filter: drop-shadow(-10px 20px 15px #002446);
   background-position: 20%;
   background-repeat: no-repeat; 
   }
+
+  .image-collage {
+  position: relative;
+  width: 600px;
+  height: 380px;
+  background: #010113;
+}
+
+/* shared image rules */
+.img {
+  position: absolute;
+  object-fit: cover;
+}
+
+/* main visible image */
+.img-main {
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+}
+
+/* left cropped slice */
+.img-left {
+  left: 0;
+  top: 25%;
+  width: 40%;
+  height: 50%;
+}
+
+/* white blocking rectangles */
+.block {
+  position: absolute;
+  background: #87a3ff;
+  z-index: 5;
+  
+}
+
+/* left white block */
+.block-right {
+  left: 0%;
+ 
+  width: 25%;
+  height: 25%;
+  background-color: #00001f;
+  bottom: 0;
+  
+  
+  
+}
+.block-left {
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 25%;
+  background-color: #87a3ff;
+  
+}
+
+/* bottom white block */
+.block-bottom {
+  background-color: #000000;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 22%;
+ 
+
+}
