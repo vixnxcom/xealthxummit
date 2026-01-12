@@ -10,8 +10,8 @@ const Benefits = () => {
   return (
     // <div className={` bg-cyan w-full letter-shade justify-center  `}>
     //   <div className=' max-w-5xl p-4'>
-    <div className="w-full   mt-5">
-      <div className="max-w-5xl mx-auto  px-3">
+    <div className="w-full px-2  mt-5">
+      <div className="max-w-5xl mx-auto  ">
 
         <div 
          
@@ -27,7 +27,7 @@ const Benefits = () => {
     
     </div>
     < ul className="w-full bg-white shadow-lg h-[200px] rounded-b-[16px] h-[160px] py-2 text-black 
-    flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
+    flex flex-col px-3 text-[20px] editors-reg px- py-2 ">
 
             <TypeWriterText >
           <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
