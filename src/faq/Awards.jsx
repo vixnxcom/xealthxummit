@@ -17,7 +17,7 @@ const Awards = () => {
   return (
 <div className=' w-full overflow-hidden   '>
     
-<div className={` ${styles.flexStart} ${styles.paddingX} `}>
+<div className={` ${styles.flexStart} ${styles.paddingX} mt-20`}>
         <div className={`${styles.boxWidth}`}>
           <HeadAwards />
         </div>
