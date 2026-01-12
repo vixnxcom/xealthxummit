@@ -1382,7 +1382,7 @@ background-size: cover;
   background-image: url(assets/ngt.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 60%;
+  background-position: center;
 }
 .bg-evnt{
   background-image: url(assets/event.jpg);
