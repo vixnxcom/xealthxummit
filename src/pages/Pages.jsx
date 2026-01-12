@@ -18,6 +18,11 @@ import Speaker from '../home/Speaker';
 import MoveToTop from '../home/MoveToTop';
 import Footer from '../Footer';
 import Booking from '../booking/Booking';
+import StartUpForm from '../forms/StartUpForm';
+import IndustryForm from '../forms/IndustryForm';
+import GeneralForm from '../forms/GeneralForm';
+import FooterEffect from '../FooterEffect';
+import styles from '../style';
 
 const Pages = () => {
   return (
@@ -45,12 +50,20 @@ const Pages = () => {
         <Route exact path="/ticket" element={<PayTicket />} />
         <Route exact path="/speakers" element={<Speaker />} />
         <Route exact path="/booking" element={<Booking />} />
+        <Route exact path="/startup" element={<StartUpForm />} />
+        <Route exact path="/industry" element={<IndustryForm />} />
+        <Route exact path="/general" element={<GeneralForm />} />
       </Routes>
 
 <MoveToTop />
-   {/* <div className='bottom-0 bg-black'>
+
+    <div className={`${styles.flexCenter} bg-black`}>
+ <div className={`${styles.boxWidth}`}>
+ <FooterEffect />
  <Footer />
-       </div> */}
+       </div> 
+       </div> 
+
     </Router>
   );
 };
