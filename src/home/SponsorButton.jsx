@@ -6,13 +6,13 @@ const SponsorButton = () => {
   return (
      <div className={`] flex   mx-auto`}>
        <div className='mx-auto'>
-         <button className='mx-auto mt-5  bg-white  rounded-[8px]  md:w-[35vw]
+         <button className='mx-auto mt-5  bg-blue  rounded-[8px]  md:w-[35vw]
                md:h-[4vw] w-[92vw] h-[16vw] flex items-center justify-center'>
 
-           <Link to='/sponsor' className='editors-reg font-medium text-blue text-[20px] flex flex-row items-center'>
+           <Link to='/sponsor' className='editors-reg font-medium text-white text-[20px] flex flex-row items-center'>
           Become a Sponsor
            
-               <img src={black} alt="" className='w-5 h-5 ml-2'/>
+               <img src={arrw} alt="" className='w-5 h-5 ml-2'/>
            
            </Link>
            {/* <Link to='/ticket' className='editors-reg font-medium text-white text-[20px] flex flex-row items-center'>

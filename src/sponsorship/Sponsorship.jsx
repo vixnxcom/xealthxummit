@@ -8,6 +8,7 @@ import Support from './Support'
 import HeadTier from './HeadTier'
 import MovingText from '../home/ImageText'
 import WhiteButton from '../home/WhiteButton'
+import SponsorButton from '../home/SponsorButton'
 
 const Sponsorship = () => {
 
@@ -64,6 +65,10 @@ const Sponsorship = () => {
         </div>
 
 
+      </div>
+
+      <div className=' mb-20'>
+        <SponsorButton />
       </div>
 
 <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>

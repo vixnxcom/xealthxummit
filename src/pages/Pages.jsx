@@ -23,6 +23,7 @@ import IndustryForm from '../forms/IndustryForm';
 import GeneralForm from '../forms/GeneralForm';
 import FooterEffect from '../FooterEffect';
 import styles from '../style';
+import BecomeSponsor from '../becomesponsor/BecomeSponsor';
 
 const Pages = () => {
   return (
@@ -41,7 +42,7 @@ const Pages = () => {
         <Route exact path="/service" element={<Services />} />
        
         <Route exact path="/awards" element={<Faq />} />
-        <Route exact path="/sponsor" element={<Sponsorship />} />
+        <Route exact path="/sponsor" element={<BecomeSponsor />} />
         <Route exact path="/sponsorship" element={<Sponsorship />} />
         <Route exact path="/paygold" element={<PayGold />} />
         <Route exact path="/payplat" element={<PayPlat />} />

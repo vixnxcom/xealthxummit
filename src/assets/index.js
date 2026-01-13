@@ -50,6 +50,7 @@ import big from './bg.jpg'
 import night from './night.jpg'
 import ball from './ball.jpg'
 import cost from './cost.jpg'
+import partner from './partner.jpg'
 import g from './g.jpg'
 import africa from './africa.jpeg'
 import brain from './brain.gif'
@@ -57,6 +58,6 @@ import brain from './brain.gif'
 
 
 export { dna,steth, night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost,
+     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost, partner,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab, ball,
      arrow, session, lead, mind, bulb, life, time, image };

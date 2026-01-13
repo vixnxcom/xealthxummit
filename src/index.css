@@ -1448,6 +1448,12 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-state{
+  background-image: url(assets/state.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bg-sp{
   background-image: url(assets/globe.jpeg);
   background-size: cover;
