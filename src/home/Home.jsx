@@ -80,7 +80,7 @@ const Home = () => {
 </div>
 </div> 
 
-   <div className={` ${styles.flexStart}   ${styles.paddingX} bg-llady `}>
+   <div className={` ${styles.flexStart} ${styles.paddingX} bg-llady `}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
    <WhyBody/>
