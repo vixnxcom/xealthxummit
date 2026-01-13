@@ -65,7 +65,7 @@ const SponsorTitle = () => {
             className=" 
               object-cover
               w-full h-full
-              lg:object-contain
+              lg:object-cover
               will-change-transform
             "
           />

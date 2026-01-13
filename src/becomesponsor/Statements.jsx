@@ -14,7 +14,7 @@ const Statements = () => {
     flex flex-col  text-[20px] editors-bold  py-4 ">
 
             <TypeWriterText>
-               <li className=''>
+               <li className='mt-2'>
      Executive Statement -  HealthTech Frontiers 2026
     </li>
             </TypeWriterText>
@@ -23,7 +23,7 @@ const Statements = () => {
       < ul className="w-full  py-2 text-white 
     flex flex-col text-[16px] editors-reg  py-2 ">
   <TypeWriterText>
-          <li className="py-1 tracking-widest mt-5 flex items-start gap-2 text-shade leading-relaxed">
+          <li className="py-1 tracking-widest mt-2 flex items-start gap-2 text-shade leading-relaxed">
             <span className="w-3 h-3 bg-white shrink-0 mt-2 "></span>
             <p className='text-justify hyphens-auto md:w-[800px] mr-3'>
             Partnering with HealthTech Frontiers 2026 positions your organisation at the centre of Africa’s healthcare
