@@ -57,7 +57,7 @@ const HeadTier = () => {
         </div>
 
         {/* CENTERED VIDEO */}
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
+        <div className="absolute inset-0 z-10 flex items-center  justify-center">
           <img
             ref={imageRef}
             src={ahmed}
@@ -65,7 +65,7 @@ const HeadTier = () => {
             className=" 
               object-cover
               w-full h-full
-              lg:object-contain
+              lg:object-contain 
               will-change-transform
             "
           />
