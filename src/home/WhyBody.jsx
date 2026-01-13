@@ -3,10 +3,9 @@ import TypeWriterText from '../faq/TypeWriterText'
 
 const WhyBody = () => {
   return (
-       
-        <div>
+    
 
-      <div className=" mt-5 mb-10 max-w-5xl mx-auto px-4 ">
+      <div className='max-w-5xl w-full mb-10 mt-5'>
 
       <TypeWriterText >
             <p className="text-[24px] text-white py-4  mt-2 editors-bold ">
@@ -44,7 +43,7 @@ const WhyBody = () => {
             </TypeWriterText>
         </ul>
       </div>
-      </div>
+   
   )
 }
 

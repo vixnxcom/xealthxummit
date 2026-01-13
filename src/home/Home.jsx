@@ -80,17 +80,13 @@ const Home = () => {
 </div>
 </div> 
 
-  <div className={`${styles.flexCenter} ]`}>
- <div className={`${styles.boxWidth}`}>
+   <div className={` ${styles.flexStart}   ${styles.paddingX} bg-llady `}>
+ <div className={`${styles.boxWidth} mt-2 `}>
 
-
-   <div className='bg-llady'>
-<WhyBody/>
-   </div>
-   
+   <WhyBody/>
+  
 </div>
-</div> 
-
+</div>
 
 
 
