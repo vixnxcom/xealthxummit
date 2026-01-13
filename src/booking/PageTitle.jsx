@@ -65,7 +65,7 @@ const PageTitle = () => {
             className=" 
               object-cover
               w-full h-full
-              lg:object-contain
+             
               will-change-transform
             "
           />

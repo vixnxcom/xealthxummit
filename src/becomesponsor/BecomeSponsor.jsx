@@ -5,6 +5,8 @@ import HeadBecome from "./HeadBecome"
 import Statements from "./Statements"
 import Reach from "./Reach"
 import SponsorOptions from "./SponsorOptions"
+import ContactSponsor from "./ContactSponsor"
+import EmailSponsor from "./EmailSponsor"
 
 
 const BecomeSponsor = () => {
@@ -52,6 +54,20 @@ const BecomeSponsor = () => {
  <div className={`${styles.boxWidth} mt-2 `}>
 
    <SponsorOptions/>
+  
+</div>
+</div>
+<div className={` ${styles.flexStart} ${styles.paddingX} mt-5 `}>
+ <div className={`${styles.boxWidth} mt-2 `}>
+
+   <ContactSponsor/>
+  
+</div>
+</div>
+<div className={` ${styles.flexStart} ${styles.paddingX} mt-5 mb-20`}>
+ <div className={`${styles.boxWidth} mt-2 `}>
+
+   <EmailSponsor/>
   
 </div>
 </div>

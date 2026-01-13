@@ -14,11 +14,14 @@ const SponsorOptions = () => {
   <div className="">
      {/* <div className="mt-2 mb-4 flex flex-row rounded-[16px] items-center h-[200px] bg-black"> */}
       <div className="flex flex-col items-start ">
-          <h1
+        <TypeWriterText>
+  <h1
           
             className="editors-bold px-3  text-[20px] py-2 tracking-widest md:mx-auto  text-black text-left">
        Sponsorship Options
       </h1>
+        </TypeWriterText>
+        
   
     
     </div> 
@@ -28,35 +31,59 @@ const SponsorOptions = () => {
             <TypeWriterText >
           <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-           Platinum Partner
+           Platinum Partner -
           </li>
         
           </TypeWriterText>
+
+            <TypeWriterText>
+                  <p className='px-7 editors-bold'>
+                 ₦5,000,000 +
+              </p>
+            </TypeWriterText>
+
+
+
+            <TypeWriterText >
+          
+          <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Gold Partner -
+          </li>
+        
+          </TypeWriterText>
+          <TypeWriterText>
+                  <p className='px-7 editors-bold'>
+                 ₦2,500,000 - ₦3,500,000 
+              </p>
+            </TypeWriterText>
 
             <TypeWriterText >
           <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-            Gold Partner
+            Innovation Partner -
           </li>
         
           </TypeWriterText>
 
-            <TypeWriterText >
-          <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
-            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-            Innovation Partner
-          </li>
-        
-          </TypeWriterText>
-
+         <TypeWriterText>
+                  <p className='px-7 editors-bold'>
+                 ₦1,000,000 - ₦1,500,000 
+              </p>
+            </TypeWriterText>
           
             <TypeWriterText >
-          <li className="py-1 tracking-widest mt-5 mb-5 flex items-center gap-2">
+          <li className="py-1 tracking-widest mt-5 flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-             Awards Partner
+             Awards Partner -
           </li>
         
           </TypeWriterText>
+          <TypeWriterText>
+                  <p className='px-7 editors-bold mb-5'>
+                 ₦300,000 - ₦500,000 
+              </p>
+            </TypeWriterText>
           </ul>
    
   </div>

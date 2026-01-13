@@ -14,11 +14,14 @@ const Reach = () => {
   <div className="">
      {/* <div className="mt-2 mb-4 flex flex-row rounded-[16px] items-center h-[200px] bg-black"> */}
       <div className="flex flex-col items-start ">
-          <h1
+        <TypeWriterText>
+ <h1
           
             className="editors-bold px-3  text-[20px] py-2 tracking-widest mx-auto  text-black text-left">
         Why Sponsor HealthTech Frontiers 2026
       </h1>
+        </TypeWriterText>
+         
   
     
     </div> 
