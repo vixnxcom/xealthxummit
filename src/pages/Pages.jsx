@@ -58,10 +58,16 @@ const Pages = () => {
 
 <MoveToTop />
 
-     <div className={`${styles.flexCenter}  bg-black`}>
+     <div className={`${styles.flexCenter}   bg-blue `}>
  <div className={`${styles.boxWidth}  `}>
- <FooterEffect />
- <Footer />
+  <div className='bg-blue md:px-16 px-4'>
+<FooterEffect />
+  </div>
+
+  <div className='bg-black'>
+<Footer />
+  </div>
+ 
        </div> 
        </div>   
 
