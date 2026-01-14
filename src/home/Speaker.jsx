@@ -45,10 +45,14 @@ const Speaker = () => {
             
               </div> 
               </div> 
+
+               <div className={`${styles.flexCenter} `}>
                <div className={`${styles.boxWidth} mt-20 mb-10`}>
        
               <WhiteButton />            
               </div> 
+              </div> 
+
       <div className="h-[40px]" />
   
     </div>
