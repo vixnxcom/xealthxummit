@@ -149,9 +149,28 @@ const IntroAttend = () => {
        
         </div>
        
-        <div>
+        {/* <div>
                <p 
             ref={paragraphRef2} 
+            className="editors-thin text-blue py-4 mb-5 text-[20px] max-w-[500px] text-left"
+          >
+          
+          </p>
+        </div> */}
+        {/* LOCATION Section - Left Aligned */}
+        <div className="flex flex-col items-start mt-10">
+          <h1 
+            ref={paragraphRef2} 
+            className="editors-bold text-[20px] tracking-widest w-[320px] text-blue text-left"
+          >
+          NECA House Events Centre, Alausa
+          </h1>
+       
+        </div>
+       
+        <div>
+               <p 
+            ref={paragraphRef1} 
             className="editors-thin text-blue py-4 mb-5 text-[20px] max-w-[500px] text-left"
           >
           

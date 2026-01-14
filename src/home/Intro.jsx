@@ -159,6 +159,20 @@ const Intro = () => {
             Lagos - Nigeria
           </p>
         </div>
+        <div className="flex flex-col items-start ">
+          <h1 
+            ref={headingRef2} 
+            className="editors-bold text-[32px] tracking-widest text-blue text-left"
+          >
+            Venue
+          </h1>
+          <p 
+            ref={paragraphRef2} 
+            className="editors-thin text-blue py-4 mb-5 text-[20px] max-w-[290px] text-left"
+          >
+            NECA House Events Centre, Alausa
+          </p>
+        </div>
        
         
        
