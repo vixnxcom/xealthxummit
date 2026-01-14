@@ -1736,3 +1736,15 @@ filter: drop-shadow(-10px 20px 15px #002446);
     height: 1350px; /* unchanged */
   }
 }
+/* Small phones: iPhone 5 / SE (2016) */
+@media (max-width: 344px) {
+  .form-mask {
+    min-height: 800px; /* slightly increased to prevent clipping content */
+    max-height: 880px; /* same as before, fine */
+    border-radius: 16px 16px 32px 32px;
+  }
+
+  .form-iframe {
+    height: 1350px; /* unchanged */
+  }
+}
