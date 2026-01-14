@@ -3,7 +3,7 @@ import { ahmed, big, lab, right, sponsor } from './assets'
 
 const FooterEffect = () => {
   return (
-    <div className='w-[95vw] max-w-5xl'>
+    <div className='w-[95vw] xl:w-[100vw] max-w-5xl'>
    <div className="image-collage xl:mx-auto">
   <img src={big} className="img img-main " />
   <img src={right} className="img img-left" />

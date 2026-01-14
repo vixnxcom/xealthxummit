@@ -60,11 +60,11 @@ const Pages = () => {
 
      <div className={`${styles.flexCenter}   bg-blue `}>
  <div className={`${styles.boxWidth}  `}>
-  <div className='bg-blue md:px-16 px-4'>
+  <div className='bg-blue  px-4 md:px-16 xl:px-0'>
 <FooterEffect />
   </div>
 
-  <div className='bg-black'>
+  <div className='bg-black '>
 <Footer />
   </div>
  
