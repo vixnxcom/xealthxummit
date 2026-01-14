@@ -11,7 +11,7 @@ const Footer = () => {
           <span className="editors-itallic">2026</span>
         </h1>
 
-        <div className="text-[3vw] text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-sahde">
+        {/* <div className="text-[3vw] text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-sahde">
          
           <a
             href="https://wa.me/2349034442458"
@@ -21,7 +21,7 @@ const Footer = () => {
           >
             Designed by{" "} vixndotcom
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
