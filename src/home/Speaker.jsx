@@ -53,7 +53,7 @@ const Speaker = () => {
               </div> 
               </div> 
 
-      <div className="h-[40px]" />
+      <div className="h-[120px]" />
   
     </div>
   );
