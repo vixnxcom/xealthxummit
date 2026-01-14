@@ -60,7 +60,7 @@ const SpeakerHead = () => {
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           <img
             ref={imageRef}
-            src={scope}
+            
            
             className="
               w-full h-full
