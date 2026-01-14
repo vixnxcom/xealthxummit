@@ -1632,6 +1632,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
   top: 25%;
   width: 40%;
   height: 50%;
+  z-index: 10;
 }
 
 /* blocking rectangles */
@@ -1640,30 +1641,31 @@ filter: drop-shadow(-10px 20px 15px #002446);
   z-index: 5;
 }
 
-/* top-left block */
+/* shared left block size */
+.block-left,
+.block-right {
+  width: 25%;
+  height: 25%;
+}
+
+/* individual colors + positioning */
 .block-left {
   left: 0;
   top: 0;
-  width: 25%;
-  height: 25%;
   background-color: #010113;
 }
 
-/* bottom-left white block */
 .block-right {
   left: 0;
   bottom: 0;
-  width: 25%;
-  height: 25%;
   background-color: #ffffff;
 }
 
-/* bottom center block */
 .block-bottom {
-  left: 25%;
+  right: 0;
   bottom: 0;
-  width: 50%;
-  height: 22%;
+  width: 75%;   /* same as .img-main */
+  height: 25%;
   background-color: #010113;
 }
 
@@ -1675,18 +1677,23 @@ filter: drop-shadow(-10px 20px 15px #002446);
 
   .img-left {
     width: 45%;
+    /* height: 50%; */
     top: 30%;
   }
 
+  
+  @media (max-width: 640px) {
   .block-left,
   .block-right {
-    width: 30%;
-    height: 22%;
+    width: 35%;
+    height: 30%;
   }
 
   .block-bottom {
-    height: 18%;
+    height: 20%;
+    width: 65%;
   }
+}
 }
 
 

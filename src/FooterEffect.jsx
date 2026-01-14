@@ -4,7 +4,7 @@ import { ahmed, big, lab, right, sponsor } from './assets'
 const FooterEffect = () => {
   return (
     <div className='w-[100vw] max-w-5xl'>
-   <div className="image-collage">
+   <div className="image-collage xl:mx-auto">
   <img src={big} className="img img-main" />
   <img src={right} className="img img-left" />
   <div className="block block-left" />
@@ -15,5 +15,4 @@ const FooterEffect = () => {
 </div>
   )
 }
-
 export default FooterEffect
