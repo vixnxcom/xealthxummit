@@ -6,7 +6,7 @@ const StartUpButton = () => {
   return (
     <div className={` flex   mx-auto`}>
       <div className='mx-auto'>
-         <button className='mx-auto mt-15 mb-5  bg-cyan hover:!bg-black hover:scale-103 cursor-pointer 
+         <button className='mx-auto mt-15 mb-5  bg-cyan hover:!bg-black active:!bg-black hover:scale-103 cursor-pointer 
           rounded-[9px]  md:w-[35vw]
                md:h-[4vw] w-[86vw] h-[12vw] flex items-center justify-center'>
 
