@@ -1601,14 +1601,20 @@ filter: drop-shadow(-10px 20px 15px #002446);
 
   .image-collage {
   position: relative;
-  width: 600px;
-  height: 380px;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 600 / 380;
   background: #010113;
+  overflow: hidden;
 }
 
 /* shared image rules */
 .img {
   position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
 
@@ -1628,46 +1634,60 @@ filter: drop-shadow(-10px 20px 15px #002446);
   height: 50%;
 }
 
-/* white blocking rectangles */
+/* blocking rectangles */
 .block {
   position: absolute;
-  background: #87a3ff;
   z-index: 5;
-  
 }
 
-/* left white block */
-.block-right {
-  left: 0%;
- 
-  width: 25%;
-  height: 25%;
-  background-color: #fff ;
-  bottom: 0;
-  
-  
-  
-}
+/* top-left block */
 .block-left {
   left: 0;
   top: 0;
   width: 25%;
   height: 25%;
   background-color: #010113;
-  
 }
 
-/* bottom white block */
-.block-bottom {
-  background-color: #010113 ;
+/* bottom-left white block */
+.block-right {
+  left: 0;
   bottom: 0;
+  width: 25%;
+  height: 25%;
+  background-color: #ffffff;
+}
+
+/* bottom center block */
+.block-bottom {
   left: 25%;
+  bottom: 0;
   width: 50%;
   height: 22%;
+  background-color: #010113;
 }
 
+/* -------- MOBILE TUNING -------- */
+@media (max-width: 640px) {
+  .img-main {
+    width: 85%;
+  }
 
+  .img-left {
+    width: 45%;
+    top: 30%;
+  }
 
+  .block-left,
+  .block-right {
+    width: 30%;
+    height: 22%;
+  }
+
+  .block-bottom {
+    height: 18%;
+  }
+}
 
 
 /* Wrapper centers the form */
