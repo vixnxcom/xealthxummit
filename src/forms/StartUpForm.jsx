@@ -3,7 +3,7 @@ import React from 'react'
 const StartUpForm = () => {
   return (
     <section>
-  <div className="flex flex-col items-center  bg-reg">
+  <div className="flex flex-col items-center  bg-pass">
           <h1
           
             className="editors-bold  p-3 mt-10 text-[20px] tracking-widest mx-auto  text-white text-center">
@@ -11,7 +11,7 @@ const StartUpForm = () => {
       </h1>
           <h1
           
-            className="editors-bold  p-3 text-[20px] tracking-widest mx-auto  text-white text-center">
+            className="editors-bold  p-3 text-[20px] tracking-widest mx-auto mb-5  text-white text-center">
        Startup Pass
       </h1>
   
