@@ -1752,8 +1752,8 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* Small phones: iPhone 5 / SE (2016) */
 @media (max-width: 344px) {
   .form-mask {
-    min-height: 794px; /* slightly increased to prevent clipping content */
-    max-height: 874px; /* same as before, fine */
+    min-height: 734px; /* slightly increased to prevent clipping content */
+    max-height: 814px; /* same as before, fine */
     border-radius: 16px 16px 32px 32px;
   }
 
