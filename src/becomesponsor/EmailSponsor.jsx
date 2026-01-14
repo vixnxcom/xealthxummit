@@ -3,12 +3,12 @@ import TypeWriterText from '../faq/TypeWriterText'
 
 const EmailSponsor = () => {
   return (
-   <div className="w-full   mt-5">
+   <div className="w-full ">
       <div className="max-w-5xl mx-auto  ">
 
         <div>
 
-   <div className="bg-white    mt-5">
+   <div className="bg-white ">
   <div className="">
      {/* <div className="mt-2 mb-4 flex flex-row rounded-[16px] items-center h-[200px] bg-black"> */}
       <div className="flex flex-col items-start ">

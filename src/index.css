@@ -1636,7 +1636,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
  
   width: 25%;
   height: 25%;
-  background-color: #00001f;
+  background-color: #fff ;
   bottom: 0;
   
   
@@ -1647,13 +1647,13 @@ filter: drop-shadow(-10px 20px 15px #002446);
   top: 0;
   width: 25%;
   height: 25%;
-  background-color: #87a3ff;
+  background-color: #010113;
   
 }
 
 /* bottom white block */
 .block-bottom {
-  background-color: #000000;
+  background-color: #010113 ;
   bottom: 0;
   left: 25%;
   width: 50%;

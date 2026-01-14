@@ -25,7 +25,7 @@ const Statements = () => {
   <TypeWriterText>
           <li className="py-1 tracking-widest mt-2 flex items-start gap-2 text-shade leading-relaxed">
             <span className="w-3 h-3 bg-white shrink-0 mt-2 "></span>
-            <p className='text-justify hyphens-auto md:w-[800px] mr-3'>
+            <p className='text-justify hyphens-auto mr-3'>
             Partnering with HealthTech Frontiers 2026 positions your organisation at the centre of Africa’s healthcare
  transformation.
  Engage senior decision-makers, innovators, investors, and policymakers in one of Africa’s fastest-growing health and
