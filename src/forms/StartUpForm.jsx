@@ -3,21 +3,22 @@ import React from 'react'
 const StartUpForm = () => {
   return (
     <section>
-  <div className="flex flex-col items-center mt-10 ">
+  <div className="flex flex-col items-center  bg-reg">
           <h1
           
-            className="editors-bold  p-3  text-[20px] tracking-widest mx-auto  text-black text-center">
+            className="editors-bold  p-3 mt-10 text-[20px] tracking-widest mx-auto  text-white text-center">
     HealthTech Frontiers - 2026
       </h1>
           <h1
           
-            className="editors-bold  p-3 text-[20px] tracking-widest mx-auto  text-black text-center">
+            className="editors-bold  p-3 text-[20px] tracking-widest mx-auto  text-white text-center">
        Startup Pass
       </h1>
   
     
     </div> 
-    <div className="form-wrapper">
+    <div className='bg-white h-[40px]'></div>
+    <div className="form-wrapper ">
 
       <div className="form-mask">
         <iframe
@@ -32,7 +33,7 @@ const StartUpForm = () => {
  
 
 
-    <div className='h-[80px]'></div>
+    <div className='h-[120px]'></div>
     </section>
   )
 }
