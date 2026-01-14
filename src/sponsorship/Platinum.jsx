@@ -24,13 +24,13 @@ const Platinum = () => {
         <ul className="w-full bg-white text-black flex flex-col h-[220px] text-[20px] editors-reg m-0 p-4 list-none">
           <TypewriterText>
             <li className="py-1 tracking-widest flex text-left gap-2">
-            <span><img src={right} alt="" className='w-10 h-10 ' /></span>
+           <span className="w-3 h-3 bg-black mt-2 shrink-0 mx-1"></span>
              Keynote visibility.
             </li>
           </TypewriterText>
           <TypewriterText>
             <li className="py-1 tracking-widest mt-5 flex text-left gap-2">
-            <span><img src={right} alt="" className='w-10 h-10' /></span>
+            <span className="w-3 h-3 bg-black mt-2 shrink-0 mx-1"></span>
              Headline branding.
             </li>
           </TypewriterText>

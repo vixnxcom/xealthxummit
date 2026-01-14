@@ -27,7 +27,7 @@ const Support = () => {
        
           <TypewriterText>
             <li className="py-1 tracking-widest mt-5 flex w-full text-left  gap-2">
-             <span><img src={right} alt="" className='w-10 h-10' /></span>
+             <span className="w-3 h-3 bg-black mt-2 shrink-0 mx-1"></span>
             Category Sponsorship.
             </li>
             {/* <li className="px-14 tracking-widest mt-5 flex items-center ">
@@ -37,7 +37,7 @@ const Support = () => {
           </TypewriterText>
           <TypewriterText>
             <li className="py-1 tracking-widest mt-5 flex text-left gap-2">
-             <span><img src={right} alt="" className='w-10 h-10' /></span>
+           <span className="w-3 h-3 bg-black mt-2 shrink-0 mx-1"></span>
              Exhibition presence.
             </li>
           </TypewriterText>
