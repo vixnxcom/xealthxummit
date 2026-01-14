@@ -1714,8 +1714,8 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* Phones: iPhone X, 11, most Androids */
 @media (max-width: 440px) {
   .form-mask {
-    min-height: 700px; /* slightly increased for better fit */
-    max-height: 780px; /* slightly reduced to prevent scroll on tiny screens */
+    min-height: 698px; /* slightly increased for better fit */
+    max-height: 778px; /* slightly reduced to prevent scroll on tiny screens */
     border-radius: 18px 18px 36px 36px;
   }
 
@@ -1727,8 +1727,8 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* Small phones: iPhone 5 / SE (2016) */
 @media (max-width: 375px) {
   .form-mask {
-    min-height: 750px; /* slightly increased to prevent clipping content */
-    max-height: 830px; /* same as before, fine */
+    min-height: 748px; /* slightly increased to prevent clipping content */
+    max-height: 828px; /* same as before, fine */
     border-radius: 16px 16px 32px 32px;
   }
 
@@ -1739,8 +1739,8 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* Small phones: iPhone 5 / SE (2016) */
 @media (max-width: 344px) {
   .form-mask {
-    min-height: 800px; /* slightly increased to prevent clipping content */
-    max-height: 880px; /* same as before, fine */
+    min-height: 798px; /* slightly increased to prevent clipping content */
+    max-height: 878px; /* same as before, fine */
     border-radius: 16px 16px 32px 32px;
   }
 
