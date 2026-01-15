@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { dna, redd, scope } from '../assets'
+import TypeWriterText from '../faq/TypeWriterText'
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -133,9 +134,16 @@ const Options = () => {
             className="editors-bold text-[24px] tracking-widest text-blue text-left"
           >
             Ticket Options
+
  
           </h1>
-         
+            <TypeWriterText >
+                   <li className="py-1 tracking-widest mt-2 flex editors-reg  text-[16px] items-center ">
+                    
+                  Buy Tickets to Access Forms
+                   </li>
+                 
+              </TypeWriterText>
         </div>
         
        

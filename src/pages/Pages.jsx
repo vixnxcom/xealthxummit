@@ -24,6 +24,7 @@ import GeneralForm from '../forms/GeneralForm';
 import FooterEffect from '../FooterEffect';
 import styles from '../style';
 import BecomeSponsor from '../becomesponsor/BecomeSponsor';
+import TableFiveForm from '../forms/TableFiveForm';
 
 const Pages = () => {
   return (
@@ -54,6 +55,7 @@ const Pages = () => {
         <Route exact path="/startup" element={<StartUpForm />} />
         <Route exact path="/industry" element={<IndustryForm />} />
         <Route exact path="/general" element={<GeneralForm />} />
+        <Route exact path="/table" element={<TableFiveForm />} />
       </Routes>
 
 <MoveToTop />
