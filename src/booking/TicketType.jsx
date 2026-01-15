@@ -63,7 +63,7 @@ const TicketType = () => {
           </ul>
    
   </div>
-  <div className="mt-10">
+  <div className="mt-20">
      {/* <div className="mt-2 mb-4 flex flex-row rounded-[16px] items-center h-[200px] bg-black"> */}
       <div className="flex flex-col items-center  rounded-[16px] bg-black ">
          <h1
@@ -149,7 +149,7 @@ const TicketType = () => {
 
   
   
-  <div className="mt-10">
+  <div className="mt-20">
      {/* <div className="mt-2 mb-4 flex flex-row rounded-[16px] items-center h-[200px] bg-black"> */}
       <div className="flex flex-col items-center  rounded-[16px] bg-black ">
           <h1
