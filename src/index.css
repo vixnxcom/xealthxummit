@@ -1713,7 +1713,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
   overflow: hidden;
 
   /* subtle card look */
-  border-radius: 20px 20px 40px 40px;
+  border-radius: 16px;
 }
 
 /* iframe is intentionally taller than mask */
