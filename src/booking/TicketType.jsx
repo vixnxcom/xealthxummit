@@ -118,7 +118,7 @@ const TicketType = () => {
 
           <GeneralButton />
 
-            <div className="flex flex-col items-center mt-5  rounded-[16px] bg-black ">
+            <div className="flex flex-col items-center mt-10  rounded-[16px] bg-black ">
          <h1
           
             className="editors-bold  p-3 text-[20px] tracking-widest mx-auto  text-white text-center">
