@@ -13,12 +13,8 @@ import SponsorButton from '../home/SponsorButton'
 const Sponsorship = () => {
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth', // change to 'smooth' if you want animation
-    })
-  }, [])
+  window.scrollTo(0, 0) // Instant scroll, no animation
+}, [])
 
   return (
     <div className='w-full bg-white '>

@@ -9,9 +9,10 @@ import { med, steth } from '../assets'
 
 
 const Faq = () => {
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0 });
-  }, []);
+
+ useEffect(() => {
+  window.scrollTo(0, 0) // Instant scroll, no animation
+}, [])
 
   return (
     <div className="w-full bg-white overflow-hidden">
