@@ -19,20 +19,22 @@ const Partners = () => {
       color: 'text-black',
       alt: 'African Achievers Awards logo'
     },
+   
     {
       id: 3,
-      name: 'MangroveX',
-      logo: mang,
-      color: 'text-black',
-      alt: 'MangroveX logo'
-    },
-    {
-      id: 4,
       name: 'Global Reputation Forum',
       logo: forum,
       color: 'text-black',
       alt: 'Global Reputation Forum logo'
-    }
+    },
+     {
+      id: 4,
+      name: 'MangroveX',
+      logo: mang,
+      color: 'text-black',
+  
+      alt: 'MangroveX logo'
+    },
   ]
 
   return (
