@@ -17,7 +17,7 @@ const Platinum = () => {
 
         <TypewriterText>
           <p className="text-[20px] md:text-[30px] mb-5 px-2 text-white mb-5 mt-5 editors-bold">
-           5,000,000 +
+           ₦5,000,000 +
           </p>
         </TypewriterText>
 

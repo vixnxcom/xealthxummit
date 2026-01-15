@@ -17,7 +17,7 @@ const Support = () => {
 
         <TypewriterText>
           <p className="text-[20px] md:text-[30px] mb-10 px-2 text-white mt-5  editors-bold">
-            300,000 – 500,000
+            ₦300,000 – ₦500,000
           </p>
         </TypewriterText>
 
