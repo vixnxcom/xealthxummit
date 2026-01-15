@@ -122,7 +122,7 @@ const TicketType = () => {
          <h1
           
             className="editors-bold  p-3 text-[20px] tracking-widest mx-auto  text-white text-center">
-    Exclusive Table for 5
+    Table for 5
       </h1>
 
        <h1
@@ -133,6 +133,15 @@ const TicketType = () => {
 
      
       </div>
+
+         <TypeWriterText >
+    
+          <li className="py-1 tracking-widest mt-4 w-[300px] flex items-center gap-2">
+           
+            General Admission Exclusive table for 5
+          </li>
+        
+          </TypeWriterText>
        <TableFiveButton />
           </ul>
    

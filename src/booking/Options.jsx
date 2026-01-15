@@ -140,7 +140,7 @@ const Options = () => {
             <TypeWriterText >
                    <li className="py-1 tracking-widest mt-2 flex editors-reg  text-[16px] items-center ">
                     
-                  Buy Tickets to Access Forms
+                  Buy Tickets to Access Registration Forms
                    </li>
                  
               </TypeWriterText>
