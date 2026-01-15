@@ -44,7 +44,7 @@ const Partners = () => {
               key={partner.id} 
               className="flex flex-col items-center text-center gap-4"
             >
-              <div className="h-10 md:h-6 ">
+              <div className="h-10 lg:h-6 ">
                 <TypeWriterText>
                   <p className={`editors-reg ${partner.color} text-[16px]`}>
                     {partner.name}
