@@ -11,21 +11,21 @@ const Partners = () => {
       color: 'text-blue',
       alt: 'Medlenna logo'
     },
-     {
-      id: 2,
-      name: 'MangroveX',
-      logo: mang,
-      color: 'text-black',
-      alt: 'MangroveX logo'
-    },
+    
     {
-      id: 3,
+      id: 2,
       name: 'The African Achievers Awards',
       logo: africa,
       color: 'text-black',
       alt: 'African Achievers Awards logo'
     },
-   
+    {
+      id: 3,
+      name: 'MangroveX',
+      logo: mang,
+      color: 'text-black',
+      alt: 'MangroveX logo'
+    },
     {
       id: 4,
       name: 'Global Reputation Forum',
