@@ -138,7 +138,7 @@ const TicketType = () => {
     
           <li className="py-1 tracking-widest mt-4 w-[300px] flex items-center gap-2">
            
-            General Admission Exclusive table for 5
+            General Admission Exclusive table for Five.
           </li>
         
           </TypeWriterText>

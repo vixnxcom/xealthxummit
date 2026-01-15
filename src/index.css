@@ -1708,9 +1708,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
 .form-mask {
   width: 98%;
   min-height: 500px;
-  height: 92vh;
-  height: 92svh; /* modern mobile-safe viewport */
-  max-height: 880px;
+
 
   overflow: hidden;
 
@@ -1721,76 +1719,11 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* iframe is intentionally taller than mask */
 .form-iframe {
   width: 100%;
-  height: 1150px;
+  height: 800px;
   border: none;
 }
-/* Tablets & small laptops */
-@media (max-width: 5000px) {
-  .form-mask {
-    max-height: 600px;
-  }
-}
-/* Tablets & small laptops */
-@media (max-width: 1440px) {
-  .form-mask {
-    max-height: 600px;
-  }
-}
-
-/* Tablets & small laptops */
-@media (max-width: 890px) {
-  .form-mask {
-    max-height: 680px; /* increased from 600px to reduce sudden crop on taller tablets */
-  }
-}
-
-/* Phones: iPhone X, 11, most Androids */
 @media (max-width: 440px) {
-  .form-mask {
-    min-height: 684px; /* slightly increased for better fit */
-    max-height: 764px; /* slightly reduced to prevent scroll on tiny screens */
-    border-radius: 18px 18px 36px 36px;
-  }
-
   .form-iframe {
-    height: 1250px; /* unchanged, still taller than mask for cropping */
-  }
-}
-
-/* Phones: iPhone X, 11, most Androids */
-@media (max-width: 414px) {
-  .form-mask {
-    min-height: 692px; /* slightly increased for better fit */
-    max-height: 772px; /* slightly reduced to prevent scroll on tiny screens */
-    border-radius: 18px 18px 36px 36px;
-  }
-
-  .form-iframe {
-    height: 1250px; /* unchanged, still taller than mask for cropping */
-  }
-}
-
-/* Small phones: iPhone 5 / SE (2016) */
-@media (max-width: 375px) {
-  .form-mask {
-    min-height: 744px; /* slightly increased to prevent clipping content */
-    max-height: 824px; /* same as before, fine */
-    border-radius: 16px 16px 32px 32px;
-  }
-
-  .form-iframe {
-    height: 1350px; /* unchanged */
-  }
-}
-/* Small phones: iPhone 5 / SE (2016) */
-@media (max-width: 344px) {
-  .form-mask {
-    min-height: 734px; /* slightly increased to prevent clipping content */
-    max-height: 814px; /* same as before, fine */
-    border-radius: 16px 16px 32px 32px;
-  }
-
-  .form-iframe {
-    height: 1350px; /* unchanged */
+   min-height: 950px;
   }
 }

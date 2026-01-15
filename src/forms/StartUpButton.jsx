@@ -32,7 +32,7 @@ const StartUpButton = () => {
     const handler = window.PaystackPop.setup({
       key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY, // PAYSTACK KEY FROM ENV
       email: 'customer@email.com', // Get from user input
-      amount: 20000, // ₦5,000
+      amount: 1000000, // ₦5,000
       ref: reference,
       currency: 'NGN',
       

@@ -144,6 +144,13 @@ const Options = () => {
                    </li>
                  
               </TypeWriterText>
+            <TypeWriterText >
+                   <li className="py-1 tracking-widest mt-2 flex editors-reg  text-[16px] items-center ">
+                    
+                Please retain a copy of your payment receipt, as it will need to be uploaded during registration.
+                   </li>
+                 
+              </TypeWriterText>
         </div>
         
        
