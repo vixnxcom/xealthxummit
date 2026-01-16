@@ -139,7 +139,7 @@ const Options = () => {
           </h1>
             <TypeWriterText >
                
-                   <li className="py-1 px-3 tracking-widest w-[320px] mt-5 flex items-center gap-2">
+                   <li className="py-1 px-3 tracking-widest w-[330px] mt-5 flex items-center gap-2">
             {/* <span className="w-3 h-3 bg-black shrink-0 mx-1"></span> */}
             Buy Tickets to Access Registration Forms
           </li>
