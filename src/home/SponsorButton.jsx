@@ -15,13 +15,7 @@ const SponsorButton = () => {
                <img src={arrw} alt="" className='w-5 h-5 ml-2'/>
            
            </Link>
-           {/* <Link to='/ticket' className='editors-reg font-medium text-white text-[20px] flex flex-row items-center'>
-            Buy Ticket
-             <span className='bg-cyan w-10 h-10 rounded-full mx-2 flex items-center justify-center'>
-               <img src={arrow} alt="" className='w-5 h-5'/>
-             </span>
-           </Link> */}
- 
+          
          </button>
        </div>
      </div>

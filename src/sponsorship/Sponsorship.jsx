@@ -9,6 +9,7 @@ import HeadTier from './HeadTier'
 import MovingText from '../home/ImageText'
 import WhiteButton from '../home/WhiteButton'
 import SponsorButton from '../home/SponsorButton'
+import Download from './Download'
 
 const Sponsorship = () => {
 
@@ -66,6 +67,15 @@ const Sponsorship = () => {
       <div className=' mb-20'>
         <SponsorButton />
       </div>
+
+<div className={` ${styles.paddingX} ${styles.flexCenter}  `}>
+   <div className={`${styles.boxWidth} mb-20 `}>
+         
+          <Download />
+               
+            
+              </div> 
+              </div> 
 
 <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
    <div className={`${styles.boxWidth} mt-20 `}>
