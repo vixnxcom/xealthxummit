@@ -47,7 +47,7 @@ const HeadBecome= () => {
   }, [])
 
   return (
-    <section className="w-full mt-20 relative">
+    <section className="w-full mt-5 relative">
       <div className="max-w-5xl mx-auto ">
       <div
         ref={triggerRef}

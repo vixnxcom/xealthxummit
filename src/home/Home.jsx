@@ -296,7 +296,7 @@ const Home = () => {
 <div className='bg-blue'>
    <div className='h-[80px] bg-blue'></div>
         <div className={`${styles.flexCenter} `}>
-               <div className={`${styles.boxWidth}mb-10`}>
+               <div className={`${styles.boxWidth} mb-10`}>
        
               <WhiteButton />            
               </div> 

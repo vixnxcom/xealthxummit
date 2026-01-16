@@ -60,14 +60,14 @@ useEffect(() => {
   
 </div>
 </div>
-<div className={` ${styles.flexStart} ${styles.paddingX} mt-5 mb-20`}>
+<div className={` ${styles.flexStart} ${styles.paddingX} mt-5 mb-10`}>
  <div className={`${styles.boxWidth} mt-2 `}>
 
    <EmailSponsor/>
   
 </div>
 </div>
-
+<div className="h-[120px]" />
 </div>
 
       )}
