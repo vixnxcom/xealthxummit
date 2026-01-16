@@ -138,19 +138,24 @@ const Options = () => {
  
           </h1>
             <TypeWriterText >
-                   <li className="py-1 tracking-widest mt-2 flex editors-reg w-[320px] md:w-[470px]  text-[16px] items-center ">
-                    
-                  Buy Tickets to Access Registration Forms
-                   </li>
-                 
+               
+                   <li className="py-1 tracking-widest w-[370px] mt-5 flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+            Buy Tickets to Access Registration Forms
+          </li>
+        
               </TypeWriterText>
             <TypeWriterText >
-                   <li className="py-1 tracking-widest mt-2 flex editors-reg  text-[16px] items-center ">
-                    
-                Please retain a copy of your payment receipt, as it will need to be uploaded during registration.
-                   </li>
-                 
+               
+                   <li className="py-1 tracking-widest w-[370px] mt-5 flex items-center gap-2">
+            <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
+             Please retain a copy of your payment receipt, as it will need to be uploaded during
+                 registration.
+          </li>
+        
               </TypeWriterText>
+
+           
         </div>
         
        
