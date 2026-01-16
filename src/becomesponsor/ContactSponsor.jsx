@@ -15,7 +15,8 @@ const ContactSponsor = () => {
         <TypeWriterText>
   <h1
           
-            className="editors-bold px-3 w-[240px] md:w-[470px] text-[20px] py-2 tracking-widest md:mx-auto  text-black text-left">
+            className="editors-bold px-3 w-[240px] md:w-[470px] text-[20px] py-2 
+            tracking-widest md:mx-auto  text-black text-left">
        Event Sponsorship  Details
       </h1>
         </TypeWriterText>

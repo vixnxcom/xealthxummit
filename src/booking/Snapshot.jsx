@@ -22,7 +22,7 @@ const TicketType = () => {
   
     
     </div> 
-    < ul className="w-full bg-white shadow-lg  rounded-b-[16px] py-2 text-black 
+    < ul className="w-full bg-white shadow-md  rounded-b-[16px] py-2 text-black 
     flex flex-col px-3 text-[16px] editors-reg px-3 py-2 ">
 
             <TypeWriterText >
