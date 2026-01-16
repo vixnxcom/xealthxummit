@@ -4,7 +4,7 @@ import TypewriterText from './TypeWriterText'
 const SecondAwards = () => {
   return (
     <div className="mb-20 flex flex-col max-w-5xl px-3 md:mx-auto">
-      <div className="grid md:grid-cols-2 md:gap-5">
+      <div className="grid md:grid-cols-2 md:gap-8">
         
         {/* 06 */}
         <div className="bg-cyan h-[580px] shadow-md mt-10 md:mt-0">

@@ -5,7 +5,7 @@ import FloatImage from './FloatImage'
 const FullAwards = () => {
   return (
     <div className="mb-20 flex flex-col items-start max-w-5xl px-3 md:mx-auto">
-      <div className="grid md:grid-cols-2 md:gap-5">
+      <div className="grid md:grid-cols-2 md:gap-8">
         {/* 01 */}
         <div className="bg-black shadow-md h-[580px]">
     <TypewriterText>
