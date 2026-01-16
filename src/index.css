@@ -1707,7 +1707,7 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* Mask crops Zoho footer & adds rounded bottom */
 .form-mask {
   width: 98%;
-  min-height: 500px;
+  min-height: 1000px;
 
 
   overflow: hidden;
@@ -1719,11 +1719,64 @@ filter: drop-shadow(-10px 20px 15px #002446);
 /* iframe is intentionally taller than mask */
 .form-iframe {
   width: 100%;
-  height: 800px;
+  height: 1140px;
   border: none;
 }
 @media (max-width: 440px) {
   .form-iframe {
-   min-height: 1200px;
+   min-height: 1160px;
+  }
+}
+
+
+
+
+/* Industry Pass */
+.form-maski {
+  width: 98%;
+  min-height: 1200px;
+
+
+  overflow: hidden;
+
+  /* subtle card look */
+  border-radius: 16px;
+}
+
+/* iframe is intentionally taller than mask */
+.form-iframei {
+  width: 100%;
+  height: 1180px;
+  border: none;
+}
+
+@media (max-width: 440px) {
+  .form-iframei {
+   min-height: 1290px;
+  }
+}
+
+/* Industry Pass */
+.form-maskg {
+  width: 98%;
+  min-height: 1320px;
+
+
+  overflow: hidden;
+
+  /* subtle card look */
+  border-radius: 16px;
+}
+
+/* iframe is intentionally taller than mask */
+.form-iframeg {
+  width: 100%;
+  height: 1300px;
+  border: none;
+}
+
+@media (max-width: 440px) {
+  .form-iframeg {
+   min-height: 1380px;
   }
 }

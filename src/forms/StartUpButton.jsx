@@ -45,7 +45,7 @@ const StartUpButton = () => {
             paymentData: {
               reference: response.reference,
               transactionId: response.transaction,
-              amount: 5000,
+              amount: 10000,
               status: 'success',
               timestamp: new Date().toISOString()
             }
