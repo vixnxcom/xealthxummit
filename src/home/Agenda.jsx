@@ -5,7 +5,7 @@ const Agenda = () => {
   return (
     <div className="w-full flex flex-col mb-10 mt-10">
       <div className="max-w-5xl mx-auto">
-        <div className='md:grid lg:grid-cols-2 md:gap-12'>
+        <div className='md:grid lg:grid-cols-2 md:gap-8'>
           
           <TypeWriterText>
             <div className='mb-5 border md:mb-0 border-cyan border-2 shadow-md rounded-[16px] h-[120px] p-3 text-blue'>
