@@ -7,7 +7,7 @@ import { eye, right } from '../assets'
 const Gold = () => {
   return (
     <div className="App ">
-      <div className=" bg-black shadow-lg border border-gray-200   text-black mx-auto flex
+      <div className=" bg-black shadow-md border border-gray-200   text-black mx-auto flex
        flex-col items-center justify-center text-center w-full max-w-lg">
      
 
