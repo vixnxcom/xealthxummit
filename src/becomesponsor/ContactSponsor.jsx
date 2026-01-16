@@ -25,7 +25,7 @@ const ContactSponsor = () => {
     
     </div> 
     < ul className="w-full  py-2 text-black 
-    flex flex-col px-3 text-[16px] editors-reg px-3 py-2 ">
+    flex flex-col  text-[16px] editors-reg px-3 py-2 ">
 
             <TypeWriterText>
           <li className="py-1 tracking-widest mt-2 flex items-center gap-2">
