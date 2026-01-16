@@ -9,7 +9,7 @@ const Download = () => {
                md:h-[4vw] w-[92vw] h-[200px] flex items-center justify-center'>
 
            <div className='editors-reg font-medium w-[320px] text-white text-[20px] flex flex-col items-center'>
-         Download Sponsor Prospectus
+         Download Sponsorship Prospectus
            
                <img src={check} alt="" className='w-5 h-5 ml-2 mt-4'/>
            
