@@ -7,7 +7,7 @@ const SecondAwards = () => {
       <div className="grid md:grid-cols-2 md:gap-5">
         
         {/* 06 */}
-        <div className="bg-cyan h-[580px] mt-10 md:mt-0">
+        <div className="bg-cyan h-[580px] shadow-md mt-10 md:mt-0">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-awd h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
@@ -38,7 +38,7 @@ const SecondAwards = () => {
         </div>
 
         {/* 07 */}
-        <div className="bg-black h-[580px] mt-10 md:mt-0">
+        <div className="bg-black h-[580px] shadow-md mt-10 md:mt-0">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-social h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-white shadow-md rounded-full h-16 w-16">
@@ -66,7 +66,7 @@ const SecondAwards = () => {
         </div>
 
         {/* 08 */}
-        <div className="bg-cyan h-[580px] mt-10">
+        <div className="bg-cyan h-[580px] shadow-md mt-10">
             <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-nurse h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
@@ -93,7 +93,7 @@ const SecondAwards = () => {
           </ul>
         </div>
         {/* 09 */}
-        <div className="bg-black h-[580px] mt-10">
+        <div className="bg-black h-[580px] shadow-md  mt-10">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-start h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-white shadow-md rounded-full h-16 w-16">
@@ -125,7 +125,7 @@ const SecondAwards = () => {
         </div>
 
         {/* 10 */}
-        <div className="bg-cyan h-[580px] w-full mt-10">
+        <div className="bg-cyan h-[580px] shadow-md w-full mt-10">
           <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-life h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">

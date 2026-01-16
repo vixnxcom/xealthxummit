@@ -7,7 +7,7 @@ const FullAwards = () => {
     <div className="mb-20 flex flex-col items-start max-w-5xl px-3 md:mx-auto">
       <div className="grid md:grid-cols-2 md:gap-5">
         {/* 01 */}
-        <div className="bg-black h-[580px]">
+        <div className="bg-black shadow-md h-[580px]">
     <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-hosp   h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center shadow-md bg-white rounded-full h-16 w-16">
@@ -40,7 +40,7 @@ const FullAwards = () => {
 
         {/* 02 */}
 
-        <div className="bg-cyan h-[580px] mt-10 md:mt-0">
+        <div className="bg-cyan shadow-md  h-[580px] mt-10 md:mt-0">
 
 
           <TypewriterText>
@@ -74,7 +74,7 @@ const FullAwards = () => {
         </div>
 
         {/* 03 */}
-        <div className="bg-black h-[580px] mt-10">
+        <div className="bg-black h-[580px] shadow-md mt-10">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-insur h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-white shadow-md rounded-full h-16 w-16">
@@ -106,7 +106,7 @@ const FullAwards = () => {
         </div>
 
         {/* 04 */}
-        <div className="bg-cyan h-[580px] mt-10">
+        <div className="bg-cyan h-[580px] shadow-md mt-10">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-public h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-blue rounded-full h-16 w-16">
@@ -140,7 +140,7 @@ const FullAwards = () => {
        
 
         {/* 05 */}
-        <div className="bg-black h-[580px] mt-10 ">
+        <div className="bg-black h-[580px] shadow-md mt-10 ">
            <TypewriterText>
           <div className="flex flex-col items-start mb-2 w-full px-3 bg-cyber h-[200px]">
             <div className="mt-4 mb-4 flex items-center justify-center bg-white shadow-md rounded-full

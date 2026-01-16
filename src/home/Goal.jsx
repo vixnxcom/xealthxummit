@@ -7,7 +7,7 @@ import TypeWriterText from '../faq/TypeWriterText';
 const Goal = () => {
   return (
 
-      <div className="App border border-blue-400 bg-cyan rounded-[16px] shadow-lg h-[480px] md:h-[600px]">
+      <div className="App border border-blue-400 bg-cyan rounded-[16px] shadow-md h-[480px] md:h-[600px]">
 <div class="relative  text-white mb-5 bg-ngo h-[240px]">
 
       {/* <AnimatedCircleGoal
