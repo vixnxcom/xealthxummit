@@ -13,9 +13,7 @@ import Download from './Download'
 
 const Sponsorship = () => {
 
-  useEffect(() => {
-  window.scrollTo(0, 0) // Instant scroll, no animation
-}, [])
+
 
   return (
     <div className='w-full bg-white '>

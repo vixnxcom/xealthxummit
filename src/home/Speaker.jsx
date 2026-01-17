@@ -6,36 +6,43 @@ import SpeakerHtag from './SpeakerHtag';
 import MovingText from './ImageText';
 import WhiteButton from './WhiteButton';
 import { g } from '../assets';
+import AgendaHead from './AgendaHead';
+import Agenda from './Agenda';
+import AgendaImage from './AgendaImage';
 
 
 
 const Speaker = () => {
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0 });
-  }, []);
+ 
 
   return (
-    <div className="w-full bg-bg overflow-hidden">
+    <div className="w-full bg-wite overflow-hidden">
+
+      
+
+          <SpeakerHead />
+       
+
 
       {/* FULL WIDTH SECTION — NO CONTAINER */}
-     
- <SpeakerHead />
-     
-     
+       <div className={` ${styles.paddingX} ${styles.flexStart}   `}>
+        <div className={`${styles.boxWidth} mt-20 `}>
+
+           <AgendaHead /> 
+       
+        </div>
+        </div> 
+      <div  className=' bg-attende h-[330px] md:h-[520px]'></div> 
 
       {/* BOXED CONTENT BELOW */}
-     <div className={` ${styles.paddingX} ${styles.flexStart}   mt-20`}>
-        <div className={`${styles.boxWidth}`}>
-        <SpeakerHtag />
+     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth} mt-10`}>
+        <Agenda />
         </div>
       </div>
-          {/* <img src={g} alt="" /> */}
-{/* 
-      <div className={`${styles.flexCenter} h-[400px] mt-20 bg-bot`}>
-        <div className={`${styles.boxWidth} `}>
-      
+        <div>
+          <AgendaImage />
         </div>
-      </div> */}
 
   <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
    <div className={`${styles.boxWidth} mt-20 `}>
@@ -46,14 +53,15 @@ const Speaker = () => {
               </div> 
               </div> 
 
-               <div className={`${styles.flexCenter} `}>
+               <div className={`${styles.flexCenter} bg-blue`}>
                <div className={`${styles.boxWidth} mt-20 mb-10`}>
        
               <WhiteButton />            
               </div> 
+             
               </div> 
 
-      <div className="h-[120px]" />
+       <div className="h-[120px] bg-blue" />
   
     </div>
   );

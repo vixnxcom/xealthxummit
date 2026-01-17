@@ -45,7 +45,7 @@ const HamburgerNav = () => {
 
   // Primary and secondary menu items
   const primaryMenu = ['Home', 'Awards', ];
-  const secondaryMenu = ['Sponsorship','Speakers',  'Contact'];
+  const secondaryMenu = ['Sponsorship','Agenda',  'Contact'];
 
   return (
     <div className="relative overflow-hidden" onKeyDown={handleKeyDown}>

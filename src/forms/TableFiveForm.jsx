@@ -5,9 +5,10 @@ const TableFiveForm = () => {
   const navigate = useNavigate()
   const location = useLocation()
   
-  useEffect(() => {
-    window.scrollTo(0, 0)
-    
+ useEffect(() => {
+  
+ 
+ 
     // Check for payment data in router state
     const paymentData = location.state?.paymentData
     

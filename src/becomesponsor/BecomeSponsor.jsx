@@ -11,9 +11,7 @@ import EmailSponsor from "./EmailSponsor"
 
 const BecomeSponsor = () => {
 
-useEffect(() => {
-  window.scrollTo(0, 0) // Instant scroll, no animation
-}, [])
+
 
   return (
     <div className='w-full bg-white '>

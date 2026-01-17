@@ -1,11 +1,12 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ball, doc } from "../assets";
+import { network } from "../assets";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FloatImage = ({ src }) => {
+const AgendaImage = ({ src }) => {
   const imgRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -77,7 +78,7 @@ const FloatImage = ({ src }) => {
     >
       <img
         ref={imgRef}
-        src={doc}
+        src={network}
         alt="Animated"
         className="w-full h-auto md:h-[520px] object-cover"
         style={{
@@ -94,4 +95,4 @@ const FloatImage = ({ src }) => {
 
 };
 
-export default FloatImage;
+export default AgendaImage;

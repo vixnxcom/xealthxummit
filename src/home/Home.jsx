@@ -45,15 +45,15 @@ import Partners from './Partners'
 import Button from './Button'
 import WhiteButton from './WhiteButton'
 import TypeWriterText from '../faq/TypeWriterText'
+import SpeakerHead from './SpeakerHead'
+import SpeakerHtag from './SpeakerHtag'
 
 
 const Home = () => {
 
 
    
-   useEffect(() => {
-  window.scrollTo(0, 0) // Instant scroll, no animation
-}, [])
+
 
   return (
  <div className=' w-full overflow-hidden bg-black  '>
@@ -205,27 +205,29 @@ const Home = () => {
 </div>
 {/* g */}
 
-   <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
+   {/* <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
         <div className={`${styles.boxWidth} mt-10 `}>
 
-           <AgendaHead /> 
+           <SpeakerHead /> 
        
         </div>
-        </div>
-<div  className=' bg-attende h-[330px] md:h-[520px]'></div> 
+        </div> */}
+
 
       <div className={` px-3 ${styles.flexStart} px-4 bg-white `}>
-        <div className={`${styles.boxWidth}  mb-10`}>
+        <div className={`${styles.boxWidth} mt-10 mb-10`}>
 
-           <Agenda /> 
+           <SpeakerHtag /> 
        
         </div>
         </div>
-     
+
+
+     <div  className=' bg-brain h-[330px] md:h-[520px]'></div> 
 
          <div className={` ${styles.flexStart} bg-white  `}>
       
-        <div className={`${styles.boxWidth}  `}>
+        <div className={`${styles.boxWidth}  mt-20`}>
          
            < Attendants />
           

@@ -25,10 +25,12 @@ import FooterEffect from '../FooterEffect';
 import styles from '../style';
 import BecomeSponsor from '../becomesponsor/BecomeSponsor';
 import TableFiveForm from '../forms/TableFiveForm';
+import ScrollToTop from '../ScrollToTop';
 
 const Pages = () => {
   return (
     <Router>
+       <ScrollToTop />
       <div className="w-full ">
   <NavTag />
        <div className='top-20'>
@@ -39,6 +41,7 @@ const Pages = () => {
       </div>
 
       <Routes>
+       
         <Route exact path="/" element={<Home />} />
         <Route exact path="/service" element={<Services />} />
        
@@ -50,7 +53,7 @@ const Pages = () => {
         <Route exact path="/paysilver" element={<PaySilver />} />
         <Route exact path="/paysupport" element={<PaySupport />} />
         <Route exact path="/ticket" element={<PayTicket />} />
-        <Route exact path="/speakers" element={<Speaker />} />
+        <Route exact path="/agenda" element={<Speaker />} />
         <Route exact path="/booking" element={<Booking />} />
         <Route exact path="/startup" element={<StartUpForm />} />
         <Route exact path="/industry" element={<IndustryForm />} />

@@ -12,9 +12,7 @@ import WhatuGet from './WhatuGet'
 
 const Booking = () => {
 
-  useEffect(() => {
-  window.scrollTo(0, 0) // Instant scroll, no animation
-}, [])
+
 
   return (
     <div className='w-full bg-white '>

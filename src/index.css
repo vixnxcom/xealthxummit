@@ -1442,6 +1442,12 @@ background-size: cover;
   width: 100%;
 }
 
+.bg-brain{
+  background-image: url(assets/StockCake-Futuristic_digital_brain-1219362-standard.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bg-attende{
   background-image: url(assets/sp.jpeg);
   background-size: cover;
@@ -1473,7 +1479,7 @@ background-size: cover;
   background-repeat: no-repeat;
 }
 .bg-um{
-  background-image: url(assets/StockCake-Glowing_Wireframe_Reality-3326260-standard.jpg);
+  background-image: url(assets/globe.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

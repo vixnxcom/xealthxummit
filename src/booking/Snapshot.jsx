@@ -17,6 +17,7 @@ const TicketType = () => {
           <h1
           
             className="editors-bold p-6  text-[20px]  tracking-widest mx-auto  text-white text-left">
+              
         Who should attend
       </h1>
   
