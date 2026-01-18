@@ -16,16 +16,16 @@ import PayTicket from '../pay/PayTicket';
 import NavTag from '../NavTag';
 import Speaker from '../home/Speaker';
 import MoveToTop from '../home/MoveToTop';
-import Footer from '../Footer';
 import Booking from '../booking/Booking';
 import StartUpForm from '../forms/StartUpForm';
 import IndustryForm from '../forms/IndustryForm';
 import GeneralForm from '../forms/GeneralForm';
-import FooterEffect from '../FooterEffect';
 import styles from '../style';
 import BecomeSponsor from '../becomesponsor/BecomeSponsor';
 import TableFiveForm from '../forms/TableFiveForm';
 import ScrollToTop from '../ScrollToTop';
+import SpeechEffect from '../SpeechEffect';
+import Speech from '../Speech';
 
 const Pages = () => {
   return (
@@ -66,11 +66,11 @@ const Pages = () => {
      <div className={`${styles.flexCenter}   bg-blue `}>
  <div className={`${styles.boxWidth}  `}>
   <div className='bg-blue  px-4 md:px-16 xl:px-0'>
-<FooterEffect />
+<SpeechEffect />
   </div>
 
   <div className='bg-black '>
-<Footer />
+<Speech />
   </div>
  
        </div> 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ahmed, big, lab, right, sponsor } from './assets'
 
-const FooterEffect = () => {
+const SpeechEffect = () => {
   return (
     <div className='w-[95vw] xl:w-[100vw] max-w-5xl'>
    <div className="image-collage xl:mx-auto">
@@ -15,4 +15,4 @@ const FooterEffect = () => {
 </div>
   )
 }
-export default FooterEffect
+export default SpeechEffect

@@ -110,7 +110,7 @@ const TicketType = () => {
           
      
  
- 50% off! Get your ticket for ₦25,000 before March 1st. After April 1st, tickets cost ₦50,000.
+ 50% off! Get your ticket for ₦25,000 before March 31st. After April 1st, tickets cost ₦50,000.
 
 
  
@@ -128,7 +128,7 @@ const TicketType = () => {
        <h1
           
             className="editors-bold  px-3 mb-3 text-[20px] tracking-widest mx-auto  text-white text-center">
-      ₦100,000
+      ₦200,000
       </h1>
 
      
@@ -139,6 +139,18 @@ const TicketType = () => {
           <li className="py-1 tracking-widest mt-4 w-[300px] flex items-center gap-2">
            
             General Admission Exclusive table for Five.
+          </li>
+        
+          </TypeWriterText>
+          <TypeWriterText>
+           <li className="py-1 tracking-widest mt-2 flex items-center gap-2">
+          
+     
+ 
+ 50% off! Get your ticket for ₦100,000 before March 31st. After April 1st, tickets cost ₦200,000.
+
+
+ 
           </li>
         
           </TypeWriterText>
@@ -191,7 +203,7 @@ const TicketType = () => {
           
      
  
- 50% off! Get your ticket for ₦10,000 before March 1st. After April 1st, tickets cost ₦20,000.
+ 50% off! Get your ticket for ₦10,000 before March 31st. After April 1st, tickets cost ₦20,000.
 
 
  
