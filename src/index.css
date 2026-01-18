@@ -1396,6 +1396,12 @@ background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.bg-net{
+  background-image: url(assets/network.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .border-cyan{
   border: 1px solid #87a3ff;

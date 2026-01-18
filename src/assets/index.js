@@ -50,7 +50,8 @@ import big from './bg.jpg'
 import night from './night.png'
 import ball from './ball.jpg'
 import cost from './cost.jpg'
-import network from './network.png'
+import network from './network.jpg'
+import nwk from './network.png'
 import agd from './agd.jpg'
 import partner from './partner.png'
 import g from './g.jpg'
@@ -61,7 +62,7 @@ import brain from './brain.gif'
 
 
 
-export { dna,steth, mang, forum, network, agd,
+export { dna,steth, mang, forum, network, agd, nwk,
       night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
      innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost, partner,
      ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab, ball,
