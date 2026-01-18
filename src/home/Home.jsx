@@ -215,7 +215,7 @@ const Home = () => {
 
 
       <div className={` px-3 ${styles.flexStart} px-4 bg-white `}>
-        <div className={`${styles.boxWidth} mt-10 mb-10`}>
+        <div className={`${styles.boxWidth} mt-10 `}>
 
            <SpeakerHtag /> 
        
