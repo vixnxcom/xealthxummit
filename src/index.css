@@ -1400,7 +1400,7 @@ background-size: cover;
   background-image: url(assets/network.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100%;
 }
 
 .border-cyan{
