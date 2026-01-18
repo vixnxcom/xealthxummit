@@ -1397,10 +1397,10 @@ background-size: cover;
   background-position: center;
 }
 .bg-net{
-  background-image: url(assets/network.png);
+  background-image: url(assets/ntwork.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100%;
+  background-position: center;
 }
 
 .border-cyan{
