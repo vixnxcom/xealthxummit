@@ -15,7 +15,7 @@ const Hero = () => {
 
   <div className='px-3 absolute top-45 md:px-20'>
     <TypeWriterText>
-      <h1 className='text-[13vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
+      <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
        HEALTHTECH <br /> FRONTIERS <br /><span className='editors-itallic'> 2026</span>
       </h1>
     </TypeWriterText>
