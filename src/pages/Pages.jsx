@@ -69,9 +69,9 @@ const Pages = () => {
 <SpeechEffect />
   </div>
 
-  {/* <div className='bg-black '>
+  <div className='bg-black '>
 <Speech />
-  </div> */}
+  </div>
  
        </div> 
        </div>   
