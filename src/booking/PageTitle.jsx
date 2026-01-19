@@ -51,7 +51,7 @@ const PageTitle = () => {
     Register to Attend
       </h1>
 
-          <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[24px] md:text-4xl">
+          <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[6vw] mt-24 md:text-[32px] ">
             2026 Event
           </h2>
         </div>
