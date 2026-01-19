@@ -12,8 +12,9 @@ const Speech = () => {
             <span className="editors-itallic">2026</span>
           </h1>
         </TypeWriterText>
+        <div className="border border-t-gray-600 mb-5 w-[92vw] md:w-[50vw] mx-auto"></div>
 
-        {/* <div className="text-[4vw] text-center md:text-center md:text-[10px]  mb-2 editors-reg text-gray-400 letter-shade">
+         <div className="text-[4vw] text-center md:text-center md:text-[10px]  mb-2 editors-reg text-gray-400 letter-shade">
         <p>2026 HealthTech Fontiers. All Rights Reserved</p>
        </div>
         <div className="text-[3vw] text-center  md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
@@ -35,7 +36,7 @@ const Speech = () => {
               </a>
             )
           })()}
-        </div> */}
+        </div> 
       </div>
     </div>
   )
