@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { brain, night, scope } from "../assets";
+import { ahmed, big, brain, night, scope } from "../assets";
 
 const SpeakerHead = () => {
   const leftRef = useRef(null);
@@ -31,7 +31,7 @@ const SpeakerHead = () => {
         .to(
           imageRef.current,
           {
-            scale: 1.2,
+            scale: 1,
             duration: 3, // slower = more cinematic
             ease: "power2.out",
           },
@@ -43,12 +43,12 @@ const SpeakerHead = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[80vh] md:h-[85vh] overflow-hidden bg-um">
+      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-um">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
-         <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white letter-shade  '>
-      AGENDA
+         <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
+    AGENDA
       </h1>
 
           <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[24px] md:text-4xl">
@@ -57,16 +57,15 @@ const SpeakerHead = () => {
         </div>
 
         {/* CENTERED VIDEO */}
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
+        <div className="absolute inset-0 z-10 flex items-center  justify-center">
           <img
             ref={imageRef}
-            
-           src={scope}
-            className="
-              w-full h-full
+            src={scope}
+           
+            className=" 
               object-cover
-
-             lg:object-contain
+              w-full h-full
+              lg:object-contain 
               will-change-transform
             "
           />
