@@ -7,7 +7,7 @@ const TableFiveForm = () => {
   
  useEffect(() => {
   
- 
+ window.scrollTo({ top: 0, behavior: 'instant' })
  
     // Check for payment data in router state
     const paymentData = location.state?.paymentData

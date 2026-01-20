@@ -6,7 +6,7 @@ const IndustryForm = () => {
   const location = useLocation()
   
   useEffect(() => {
-   
+   window.scrollTo({ top: 0, behavior: 'instant' })
   
   
     
