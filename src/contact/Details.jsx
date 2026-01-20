@@ -9,7 +9,7 @@ const Details = () => {
 
       {/* CONTENT AREA */}
       <div className="h-full flex flex-col mt-40 mb-30 pb-16">
-        <div className="flex flex-col mt-40 gap-6">
+        <div className="flex flex-col mt-20 gap-6">
 
           {/* EMAIL */}
           <div>
@@ -19,7 +19,7 @@ const Details = () => {
               </h1>
             </TypeWriterText>
 
-            <ul className="px-3 text-[20px] editors-reg">
+            <ul className="px-3 text-[16px] editors-reg">
               <TypeWriterText>
                 <li className="py-1 tracking-widest flex items-center gap-2">
                   <span className="w-3 h-3 bg-black shrink-0"></span>
@@ -37,7 +37,7 @@ const Details = () => {
               </h1>
             </TypeWriterText>
 
-            <ul className="px-3 text-[20px] editors-reg">
+            <ul className="px-3 text-[16px] editors-reg">
               <TypeWriterText>
                 <li className="py-1 tracking-widest flex items-center gap-2">
                   <span className="w-3 h-3 bg-black shrink-0"></span>
