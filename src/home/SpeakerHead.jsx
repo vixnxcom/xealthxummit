@@ -51,7 +51,7 @@ const SpeakerHead = () => {
     AGENDA
       </h1>
 
-          <h2 className="text-white tracking-widest letter-shade mt-2 editors-reg text-[25px] mt-24 md:text-[32px] ">
+          <h2 className="text-white tracking-widest num-shade mt-2 editors-reg text-[25px] mt-24 md:text-[32px] ">
             2026 Event
           </h2>
         </div>
