@@ -29,7 +29,7 @@ const EmailSponsor = () => {
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-          Contact@htechzzzz.com
+          hello@primebridgehealth.com
           </li>
         
           </TypeWriterText>
@@ -55,7 +55,7 @@ const EmailSponsor = () => {
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-          + 234567890
+          +2349041875880
           </li>
         
           </TypeWriterText>
