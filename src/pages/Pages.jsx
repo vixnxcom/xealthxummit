@@ -63,8 +63,8 @@ const Pages = () => {
 
 <MoveToTop />
 
-     <div className={`${styles.flexCenter}   bg-blue `}>
- <div className={`${styles.boxWidth}  `}>
+
+
   <div className='bg-black '>
 <SpeechEffect />
   </div>
@@ -72,9 +72,7 @@ const Pages = () => {
   <div className='bg-black '>
 <Speech />
   </div>
- 
-       </div> 
-       </div>   
+   
 
     </Router>
   );
