@@ -150,9 +150,20 @@ const Options = () => {
                
                    <li className="py-1 px-3 tracking-widest editors-reg w-[370px] text-[16px] mt-5 md:w-[900px] 
                      flex items-center gap-2">
-            {/* <span className="w-3 h-3 bg-black shrink-0 mx-1"></span> */}
+             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span> 
              Please retain a copy of your payment receipt, as it will need to be uploaded during
                  registration.
+          </li>
+        
+              </TypeWriterText>
+            <TypeWriterText >
+               
+                   <li className="py-1 px-3 tracking-widest editors-reg w-[370px] text-[16px] mt-5 md:w-[900px] 
+                     flex items-center gap-2">
+
+             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span> 
+          After submitting the form, please wait while the page loads and scroll to the top to download a PDF copy of your submission. 
+          This PDF copy will serve as your event ticket.
           </li>
         
               </TypeWriterText>
