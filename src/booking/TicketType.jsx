@@ -105,17 +105,13 @@ const TicketType = () => {
           </li>
         
           </TypeWriterText>
+          
+ <TypeWriterText >
 
    <li className="py-1 tracking-widest mt-2 flex items-center gap-2">
-          
-     
- 
  50% off! Get your ticket for ₦25,000 before March 31st. After April 1st, tickets cost ₦50,000.
-
-
- 
           </li>
-
+</TypeWriterText>
           <GeneralButton />
 
             <div className="flex flex-col items-center mt-10  rounded-[16px] bg-black ">
@@ -142,18 +138,13 @@ const TicketType = () => {
           </li>
         
           </TypeWriterText>
+
           <TypeWriterText>
            <li className="py-1 tracking-widest mt-2 flex items-center gap-2">
-          
-     
- 
- 50% off! Get your ticket for ₦100,000 before March 31st. After April 1st, tickets cost ₦200,000.
+            50% off! Get your ticket for ₦100,000 before March 31st. After April 1st, tickets cost ₦200,000.
+         </li>
+        </TypeWriterText>
 
-
- 
-          </li>
-        
-          </TypeWriterText>
        <TableFiveButton />
           </ul>
    
