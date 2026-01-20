@@ -17,9 +17,9 @@ const Booking = () => {
   return (
     <div className='w-full bg-white '>
 
-      <div className={`${styles.flexCenter} `}>
+  
        <PageTitle />
-      </div>
+    
        
 
 

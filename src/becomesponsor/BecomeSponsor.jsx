@@ -16,9 +16,9 @@ const BecomeSponsor = () => {
   return (
     <div className='w-full bg-white '>
 
-      <div className={`${styles.flexCenter} `}>
+    
        <SponsorTitle/>
-      </div>
+    
       
 
  <div className={` ${styles.paddingX} ${styles.flexStart} mt-5 `}>

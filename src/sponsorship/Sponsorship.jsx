@@ -18,9 +18,9 @@ const Sponsorship = () => {
   return (
     <div className='w-full bg-white '>
 
-      <div className={`${styles.flexCenter} `}>
+    
        <HeadTier />
-      </div>
+      
       
 
 
