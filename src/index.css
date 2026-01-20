@@ -1397,7 +1397,7 @@ background-size: cover;
   background-position: center;
 }
 .bg-net{
-  background-image: url(assets/ntwork.jpg);
+  background-image: url(assets/sp.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1455,7 +1455,7 @@ background-size: cover;
   background-repeat: no-repeat;
 }
 .bg-attende{
-  background-image: url(assets/sp.jpeg);
+  background-image: url(assets/ntwork.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
