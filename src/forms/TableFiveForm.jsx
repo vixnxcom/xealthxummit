@@ -47,7 +47,7 @@ const TableFiveForm = () => {
         <div className="form-maskg">
           <iframe
             title="HealthTech Frontiers 2026 - Table for Five Ticket"
-            src="https://forms.zohopublic.com/vixndotcomgm1/form/generalpass/formperma/EQy1nJ_AQieXTQ7tkMjZoHiNKKzrdJqW7mNJ6Lc5bm4"
+            src="https://forms.zohopublic.com/helloprimebri1/form/generalpass/formperma/_s4hv5T8bzA1hGzCXWVXmYM4Z9nbCwPAOje346MClfU"
             frameBorder="0"
             scrolling="no"
             className="form-iframeg"
