@@ -37,7 +37,7 @@ const StartUpForm = () => {
       <div className='bg-white h-[40px]'></div>
       <div>
         <h1 className="editors-bold p-3 mt-5 text-[20px] tracking-widest mx-auto text-blue text-center">
-          Thanks for purchasing a Student & Startup Pass Ticket!
+          Thanks for purchasing a Student and Startup Pass Ticket!
         </h1>
         <h1 className="editors-reg p-3 text-[16px] tracking-widest mx-auto mb-5 text-blue text-center">
           Complete Your Registration
@@ -48,7 +48,7 @@ const StartUpForm = () => {
         <div className="form-mask">
           <iframe
             title="HealthTech Frontiers 2026 - Student and Start-Up Pass Ticket"
-            src="https://forms.zohopublic.com/vixndotcomgm1/form/HealthTechFrontiers2026/formperma/fLHObU2jpaB0TqKcTwbvNnccRNphKczfDPUjpnX7HqE"
+            src="https://forms.zohopublic.com/helloprimebri1/form/startupandstudentpassticket/formperma/ZmLLR5tLxtSb__UmuhArp7UvCGKpS8AxhnL3x6o2CyM"
             frameBorder="0"
             scrolling="no"
             className="form-iframe"

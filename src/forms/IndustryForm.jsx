@@ -37,7 +37,7 @@ const IndustryForm = () => {
       <div className='bg-white h-[40px]'></div>
       <div>
         <h1 className="editors-bold p-3 mt-5 text-[20px] tracking-widest mx-auto text-blue text-center">
-          Thanks for purchasing a Professional & Industry Pass
+          Thanks for purchasing a Professional and Industry Pass
         </h1>
         <h1 className="editors-reg p-3 text-[16px] tracking-widest mx-auto mb-5 text-blue text-center">
           Complete Your Registration
@@ -48,7 +48,7 @@ const IndustryForm = () => {
         <div className="form-maski">
           <iframe
             title="HealthTech Frontiers 2026 - Professional and Industry pass Ticket"
-            src="https://forms.zohopublic.com/vixndotcomgm1/form/ProfessionalandIndustryPassTicket/formperma/0Jc-VgtXBE4jSJ6WNGWPkr9-PvqPgy7YjX6sSNRKrjw"
+            src="https://forms.zohopublic.com/helloprimebri1/form/professionalandindustrypassticket/formperma/fZzAPK64f45f9UpRPQ7jtDssWw6nraLWb3yEVGUIFW0"
             frameBorder="0"
             scrolling="no"
             className="form-iframei"

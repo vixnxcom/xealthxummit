@@ -47,7 +47,7 @@ const GeneralForm = () => {
         <div className="form-maskg">
           <iframe
             title="HealthTech Frontiers 2026 - General Pass Ticket"
-            src="https://forms.zohopublic.com/vixndotcomgm1/form/generalpass/formperma/EQy1nJ_AQieXTQ7tkMjZoHiNKKzrdJqW7mNJ6Lc5bm4"
+            src="https://forms.zohopublic.com/helloprimebri1/form/generalpass/formperma/XTQ7tkMjZoHiNKKzrdJqW7mNJ6Lc5bm4"
             frameBorder="0"
             scrolling="no"
             className="form-iframeg"
