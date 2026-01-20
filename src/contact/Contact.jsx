@@ -8,7 +8,7 @@ const Contact = () => {
    <div className=' w-full overflow-hidden   '>
     {/* TITLE BLOCK */}
 
-      <div className="absolute top-25  left-3 md:left-12 z-20 max-w-[90vw]">
+      <div className="absolute top-30  left-3 md:left-12 z-20 max-w-[90vw]">
         <TypeWriterText>
         <h1 className="text-[12vw] md:text-[56px] editors-bold font-bold w-[300px] md:w-[470px] text-black letter-shade">
          CONTACT US

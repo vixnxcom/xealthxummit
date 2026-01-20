@@ -46,7 +46,7 @@ const HeadTier = () => {
       <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-white">
 
         {/* LEFT TEXT */}
-        <div className="absolute top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
+        <div className="absolute mt-10 top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
          <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
      FOR SPONSORSHIP
       </h1>
