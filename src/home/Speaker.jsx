@@ -18,7 +18,7 @@ const Speaker = () => {
  
 
   return (
-    <div className="w-full bg-wite overflow-hidden">
+    <div className="w-full bg-white overflow-hidden">
 
       
 

@@ -43,7 +43,7 @@ const HeadTier = () => {
 
   return (
     <section>
-      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-tie">
+      <div className="relative w-screen h-[80vh] md:h-[90vh] overflow-hidden bg-white">
 
         {/* LEFT TEXT */}
         <div className="absolute top-40 left-3 md:left-12 -translate-y-1/2 z-20 text-left max-w-[90vw]">
@@ -65,7 +65,7 @@ const HeadTier = () => {
             className=" 
               object-cover
               w-full h-full
-              lg:object-contain 
+           
               will-change-transform
             "
           />
