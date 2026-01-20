@@ -65,7 +65,7 @@ const Pages = () => {
 
      <div className={`${styles.flexCenter}   bg-blue `}>
  <div className={`${styles.boxWidth}  `}>
-  <div className='bg-blue  px-4 md:px-16 xl:px-0'>
+  <div className='bg-black '>
 <SpeechEffect />
   </div>
 
