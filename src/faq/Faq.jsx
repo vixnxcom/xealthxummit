@@ -5,7 +5,9 @@ import Awards from './Awards'
 import MovingText from '../home/ImageText'
 import Button from '../home/Button'
 import WhiteButton from '../home/WhiteButton'
-import { med, steth } from '../assets'
+import { med, men, steth } from '../assets'
+import Quote from '../services/Quote'
+import { Background, Parallax } from 'react-parallax'
 
 
 const Faq = () => {
@@ -29,6 +31,24 @@ const Faq = () => {
         </div>
       </div>
 
+<Parallax strength={900}  height={600}>
+  <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
+    <img src={men} alt="" className='w-full h-full mt-20 object-contain' />
+  
+        
+
+      </Background>
+
+       
+ 
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+          < Quote />
+        </div>
+        </div>
+    </Parallax>
+
+ 
 <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
    <div className={`${styles.boxWidth} mt-20 `}>
          
