@@ -61,7 +61,7 @@ const StartUpPayment = () => {
     <h1 className="text-[20px] mt-40 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
-    <p className="text-center editors-reg mb-6 text-[14px] sm:text-[16px]">
+    <p className="text-center editors-reg mb-6 text-[16px] sm:text-[16px]">
       Startup Pass Registration
     </p>
     
@@ -91,7 +91,7 @@ const StartUpPayment = () => {
       
       <button
         onClick={() => navigate('/startup')}
-        className="w-full py-2 text-gray-600 mt-10 text-[14px] sm:text-[16px] editors-reg underline"
+        className="w-full py-2 text-gray-600 mt-10 text-[16px] sm:text-[16px] editors-reg underline"
       >
         ← Back to Form
       </button>
