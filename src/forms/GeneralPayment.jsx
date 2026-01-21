@@ -61,7 +61,7 @@ const GeneralPayment = () => {
     <h1 className="text-[20px] mt-30 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
-    <p className="text-center editors-reg mb-6 text-[14px] sm:text-[16px]">
+    <p className="text-center editors-reg mb-6 text-[16px] sm:text-[16px]">
     General Pass Registration
     </p>
     
@@ -91,7 +91,7 @@ const GeneralPayment = () => {
       
       <button
         onClick={() => navigate('/general')}
-        className="w-full py-2 text-gray-600  text-[14px] mt-10 sm:text-[16px] editors-reg underline"
+        className="w-full py-2 text-black text-[16px] mt-10 sm:text-[16px] editors-reg underline"
       >
         ← Back to Form
       </button>

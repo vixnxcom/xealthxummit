@@ -53,7 +53,7 @@ const StartUpForm = () => {
 </div>
 
       <div className="text-center mt-8 p-6 max-w-2xl mx-auto">
-        <h3 className="editors-reg text-[16px] mb-2">Buy Ticket</h3>
+        <h3 className="editors-bold text-[20px]">Buy Ticket</h3>
         <button 
           onClick={goToPayment}
           className="mx-auto mt-5 mb-5 editors-reg bg-cyan hover:!bg-black hover:scale-103 
@@ -71,7 +71,7 @@ const StartUpForm = () => {
       <div className="flex justify-center mt-10 mb-10">
         <button 
           onClick={handleBackToHome}
-          className="px-6 py-2 underline editors-reg hover:scale-103 text-blue rounded-[8px] transition"
+          className="px-6 py-2 underline editors-reg text-[16px] hover:scale-103 text-blue rounded-[8px] transition"
         >
           ← Back to Ticket Area
         </button>
