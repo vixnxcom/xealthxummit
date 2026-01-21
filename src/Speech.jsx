@@ -15,14 +15,15 @@ const Speech = () => {
         </TypeWriterText>
 <div className="w-full flex justify-center">
   <div className="text-center flex flex-col items-center max-w-screen-xl">
-    <div className="border border-t-gray-600 mb-5 w-[92vw] md:w-[60vw]"></div>
+    <div className="border border-t-gray-800 mb-5 w-[92vw] md:w-[60vw]"></div>
 
-    <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
-      {(() => {
-        const text = atob("MjAyNiBIZWFsdGhUZWNoIEZvbnRpZXJzLiBBbGwgUmlnaHRzIFJlc2VydmVk")
-        return <p>{text}</p>
-      })()}
-    </div>
+   <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
+  {(() => {
+    const text = atob("MjAyNiBIZWFsdGhUZWNoIEZyb250aWVycy4gQWxsIFJpZ2h0cyBSZXNlcnZlZA==")
+    return <p>{text}</p>
+  })()}
+</div>
+
     <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
       {(() => {
         const h = atob("aHR0cHM6Ly93YS5tZS8yMzQ5MDM0NDQyNDU4")
