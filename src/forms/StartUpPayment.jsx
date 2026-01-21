@@ -57,8 +57,8 @@ const StartUpPayment = () => {
 
   return (
     <div className="h-screen flex justify-center  mx-auto px-4 sm:px-6">
-  <div className="px-6 sm:px-8 mt-40 max-w-2xl lg:max-w-3xl w-full">
-    <h1 className="text-[20px] mt-20 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
+  <div className="px-6 sm:px-8 max-w-2xl lg:max-w-3xl w-full">
+    <h1 className="text-[20px] mt-30 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
     <p className="text-center editors-reg mb-6 text-[14px] sm:text-[16px]">

@@ -36,7 +36,7 @@ const GeneralPayment = () => {
     const handler = window.PaystackPop.setup({
       key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY,
       email: email,
-      amount: 15000000, // ₦10,000 in kobo
+      amount: 2500000, // ₦10,000 in kobo
       ref: reference,
       currency: 'NGN',
       
@@ -57,8 +57,8 @@ const GeneralPayment = () => {
 
   return (
     <div className="h-screen flex justify-center  mx-auto px-4 sm:px-6">
-  <div className="px-6 sm:px-8 mt-40 max-w-2xl lg:max-w-3xl w-full">
-    <h1 className="text-[20px] mt-20 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
+  <div className="px-6 sm:px-8  max-w-2xl lg:max-w-3xl w-full">
+    <h1 className="text-[20px] mt-30 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
     <p className="text-center editors-reg mb-6 text-[14px] sm:text-[16px]">
@@ -86,7 +86,7 @@ const GeneralPayment = () => {
          cursor-pointer
         disabled:!bg-cyan text-[14px] sm:text-[16px]"
       >
-        {loading ? 'Processing...' : 'Pay ₦150,000 Now'}
+        {loading ? 'Processing...' : 'Pay ₦25,000 Now'}
       </button>
       
       <button
