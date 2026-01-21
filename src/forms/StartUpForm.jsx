@@ -53,11 +53,11 @@ const StartUpForm = () => {
 </div>
 
       <div className="text-center mt-8 p-6 max-w-2xl mx-auto">
-        <h3 className="editors-reg text-[20px] mb-2">Buy Ticket:</h3>
+        <h3 className="editors-reg text-[16px] mb-2">Buy Ticket</h3>
         <button 
           onClick={goToPayment}
-          className="mx-auto mt-5 mb-5 editors-reg bg-cyan hover:!bg-black hover:scale-103 
-          cursor-pointer text-white letter-shade
+          className="mx-auto mt-2 mb-5 editors-reg bg-cyan hover:!bg-black hover:scale-103 cursor-pointer 
+            active:!bg-black text-white letter-shade
                    rounded-[9px] md:w-[35vw] md:h-[4vw] w-[86vw] h-[12vw] flex items-center
                     justify-center text-[16px]"
         >

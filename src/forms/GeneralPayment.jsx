@@ -56,13 +56,13 @@ const GeneralPayment = () => {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center mx-auto px-4 sm:px-6">
-  <div className="p-6 sm:p-8 max-w-2xl lg:max-w-3xl w-full">
-    <h1 className="text-[20px] sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
+    <div className="h-screen flex justify-center  mx-auto px-4 sm:px-6">
+  <div className="px-6 sm:px-8 mt-40 max-w-2xl lg:max-w-3xl w-full">
+    <h1 className="text-[20px] mt-20 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
     <p className="text-center editors-reg mb-6 text-[14px] sm:text-[16px]">
-      General Pass Registration
+    General Pass Registration
     </p>
     
     <div className="mb-6 w-full max-w-xl mx-auto">
@@ -91,7 +91,7 @@ const GeneralPayment = () => {
       
       <button
         onClick={() => navigate('/general')}
-        className="w-full py-2 text-gray-600 mt-4 text-[14px] sm:text-[16px] editors-reg underline"
+        className="w-full py-2 text-gray-600  text-[14px] mt-10 sm:text-[16px] editors-reg underline"
       >
         ← Back to Form
       </button>
@@ -101,4 +101,4 @@ const GeneralPayment = () => {
   )
 }
 
-export default GeneralPayment;
+export default GeneralPayment
