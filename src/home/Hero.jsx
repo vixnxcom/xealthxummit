@@ -22,10 +22,10 @@ const Hero = () => {
     
   </div>
 
-  <div className='px-3 mt-24   md:px-20 max-w-[470px] md:max-w-[800px] md:mt-40'>
+  <div className='px-3 mt-20   md:px-20 max-w-[470px] md:max-w-[800px] md:mt-40'>
   
    <TypeWriterText>
-     <p  className='editors-reg text-white letter-shade text-[6vw] mt-24 md:text-[32px] 
+     <p  className='editors-reg text-white letter-shade text-[6vw] mt-20 md:text-[32px] 
       mb-10 tracking-widest'>
        Transforming Healthcare Through Innovation & Technology
     </p>

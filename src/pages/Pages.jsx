@@ -28,6 +28,7 @@ import SpeechEffect from '../SpeechEffect';
 import Speech from '../Speech';
 import Contact from '../contact/Contact';
 import StartUpPayment from '../forms/StartUpPayment';
+import GeneralPayment from '../forms/GeneralPayment';
 
 const Pages = () => {
   return (
@@ -63,6 +64,7 @@ const Pages = () => {
         <Route exact path="/table" element={<TableFiveForm />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route path="/startpayment" element={<StartUpPayment />} />
+        <Route path="/generalpayment" element={<GeneralPayment/>} />
       </Routes>
 
 <MoveToTop />
