@@ -29,6 +29,7 @@ import Speech from '../Speech';
 import Contact from '../contact/Contact';
 import StartUpPayment from '../forms/StartUpPayment';
 import GeneralPayment from '../forms/GeneralPayment';
+import TablePayment from '../forms/TablePayment';
 
 const Pages = () => {
   return (
@@ -65,6 +66,7 @@ const Pages = () => {
         <Route exact path="/contact" element={<Contact />} />
         <Route path="/startpayment" element={<StartUpPayment />} />
         <Route path="/generalpayment" element={<GeneralPayment/>} />
+        <Route path="/tablepayment" element={<TablePayment/>} />
       </Routes>
 
 <MoveToTop />
