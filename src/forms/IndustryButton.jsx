@@ -1,34 +1,28 @@
-// In your StartUpButton.jsx (now a simple navigation button)
-import React from 'react';
-import { arrw } from '../assets';
-import { useNavigate } from 'react-router-dom';
+// StartUpButton.jsx - simplified
+import React from 'react'
+import { arrw } from '../assets'
+import { useNavigate } from 'react-router-dom'
 
-const IndustryButton = () => {
-  const navigate = useNavigate();
-
-  const handleNavigation = () => {
-    // Simply navigate to the form page
-    navigate('/industry');
-  };
+const StartUpButton = () => {
+  const navigate = useNavigate()
 
   return (
     <div className="flex mx-auto">
       <div className="mx-auto">
         <button
-          onClick={handleNavigation}
-          className="mx-auto mt-15 mb-5 bg-cyan hover:!bg-black active:!bg-black hover:scale-103 cursor-pointer 
-                   rounded-[9px] md:w-[35vw] md:h-[4vw] w-[86vw] h-[12vw] flex items-center justify-center"
+          onClick={() => navigate('/industry')}
+          className="mx-auto mt-15 mb-5 bg-cyan hover:!bg-black hover:scale-103 cursor-pointer 
+            active:!bg-black  rounded-[9px] md:w-[35vw] md:h-[4vw] w-[86vw] h-[12vw] flex items-center
+                    justify-center"
         >
-          <div className="editors-reg text-shade text-white text-[16px] flex flex-row items-center">
+          <div className="editors-reg text-white text-[16px] flex items-center">
             Register Industry Pass
-            <span className="mx-2 flex items-center justify-center">
-              <img src={arrw} alt="arrow" className="w-5 h-5" />
-            </span>
+            <img src={arrw} alt="arrow" className="w-5 h-5 ml-2" />
           </div>
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default IndustryButton;
+export default StartUpButton

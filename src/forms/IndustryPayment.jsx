@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const StartUpPayment = () => {
+const IndustryPayment = () => {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const navigate = useNavigate()
@@ -36,7 +36,7 @@ const StartUpPayment = () => {
     const handler = window.PaystackPop.setup({
       key: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY,
       email: email,
-      amount: 1000000, // ₦10,000 in kobo
+      amount: 15000000, // ₦10,000 in kobo
       ref: reference,
       currency: 'NGN',
       
@@ -57,12 +57,12 @@ const StartUpPayment = () => {
 
   return (
     <div className="h-screen flex justify-center  mx-auto px-4 sm:px-6">
-  <div className="px-6 sm:px-8 max-w-2xl lg:max-w-3xl w-full">
+  <div className="px-6 sm:px-8  max-w-2xl lg:max-w-3xl w-full">
     <h1 className="text-[20px] mt-40 sm:text-[24px] md:text-[28px] editors-bold text-center mb-2">
       Complete Payment
     </h1>
     <p className="text-center editors-reg mb-6 text-[16px] sm:text-[16px]">
-      Startup and Student Pass Registration
+    Professional and Industry Pass Registration
     </p>
     
     <div className="mb-6 w-full max-w-xl mx-auto">
@@ -86,12 +86,12 @@ const StartUpPayment = () => {
          cursor-pointer
         disabled:!bg-cyan text-[14px] sm:text-[16px]"
       >
-        {loading ? 'Processing...' : 'Pay ₦10,000 Now'}
+        {loading ? 'Processing...' : 'Pay ₦150,000 Now'}
       </button>
       
       <button
-        onClick={() => navigate('/startup')}
-        className="w-full py-2 text-gray-600 mt-10 text-[16px] sm:text-[16px] editors-reg underline"
+        onClick={() => navigate('/industry')}
+        className="w-full py-2 text-black text-[16px] mt-10 sm:text-[16px] editors-reg underline"
       >
         ← Back to Form
       </button>
@@ -101,4 +101,4 @@ const StartUpPayment = () => {
   )
 }
 
-export default StartUpPayment
+export default IndustryPayment

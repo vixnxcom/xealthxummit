@@ -1,26 +1,19 @@
 import React, { useEffect } from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
-const IndustryForm = () => {
+const StartUpForm = () => {
   const navigate = useNavigate()
-  const location = useLocation()
   
   useEffect(() => {
-   window.scrollTo({ top: 0, behavior: 'instant' })
-  
-  
-    
-    // Check for payment data in router state
-    const paymentData = location.state?.paymentData
-    
-    if (!paymentData || paymentData.status !== 'success') {
-      // No valid payment - redirect home
-      navigate('/booking')
-    }
-  }, [location, navigate])
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [])
 
   const handleBackToHome = () => {
     navigate('/booking')
+  }
+
+  const goToPayment = () => {
+    navigate('/industrypayment')
   }
 
   return (
@@ -30,36 +23,55 @@ const IndustryForm = () => {
           HealthTech Frontiers - 2026
         </h1>
         <h1 className="editors-bold p-3 text-[20px] tracking-widest mx-auto mb-5 text-white text-center">
-        Professional and Industry Pass
+         Professional and Industry Pass Registration
         </h1>
       </div>
       
       <div className='bg-white h-[40px]'></div>
+      
       <div>
         <h1 className="editors-bold p-3 mt-5 text-[20px] tracking-widest mx-auto text-blue text-center">
-          Thanks for purchasing a Professional and Industry Pass
+          Register for Professional and Industry Pass
         </h1>
         <h1 className="editors-reg p-3 text-[16px] tracking-widest mx-auto mb-5 text-blue text-center">
-          Complete Your Registration
+          Complete the form below (₦150,000 payment required after submission)
         </h1>
       </div>
       
-      <div className="form-wrapper">
-        <div className="form-maski">
-          <iframe
-            title="HealthTech Frontiers 2026 - Professional and Industry pass Ticket"
-            src="https://forms.zohopublic.com/helloprimebri1/form/professionalandindustrypassticket/formperma/fZzAPK64f45f9UpRPQ7jtDssWw6nraLWb3yEVGUIFW0"
+    <div className="max-w-6xl mx-auto p-4 md:p-6">
+  <div className="relative w-full overflow-hidden rounded-xl ">
+    <div className="relative pb-[600px] md:pb-[800px] rounded-[16px] lg:pb-[600px] h-0">
+      <iframe
+        title="HealthTech Frontiers 2026 - Student and Start-Up Pass Ticket"
+       src="https://forms.zohopublic.com/helloprimebri1/form/professionalandindustrypassticket/formperma/fZzAPK64f45f9UpRPQ7jtDssWw6nraLWb3yEVGUIFW0"
             frameBorder="0"
-            scrolling="no"
-            className="form-iframei"
-          />
-        </div>
+        className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full max-w-4xl h-full"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</div>
+
+      <div className="text-center mt-8 p-6 max-w-2xl mx-auto">
+        <h3 className="editors-bold text-[20px]">Buy Ticket</h3>
+        <button 
+          onClick={goToPayment}
+          className="mx-auto mt-5 mb-5 editors-reg bg-cyan hover:!bg-black hover:scale-103 
+          cursor-pointer text-white letter-shade
+                   rounded-[9px] md:w-[35vw] md:h-[4vw] w-[86vw] h-[12vw] flex items-center
+                    justify-center text-[16px]"
+        >
+          Click Here to Pay 
+        </button>
+        <p className="text-gray-600 mt-3 text-[16px] editors-reg">
+          Payment is required to complete your registration
+        </p>
       </div>
 
       <div className="flex justify-center mt-10 mb-10">
         <button 
           onClick={handleBackToHome}
-          className="px-6 py-2 bg-blue editors-reg hover:bg-black text-white rounded-[8px] transition"
+          className="px-6 py-2 underline editors-reg text-[16px] hover:scale-103 text-blue rounded-[8px] transition"
         >
           ← Back to Ticket Area
         </button>
@@ -70,4 +82,6 @@ const IndustryForm = () => {
   )
 }
 
-export default IndustryForm
+export default StartUpForm
+  
+

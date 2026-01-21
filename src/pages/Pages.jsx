@@ -30,6 +30,7 @@ import Contact from '../contact/Contact';
 import StartUpPayment from '../forms/StartUpPayment';
 import GeneralPayment from '../forms/GeneralPayment';
 import TablePayment from '../forms/TablePayment';
+import IndustryPayment from '../forms/IndustryPayment';
 
 const Pages = () => {
   return (
@@ -67,6 +68,7 @@ const Pages = () => {
         <Route path="/startpayment" element={<StartUpPayment />} />
         <Route path="/generalpayment" element={<GeneralPayment/>} />
         <Route path="/tablepayment" element={<TablePayment/>} />
+        <Route path="/industrypayment" element={<IndustryPayment/>} />
       </Routes>
 
 <MoveToTop />
