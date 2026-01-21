@@ -17,14 +17,14 @@ const Speech = () => {
   <div className="text-center flex flex-col items-center max-w-screen-xl">
     <div className="border border-t-gray-800 mb-5 w-[92vw] md:w-[60vw]"></div>
 
-   <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
+   <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-600 letter-shade">
   {(() => {
     const text = atob("MjAyNiBIZWFsdGhUZWNoIEZyb250aWVycy4gQWxsIFJpZ2h0cyBSZXNlcnZlZA==")
     return <p>{text}</p>
   })()}
 </div>
 
-    <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-400 letter-shade">
+    <div className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-600 letter-shade">
       {(() => {
         const h = atob("aHR0cHM6Ly93YS5tZS8yMzQ5MDM0NDQyNDU4")
         const t1 = atob("RGVzaWduZWQgYnk=")
