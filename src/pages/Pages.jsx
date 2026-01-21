@@ -27,6 +27,7 @@ import ScrollToTop from '../ScrollToTop';
 import SpeechEffect from '../SpeechEffect';
 import Speech from '../Speech';
 import Contact from '../contact/Contact';
+import StartUpPayment from '../forms/StartUpPayment';
 
 const Pages = () => {
   return (
@@ -61,6 +62,7 @@ const Pages = () => {
         <Route exact path="/general" element={<GeneralForm />} />
         <Route exact path="/table" element={<TableFiveForm />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route path="/startpayment" element={<StartUpPayment />} />
       </Routes>
 
 <MoveToTop />
