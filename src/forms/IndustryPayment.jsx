@@ -84,14 +84,14 @@ const IndustryPayment = () => {
         disabled={loading || !email}
         className="w-full py-3 sm:py-4 bg-black editors-reg text-white rounded-[8px] active:scale-103 
          cursor-pointer
-        disabled:!bg-cyan text-[14px] sm:text-[16px]"
+        disabled:!bg-cyan text-[16px] sm:text-[16px]"
       >
         {loading ? 'Processing...' : 'Pay ₦150,000 Now'}
       </button>
       
       <button
         onClick={() => navigate('/industry')}
-        className="w-full py-2 text-black text-[16px] mt-10 sm:text-[16px] editors-reg underline"
+        className="w-full py-2 text-black text-[16px] mt-15 sm:text-[16px] editors-reg underline"
       >
         ← Back to Form
       </button>
