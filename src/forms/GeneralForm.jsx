@@ -23,7 +23,7 @@ const StartUpForm = () => {
           HealthTech Frontiers - 2026
         </h1>
         <h1 className="editors-bold p-3 text-[20px] tracking-widest mx-auto mb-5 text-white text-center">
-          Student and Startup Pass Registration
+          General Pass Registration
         </h1>
       </div>
       
@@ -34,7 +34,7 @@ const StartUpForm = () => {
           Register for General Pass
         </h1>
         <h1 className="editors-reg p-3 text-[16px] tracking-widest mx-auto mb-5 text-blue text-center">
-          Complete the form below (₦150,000 payment required after submission)
+          Complete the form below (₦25,000 payment required after submission)
         </h1>
       </div>
       
