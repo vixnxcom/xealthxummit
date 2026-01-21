@@ -30,8 +30,9 @@ const Hero = () => {
        Transforming Healthcare Through Innovation & Technology
     </p>
     </TypeWriterText>
-  </div> 
-  <div className='shadow-lg mt-2 button md:mt-20' >
+  </div>
+  
+  <div className='shadow-lg mt-2 button md:mt-10' >
     <TypeWriterText>
   <Button  />
     </TypeWriterText>
