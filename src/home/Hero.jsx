@@ -13,7 +13,7 @@ const Hero = () => {
      
         
 
-  <div className='px-3 absolute top-45 md:px-20'>
+  <div className='px-3 absolute top-32 md:px-20'>
     <TypeWriterText>
       <h1 className='text-[12vw] md:text-[56px] editors-bold font-bold text-white  letter-shade '>
        HEALTHTECH <br /> FRONTIERS <br /><span className='editors-itallic'> 2026</span>
@@ -22,7 +22,7 @@ const Hero = () => {
     
   </div>
 
-  <div className='px-3 mt-20   md:px-20 max-w-[470px] md:max-w-[800px] md:mt-40'>
+  <div className='px-3 mt-24   md:px-20 max-w-[470px] md:max-w-[800px] md:mt-40'>
   
    <TypeWriterText>
      <p  className='editors-reg text-white letter-shade text-[6vw] mt-24 md:text-[32px] 
@@ -31,7 +31,7 @@ const Hero = () => {
     </p>
     </TypeWriterText>
   </div> 
-  <div className='shadow-lg button mt-40 md:mt-20' >
+  <div className='shadow-lg mt-2 button md:mt-20' >
     <TypeWriterText>
   <Button  />
     </TypeWriterText>
