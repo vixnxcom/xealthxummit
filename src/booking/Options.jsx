@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { dna, redd, scope } from '../assets'
+import { dna,  scope } from '../assets'
 import TypeWriterText from '../faq/TypeWriterText'
 
 

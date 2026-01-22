@@ -1,13 +1,13 @@
 import dna from './dna.png'
 import steth from './steth.png'
-import redd from './redd.png'
+
 import crowd from './crowd.png'
 import med from './medical.png'
 import globe from './globe.jpeg'
 import scope from './scope.jpg'
 import arrow from './arrow.png'
 import arrw from './arrw.png'
-import session from './session.png'
+import session from './right.png'
 import lead from './lead.png'
 import mind from './mind.png'
 import bulb from './bulb.png'
@@ -15,14 +15,14 @@ import life from './life.jpg'
 import time from './time.png'
 import check from './check.png'
 import doc from './doc.jpg'
-import bot from './bot.png'
+
 import intro from './doc.jpeg'
 import ahmed from './ahmed.jpg'
 import pitch from './doc.jpeg'
 import award from './awards.jpeg'
 
-import vr from './sponsor.jpeg'
-import sponsor from './sponsor.jpeg'
+// import vr from './sponsor.jpeg'
+// import sponsor from './sponsor.jpeg'
 import ticket from './ticket.jpeg'
 import image from './image.jpg'
 import lab from './lab.jpg'
@@ -34,10 +34,11 @@ import govt from './govt.png'
 import invest from './invest.png'
 import black from './black.png'
 import sp from './sp.jpeg'
-import spbg from './spbg.mp4'
+
 import ar from './ar.png'
 import eye from './eye.png'
 import glas from './glas.png'
+import bot from './bot.png'
 import medl from './medl.png'
 import shake from './shake.png'
 import star from './star.png'
@@ -58,12 +59,13 @@ import g from './g.jpg'
 import africa from './africa.jpeg'
 import forum from './forum.jpeg'
 import mang from './mang.jpeg'
-import brain from './brain.gif'
 
 
 
-export { dna,steth, mang, forum, network, agd, nwk,
-      night, redd, brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart, brain,
-     innovative, spbg, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost, partner,
-     ahmed, ticket, pitch, sponsor, vr, man, award, intro, right, black, bot, g, lab, ball,
+
+export { dna,steth, mang, forum, network, agd, nwk, bot,
+      night,  brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart,
+      
+     innovative, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost, partner,
+     ahmed, ticket, pitch,  man, award, intro, right, black, g, lab, ball,
      arrow, session, lead, mind, bulb, life, time, image };

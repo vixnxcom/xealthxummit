@@ -2,7 +2,7 @@
 import React from 'react';
 import VideoBackground from './VideoBackground';
 import Sponsor from './Sponsor';
-import { spbg } from '../assets';
+
 import Benefits from './Benefits';
 
 

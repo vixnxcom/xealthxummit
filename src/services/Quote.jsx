@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import styles from '../style'
-import { redd } from '../assets'
+
 
 const Quote = () => {
   const headingRef = useRef(null)

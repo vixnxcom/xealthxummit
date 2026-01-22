@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ahmed, big, brain, night } from "../assets";
+import { ahmed, big,  night } from "../assets";
 
 const HeadTier = () => {
   const leftRef = useRef(null);

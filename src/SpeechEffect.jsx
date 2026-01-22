@@ -1,5 +1,5 @@
 import React from 'react'
-import { ahmed, big, lab, right, sponsor } from './assets'
+import { ahmed, big, lab, right,  } from './assets'
 
 const SpeechEffect = () => {
   return (

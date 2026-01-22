@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { brain, night } from "../assets";
+import {  night } from "../assets";
 
 const FaqAbout = () => {
   const leftRef = useRef(null);

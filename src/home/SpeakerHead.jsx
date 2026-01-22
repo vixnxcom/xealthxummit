@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ahmed, big, brain, night, scope } from "../assets";
+import { ahmed, big,  night, scope } from "../assets";
 
 const SpeakerHead = () => {
   const leftRef = useRef(null);

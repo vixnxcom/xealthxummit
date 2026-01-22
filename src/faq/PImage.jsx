@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import styles from '../style'
-import { redd } from '../assets'
+
 
 gsap.registerPlugin(ScrollTrigger)
 

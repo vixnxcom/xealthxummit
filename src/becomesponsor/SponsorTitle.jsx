@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ahmed, big, brain, cost, night, partner } from "../assets";
+import { ahmed, big,  cost, night, partner } from "../assets";
 
 const SponsorTitle = () => {
   const leftRef = useRef(null);

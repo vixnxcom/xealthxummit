@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ahmed, big, brain, cost, night } from "../assets";
+import { ahmed, big,  cost, night } from "../assets";
 
 const PageTitle = () => {
   const leftRef = useRef(null);
