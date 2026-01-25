@@ -1,5 +1,6 @@
 import React from 'react'
 import TypeWriterText from '../faq/TypeWriterText'
+import AgendaImage from './AgendaImage'
 
 const Agenda = () => {
   return (
@@ -124,11 +125,12 @@ const Agenda = () => {
           {/* Full-width background image container - spans both columns */}
           <div className="lg:col-span-2 relative mb-20 mt-20">
             {/* Background image that extends full viewport width */}
-            <div className="absolute inset-0 bg-net bg-cover bg-center -z-10 h-[330px] md:h-[520px] w-screen"
+            <div className="absolute inset-0 bg-cover bg-center -z-10 h-[330px] md:h-[520px] w-screen"
               style={{ left: '50%', transform: 'translateX(-50%)' }}>
+                <AgendaImage />
             </div>
             {/* Empty div to maintain grid spacing and push content down */}
-            <div className="h-[330px] md:h-[520px]"></div>
+            <div className="h-[250px] md:h-[520px]"></div>
           </div>
 
           {/* Seventh div - updated to match first */}

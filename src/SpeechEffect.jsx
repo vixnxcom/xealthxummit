@@ -1,11 +1,11 @@
 import React from 'react'
-import { ahmed, big, lab, right,  } from './assets'
+import { ahmed, big, lab, network, right,  } from './assets'
 
 const SpeechEffect = () => {
   return (
     <div className='w-full h-[400px] overflow-hidden bg-black'>
    <div className=" xl:mx-auto">
-  <img src={big} className="w-full" />
+  <img src={network} className="w-full" />
 
 </div>
 

@@ -42,11 +42,11 @@ const Speaker = () => {
         <Agenda />
         </div>
       </div>
-        <div>
+         {/* <div>
           <AgendaImage />
-        </div>
+        </div>  */}
 
-        <Parallax strength={900}  height={600}>
+        {/* <Parallax strength={900}  height={600}>
                 <Background  style={{width:'100vw'}} className='celll bg-black '  >
                  <img src={agd} alt="" className='w-[100vw] mt-20  h-full object-contain' />
           
@@ -64,7 +64,7 @@ const Speaker = () => {
                 </div>
                 </div>
             </Parallax>
-        
+         */}
 
   <div className={` ${styles.paddingX} ${styles.flexStart}   bg-blue `}>
    <div className={`${styles.boxWidth} mt-20 `}>

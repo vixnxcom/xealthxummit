@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { network } from "../assets";
+import { network, nwk } from "../assets";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -78,7 +78,7 @@ const AgendaImage = ({ src }) => {
     >
       <img
         ref={imgRef}
-        src={network}
+        src={nwk}
         alt="Animated"
         className="w-full h-auto md:h-[520px] object-cover"
         style={{
