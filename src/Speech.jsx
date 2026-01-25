@@ -46,7 +46,7 @@ const Speech = () => {
         data-k="x9"
       >
         {t1}{" "}
-        <span className="text-gray-400 md:text-gray-300">
+        <span className="text-gray-500 md:text-gray-400">
           {t2}
         </span>
       </a>
