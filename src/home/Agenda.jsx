@@ -123,7 +123,7 @@ const Agenda = () => {
           </div>
           
           {/* Full-width background image container - spans both columns */}
-          <div className="lg:col-span-2 relative mb-20 mt-20">
+          <div className="lg:col-span-2 relative  mt-20">
             {/* Background image that extends full viewport width */}
             <div className="absolute inset-0 bg-cover bg-center -z-10 h-[330px] md:h-[520px] w-screen"
               style={{ left: '50%', transform: 'translateX(-50%)' }}>
