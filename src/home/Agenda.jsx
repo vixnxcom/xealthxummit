@@ -130,7 +130,7 @@ const Agenda = () => {
                 <AgendaImage />
             </div>
             {/* Empty div to maintain grid spacing and push content down */}
-            <div className="h-[250px] md:h-[520px]"></div>
+            <div className="h-[290px] md:h-[520px]"></div>
           </div>
 
           {/* Seventh div - updated to match first */}
