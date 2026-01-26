@@ -37,23 +37,25 @@ const Team = () => {
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col bg-white rounded-[16px] items-center text-center gap-4"
+              className="flex flex-col bg-black 
+                rounded-[16px] items-center text-center gap-4"
             >
 
-                   <div className='border mt-5  border-gray-200 rounded-[16px] shadow-md'>
+                   <div className='border mt-5  border-blue rounded-t-[16px] shadow-md'>
               <TypeWriterText>
                 <img
                   src={partner.logo}
                   alt={partner.alt}
-                  className="w-[220px] rounded-t-[16px]  mx-auto justify-center  h-[340px] bg-white object-cover"
+                  className="w-[220px] rounded-t-[16px]  mx-auto justify-center  h-[340px]
+                   bg-brain object-cover"
                   loading="lazy"
                 />
               </TypeWriterText>
             </div>
-             <div className='bg-black w-full'>
-              <div className=" lg:h-6 ">
+             <div className=''>
+              <div className=" lg:h-10 ">
                 <TypeWriterText>
-                  <p className={`editors-bold ${partner.color} text-[20px] text-white`}>
+                  <p className={`editors-bold ${partner.color} mt-2 text-[20px] text-white`}>
                     {partner.name}
                   </p>
                 </TypeWriterText>
