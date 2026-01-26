@@ -31,7 +31,7 @@ const Team = () => {
   ]
 
   return (
-    <section className="my-20 flex items-center justify-center">
+    <section className="my-10 mb-10 flex items-center justify-center">
       <div className="w-full max-w-5xl px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {partners.map((partner) => (
@@ -55,7 +55,7 @@ const Team = () => {
             
             </div>
             </TypeWriterText>
-            
+
              <div className=' '>
               <div className=" lg:h-10 ">
                 <TypeWriterText>
