@@ -31,13 +31,13 @@ const Team = () => {
   ]
 
   return (
-    <section className="my-10 mb-10 flex items-center justify-center">
+    <section className=" mb-10 flex items-center justify-center">
       <div className="w-full max-w-5xl px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col  shadow-md  border border-gray-200 
+              className="flex flex-col  shadow-md mt-10  border border-gray-200 
                 rounded-[16px] items-center text-center gap-4"
             >
             <TypeWriterText>
