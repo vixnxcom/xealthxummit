@@ -37,7 +37,7 @@ const Team = () => {
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col bg-black 
+              className="flex flex-col bg-white border border-gray-200 border-2 shadow-md 
                 rounded-[16px] items-center text-center gap-4"
             >
 
@@ -55,7 +55,7 @@ const Team = () => {
              <div className=''>
               <div className=" lg:h-10 ">
                 <TypeWriterText>
-                  <p className={`editors-bold ${partner.color} mt-2 text-[20px] text-white`}>
+                  <p className={`editors-bold ${partner.color} mt-2 text-[20px] text-black`}>
                     {partner.name}
                   </p>
                 </TypeWriterText>
@@ -65,7 +65,7 @@ const Team = () => {
 
             
               <TypeWriterText>
-              <p className={`editors-reg ${partner.color} text-[16px] text-cyan mb-4`}>
+              <p className={`editors-reg ${partner.color} text-[16px] text-black mb-4`}>
                     {partner.title}
                   </p>
               </TypeWriterText>
