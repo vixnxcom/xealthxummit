@@ -23,7 +23,7 @@ const Details = () => {
               <TypeWriterText>
                 <li className="py-1 tracking-widest flex items-center gap-2">
                   <span className="w-3 h-3 bg-black shrink-0"></span>
-                 partnerships@healthtechfrontiers.com
+                partnerships@healthtech<br />frontiers.com
                 </li>
               </TypeWriterText>
             </ul>
