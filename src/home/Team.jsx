@@ -41,12 +41,12 @@ const Team = () => {
                 rounded-[16px] items-center text-center gap-4"
             >
 
-                   <div className=' h-[400px]  w-[360px] md:w-[280px]  bg-brain overflow-hidden mt-3 rounded-t-[16px] '>
+                   <div className=' h-[400px]  w-[340px] md:w-[280px]  bg-brain overflow-hidden mt-3 rounded-t-[16px] '>
               <TypeWriterText>
                 <img
                   src={partner.logo}
                   alt={partner.alt}
-                  className="w-[360px] md:w-[280px]  rounded-t-[16px] mt-3 lg:mt-0  
+                  className="w-[340px] md:w-[280px]  rounded-t-[16px] mt-3 lg:mt-0  
                    mx-auto justify-center  h-[400px]
                     object-cover"
                   loading="lazy"
