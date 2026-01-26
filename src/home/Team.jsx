@@ -37,11 +37,11 @@ const Team = () => {
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col bg-white border border-gray-200 border-2 shadow-md 
+              className="flex flex-col bg-white border border-gray-200  shadow-md 
                 rounded-[16px] items-center text-center gap-4"
             >
 
-                   <div className='border mt-5  border-blue rounded-t-[16px] shadow-md'>
+                   <div className=' mt-5   rounded-t-[16px] shadow-md'>
               <TypeWriterText>
                 <img
                   src={partner.logo}
