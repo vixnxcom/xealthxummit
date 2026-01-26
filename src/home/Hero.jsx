@@ -36,7 +36,7 @@ const Hero = () => {
      
       </div>
       {/* Main Title - Fixed responsiveness */}
-      <div className="mt-10 md:mt-0 md:mb-8">
+      <div className="mt-10  md:mb-8">
         <TypeWriterText>
           <h1 className='
             text-[12vw] 
@@ -77,7 +77,7 @@ const Hero = () => {
       
 
       {/* Button Section */}
-      <div className="mt-5 md:mt-0 ">
+      <div className="mt-5 mb-10">
         <div className="inline-block button w-full xs:w-auto">
           <TypeWriterText>
             <Button />
