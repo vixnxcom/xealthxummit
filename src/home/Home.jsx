@@ -223,19 +223,17 @@ const Home = () => {
        
         </div>
         </div>
- {/* <div  className=' bg-brain h-[330px] md:h-[520px]'></div>  */}
+
 
  <div className={`${styles.flexCenter} bg-white  `}>
  <div className={`${styles.boxWidth}  `}>
     
-
    <Team />
    
-    
 </div>
 </div>
 
-    
+     {/* <div  className=' bg-brain h-[330px] md:h-[520px]'></div>   */}
 
          <div className={` ${styles.flexStart} bg-white  `}>
       
