@@ -50,7 +50,7 @@ const Team = () => {
                   className="w-[340px] md:w-[280px]  rounded-t-[16px] mt-3 lg:mt-0  
                    mx-auto justify-center  h-[400px]
                     object-cover"
-                  loading="lazy"
+                 
                 />
               </TypeWriterText>
             </div>
