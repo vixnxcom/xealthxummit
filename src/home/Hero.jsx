@@ -9,7 +9,7 @@ const Hero = () => {
      md:justify-center px-3 sm:px-6 md:px-8 lg:px-20">
 
 
-      <div className="mt-2 flex flex-row xs:flex-row items-start xs:items-center gap-4 md:gap-6">
+      <div className=" flex flex-row xs:flex-row items-start xs:items-center gap-4 md:gap-6">
         <div className='text-white '>
           <TypeWriterText>
                 <img 
@@ -44,6 +44,7 @@ const Hero = () => {
             editors-bold
            
             text-white 
+            leading-[72px]
          md:leading-[80px]
            
            
@@ -77,8 +78,8 @@ const Hero = () => {
 
       {/* Button Section */}
       <div className="mt-5 md:mt-0 ">
-        <div className="inline-block w-full xs:w-auto">
-          <TypeWriterText delay={1500}>
+        <div className="inline-block button w-full xs:w-auto">
+          <TypeWriterText>
             <Button />
           </TypeWriterText>
         </div>
