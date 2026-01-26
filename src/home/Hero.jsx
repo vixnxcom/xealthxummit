@@ -1,5 +1,5 @@
 import React from 'react';
-import { ar } from '../assets';
+import { ar, image } from '../assets';
 import Button from './Button';
 import TypeWriterText from '../faq/TypeWriterText';
 
@@ -13,16 +13,16 @@ const Hero = () => {
         <div className='text-white '>
           <TypeWriterText>
                 <img 
-    src={ar} 
+    src={image} 
     alt="AR Technology" 
-    className="w-24 xs:w-14 sm:w-16 md:w-20 h-auto " 
+    className="w-25 rounded-[2px] xs:w-14 sm:w-16 md:w-20 h-auto " 
   />     
           <p className='
             editors-reg 
             text-[4vw] md:text-[24px]
              
           '>
-           Owned and Organised by{' '}
+           Powered by{' '}
            <div className="flex items-center flex-row">
   <span className='editors-bold text-cyan text-[20px] md:text-[25px]'>
     PrimeBridge Health Solutions
