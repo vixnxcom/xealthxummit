@@ -37,7 +37,7 @@ const Team = () => {
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col bg-black items-center text-center gap-4"
+              className="flex flex-col bg-black rounded-[16px] items-center text-center gap-4"
             >
 
                    <div className='border mt-5   bg-blue border-blue shadow-md border-2 '>
@@ -45,7 +45,7 @@ const Team = () => {
                 <img
                   src={partner.logo}
                   alt={partner.alt}
-                  className="w-[220px]  mx-auto justify-center  h-[340px] bg-white object-cover"
+                  className="w-[220px] rounded-t-[16px]  mx-auto justify-center  h-[340px] bg-white object-cover"
                   loading="lazy"
                 />
               </TypeWriterText>
