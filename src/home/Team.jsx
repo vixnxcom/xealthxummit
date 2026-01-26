@@ -63,7 +63,7 @@ const Team = () => {
 
             
               <TypeWriterText>
-              <p className={`editors-reg ${partner.color} text-[16px] text-white mb-4`}>
+              <p className={`editors-reg ${partner.color} text-[16px] text-cyan mb-4`}>
                     {partner.title}
                   </p>
               </TypeWriterText>
