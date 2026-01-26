@@ -24,7 +24,7 @@ const NavTag = () => {
               </span> */}
             </li>
             <li className='flex items-center gap-1  mr-5 md:ml-1'>
-              Primebridge Health Solutions
+              PrimeBridge Health Solutions
             
             </li>
         </ul>
