@@ -40,7 +40,7 @@ const Team = () => {
               className="flex flex-col items-center text-center gap-4"
             >
 
-                   <div className='border border-gray-100 shadow-md border-4 '>
+                   <div className='border border-cyan shadow-md border-4 '>
               <TypeWriterText>
                 <img
                   src={partner.logo}
