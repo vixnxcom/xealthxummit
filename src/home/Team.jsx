@@ -40,7 +40,7 @@ const Team = () => {
               className="flex flex-col  shadow-md  border border-gray-200 
                 rounded-[16px] items-center text-center gap-4"
             >
-
+            <TypeWriterText>
                    <div className=' h-[400px]  w-[340px] md:w-[280px] border border-gray-200
                       bg-brain overflow-hidden mt-5 md:mt-3 rounded-t-[16px] '>
             
@@ -54,6 +54,8 @@ const Team = () => {
                 />
             
             </div>
+            </TypeWriterText>
+            
              <div className=' '>
               <div className=" lg:h-10 ">
                 <TypeWriterText>
