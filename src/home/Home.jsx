@@ -239,7 +239,7 @@ const Home = () => {
 
          <div className={` ${styles.flexStart} bg-white  `}>
       
-        <div className={`${styles.boxWidth}  mt-20`}>
+        <div className={`${styles.boxWidth}  mt-10`}>
          
            < Attendants />
           
