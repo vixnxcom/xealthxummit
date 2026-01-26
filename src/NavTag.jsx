@@ -18,13 +18,13 @@ const NavTag = () => {
        
         <ul className='text-[12px] editors-reg text-shade mt-1 flex flex-col md:flex-row  tracking-widest mx-2 text-blue'>
             <li className='flex items-center gap-1'>
-           Owned and Organised by 
+           Owned and Organised by  
               {/* <span>
                 <img src={ar} alt="" className='w-8 inline-block bg-black align-middle'/>
               </span> */}
             </li>
-            <li className='flex items-center gap-1 mr-5'>
-             Primebridge Health Solutions
+            <li className='flex items-center gap-1 editors-bold mr-5 md:ml-1'>
+              Primebridge Health Solutions
             
             </li>
         </ul>
