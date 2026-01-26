@@ -59,11 +59,14 @@ import g from './g.jpg'
 import africa from './africa.jpeg'
 import forum from './forum.jpeg'
 import mang from './mang.jpeg'
+import achese from './achese.png'
+import abdul from './abdul.png'
+import ola from './ola.png'
 
 
 
 
-export { dna,steth, mang, forum, network, agd, nwk, bot,
+export { dna,steth, mang, forum, network, agd, nwk, bot, ola, achese, abdul,
       night,  brn, crowd, med, globe, scope, medl, doc, govt, invest,  sp, ar, health, heart,
       
      innovative, arrw, check, men, star, shake, eye, glas, dude, big, africa, cost, partner,

@@ -47,6 +47,7 @@ import WhiteButton from './WhiteButton'
 import TypeWriterText from '../faq/TypeWriterText'
 import SpeakerHead from './SpeakerHead'
 import SpeakerHtag from './SpeakerHtag'
+import Team from './Team'
 
 
 const Home = () => {
@@ -147,7 +148,7 @@ const Home = () => {
 </div>
 </div>
 
-   
+{/*    
  <div className={` ${styles.paddingX} ${styles.flexStart} bg-white  `}>
  <div className={`${styles.boxWidth} mt-10 `}>
     
@@ -166,7 +167,7 @@ const Home = () => {
 </div>
 </div>
 
-
+ */}
 
   <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll bg-black '  >
@@ -194,6 +195,7 @@ const Home = () => {
     
 </div>
 </div>
+
  <div className={`${styles.flexCenter} bg-white  `}>
  <div className={`${styles.boxWidth}  `}>
     
@@ -221,9 +223,19 @@ const Home = () => {
        
         </div>
         </div>
+ {/* <div  className=' bg-brain h-[330px] md:h-[520px]'></div>  */}
 
+ <div className={`${styles.flexCenter} bg-white  `}>
+ <div className={`${styles.boxWidth}  `}>
+    
 
-     <div  className=' bg-brain h-[330px] md:h-[520px]'></div> 
+   <Team />
+   
+    
+</div>
+</div>
+
+    
 
          <div className={` ${styles.flexStart} bg-white  `}>
       
