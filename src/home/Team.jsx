@@ -37,15 +37,15 @@ const Team = () => {
           {partners.map((partner) => (
             <div 
               key={partner.id} 
-              className="flex flex-col items-center text-center gap-4"
+              className="flex flex-col bg-black items-center text-center gap-4"
             >
 
-                   <div className='border border-black shadow-md border-2 '>
+                   <div className='border mt-5   bg-blue border-blue shadow-md border-2 '>
               <TypeWriterText>
                 <img
                   src={partner.logo}
                   alt={partner.alt}
-                  className="w-[200px]  h-[340px] bg-white object-cover"
+                  className="w-[220px]  mx-auto justify-center  h-[340px] bg-white object-cover"
                   loading="lazy"
                 />
               </TypeWriterText>
@@ -53,7 +53,7 @@ const Team = () => {
 
               <div className=" lg:h-6 ">
                 <TypeWriterText>
-                  <p className={`editors-bold ${partner.color} text-[20px]`}>
+                  <p className={`editors-bold ${partner.color} text-[20px] text-white`}>
                     {partner.name}
                   </p>
                 </TypeWriterText>
@@ -63,7 +63,7 @@ const Team = () => {
 
             
               <TypeWriterText>
-              <p className={`editors-reg ${partner.color} text-[16px] mb-4`}>
+              <p className={`editors-reg ${partner.color} text-[16px] text-white mb-4`}>
                     {partner.title}
                   </p>
               </TypeWriterText>
