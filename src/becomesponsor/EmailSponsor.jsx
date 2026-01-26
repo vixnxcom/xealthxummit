@@ -62,7 +62,7 @@ const EmailSponsor = () => {
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
             <a 
               href="tel:+2349041875880" 
-              className="underline hover:text-blue-600 transition-colors"
+              className=" hover:text-blue-600 transition-colors"
             >
               +2349041875880
             </a>
