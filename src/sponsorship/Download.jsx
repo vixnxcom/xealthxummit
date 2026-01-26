@@ -7,10 +7,10 @@ const Download = () => {
   return (
     <div className="flex mx-auto">
       <div className="mx-auto mt-5 bg-blue rounded-[8px]
-          md:w-[35vw] w-[92vw] h-[200px]
+          md:w-[35vw] w-[92vw] h-[220px]
           flex flex-col items-center justify-center text-white">
 
-        <p className="text-[20px] editors-reg mb-4">
+        <p className="text-[20px] editors-reg mb-4 mx-auto w-[300px] text-center">
           Download Sponsorship Prospectus
         </p>
 
