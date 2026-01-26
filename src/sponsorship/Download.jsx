@@ -17,7 +17,7 @@ const Download = () => {
         {/* CHECK */}
         <button
           onClick={() => setChecked(true)}
-          className="border border-white rounded-full h-12 w-12
+          className="border border-white  rounded-full h-12 w-12
                      hover:scale-110 transition"
         >
           <img src={check} alt="Check" className="p-3" />
@@ -26,8 +26,8 @@ const Download = () => {
         {/* DOWNLOAD APPEARS AFTER CHECK */}
         {checked && (
           <a
-            // href="/HealthTech_Frontiers_Primebridge.pdf"
-            href="public/HealthTech_Frontiers_Primebridge.pdf"
+           href="/HealthTech_Frontiers_Primebridge.pdf"
+            // href="public/HealthTech_Frontiers_Primebridge.pdf"
             download
             className="mt-4 underline text-[16px] editors-reg"
           >

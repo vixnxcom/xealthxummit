@@ -77,7 +77,7 @@ const Hero = () => {
       
 
       {/* Button Section */}
-      <div className="mt-5 mb-10">
+      <div className="mt-5 mb-12">
         <div className="inline-block button w-full xs:w-auto">
           <TypeWriterText>
             <Button />
