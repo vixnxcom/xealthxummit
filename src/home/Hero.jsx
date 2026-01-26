@@ -9,7 +9,7 @@ const Hero = () => {
      md:justify-center px-3 sm:px-6 md:px-8 lg:px-20">
 
 
-      <div className=" flex flex-row xs:flex-row items-start xs:items-center gap-4 md:gap-6">
+      <div className=" flex flex-row xs:flex-row mt-10 items-start xs:items-center gap-4 md:gap-6">
         <div className='text-white '>
           <TypeWriterText>
                 <img 

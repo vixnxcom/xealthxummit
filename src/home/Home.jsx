@@ -61,7 +61,7 @@ const Home = () => {
 
 
 
- <div className={`${styles.flexCenter} bg-lady h-[100vh]`}>
+ <div className={`${styles.flexCenter} bg-lady md:h-[100vh] `}>
  <div className={`${styles.boxWidth}`}>
 
    <Hero/>
