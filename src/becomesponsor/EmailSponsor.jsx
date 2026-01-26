@@ -29,7 +29,12 @@ const EmailSponsor = () => {
             <TypeWriterText >
           <li className="py-1  max-w-[10px] flex  items-center gap-2">
             <span className="w-3 h-3 bg-black  shrink-0 mx-1"></span>
-          partnerships@healthtech<br />frontiers.com
+            <a 
+              href="mailto:partnerships@healthtechfrontiers.com" 
+              className="underline hover:text-blue-600 transition-colors"
+            >
+              partnerships@healthtech <br />frontiers.com
+            </a>
           </li>
         
           </TypeWriterText>
@@ -55,7 +60,12 @@ const EmailSponsor = () => {
             <TypeWriterText >
           <li className="py-1 tracking-widest flex items-center gap-2">
             <span className="w-3 h-3 bg-black shrink-0 mx-1"></span>
-          +2349041875880
+            <a 
+              href="tel:+2349041875880" 
+              className="underline hover:text-blue-600 transition-colors"
+            >
+              +2349041875880
+            </a>
           </li>
         
           </TypeWriterText>

@@ -20,12 +20,15 @@ const Details = () => {
             </TypeWriterText>
 
             <ul className="px-3 text-[16px] editors-reg">
-              <TypeWriterText>
-                <li className="py-1 tracking-widest flex items-center gap-2">
-                  <span className="w-3 h-3 bg-black shrink-0"></span>
-                partnerships@healthtech<br />frontiers.com
-                </li>
-              </TypeWriterText>
+                <li className="py-1  max-w-[10px] flex  items-center gap-2">
+            <span className="w-3 h-3 bg-black  shrink-0 mx-1"></span>
+            <a 
+              href="mailto:partnerships@healthtechfrontiers.com" 
+              className="underline hover:text-blue-600 transition-colors"
+            >
+              partnerships@healthtech <br />frontiers.com
+            </a>
+          </li>
             </ul>
           </div>
 
@@ -39,7 +42,7 @@ const Details = () => {
 
             <ul className="px-3 text-[16px] editors-reg">
               <TypeWriterText>
-                <li className="py-1 tracking-widest flex items-center gap-2">
+                <li className="py-1 tracking-widest underline flex items-center gap-2">
                   <span className="w-3 h-3 bg-black shrink-0"></span>
                   +2349041875880
                 </li>
