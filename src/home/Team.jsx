@@ -9,27 +9,30 @@ const Team = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
           {/* Dr. Ahmed Abdulkareem */}
-          <div className="flex flex-col shadow-md mt-10 border border-gray-200 
-            rounded-[16px] items-center text-center gap-4">
+          <div className="flex flex-row shadow-md mt-10 bg-blue 
+            rounded-[16px] items-center text-center gap-2">
+                <div className='mx-2 md:mt-3'>
             <TypeWriterText>
               <img
                 src={abdul}
                 alt="Dr. Ahmed Abdulkareem"
                 className="md:w-[280px]
-                 rounded-t-[16px] mt-3 lg:mt-0 mx-auto justify-center w-[500px] bg-brain    h-[450px]
-                  md:h-[400px] object-cover"
+                 rounded-[16px] mt-3 mb-3 lg:mt-0 mx-auto justify-center w-[200px] bg-brain
+                    h-[200px]
+                    object-cover"
               />
             </TypeWriterText>
-            <div className="w-full bg-black">
-              <div className="lg:h-10">
+            </div>
+            <div className="flex flex-col text-start">
+              <div className="">
                 <TypeWriterText>
-                  <p className="editors-bold text-black mt-2 text-[20px] text-white">
-                    Dr. Ahmed Abdulkareem
+                  <p className="editors-bold  text-black mt-2 text-[20px] text-white">
+                    Dr. <br /> Ahmed <br /> Abdulkareem
                   </p>
                 </TypeWriterText>
               </div>
               <TypeWriterText>
-                <p className="editors-reg text-black text-[16px] text-white mb-4">
+                <p className="editors-reg text-cyan text-[16px] text-white mt-4">
                   CEO Primebridge Health
                 </p>
               </TypeWriterText>
@@ -37,27 +40,30 @@ const Team = () => {
           </div>
 
           {/* Dr. Achese Inimgba */}
-          <div className="flex flex-col shadow-md mt-10 border border-gray-200 
-            rounded-[16px] items-center text-center gap-4">
+          <div className="flex flex-row shadow-md mt-10 bg-blue 
+            rounded-[16px] items-center text-center gap-2">
+               <div className='mx-2 md:mt-3'>
             <TypeWriterText>
               <img
                 src={achese}
                 alt="Dr. Achese Inimgba"
-                className="md:w-[280px] rounded-t-[16px] mt-3 lg:mt-0 mx-auto bg-brain justify-center w-[500px] 
-                h-[450px] object-cover md:h-[400px]"
-            
+                className="md:w-[280px]
+                 rounded-[16px] mt-3 mb-3 lg:mt-0 mx-auto justify-center w-[200px] bg-brain
+                    h-[200px]
+                  md:h-[200px] object-cover"
               />
             </TypeWriterText>
-            <div className="w-full bg-black">
-              <div className="lg:h-10">
+            </div>
+            <div className="flex flex-col text-start">
+              <div className="">
                 <TypeWriterText>
-                  <p className="editors-bold text-black mt-2 text-[20px] text-white">
-                    Dr. Achese Inimgba
+                  <p className="editors-bold  text-black mt-2 text-[20px] text-white">
+                    Dr. <br /> Achese <br /> Inimgba
                   </p>
                 </TypeWriterText>
               </div>
               <TypeWriterText>
-                <p className="editors-reg text-black text-[16px] text-white mb-4">
+                <p className="editors-reg text-cyan text-[16px] text-white mt-4">
                   CTO Primebridge Health
                 </p>
               </TypeWriterText>
@@ -65,27 +71,30 @@ const Team = () => {
           </div>
 
           {/* Dr. Olayemi Abdulrahman */}
-          <div className="flex flex-col shadow-md mt-10 border border-gray-200 
-            rounded-[16px] items-center text-center gap-4">
+          <div className="flex flex-row shadow-md mt-10 bg-blue 
+            rounded-[16px] items-center text-center gap-2">
+               <div className='mx-2 md:mt-3'>
             <TypeWriterText>
               <img
                 src={ola}
                 alt="Dr. Olayemi Abdulrahman"
-                className="md:w-[280px] rounded-t-[16px]  mt-3 lg:mt-0 mx-auto justify-center bg-brain
-                 h-[380px] object-cover md:h-[400px]"
+                className="md:w-[280px]
+                 rounded-[16px] mt-3 mb-3 lg:mt-0 mx-auto justify-center w-[200px] bg-brain
+                    h-[200px]
+                  md:h-[200px] object-cover"
               />
             </TypeWriterText>
-            
-            <div className="w-full bg-black">
-              <div className="lg:h-10">
+            </div>
+            <div className="flex flex-col text-start">
+              <div className="">
                 <TypeWriterText>
-                  <p className="editors-bold text-black mt-2 text-[20px] text-white">
-                    Dr. Olayemi Abdulrahman
+                  <p className="editors-bold  text-black mt-2 text-[20px] text-white">
+                    Dr. <br /> Olayemi <br /> Abdulrahman
                   </p>
                 </TypeWriterText>
               </div>
               <TypeWriterText>
-                <p className="editors-reg text-black text-[16px] text-white mb-4">
+                <p className="editors-reg text-cyan text-[16px] text-white mt-4">
                   COO Primebridge Health
                 </p>
               </TypeWriterText>
