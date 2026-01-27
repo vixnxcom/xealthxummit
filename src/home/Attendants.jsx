@@ -17,15 +17,15 @@ const Attendants = () => {
     <section className=" text-white max-w-5xl md:mx-auto mb-10">
   
       {/* <div className="flex flex-col items-start mb-5 "> */}
-        <div className={`${styles.flexCenter}  ${styles.paddingX} flex flex-col items-start mb-5 `}>
- <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.flexCenter} px-4 flex flex-col items-start mb-5 `}>
+ <div className={`${styles.boxWidth} mb-5`}>
         
           <HeadAttend />
       
           </div>
           </div>
 
-          <div className='md:grid lg:grid-cols-2 md:gap-8 px-4'>
+          <div className='md:grid lg:grid-cols-2 md:gap-8 px-4 '>
       
   <div className={`${styles.flexCenter}  md:mt-0 `}>
  <div className={`${styles.boxWidth}`}>
