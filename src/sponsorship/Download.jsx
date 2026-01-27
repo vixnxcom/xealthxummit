@@ -26,7 +26,7 @@ const Download = () => {
         {/* DOWNLOAD APPEARS AFTER CHECK */}
         {checked && (
           <a
-           href="/HealthTech_Frontiers_Primebridge.pdf"
+           href="https://drive.google.com/file/d/10dFU3kzrJSCSoPABuaU9xXBxmZ_W905A/view?usp=drive_link"
             // href="public/HealthTech_Frontiers_Primebridge.pdf"
             download
             className="mt-4 underline text-[16px] editors-reg"
