@@ -33,7 +33,7 @@ const Team = () => {
               </div>
               <TypeWriterText>
                 <p className="editors-reg text-cyan text-[16px] text-white mt-4">
-                  CEO <br /> Primebridge Health
+                  CEO <br /> PrimeBridge Health Solutions
                 </p>
               </TypeWriterText>
             </div>
@@ -64,7 +64,7 @@ const Team = () => {
               </div>
               <TypeWriterText>
                 <p className="editors-reg text-cyan text-[16px] text-white mt-4">
-                  CTO <br /> Primebridge Health
+                  CTO <br /> PrimeBridge Health Solutions
                 </p>
               </TypeWriterText>
             </div>
@@ -95,7 +95,7 @@ const Team = () => {
               </div>
               <TypeWriterText>
                 <p className="editors-reg text-cyan text-[16px] text-white mt-4">
-                  COO <br /> Primebridge Health
+                  COO <br /> PrimeBridge Health Solutions
                 </p>
               </TypeWriterText>
             </div>
