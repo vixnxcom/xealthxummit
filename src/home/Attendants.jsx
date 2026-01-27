@@ -18,7 +18,7 @@ const Attendants = () => {
   
       {/* <div className="flex flex-col items-start mb-5 "> */}
         <div className={`${styles.flexCenter} px-4 flex flex-col items-start mb-5 `}>
- <div className={`${styles.boxWidth} mb-5`}>
+ <div className={`${styles.boxWidth} `}>
         
           <HeadAttend />
       

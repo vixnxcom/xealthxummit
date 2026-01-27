@@ -9,7 +9,7 @@ const Team = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
           {/* Dr. Ahmed Abdulkareem */}
-          <div className="flex flex-row shadow-md mt-10 bg-blue 
+          <div className="flex flex-row shadow-md mt-5 lg:mt-10 bg-blue 
             rounded-[16px] items-center text-center gap-2">
                 <div className='mx-2 lg:mt-3'>
             <TypeWriterText>
@@ -40,7 +40,7 @@ const Team = () => {
           </div>
 
           {/* Dr. Achese Inimgba */}
-          <div className="flex flex-row shadow-md mt-10 bg-blue 
+          <div className="flex flex-row shadow-md mt-5 lg:mt-10 bg-blue 
             rounded-[16px] items-center text-center gap-2">
                <div className='mx-2 lg:mt-3'>
             <TypeWriterText>
@@ -71,7 +71,7 @@ const Team = () => {
           </div>
 
           {/* Dr. Olayemi Abdulrahman */}
-          <div className="flex flex-row shadow-md mt-10 bg-blue 
+          <div className="flex flex-row shadow-md mt-5 lg:mt-10 bg-blue 
             rounded-[16px] items-center text-center gap-2">
                <div className='mx-2 lg:mt-3'>
             <TypeWriterText>
