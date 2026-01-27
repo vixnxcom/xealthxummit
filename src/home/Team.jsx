@@ -56,10 +56,10 @@ const Team = () => {
             </div>
             </TypeWriterText>
 
-             <div className=' '>
+             <div className=' w-full bg-black'>
               <div className=" lg:h-10 ">
                 <TypeWriterText>
-                  <p className={`editors-bold ${partner.color} mt-2 text-[20px] text-black`}>
+                  <p className={`editors-bold ${partner.color} mt-2 text-[20px] text-white`}>
                     {partner.name}
                   </p>
                 </TypeWriterText>
@@ -69,7 +69,7 @@ const Team = () => {
 
             
               <TypeWriterText>
-              <p className={`editors-reg ${partner.color} text-[16px] text-black mb-4`}>
+              <p className={`editors-reg ${partner.color} text-[16px] text-white mb-4`}>
                     {partner.title}
                   </p>
               </TypeWriterText>
