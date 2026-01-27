@@ -56,7 +56,7 @@ const Sponsorship = () => {
           </div>
         </div>
 
-        <div className={`${styles.flexCenter} mt-20 mb-20 ${styles.paddingX} mx-auto`}>
+        <div className={`${styles.flexCenter} mt-20 mb-10 ${styles.paddingX} mx-auto`}>
           <div className={`${styles.boxWidth}`}>
             <Support />
           </div>
