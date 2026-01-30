@@ -11,6 +11,7 @@ import Agenda from './Agenda';
 import AgendaImage from './AgendaImage';
 import { Background, Parallax } from 'react-parallax';
 import ImageBg from './ImageBg';
+import AgendaTwo from './AgendaTwo';
 
 
 
@@ -40,6 +41,17 @@ const Speaker = () => {
      <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth} mt-10`}>
         <Agenda />
+        </div>
+      </div>
+        
+        
+ <div className="mt-10 mb-10  w-full">
+          <AgendaImage />
+        </div>
+
+     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth} `}>
+        <AgendaTwo />
         </div>
       </div>
          {/* <div>
