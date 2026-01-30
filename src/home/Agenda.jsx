@@ -104,7 +104,7 @@ const Agenda = () => {
           </div>
 
           {/* Sixth div - updated to match first */}
-          <div className="mb-5 md:mb-0 shadow-md bg-white rounded-[16px] text-blue mt-10">
+          <div className="mb-5 md:mb-0 mb-10 shadow-md bg-white rounded-[16px] text-blue mt-10">
             <div className="bg-black rounded-t-[16px] w-full">
               <TypeWriterText>
                 <h1 className="text-[24px] editors-bold text-white text-center p-3">
@@ -125,16 +125,16 @@ const Agenda = () => {
           {/* Full-width background image container - spans both columns */}
           <div className="lg:col-span-2 relative mb-20  mt-20">
             {/* Background image that extends full viewport width */}
-            <div className="absolute inset-0 bg-cover bg-center -z-10   w-screen"
+            <div className="absolute inset-0 bg-cover bg-center -z-10  w-screen"
               style={{ left: '50%', transform: 'translateX(-50%)' }}>
                 <AgendaImage />
             </div>
             {/* Empty div to maintain grid spacing and push content down */}
-           <div className="h-[240px] md:h-[520px]"></div> 
+           <div className="h-[220px] md:h-[520px]"></div> 
           </div>
 
           {/* Seventh div - updated to match first */}
-          <div className="mb-5 md:mb-0 shadow-md bg-white rounded-[16px] text-blue">
+          <div className="mb-5 mt-10 md:mt-0 md:mb-0 shadow-md bg-white rounded-[16px] text-blue">
             <div className="bg-black rounded-t-[16px] w-full">
               <TypeWriterText>
                 <h1 className="text-[24px] editors-bold text-white text-center p-3">
