@@ -47,7 +47,7 @@ const AgendaHead = () => {
   }, [])
 
   return (
-    <section className="w-full mt-10 relative">
+    <section className="w-full mt-5 relative">
       <div className="max-w-5xl mx-auto ">
       <div
         ref={triggerRef}
