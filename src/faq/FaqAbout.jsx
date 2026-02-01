@@ -57,19 +57,19 @@ const FaqAbout = () => {
         </div>
 
         {/* CENTERED VIDEO */}
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
-          <img
-            ref={imageRef}
-            src={night}
-           
-            className="
-              w-full h-full
-              object-cover
-          
-              will-change-transform
-            "
-          />
-        </div>
+ <div className="absolute inset-0 z-10 overflow-hidden flex items-center justify-center">
+  <img
+    ref={imageRef}
+    src={night}
+    className="
+      w-full h-full
+      object-cover 
+      sm:w-[138%] sm:h-[138%] lg:w-[113%] lg:h-[113%] xl:w-[100%] xl:h-[100%]
+      md:border-b md:border-b-blue md:border-b-18
+      will-change-transform
+    "
+  />
+</div>
 
         {/* PANELS */}
         <div

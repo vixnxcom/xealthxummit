@@ -45,6 +45,7 @@ const Hero = () => {
            
             text-white 
             leading-[72px]
+         sm:leading-[100px]
          md:leading-[80px]
            
            
@@ -66,6 +67,7 @@ const Hero = () => {
             text-[4vw] md:text-[24px]
         
             leading-[32px]
+            sm:leading-[40px]
             tracking-wide
           '>
             Transforming Healthcare Through Innovation & Technology

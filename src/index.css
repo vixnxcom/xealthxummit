@@ -1382,7 +1382,7 @@ background-size: cover;
   background-position: 60%;
 }
 .bg-faq{
-  background-image: url(assets/ngt.jpg);
+  background-image: url(assets);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1512,6 +1512,9 @@ background-size: cover;
   background-repeat: no-repeat;
 
 }
+  
+
+
 .bg-awd{
   background-image: url(assets/ball.jpg);
   background-size: cover;

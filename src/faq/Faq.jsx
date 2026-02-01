@@ -25,11 +25,11 @@ const Faq = () => {
      {/* <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}> */}
     
      {/* <div className={` ${styles.paddingX} ${styles.flexStart} mt-10 `}> */}
-     <div className={` ${styles.flexStart} mt-5 `}>
-        <div className={`${styles.boxWidth}`}>
-          <Awards />
-        </div>
-      </div>
+     
+        <div>
+<Awards />
+          </div> 
+       
 
 <Parallax strength={900}  height={600}>
   <Background  style={{width:'100vw'}} className='celll bg-black mt-10'  >
