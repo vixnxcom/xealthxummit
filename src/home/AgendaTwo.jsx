@@ -6,7 +6,7 @@ const AgendaTwo = () => {
   return (
     <div className="w-full flex flex-col mb-10 mt-5">
       <div className="max-w-5xl mx-auto">
-        <div className='md:grid lg:grid-cols-2 md:gap-8'>
+        <div className='md:grid md:grid-cols-2 md:gap-8'>
           
          
 

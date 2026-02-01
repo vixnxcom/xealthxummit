@@ -38,7 +38,7 @@ const Speaker = () => {
       <div  className=' bg-attende h-[330px] md:h-[520px]'></div> 
 
       {/* BOXED CONTENT BELOW */}
-     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+     <div className={` ${styles.paddingX} ${styles.flexCenter} w-[92vw] mx-auto`}>
         <div className={`${styles.boxWidth} mt-10`}>
         <Agenda />
         </div>
@@ -49,7 +49,7 @@ const Speaker = () => {
           <AgendaImage />
         </div>
 
-     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+     <div className={` ${styles.paddingX} ${styles.flexCenter} w-[92vw] mx-auto `}>
         <div className={`${styles.boxWidth} `}>
         <AgendaTwo />
         </div>

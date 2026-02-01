@@ -6,7 +6,7 @@ const Agenda = () => {
   return (
     <div className="w-full flex flex-col mb-10 mt-5">
       <div className="max-w-5xl mx-auto">
-        <div className='md:grid lg:grid-cols-2 md:gap-8'>
+        <div className='md:grid md:grid-cols-2 md:gap-8'>
           
           {/* First div - template */}
           <div className="mb-5 md:mb-0 shadow-md bg-white rounded-[16px] text-blue">
