@@ -246,7 +246,7 @@ const Home = () => {
 
          <div className={` ${styles.flexCenter} bg-white  `}>
       
-        <div className={`${styles.boxWidth}  mt-10`}>
+        <div className={`${styles.boxWidth}  mt-5 lg:mt-10`}>
          
            < Attendants />
           

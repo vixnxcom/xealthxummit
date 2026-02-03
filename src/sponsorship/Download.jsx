@@ -6,10 +6,11 @@ const Download = () => {
 
   return (
     <div className="flex mx-auto">
-      <div className="mx-auto mt-5 bg-blue rounded-[8px]
+      {/* <div className="mx-auto  bg-blue rounded-[8px]
           md:w-[35vw] w-[92vw] h-[220px]
-          flex flex-col items-center justify-center text-white">
-
+          flex flex-col items-center justify-center text-white"> */}
+ <div className=" bg-blue shadow-md border border-gray-200 rounded-[8px] h-[220px]  text-white mx-auto flex
+       flex-col items-center justify-center text-center w-full max-w-lg">
         <p className="text-[20px] editors-reg mb-4 mx-auto w-[300px] text-center">
           Download Sponsorship Prospectus
         </p>
