@@ -48,6 +48,7 @@ import TypeWriterText from '../faq/TypeWriterText'
 import SpeakerHead from './SpeakerHead'
 import SpeakerHtag from './SpeakerHtag'
 import Team from './Team'
+import HeadAttend from './HeadAttend'
 
 
 const Home = () => {
@@ -216,7 +217,7 @@ const Home = () => {
         </div> */}
 
 
-      <div className={` px-3 ${styles.flexStart} px-4 bg-white `}>
+      <div className={` ${styles.paddingX} ${styles.flexStart}  bg-white `}>
         <div className={`${styles.boxWidth} mt-10 `}>
 
            <SpeakerHtag /> 
@@ -224,6 +225,7 @@ const Home = () => {
         </div>
         </div>
 
+  
 
  <div className={`${styles.flexCenter} bg-white  `}>
  <div className={`${styles.boxWidth}  `}>
@@ -234,8 +236,15 @@ const Home = () => {
 </div>
 
      {/* <div  className=' bg-brain h-[330px] md:h-[520px]'></div>   */}
+    <div className={`${styles.flexCenter} ${styles.paddingX} bg-white flex flex-col items-start `}>
+ <div className={`${styles.boxWidth} mt-10   `}>
+        
+          <HeadAttend />
+      
+          </div>
+          </div>
 
-         <div className={` ${styles.flexStart} bg-white  `}>
+         <div className={` ${styles.flexCenter} bg-white  `}>
       
         <div className={`${styles.boxWidth}  mt-10`}>
          
