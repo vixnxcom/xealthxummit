@@ -6,7 +6,7 @@ const Speech = () => {
     <div className="flex flex-col p-3 space-y-6">
       <div className=" w-full ">
         <TypeWriterText>
-          <h1 className="text-[12vw] md:text-[56px] md:px-12 editors-bold font-bold text-blue 
+          <h1 className="text-[12vw] md:text-[56px] md:px-12 editors-bold font-bold text-cyan
           mb-10 letter-shade">
             HEALTHTECH <br />
             FRONTIERS <br />
