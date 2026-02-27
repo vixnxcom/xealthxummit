@@ -17,7 +17,7 @@ const Speech = () => {
   <div className="text-center flex flex-col items-center max-w-screen-xl">
     <div className="border border-t-gray-800 mb-5 w-[92vw] md:w-[60vw]"></div>
 <div
-  className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-600
+  className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-500
   md:text-gray-400 letter-shade"
 >
   {(() => {
@@ -29,7 +29,7 @@ const Speech = () => {
 </div>
 
 <div
-  className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-600
+  className="text-[12px] text-center md:text-center md:text-[10px] mb-2 editors-reg text-gray-500
   md:text-gray-400 letter-shade"
 >
   {(() => {
@@ -46,7 +46,7 @@ const Speech = () => {
         data-k="x9"
       >
         {t1}{" "}
-        <span className="text-gray-500 md:text-gray-400">
+        <span className="text-gray-400 md:text-gray-400">
           {t2}
         </span>
       </a>

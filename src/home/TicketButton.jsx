@@ -112,7 +112,7 @@ const TicketButton = () => {
           <div className="mb-10 flex flex-col md:items-center rounded-[16px] bg-black border border-gray-200 shadow-lg">
             <div className="flex flex-row gap-5">
               <TypewriterText>
-                <p className="text-[20px]  px-3 py-8 text-left text-white editors-bold">
+                <p className="text-[24px]  px-3 py-8 text-left text-white editors-bold">
                   Networking and Innovative Exhibition
                 </p>
               </TypewriterText>
