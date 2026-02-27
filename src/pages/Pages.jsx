@@ -75,7 +75,7 @@ const Pages = () => {
 
 
 
-  <div className='bg-black '>
+  <div className='bg-foot '>
 <SpeechEffect />
   </div>
 

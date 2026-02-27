@@ -315,14 +315,14 @@ const Home = () => {
               </div> 
 
 <div className='bg-blue'>
-   <div className='h-[80px] bg-blue'></div>
+   <div className='h-[40px] bg-blue'></div>
         <div className={`${styles.flexCenter} `}>
                <div className={`${styles.boxWidth} mb-10`}>
        
               <WhiteButton />            
               </div> 
               </div> 
-      <div className="h-[120px]" />
+      <div className="h-[80px]" />
   
 </div>
      

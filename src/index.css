@@ -1512,7 +1512,11 @@ background-size: cover;
   background-repeat: no-repeat;
 
 }
-  
+  .bg-foot{
+    background-image: url(assets/network.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 .bg-awd{
