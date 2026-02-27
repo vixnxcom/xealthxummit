@@ -25,11 +25,11 @@ const Benefits = () => {
         <img src={eye} alt="" />
       </span>
 
-    <TypeWriterText>
+    {/* <TypeWriterText>
     <p className="text-[24px] text-white mt-2 px-3 editors-bold ">
             Visibility
             </p>
-     </TypeWriterText>
+     </TypeWriterText> */}
     
     </div>
     < ul className="w-full bg-white  h-[200px] rounded-b-[16px] h-[160px] py-2 text-black 
@@ -57,11 +57,11 @@ const Benefits = () => {
         <img src={star} alt="" />
       </span>
   
-       <TypeWriterText>
+       {/* <TypeWriterText>
     <p className="text-[24px] text-white mt-2 px-3 editors-bold ">
           Access
             </p>
-     </TypeWriterText>
+     </TypeWriterText> */}
     </div>
     < ul className="w-full bg-white  h-[200px] rounded-b-[16px] h-[160px]  py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
@@ -85,11 +85,11 @@ const Benefits = () => {
         <img src={glas} alt="" />
       </span>
   
-       <TypeWriterText>
+       {/* <TypeWriterText>
     <p className="text-[24px] text-white mt-2 px-3 editors-bold ">
        Leadership
             </p>
-     </TypeWriterText>
+     </TypeWriterText> */}
     </div>
     < ul className="w-full bg-white rounded-b-[16px] h-[160px]  py-2 text-black 
     flex flex-col px-3 text-[20px] editors-reg px-3 py-2 ">
@@ -113,11 +113,11 @@ const Benefits = () => {
       <span className="p-3 w-20 h-20 ">
         <img src={shake} alt="" />
       </span>
-     <TypeWriterText>
+     {/* <TypeWriterText>
     <p className="text-[24px] text-white mt-2 px-3 editors-bold ">
           Publicity
             </p>
-     </TypeWriterText>
+     </TypeWriterText> */}
     
     </div>
     < ul className="w-full h-[160px] py-2 bg-white rounded-b-[16px] text-black 
