@@ -22,7 +22,8 @@ const Benefits = () => {
     <div className="mt-2 mb-4 flex flex-row items-center ">
       
       <span className="p-3 w-20 h-20 ">
-        <img src={eye} alt="" />
+        {/* <img src={eye} alt="" /> */}
+        <img src={eyee} alt="" />
       </span>
 
     {/* <TypeWriterText>
