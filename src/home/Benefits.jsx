@@ -23,7 +23,7 @@ const Benefits = () => {
       
       <span className="p-3 w-20 h-20 ">
         {/* <img src={eye} alt="" /> */}
-        <img src={eyee} alt="" />
+        <img src={eye} alt="" />
       </span>
 
     {/* <TypeWriterText>
