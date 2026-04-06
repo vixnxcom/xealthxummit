@@ -27,7 +27,7 @@ const SpeechEffect = () => {
                     text-white 
                    
                     text-[4vw] md:text-[24px]
-                
+                md:mb-10 
                     leading-[32px]
                     sm:leading-[40px]
                     tracking-wide
